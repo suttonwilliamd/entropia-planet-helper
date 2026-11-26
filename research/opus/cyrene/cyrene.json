@@ -1,0 +1,3385 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "cyrene",
+    "name": "Planet Cyrene",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "A planet partner world built around faction story missions rather than open grinding. Progress runs on A.R.C. Faction Badges and Cyrene Mission Tokens earned from many 21-hour dailies, leading to long epic chains and the A.R.C. Prestige area. It still received content updates through Sept 2026.",
+    "howToReach": "Interplanetary teleport between planetary space stations using Teleportation Tokens (150 kg limit), or spaceship travel to Cyrene space. On the planet, start at the Rookie Training Area / A.R.C. Staging teleporters.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "The official Cyrene forum (cyreneforum.com) shows a domain-parking page as of Nov 2026, and planetcyrene.com no longer serves a site. Cyrene release notes were read from Wayback copies and MindArk's own Steam release notes.",
+      "Many CyreneDream pages (missions, epics) were last edited in 2022-2024; numbers may have changed. Each activity flags this where it applies.",
+      "Support weapons have been an official known issue on Cyrene from 2025 through the Sept 2026 notes; healing-based objectives may not progress.",
+      "MindArk plans an Unreal Engine 5 client before Christmas 2026; maps, teleporters and waypoints may shift after it lands.",
+      "The Cyrene space-station arrival point could not be confirmed from a current source."
+    ],
+    "sourceIds": [
+      "MA-1990",
+      "MA-19103",
+      "CF-2603",
+      "CD-TP",
+      "MA-1890",
+      "MA-UE5",
+      "ECN-CY"
+    ]
+  },
+  "sources": [
+    {
+      "id": "CD-REP",
+      "title": "Repeatable Missions",
+      "url": "https://cyrenedream.org/daily-missions",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-02-16",
+      "accessed": "2026-11-26",
+      "supports": "Daily/weekly mission list with requirements, rewards, cooldowns and NPC waypoints (page last modified 2026-02-16)."
+    },
+    {
+      "id": "CD-ONE",
+      "title": "One Time Missions",
+      "url": "https://cyrenedream.org/one-time-missions",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-12-09",
+      "accessed": "2026-11-26",
+      "supports": "One-time missions: A.R.C. Academy, starter kill missions, salvage hunts, faction stage 1 one-offs, mining challenges (last modified 2023-12-09)."
+    },
+    {
+      "id": "CD-TP",
+      "title": "Teleporters",
+      "url": "https://cyrenedream.org/teleporters",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-06-27",
+      "accessed": "2026-11-26",
+      "supports": "List of 36 Cyrene teleporters with waypoints (last modified 2024-06-27)."
+    },
+    {
+      "id": "CD-PRES",
+      "title": "A.R.C. Prestige",
+      "url": "https://cyrenedream.org/a-r-c-prestige",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-02-12",
+      "accessed": "2026-11-26",
+      "supports": "Prestige entry requirements, keycard cost, repeatable skill missions, Golem portal, Tier 4."
+    },
+    {
+      "id": "CD-HUB",
+      "title": "HUB",
+      "url": "https://cyrenedream.org/hub",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-07-25",
+      "accessed": "2026-11-26",
+      "supports": "The Hub: reached from any teleporter drop-down, strips inventory, the Pit, A.R.C. rank missions."
+    },
+    {
+      "id": "CD-ZORRA",
+      "title": "Zorra's HK Epic",
+      "url": "https://cyrenedream.org/zorra",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2022-10-22",
+      "accessed": "2026-11-26",
+      "supports": "Zorra's HK epic stages and Lazidol part refinement."
+    },
+    {
+      "id": "CD-TANHOK",
+      "title": "Tanhok Ambassador Epic",
+      "url": "https://cyrenedream.org/tanhok-epic",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-02-22",
+      "accessed": "2026-11-26",
+      "supports": "Tanhok Ambassador 10-stage epic and trader."
+    },
+    {
+      "id": "CD-ZYNV",
+      "title": "The Zyn'viathan Epic",
+      "url": "https://cyrenedream.org/the-zynviathan-epic",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-02-27",
+      "accessed": "2026-11-26",
+      "supports": "Zyn'viathan 10-part repeatable epic, 24h turn-in cooldown, Epic Jellyworm pet."
+    },
+    {
+      "id": "CD-UTA",
+      "title": "Unstable Turrelion Assassinator Epic",
+      "url": "https://cyrenedream.org/uta-epic",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-02-24",
+      "accessed": "2026-11-26",
+      "supports": "Coat of the Proving Grounds, Cypher of Hyden stages, Coat of Hyden upgrade path."
+    },
+    {
+      "id": "CD-STA",
+      "title": "Stable Turrelion Assassinator Epic",
+      "url": "https://cyrenedream.org/stable-turrelion-assassinator-epic",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-08-19",
+      "accessed": "2026-11-26",
+      "supports": "Stabilize the Unstable chain: faction loyalty and turn-in NPCs."
+    },
+    {
+      "id": "CD-HEART",
+      "title": "Refurbished H.E.A.R.T. FAP",
+      "url": "https://cyrenedream.org/refurbished-h-e-a-r-t-fap",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-06-18",
+      "accessed": "2026-11-26",
+      "supports": "Gear Up: New Fap stages 1-13 and NPC waypoints."
+    },
+    {
+      "id": "CD-PSY",
+      "title": "Zyn'Tukano Psyche Master",
+      "url": "https://cyrenedream.org/zyntukano-psyche-master",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-01-18",
+      "accessed": "2026-11-26",
+      "supports": "Psyche Master sweat ranks 1-4 and Zyn trade offers."
+    },
+    {
+      "id": "CD-RANA",
+      "title": "Rana Haven",
+      "url": "https://cyrenedream.org/rana-haven",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-12-14",
+      "accessed": "2026-11-26",
+      "supports": "Rana Haven buff missions (500 badges required) and buff values."
+    },
+    {
+      "id": "CD-ZRQ",
+      "title": "Robot Base Z.R.Q.",
+      "url": "https://cyrenedream.org/robot-base-z-r-q",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-12-11",
+      "accessed": "2026-11-26",
+      "supports": "Robot Base Z.R.Q. buff missions (1500 badges required) and buff values."
+    },
+    {
+      "id": "CD-MAZE",
+      "title": "Mazeweaver",
+      "url": "https://cyrenedream.org/mazeweaver",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-01-15",
+      "accessed": "2026-11-26",
+      "supports": "Maze Hammer, Mazeweaver daily certificates, Wolpertinger pet."
+    },
+    {
+      "id": "CD-RANGER",
+      "title": "Imperium Ranger Info",
+      "url": "https://cyrenedream.org/imperium-ranger-info",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-01-25",
+      "accessed": "2026-11-26",
+      "supports": "Imperium Ranger tiers, spawn timing, badge missions and rules."
+    },
+    {
+      "id": "CD-VEND",
+      "title": "Vendors",
+      "url": "https://cyrenedream.org/vendors",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2022-10-24",
+      "accessed": "2026-11-26",
+      "supports": "Token vendors and Hub A.R.C. faction terminals (shrapnel + weapon cube prices)."
+    },
+    {
+      "id": "CD-SNOW",
+      "title": "Imperium Snow Base",
+      "url": "https://cyrenedream.org/imperium-snow-base",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-10-08",
+      "accessed": "2026-11-26",
+      "supports": "A.R.C. Offensive Snow Base event: entrance, dates, rules, droplets."
+    },
+    {
+      "id": "CD-RUCK",
+      "title": "Zyn Rucksack Basic",
+      "url": "https://cyrenedream.org/zyn-rucksack",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-09-15",
+      "accessed": "2026-11-26",
+      "supports": "Zyn Rucksack Basic recipe in the Corrupted Laboratory instance."
+    },
+    {
+      "id": "CD-RUCKP",
+      "title": "Zyn Rucksack Perfected",
+      "url": "https://cyrenedream.org/zyn-rucksack-perfected",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-10-15",
+      "accessed": "2026-11-26",
+      "supports": "Perfected rucksack NPCs and node locations (2026)."
+    },
+    {
+      "id": "CD-SWEAT",
+      "title": "Sweating",
+      "url": "https://cyrenedream.org/sweating",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-12-03",
+      "accessed": "2026-11-26",
+      "supports": "Sweat spots, the player-run SSI sweat event times, sweat-related missions."
+    },
+    {
+      "id": "CD-VOUCH",
+      "title": "A.R.C. Tier 1 Limited Weapon Voucher",
+      "url": "https://cyrenedream.org/a-r-c-weapon-vouchers",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2024-01-18",
+      "accessed": "2026-11-26",
+      "supports": "How a voucher becomes a weapon cube and an Ecotron (L) at the Hub terminal."
+    },
+    {
+      "id": "CD-AMPS",
+      "title": "Limited Amps",
+      "url": "https://cyrenedream.org/limited-amps",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-12-10",
+      "accessed": "2026-11-26",
+      "supports": "Zorra's Blessed Laser Amp (L) and Hyden's Unstable BLP Amp (L)."
+    },
+    {
+      "id": "CD-INST",
+      "title": "MOB Instances",
+      "url": "https://cyrenedream.org/mob-instances",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-11-29",
+      "accessed": "2026-11-26",
+      "supports": "Free and sweat-cost hunting instances with entrance waypoints."
+    },
+    {
+      "id": "CD-ROY",
+      "title": "Roy Vulker's Armor",
+      "url": "https://cyrenedream.org/roy-vulkers-armor",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-11-08",
+      "accessed": "2026-11-26",
+      "supports": "Roy Vulker armor drops and statue mission (Prestige requirement)."
+    },
+    {
+      "id": "CD-NEFF",
+      "title": "Neff's Stim Pack",
+      "url": "https://cyrenedream.org/neffs-stim-pack",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2023-02-28",
+      "accessed": "2026-11-26",
+      "supports": "Tanhok follow-up: Wasp Queen bait and Neff's Stim Pack."
+    },
+    {
+      "id": "CD-W25",
+      "title": "Winter 2025",
+      "url": "https://cyrenedream.org/winter-2025",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2025-12-16",
+      "accessed": "2026-11-26",
+      "supports": "CyreneDream summary of the Dec 2025 VU, Test your Invincibility mission."
+    },
+    {
+      "id": "CD-S26",
+      "title": "Spring 2026",
+      "url": "https://cyrenedream.org/spring-2026",
+      "publisher": "CyreneDream (community guide)",
+      "kind": "community-guide",
+      "published": "2026-04-01",
+      "accessed": "2026-11-26",
+      "supports": "CyreneDream summary of the Mar 2026 VU (Thunderous instance, attachments, obstacle race)."
+    },
+    {
+      "id": "CF-2504",
+      "title": "Planet Cyrene April 1st, 2025 VU Notes",
+      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-april-1st-2025-vu-notes.9313/",
+      "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
+      "kind": "official-forum",
+      "published": "2025-04-01",
+      "accessed": "2026-11-26",
+      "supports": "Official launch of A.R.C. Prestige (Cait, keycard via tokens and badges)."
+    },
+    {
+      "id": "CF-2506",
+      "title": "Planet Cyrene June 10th, 2025 VU Notes",
+      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-june-10th-2025-vu-notes.9344/",
+      "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
+      "kind": "official-forum",
+      "published": "2025-06-10",
+      "accessed": "2026-11-26",
+      "supports": "H.E.A.R.T. Rank X, Zyn Rucksack Modified, Prestige Golem portal, trainee weapon re-trade, Stable chain faction reduced 20,000 to 8,000."
+    },
+    {
+      "id": "CF-2510",
+      "title": "Planet Cyrene October 7th, 2025 VU Notes",
+      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-october-7th-2025-vu-notes.9407/",
+      "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
+      "kind": "official-forum",
+      "published": "2025-10-07",
+      "accessed": "2026-11-26",
+      "supports": "Zyn Rucksack Augmented, limited amps via Rory/Frankie, tempo marker fix, Mining Iron Challenge rank-5 bug acknowledged in replies."
+    },
+    {
+      "id": "CF-2512",
+      "title": "Planet Cyrene December 9th, 2025 VU Notes",
+      "url": "http://web.archive.org/web/20260517062716/https://cyreneforum.com/threads/planet-cyrene-december-9th-2025-vu-notes.9449/",
+      "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Prestige Vlanwing/Protocore missions, A.R.C. Tier 4 moved to Prestige, Coat of Hyden upgrades, limited amp changes."
+    },
+    {
+      "id": "CF-2603",
+      "title": "Planet Cyrene March 31, 2026 VU Notes",
+      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-march-31-2026-vu-notes.9484/",
+      "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
+      "kind": "official-forum",
+      "published": "2026-03-31",
+      "accessed": "2026-11-26",
+      "supports": "Thunderous instance + weekly droplet mission, Robot's Obstacle Race, Stable attachments, weapon cubes sellable to TT."
+    },
+    {
+      "id": "MA-1990",
+      "title": "19.9.0 Release Notes",
+      "url": "https://store.steampowered.com/news/app/3642750/view/1836506165545261",
+      "publisher": "MindArk (Steam news)",
+      "kind": "official",
+      "published": "2026-06-24",
+      "accessed": "2026-11-26",
+      "supports": "Cyrene June 2026: Undersea Folken maturities, Prestige repeatable, Zyn Rucksack Perfected, team instances 12 players."
+    },
+    {
+      "id": "MA-19103",
+      "title": "19.10.3 Release Notes",
+      "url": "https://store.steampowered.com/news/app/3642750/view/1844115010503532",
+      "publisher": "MindArk (Steam news)",
+      "kind": "official",
+      "published": "2026-09-22",
+      "accessed": "2026-11-26",
+      "supports": "Cyrene Sept 2026: new Mang Chang/Rhino maturities, Saphira bi-weekly missions, Texture Tutor Jyor'den daily, Nightmare Nexus 2026, known issues."
+    },
+    {
+      "id": "MA-1980",
+      "title": "19.8.0 Release Notes",
+      "url": "https://store.steampowered.com/news/app/3642750/view/1832700592800388",
+      "publisher": "MindArk (Steam news)",
+      "kind": "official",
+      "published": "2026-05-19",
+      "accessed": "2026-11-26",
+      "supports": "Weekly Thunderous Golem mission fixed; vehicles removed from Robot's Obstacle Race; HEART stage 9 text clarified."
+    },
+    {
+      "id": "MA-19110",
+      "title": "19.11.0 Release Notes",
+      "url": "https://store.steampowered.com/news/app/3642750/view/1846651706694218",
+      "publisher": "MindArk (Steam news)",
+      "kind": "official",
+      "published": "2026-10-20",
+      "accessed": "2026-11-26",
+      "supports": "Fix for implant buffs persisting when entering the Cyrene Hub; interplanetary teleports now consume Teleportation Tokens correctly."
+    },
+    {
+      "id": "MA-1890",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://account.entropiauniverse.com/news/pages/2025/01/28/8564/index.xml",
+      "publisher": "MindArk",
+      "kind": "official",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Interplanetary teleportation between planetary space stations using Teleportation Tokens (15 at launch, 150 kg limit); asteroid belts added in Cyrene space."
+    },
+    {
+      "id": "MA-UE5",
+      "title": "Unreal Engine 5: The Future of Entropia Universe is Coming Soon",
+      "url": "https://store.steampowered.com/news/app/3642750/view/1841579228669629",
+      "publisher": "MindArk (Steam news)",
+      "kind": "official",
+      "published": "2026-08-21",
+      "accessed": "2026-11-26",
+      "supports": "UE5 client scheduled before Christmas 2026; UI and map overhaul under way."
+    },
+    {
+      "id": "NX-TP",
+      "title": "Entropia Nexus teleporter data (Cyrene)",
+      "url": "https://api.entropianexus.com/teleporters?Planet=Cyrene",
+      "publisher": "Entropia Nexus",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "37 Cyrene teleporters with coordinates, including Rookie Training Area (missing from CyreneDream list)."
+    },
+    {
+      "id": "EC-CY",
+      "title": "Planet Cyrene - Entropia Codex",
+      "url": "https://www.entropiacodex.com/planets/planet-cyrene/",
+      "publisher": "Entropia Codex",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Suggested newcomer daily rotation on Cyrene; corroborates 21h timers, ranger hunts, Ozpyn P3 advice."
+    },
+    {
+      "id": "EF-TT",
+      "title": "Small guide to TTokens & Howling Mine Missions",
+      "url": "https://forum.entropiauniverse.com/t/small-guide-to-ttokens-howling-mine-missions/280672",
+      "publisher": "Entropia Universe Forum (player Lykke)",
+      "kind": "forum",
+      "published": "2025-12-26",
+      "accessed": "2026-11-26",
+      "supports": "Teleportation Token use, cost lowered to 10 per trip (player report), 150 kg limit."
+    },
+    {
+      "id": "ECN-CY",
+      "title": "Cyrene guide - Entropia Central",
+      "url": "https://www.entropiacentral.com/guides/planets/cyrene",
+      "publisher": "Entropia Central",
+      "kind": "community-guide",
+      "published": "2026-08-13",
+      "accessed": "2026-11-26",
+      "supports": "Secondary overview; used only for corroboration and to flag contradictions."
+    }
+  ],
+  "activities": [
+    {
+      "id": "cyrene-travel-getting-there",
+      "title": "Getting to Cyrene",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Cyrene is a separate planet partner world. MindArk links all planetary space stations by token teleport, and older routes (ship travel through space) still exist. I could not confirm the exact name of Cyrene's arrival point from a current source.",
+      "steps": [
+        "From another planet, use the space-station teleporter and pick Cyrene if it is in the destination list; this costs Teleportation Tokens and you must weigh 150 kg or less.",
+        "Buy or craft Teleportation Tokens first (auction, shops, or the blueprint at the Space Mining Terminal).",
+        "If no token route is offered, travel by spaceship (your own or a paid pilot) to Cyrene space and land.",
+        "Once on Cyrene, go to the Rookie Training Area or A.R.C. Staging teleporter to start the newcomer missions."
+      ],
+      "rewards": [
+        "Access to Cyrene"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Teleportation Tokens per trip (15 at launch in Jan 2025; players reported 10 per planet trip by Dec 2025/Jan 2026). Ship trips cost whatever the pilot charges.",
+        "markup": "unknown",
+        "markupNote": "Token prices vary on the market."
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "Spent per interplanetary teleport."
+        }
+      ],
+      "limits": "150 kg weight limit for interplanetary teleports.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel; no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Cyrene space station / landing point (not confirmed)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Needed once to reach the planet; token cost is modest but not free."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "MA-1890",
+        "EF-TT",
+        "MA-19110"
+      ],
+      "warnings": [
+        "No current source names Cyrene's space-station destination; check the in-game teleporter list.",
+        "Token cost per trip changed after launch (15 -> 10 per player reports); 19.11.0 (Oct 2026) fixed some teleports not taking tokens, so expect the cost to apply."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "cyrene-teleporter-network",
+      "title": "Unlock the Cyrene teleporter network",
+      "type": "unlock",
+      "stage": "arrival",
+      "summary": "Cyrene has about 37 teleporters. Each one you touch is added to your network, which saves long runs later. The Hub is not a walkable place: you pick it from the drop-down on any teleporter.",
+      "steps": [
+        "Start at the Rookie Training Area, A.R.C. Staging, A.R.C. Headquarters and 0x101 Supply Depot teleporters (all close together).",
+        "Pick up the mission-hub teleporters early: Atlas Hunting Grounds, Tans'Ta'Oh Outpost (A.R.C. faction mission NPCs), Zyn'Tukano Border, Kwarn and Rana Haven.",
+        "Add the rest as you hunt or mine; use waypoints to run between them.",
+        "Two teleport-ring shortcuts exist: one near Isle de Zel and one from near A.R.C. Immigration - Tanhok up to Robot Base Z.R.Q."
+      ],
+      "rewards": [
+        "Fast travel across Cyrene"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free apart from time and any travel risk.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Rookie Training Area TP",
+          "waypoint": "[Planet Cyrene, 138865, 77660, 132, Rookie Training Area]",
+          "verified": true,
+          "sourceIds": [
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "A.R.C. Staging TP",
+          "waypoint": "[Planet Cyrene, 138829, 77094, 113, A.R.C. Staging]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "A.R.C. Headquarters TP",
+          "waypoint": "[Planet Cyrene, 138883, 77256, 103, A.R.C. Headquarters]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "0x101 Supply Depot TP",
+          "waypoint": "[Planet Cyrene, 138460, 77256, 103, 0x101 Supply Depot]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Atlas Hunting Grounds TP",
+          "waypoint": "[Planet Cyrene, 138259, 76275, 111, Atlas Hunting Grounds]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Tans'Ta'Oh Outpost TP",
+          "waypoint": "[Planet Cyrene, 133302, 74886, 111, Tans'Ta'Oh Outpost]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Zyn'Tukano Border TP",
+          "waypoint": "[Planet Cyrene, 137987, 78630, 152, Zyn'Tukano Border]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Kwarn, the Destroyed City TP",
+          "waypoint": "[Planet Cyrene, 135762, 79501, 107, Kwarn, the Destroyed City]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Rana Haven TP",
+          "waypoint": "[Planet Cyrene, 132025, 75588, 158, Rana Haven]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "New Janus TP (main town)",
+          "waypoint": "[Planet Cyrene, 131610, 74701, 139, New Janus]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TP",
+            "NX-TP"
+          ]
+        },
+        {
+          "label": "Zel teleport-ring shortcut",
+          "waypoint": "[Planet Cyrene, 138981, 75158, 110, Zel TP Shortcut]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        },
+        {
+          "label": "ZRQ teleport-ring shortcut (start)",
+          "waypoint": "[Planet Cyrene, 138262, 77225, 115, ZRQ TP Shortcut 1]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Free and permanent; makes every later mission cheaper in time."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-TP",
+        "NX-TP",
+        "CD-RANGER",
+        "CD-HUB"
+      ],
+      "warnings": [
+        "CyreneDream lists 36 teleporters and omits the Rookie Training Area TP that Entropia Nexus lists; Nexus also names one as 'Ngu Volcano Island Lookout Teleporter'.",
+        "MindArk is reworking the map/teleport UI ahead of the Unreal Engine 5 client (due before Christmas 2026); teleporter names may change."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner",
+        "teleporter"
+      ]
+    },
+    {
+      "id": "cyrene-arc-academy",
+      "title": "A.R.C. Academy newcomer chain",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "Six short talk-and-learn missions at the Rookie Training Area. They hand out a free starter kit (pistol, knife, ammo, finder, extractor, probes, FAP, hat). Finishing all of them also counts toward A.R.C. Prestige later.",
+      "steps": [
+        "Talk to Drill Instructor Selbor at the Rookie Training Area and read the info windows (Academy 01).",
+        "Academy 02: visit Weaponmasters Rob, Aron, Seigfried and Selbor in turn.",
+        "Academy 03: visit Miner Salazar; Academy 04: Medical Tech Godfrey; Academy 05: Fashion Advisor Robuck; return to Selbor each time.",
+        "Academy 06: kill the Junk Scout Bot nearby.",
+        "Optional: kill a Pleak with the trainee knife (Rob) and drop 1-3 probes with the trainee finder (Salazar)."
+      ],
+      "rewards": [
+        "Imperium Trainee Pistol (L) (1.00 PED TT)",
+        "Imperium Trainee Combat Knife (L) (1.50 PED TT)",
+        "5000 Universal Ammo (0.50 PED)",
+        "Imperium Trainee Finder (L), Training Mineral Extractor (L), 10 Survey Probes",
+        "Imperium Trainee F.A.P. (L) (1.00 PED TT)",
+        "Imperium Common Hat (F)",
+        "Achievement 'A.R.C. Academy!' (one of the A.R.C. Prestige entry checks)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free; the probes you drop come from the reward.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "One-time per avatar. Since June 2025 Selbor also offers a repeatable trade for another trainee set (see cyrene-trainee-gear-repeat).",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Drill Instructor Selbor",
+          "waypoint": "[Planet Cyrene, 138889, 77588, 132, Selbor]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Weaponmaster Rob",
+          "waypoint": "[Planet Cyrene, 138880, 77581, 132, Rob]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Miner Salazar",
+          "waypoint": "[Planet Cyrene, 138902, 77580, 132, Salazar]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free gear and a Prestige requirement for a few minutes of walking."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source. Reward list dates from 2023."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "free",
+        "starter-gear"
+      ]
+    },
+    {
+      "id": "cyrene-trainee-gear-repeat",
+      "title": "More Trainee Gear Please! (repeat trainee kit)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "After the Academy, Selbor will swap 5 PED of Shrapnel for another trainee pistol, knife and ammo. Handy for TT-weapon missions such as Paneleon Hunter Jameson.",
+      "steps": [
+        "Collect 5 PED of Shrapnel from loot.",
+        "Hand it to Drill Instructor Selbor."
+      ],
+      "rewards": [
+        "Imperium Trainee Pistol (L) (1.00 PED TT)",
+        "Imperium Trainee Combat Knife (L) (1.50 PED TT)",
+        "5000 Universal Ammo (0.50 PED)"
+      ],
+      "prerequisites": [
+        "cyrene-arc-academy"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 5,
+        "text": "5 PED of Shrapnel.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Shrapnel",
+          "use": "spent",
+          "note": "5 PED worth per trade."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 168,
+        "resetNote": "CyreneDream lists a 7-day cooldown."
+      },
+      "locations": [
+        {
+          "label": "Drill Instructor Selbor",
+          "waypoint": "[Planet Cyrene, 138889, 77588, 132, Selbor]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 5,
+        "rationale": "Small value; mainly a source of cheap TT-grade weapons."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-REP",
+        "CF-2506"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "starter-gear"
+      ]
+    },
+    {
+      "id": "cyrene-starter-one-offs",
+      "title": "Starter one-off missions around A.R.C. HQ and Atlas",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "A cluster of small one-time missions near the starting area. Most need 5-20 low-level kills and pay one Imperium Armor Plating I; the envoy trips introduce A.R.C. HQ, the Hub and Zyn Immigration.",
+      "steps": [
+        "Gathering Parts: kill 50 Junk Scout Bots for Drill Instructor Selbor (1 Cyrene Mission Token).",
+        "Envoy trips: talk to the A.R.C. Envoy then Private Yarl; the Turrelion Envoy then the Turrelion Greeter in the Hub; the Zyn'Kimbro Envoy then Colonel Jedidiah Jackson.",
+        "Armor plating missions: L.T. Locky (10 Weak Paneleon), Gardener Guy (15 mobs, mostly Tree Dragons), 'Scary' Hackfin (20 Hackfin), Private Harwell (15 Tree Dragons), Captain Doan (5 Imperium Scouts), Dr Nikolo (20 Young Empis Wasps), then Hollingsworth (20 Swamp Lurkers, needs Captain Doan's done)."
+      ],
+      "rewards": [
+        "Several Imperium Armor Plating I",
+        "1 Cyrene Mission Token",
+        "Trophy items (Broken Scorpion, Confiscated Duster Slicer, Busted Zyn Mordincran)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for roughly 100 low-level kills in total.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Cyrene Mission Token",
+          "use": "earned",
+          "note": "1 from Gathering Parts."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "L.T. Locky",
+          "waypoint": "[Planet Cyrene, 138986, 77910, 139, L.T. Locky]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Gardener Guy",
+          "waypoint": "[Planet Cyrene, 138126, 76331, 110, Gardener Guy]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Private Harwell",
+          "waypoint": "[Planet Cyrene, 138783, 77095, 113, Private Harwell]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Captain Doan",
+          "waypoint": "[Planet Cyrene, 138337, 77215, 108, Captain Doan]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Cheap, quick, and gives basic armor plates plus a tour of the hubs."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "hunting"
+      ]
+    },
+    {
+      "id": "cyrene-arc-faction-stage1-oneoffs",
+      "title": "A.R.C. Faction Stage 1 one-off missions (badge kick-start)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "About 30 one-time kill missions given by the A.R.C. Faction Missions NPCs near Tans'Ta'Oh Outpost. Each pays 1-4 A.R.C. Faction Badges, the main Cyrene progression currency, so they are the fastest way toward the 200-badge Stage 2 threshold.",
+      "steps": [
+        "Teleport to Tans'Ta'Oh Outpost and talk to the Low Level, Low Mid Level and High Mid Level faction NPCs.",
+        "Low level examples: 100 Pleak (1 badge), 75 Scout Bots (1), 95 Dire Weeds (2), 27 Tree Dragons (2), 70 Swamp Lurkers (2).",
+        "Mid level examples: 28 Zeladoth Alpha-Kappa (4), 19 Stalkers (4), 30 Dusters (4).",
+        "Higher examples: 8 Muckjaw, 8 Molten Golems, 7 Fenris, 4 Wiles (4 badges each)."
+      ],
+      "rewards": [
+        "1-4 A.R.C. Faction Badges per mission (roughly 70+ badges if all are done)"
+      ],
+      "prerequisites": [
+        "cyrene-teleporter-network"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo/decay; harder targets need mid-level gear.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "Keep them: many unlocks check the badges you carry."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "A.R.C. Faction Missions - Low / Low Mid Level",
+          "waypoint": "[Planet Cyrene, 133306, 74878, 111, A.R.C. Faction Missions - Low Mid Level]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "A.R.C. Faction Missions - High Mid Level",
+          "waypoint": "[Planet Cyrene, 133308, 74883, 110, A.R.C. Faction Missions - High Mid Level]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Badges gate most Cyrene content; low-level ones are cheap."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source. Badge counts per mission may have changed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "badges",
+        "hunting",
+        "beginner"
+      ]
+    },
+    {
+      "id": "cyrene-tempo-trials",
+      "title": "Tempo trials (Puny and Zyn'Nix)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Timed hunting dailies. Puny trials ask for 10-30 small creatures in 15 minutes for a tiny skill reward; Zyn'Nix trials ask for 10-30 mid-level creatures in 25 minutes for about ten times more skill.",
+      "steps": [
+        "Grab the Puny trials from the tempo managers near the starting area: Pleak, Crystal Pede, Junk Bot, Tree Dragon, Dire Weed.",
+        "Kill the required count before the 15-minute timer ends.",
+        "Later add Zyn'Nix tempos: Old Tide Claws, Adult Horned Birds, Duster Workers, Guardian Dire Plants, Mature Sky Wraiths (25 minutes)."
+      ],
+      "rewards": [
+        "Puny: about 0.01 PED of a combat skill each",
+        "Zyn'Nix: about 0.1 PED of a combat skill each"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo/decay for 10-30 kills per trial.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream lists 21 hours for every tempo trial."
+      },
+      "locations": [
+        {
+          "label": "Pleak Tempo Manager",
+          "waypoint": "[Planet Cyrene, 137956, 77501, 111, Pleak Tempo Manager]",
+          "verified": true,
+          "sourceIds": [
+            "CD-REP"
+          ]
+        },
+        {
+          "label": "Junk Bot Tempo Manager",
+          "waypoint": "[Planet Cyrene, 138026, 76827, 101, Junk Bot Tempo Manager]",
+          "verified": true,
+          "sourceIds": [
+            "CD-REP"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Low reward but cheap, quick skill drip for newcomers."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY",
+        "CF-2510"
+      ],
+      "warnings": [
+        "The Oct 2025 VU moved the Crystal Pede Tempo Manager away from the water and restored map markers back to tempo givers; older waypoints for that NPC may be off."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "beginner",
+        "skills"
+      ]
+    },
+    {
+      "id": "cyrene-arc-faction-dailies",
+      "title": "A.R.C. Faction Stage 1 dailies and 'Meet the...' dailies",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Repeatable kill missions that each pay 1 A.R.C. Faction Badge, plus three 'Meet the...' kill-point dailies that pay small skill rewards.",
+      "steps": [
+        "Badge dailies: 5 Devastator Sea Wraiths, 12 Mutated Dire Weeds, 8 Old Paneleon, 110 Scout Bot Collector XT, or 35 Swamp Lurkers (1 badge each).",
+        "Skill dailies: 200 kill points of Merfolken (Tanhok), Dusters (Turrelions) or Paneleon (Zyn'Kimbro).",
+        "Duvall's dailies: 150 kill points of Stalker Bots or Living Vortex for a choice of skill."
+      ],
+      "rewards": [
+        "1 A.R.C. Faction Badge per Stage 1 daily",
+        "About 0.2 PED skill per 'Meet the...' daily; 0.14-0.58 PED for Duvall's"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo/decay; Scout Bot Collector XT is the newcomer-friendly badge daily.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "1 per Stage 1 daily."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream lists 21 hours for each of these."
+      },
+      "locations": [
+        {
+          "label": "Waypoints per mission on the CyreneDream Repeatable Missions page",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Steady badge income that unlocks Stage 2, buffs and Prestige."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "badges",
+        "hunting"
+      ]
+    },
+    {
+      "id": "cyrene-token-dailies",
+      "title": "Cyrene Mission Token turn-in and hunting dailies",
+      "type": "daily",
+      "stage": "early",
+      "summary": "A set of dailies that pay Cyrene Mission Tokens, used for token vendors, some crafting recipes and the Prestige keycard. Most just ask you to hand in common ores, crystals or crafted parts.",
+      "steps": [
+        "Turn-ins (21h): 5 Yellow Crystals (1 token), 5 Zorn Star Ore (1), 1 Light Power Cell (1), 3 Blue Crystals (1), 5 Green Crystals (3), 5 Zorn Star Ingots (3), 5 Scrap Metal (4), 5 Kaisenite Ingots (6).",
+        "48h tributes: 20 Bonding Liquid or 40 Zorn Star Ore (8 tokens each).",
+        "Hunting: Pict's Pollen Issue, 20 Mutated Dire Weeds (8 tokens, 21h); Getting Slimed!, 20 Bile Jellyworms (2 tokens); The Chief's Request, 100 Zyn'Dos (40 tokens, 4-day cooldown).",
+        "Auraforging for 'Axe': collect 500 sweat from nearby Paneleon (1-3 tokens)."
+      ],
+      "rewards": [
+        "1-8 Cyrene Mission Tokens per mission; 40 from The Chief's Request"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "You give up the TT value (and any markup) of the handed-in materials.",
+        "markup": "low",
+        "markupNote": "Ores and crystals handed in have small markup; check the auction before using bought materials."
+      },
+      "currencies": [
+        {
+          "name": "Cyrene Mission Token",
+          "use": "earned",
+          "note": "Kept for vendors, crafting (e.g. Imperium Key Cube) and the Prestige keycard."
+        },
+        {
+          "name": "Sweat",
+          "use": "spent",
+          "note": "Auraforging mission."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "Most are 21 hours; the two tributes are 48 hours and The Chief's Request is 4 days (per CyreneDream)."
+      },
+      "locations": [
+        {
+          "label": "NPC waypoints per mission on the CyreneDream Repeatable Missions page",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Tokens are needed for Prestige (1000) and vendors; inputs are cheap."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "tokens",
+        "mining",
+        "turn-in"
+      ]
+    },
+    {
+      "id": "cyrene-mining-dailies",
+      "title": "Mining dailies (Mine Up and Stage 2 mining)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Five 'Mine Up' dailies pay small mining skill for finding a single claim of a set resource. With 200 badges on you, five Stage 2 mining dailies each add 1 badge.",
+      "steps": [
+        "Mine Up: find one claim of Iridium (0.6 PED+), Kaisenite (0.4+), Yellow Crystal (0.2+), Zorn Star Ore (0.2+) or Blue Crystal (0.4+).",
+        "With 200+ badges in inventory, take Stage 2 Mining #1-#5: find 3 deposits (0.1 PED+) of Zorn Star, Yellow Crystal, Kaisenite, Green Crystal or Blue Crystal.",
+        "Hand found materials to the token turn-in dailies to stack value."
+      ],
+      "rewards": [
+        "0.04-0.1 PED of a mining skill per Mine Up daily",
+        "1 A.R.C. Faction Badge per Stage 2 mining daily (5 per day)"
+      ],
+      "prerequisites": [
+        "cyrene-arc-academy"
+      ],
+      "requirementsText": [
+        "200 A.R.C. Faction Badges in inventory for the Stage 2 mining dailies"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probe and finder/extractor decay.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "1 per Stage 2 mining daily."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream lists 21 hours for all of these."
+      },
+      "locations": [
+        {
+          "label": "Mission NPC waypoints on the CyreneDream Repeatable Missions page (Entropia Codex says Will Andrews and Leigh near A.R.C. Staging)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Five badges a day for cheap mining once at 200 badges."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "mining",
+        "badges"
+      ]
+    },
+    {
+      "id": "cyrene-sweat-dailies",
+      "title": "Sweat dailies and the Paneleon TT-weapon mission",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Cheap dailies for sweaters: 500 sweat buys a badge, and Paneleon Hunter Jameson pays ammo for killing Paneleon with TT weapons.",
+      "steps": [
+        "Sweat Weak Paneleon (popular spot near the start) for at least 1000 bottles.",
+        "Get Sweaty!: turn in 500 sweat to Andrina (Sweat Collections) for 1 badge.",
+        "Paneleon Hunter Jameson: kill 18 Paneleon with Trade Terminal weapons for 1.5 PED of Universal Ammo.",
+        "Optional: join the player-run daily SSI sweat event (Mon-Fri 20:00, Sat/Sun 15:00 UTC per CyreneDream)."
+      ],
+      "rewards": [
+        "1 A.R.C. Faction Badge (Get Sweaty!)",
+        "1.5 PED Universal Ammo (Jameson)"
+      ],
+      "prerequisites": [
+        "cyrene-arc-academy"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Mindforce chip decay is negligible; TT weapons for Jameson come from the Academy.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Sweat",
+          "use": "spent",
+          "note": "500 per Get Sweaty!"
+        },
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "1 per day."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream's mission list says 21 hours; its Sweating page says 24 hours for Jameson."
+      },
+      "locations": [
+        {
+          "label": "Andrina - Sweat Collections",
+          "waypoint": "[Planet Cyrene, 138461, 77298, 101, Andrina - Sweat Collections]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        },
+        {
+          "label": "Paneleon Hunter Jameson",
+          "waypoint": "[Planet Cyrene, 138938, 77823, 134, Paneleon Hunter Jameson]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        },
+        {
+          "label": "Sweat Paneleon spot",
+          "waypoint": "[Planet Cyrene, 138988, 77770, 106, Sweat Paneleon]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Near-free badge and ammo every day."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-REP",
+        "CD-SWEAT",
+        "EC-CY"
+      ],
+      "warnings": [
+        "Jameson's cooldown is 21h on one CyreneDream page and 24h on another; treated as 21h here.",
+        "The SSI event is player-run and may lapse without notice."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "sweat",
+        "budget"
+      ]
+    },
+    {
+      "id": "cyrene-ozpyn-arms-merchant",
+      "title": "Arms Merchant: Ozpyn BPX/LPX starter guns",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Private 'Snow' Landon trades residue from hunting near the rookie area for an Ozpyn laser or BLP gun. Entropia Codex recommends the P3 version.",
+      "steps": [
+        "Hunt around the Rookie Training Area and keep Robot Component Residue and Animal Oil Residue.",
+        "Trade 5 PED of Robot Component Residue for an Ozpyn BPX-P1 or LPX-P1, or 9 PED of Animal Oil Residue for a BPX-P3 or LPX-P3."
+      ],
+      "rewards": [
+        "Ozpyn BPX-P1 / LPX-P1, or BPX-P3 / LPX-P3"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 9,
+        "text": "5-9 PED of residue (TT value) per gun.",
+        "markup": "low",
+        "markupNote": "Residue has little markup, so the cost is mostly TT."
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 336,
+        "resetNote": "CyreneDream lists a 14-day cooldown."
+      },
+      "locations": [
+        {
+          "label": "Private 'Snow' Landon",
+          "waypoint": "[Planet Cyrene, 138900, 77751, 132, Private ‘Snow’ Landon]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Cheap upgrade from trainee weapons for new hunters."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-REP",
+        "CD-SWEAT",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "hunting",
+        "starter-gear"
+      ]
+    },
+    {
+      "id": "cyrene-imperium-ranger-hunts",
+      "title": "Imperium Ranger hunts (group badge dailies)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Shared-loot bosses at six spots. Anyone who deals damage (or heals someone who does) while holding the mission gets 3, 6 or 10 badges, once per 24 hours per spot. Players call spawns in chat.",
+      "steps": [
+        "Join the #Cyrene_Rangers channel (ask the channel owner for an invite) and watch #Cyrene.",
+        "When a spawn is called, travel to it and enter the area to receive the mission (leave and re-enter if it does not appear).",
+        "Wait for the caller to say go, then do at least 1 damage or heal a shooter.",
+        "Tier 1 (level 44, 5000 HP) at Atlas and Rana: 3 badges; Tier 2 (level 50) at Desert and Z.R.Q.: 6; Tier 3 (level 56) at Island Biome and Isle de Zel: 10."
+      ],
+      "rewards": [
+        "3 / 6 / 10 A.R.C. Faction Badges per tier",
+        "Share of shared loot"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "A few shots plus travel; bring armor for level 44-56 hits.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "Up to 38 per day across all six."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "24 hours per ranger location, counted from your own kill (CyreneDream). Rangers respawn roughly every 4-6 hours."
+      },
+      "locations": [
+        {
+          "label": "Atlas Imperium Ranger - Tier 1",
+          "waypoint": "[Planet Cyrene, 138583, 76341, 119, Atlas Imperium Ranger - Tier 1]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        },
+        {
+          "label": "Rana Imperium Ranger - Tier 1",
+          "waypoint": "[Planet Cyrene, 132178, 75481, 133, Rana Imperium Ranger - Tier 1]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        },
+        {
+          "label": "Desert Imperium Ranger - Tier 2",
+          "waypoint": "[Planet Cyrene, 135886, 79766, 158, Desert Imperium Ranger - Tier 2]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        },
+        {
+          "label": "Zel Imperium Ranger - Tier 3",
+          "waypoint": "[Planet Cyrene, 137955, 75290, 114, Zel Imperium Ranger - Tier 3]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANGER"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Up to 38 badges a day for minimal ammo; the single best badge source."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-RANGER",
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [
+        "Support weapons have been listed as not working properly on Cyrene in every official note from 2025 through Sept 2026; heal with a regular FAP if you go the healer route.",
+        "The ranger chat channel has been switched between public and private in the past."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "badges",
+        "group",
+        "hunting"
+      ]
+    },
+    {
+      "id": "cyrene-crafting-taming-dailies",
+      "title": "Crafting and taming dailies",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Five crafting dailies pay a badge plus a little crafting skill for one successful craft of a cheap item. Pet Master dailies pay Animal Taming or Zoology skill.",
+      "steps": [
+        "Craft one C.B.R. 107, Embossed Cyrene Shirt, Cube Empowered Lube, Cyrene Acid Armor Plate or Cube Enhanced Metal (each 1 badge + skill).",
+        "Skill-only crafting dailies: Ozpyn Filter, Enkidd Dire S1 (L), Patterned Shirt Series 1, Ozpyn Cold Protector (L), Imperium Key Cube.",
+        "Taming: tame 35 Arret or 40 Weak Paneleon (low) or 10 Puny Mang Chang/Rhino Beetle (mid); turn-in dailies take tamed pets."
+      ],
+      "rewards": [
+        "1 badge + 0.04-0.06 PED crafting skill per badge crafting daily",
+        "0.01-0.08 PED taming/zoology skill"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials for one successful craft each (failures cost extra).",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "earned",
+          "note": "Up to 5 per day."
+        },
+        {
+          "name": "Cyrene Mission Token",
+          "use": "spent",
+          "note": "Some recipes (e.g. Imperium Key Cube) use tokens as an ingredient."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream lists 21 hours."
+      },
+      "locations": [
+        {
+          "label": "Pet Master Zyn'Dar (taming)",
+          "waypoint": "[Planet Cyrene, 138270, 77450, 102, Zyn'Dar]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Five extra badges a day for cheap crafts."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting",
+        "taming",
+        "badges"
+      ]
+    },
+    {
+      "id": "cyrene-texture-dailies",
+      "title": "Texture blueprint dailies (Kayde, Hoban, Ben, Jyor'den)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Daily missions that pay clicks on limited texture blueprints. The planet team adds new texture rewards to these almost every VU (2025-2026), and Sept 2026 added a Texture Pattern Matching daily.",
+      "steps": [
+        "Kayde Barnes (needs 300 badges): attempt 100 Synthetic Leather Texture crafts for 20 clicks of a chosen (L) texture blueprint.",
+        "Hoban Statsk: hand in 50 badges and 10 Robotics Enhancing Gel for 20 clicks of a Molten texture blueprint.",
+        "Ben Keery: trade 15 Rare Pleak Wings and 15 Animal Oil Residue for 10 clicks of a Polka-dot texture blueprint.",
+        "Texture Tutor Jyor'den in Zyn'Tukano: new daily crafting mission for Texture Pattern Matching (added Sept 2026)."
+      ],
+      "rewards": [
+        "Limited texture blueprint clicks (seasonal designs added each VU)",
+        "Texture skill"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "300 A.R.C. Faction Badges in inventory for Kayde's mission"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Crafting materials; Hoban's version also costs 50 badges.",
+        "markup": "unknown",
+        "markupNote": "Texture BP clicks can sell for markup; not guaranteed."
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "spent",
+          "note": "50 per Hoban trade."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "CyreneDream lists 24 hours for Kayde, Hoban and Ben."
+      },
+      "locations": [
+        {
+          "label": "Kayde Barnes",
+          "waypoint": "[Planet Cyrene, 138031, 78731, 166, Kayde Barnes]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Hoban Statsk",
+          "waypoint": "[Planet Cyrene, 138039, 78718, 165, Hoban Statsk]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Ben Keery",
+          "waypoint": "[Planet Cyrene, 138745, 77763, 103, Ben Keery]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Steady crafting content; value depends on texture demand."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-REP",
+        "MA-19103",
+        "MA-1990",
+        "CF-2603"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting",
+        "textures"
+      ]
+    },
+    {
+      "id": "cyrene-mazeweaver",
+      "title": "Mazeweaver dailies and the Wolpertinger pet",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "A maze area with several daily certificate missions. You need a Maze Hammer (bought with Shrapnel and refundable). 200 certificates buy a Wolpertinger pet.",
+      "steps": [
+        "Trade 50,000 Shrapnel (5 PED) to Mazeweaver Ricky for an account-bound Maze Hammer.",
+        "Each day: talk to Rayen, then do Maze Blitz (10 Vlanwings with the hammer), Fix the Burrow, the Missing Soul/Tool finds, Vlad the Unraveler and the Rat Race (up to 3 certificates for gold time).",
+        "Hand 200 Mazeweaver Certificates to Mazeweaver Reggie for the pet.",
+        "Return a fully repaired hammer to Ricardo to get the 50,000 Shrapnel back."
+      ],
+      "rewards": [
+        "1 Mazeweaver Certificate per daily (Rat Race 0-3)",
+        "Wolpertinger Pet at 200 certificates"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 5,
+        "text": "50,000 Shrapnel for the hammer (refundable when returned fully repaired) plus hammer decay.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Mazeweaver Certificate",
+          "use": "earned",
+          "note": "Kept until 200 for the pet."
+        },
+        {
+          "name": "Shrapnel",
+          "use": "spent",
+          "note": "Hammer deposit (refundable)."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 21,
+        "resetNote": "CyreneDream lists 21 hours for the maze dailies."
+      },
+      "locations": [
+        {
+          "label": "Mazeweaver Maze",
+          "waypoint": "[Planet Cyrene, 136364, 80370, 111, Mazeweaver Maze]",
+          "verified": true,
+          "sourceIds": [
+            "CD-MAZE"
+          ]
+        },
+        {
+          "label": "Mazeweaver Ricky (hammer)",
+          "waypoint": "[Planet Cyrene, 138864, 76864, 100, Mazeweaver Ricky]",
+          "verified": true,
+          "sourceIds": [
+            "CD-MAZE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Cheap long-term pet goal; about 6-8 certificates a day means roughly a month."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-MAZE",
+        "EC-CY"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "pet",
+        "budget"
+      ]
+    },
+    {
+      "id": "cyrene-weekly-missions",
+      "title": "Weekly missions (Doctor Bylar, Lumberjack, Drill Bots)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "Seven-day missions with bigger kill or gathering goals that pay boosters, creature control capsules or limited blueprints.",
+      "steps": [
+        "Doctor Bylar (four variants): collect samples from set creatures for Neurobiotic Boosters or Creature Control Capsules (Paneleon, Zeladoth).",
+        "You're a Lumberjack now: harvest 10,000 Moonleaf Boards for 20 clicks of a random decoration/tool blueprint.",
+        "Drill into the system: 5500 Drill Bot kill points for an Adventurer's Finder (L) blueprint.",
+        "Cages to Pills: turn in caged pets for creature control capsules."
+      ],
+      "rewards": [
+        "Neurobiotic Booster A1/A2 5MG (x2)",
+        "Creature Control Capsules",
+        "Limited blueprints"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Many hundreds of kills for the Bylar variants.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 168,
+        "resetNote": "CyreneDream lists 7 days."
+      },
+      "locations": [
+        {
+          "label": "Doctor Byler",
+          "waypoint": "[Planet Cyrene, 137544, 80897, 100, Doctor Byler]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SWEAT"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Useful items but big kill counts."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-REP",
+        "EC-CY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "weekly",
+        "hunting",
+        "taming"
+      ]
+    },
+    {
+      "id": "cyrene-arc-ranks-badge-gates",
+      "title": "A.R.C. ranks and badge-gated content",
+      "type": "unlock",
+      "stage": "mid",
+      "summary": "Most Cyrene content checks how many A.R.C. Faction Badges you are carrying. Holding 200, 500 and 1200 badges gives A.R.C. ranks 1-3 (missions in the Hub) and unlocks better dailies, buffs and the faction terminals.",
+      "steps": [
+        "Keep badges in inventory; do not spend below a threshold you rely on.",
+        "200 badges: Stage 2 dailies, A.R.C. Summoner, Hub faction terminal stage 1, Rank 1 mission in the Hub.",
+        "300: Kayde Barnes texture daily and Tanhok decorator weekly. 500: Rana Haven buffs, Rank 2 (A.R.C. Lancer (L) blueprint).",
+        "1200: Rank 3 'A.R.C. Commander' achievement (a Prestige requirement). 1500: Robot Base Z.R.Q. buffs."
+      ],
+      "rewards": [
+        "A.R.C. Rank 1-3 completions",
+        "A.R.C. Lancer (L) Blueprint (L) at Rank 2",
+        "Access to higher dailies and terminals"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No direct cost; badges are checked, not consumed, for ranks.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "kept",
+          "note": "Thresholds count badges carried."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Rank missions are inside The Hub (pick 'The Hub' from any teleporter)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 2,
+        "rationale": "Core Cyrene progression; takes weeks of dailies."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-HUB",
+        "CD-REP",
+        "CD-RANA",
+        "CD-ZRQ",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "Entropia Central says the faction vendors are paid only in badges; CyreneDream shows the Hub terminals take Shrapnel and Limited Weapon Cubes while badges are only checked. CyreneDream (more detailed) is used here."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "badges",
+        "progression"
+      ]
+    },
+    {
+      "id": "cyrene-badge-buffs",
+      "title": "Rana Haven and Robot Base Z.R.Q. buff missions",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Exploration missions that give short hunting buffs. Rana Haven (500 badges) gives 1% buffs for 1 hour; Robot Base Z.R.Q. (1500 badges) gives 2% buffs for 2 hours.",
+      "steps": [
+        "Rana Haven: enter the cave, take a delegate's mission, check three A.R.C. toxicity testers, return to Consule Laekces.",
+        "Buffs: +1 point crit chance, +1% reload, +1% crit damage, +1% max health, +1% damage (1 hour each).",
+        "Z.R.Q.: take the teleport rings up to Tanhok Warleader Kyzrin; find spears, climb the satellite tower, collect weapons, find unstable elements or deliver info to the tree.",
+        "Z.R.Q. buffs are 2% for 2 hours and are lost on death or logout."
+      ],
+      "rewards": [
+        "Temporary hunting buffs (1% for 1h at Rana; 2% for 2h at Z.R.Q.)"
+      ],
+      "prerequisites": [
+        "cyrene-arc-ranks-badge-gates"
+      ],
+      "requirementsText": [
+        "500 badges carried (Rana Haven)",
+        "1500 badges carried (Z.R.Q.)"
+      ],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Time only.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "CyreneDream files these under 'Daily Buff Missions' but gives no exact timer."
+      },
+      "locations": [
+        {
+          "label": "Rana Cave entrance",
+          "waypoint": "[Planet Cyrene, 132093, 75605, 158, Rana Cave]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RANA"
+          ]
+        },
+        {
+          "label": "ZRQ teleporter",
+          "waypoint": "[Planet Cyrene, 138262, 77225, 115, ZRQ TP]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ZRQ"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Free small buffs; best used right before a big hunt."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-RANA",
+        "CD-ZRQ",
+        "CD-REP"
+      ],
+      "warnings": [
+        "Rana Haven page last edited Dec 2023."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "buff",
+        "badges"
+      ]
+    },
+    {
+      "id": "cyrene-arc-weapon-cubes",
+      "title": "A.R.C. Limited Weapon Cubes and Ecotron (L) guns",
+      "type": "unlock",
+      "stage": "mid",
+      "summary": "A.R.C. weapon vouchers drop from certain creatures. Refined with Zorn Star Ingots they become Limited Weapon Cubes, which pay for Ecotron (L) weapons at the A.R.C. faction terminals in the Hub (Tier 4 now in Prestige).",
+      "steps": [
+        "Loot an A.R.C. Tier 1 Limited Weapon Voucher (Generation I 5P1D3R, Nimet).",
+        "Refine it with 5000 Zorn Star Ingots (150 PED): you get a Tier 1 Limited Weapon Cube (105.01 PED TT) and 1500 ingots back.",
+        "With the cube and 200 badges on you, go to the Hub, take the A.R.C. Faction Stage 1 teleporter and buy the Ecotron v.15e at the terminal.",
+        "Higher tiers follow the same idea; Tier 4 vouchers (from r00t / Flesh Ripper) are turned in inside A.R.C. Prestige."
+      ],
+      "rewards": [
+        "Ecotron (L) weapon of the matching tier"
+      ],
+      "prerequisites": [
+        "cyrene-arc-ranks-badge-gates"
+      ],
+      "requirementsText": [
+        "Voucher drop",
+        "200+ badges carried for Stage 1 terminal"
+      ],
+      "cost": {
+        "pedEstimate": 105,
+        "text": "About 105 PED of ingots end up in the cube (150 in, 45 back); weapon TT comes from the cube.",
+        "markup": "unknown",
+        "markupNote": "Since Mar 2026 cubes can also be sold to the trade terminal."
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "kept",
+          "note": "Checked at the terminal."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Hub A.R.C. Faction Stage 1 terminal (Hub waypoints do not copy correctly per CyreneDream)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Strong planet-specific weapons, but needs a voucher drop and ingots."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-VOUCH",
+        "CD-VEND",
+        "CF-2603",
+        "CF-2512",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "Tier 1 voucher page last edited Jan 2024; ingot amounts for higher tiers not confirmed here."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "weapons",
+        "progression"
+      ]
+    },
+    {
+      "id": "cyrene-the-hub",
+      "title": "The Hub (separate PvP-focused zone)",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "The Hub is a separate area chosen from any teleporter's drop-down. It removes everything you carry on entry (implants included) and has its own token economy: Pit Turrelia Lurkers drop Lime Green Tokens, and Hub vendors sell Hub-only gear.",
+      "steps": [
+        "Bank or note anything important first: the Hub strips all items, and implants may need a relog to reappear afterwards.",
+        "Do the 'Go check out the Hub' envoy mission and your A.R.C. rank missions there.",
+        "Farm Pit Turrelia Lurkers (150 HP) for Lime Green Tokens and Shrapnel; a 500 HP Beast spawns every 2 hours."
+      ],
+      "rewards": [
+        "A.R.C. rank completions",
+        "Lime Green Tokens / Hub reward tokens for Hub vendors"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing to bring; Hub weapons come from Hub tokens.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Lime Green Tokens",
+          "use": "earned",
+          "note": "Hub currency; 550,000 buy the Coat of the Proving Grounds."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Area, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Any teleporter drop-down -> The Hub",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Needed for ranks and the Assassinator chain; quirky rules."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-HUB",
+        "CD-VEND",
+        "MA-19110"
+      ],
+      "warnings": [
+        "Oct 2026 (19.11.0) fixed implant buffs staying active after the Hub removed the implant."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hub",
+        "pvp",
+        "tip"
+      ]
+    },
+    {
+      "id": "cyrene-heart-fap",
+      "title": "Refurbished H.E.A.R.T. FAP chain (Gear Up: New Fap)",
+      "type": "mission-chain",
+      "stage": "early",
+      "summary": "A 13-stage chain that builds and upgrades a planet-made healing tool from Rank I to Rank X. Early stages are cheap kills of starter creatures; Stage 10 is a Prestige requirement.",
+      "steps": [
+        "Talk to Medical Tech Orandius (near the 0x101 Supply Depot teleporter).",
+        "Stages 1-2: turn in 200 Bone and 75 Bone-In Meat. Stages 3-8: 250 kills each of Weak Paneleon, Young Crystal Pede, Duster Scapegoats, Puny Nimet, Breezy and Gale Living Vortex (Ranks I-VI).",
+        "Stage 9 (can be done later): 300 Basic Skyshatter Drones plus 500 Lesser Claw and 2000 Animal Oil Residue (Vigorous/Speedy VI).",
+        "Stages 10-13 (Ranks VII-X): big kill, crafting and turn-in goals with other NPCs (Caleb, Kandake, Jones, Lazarus). Each upgrade needs the previous FAP repaired and handed in."
+      ],
+      "rewards": [
+        "Refurbished H.E.A.R.T. Rank I to X (Vigorous/Speedy variants)",
+        "Completion 'Gear Up: New Fap - Stage 10' counts for Prestige"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Kills and turn-ins; later stages need large residue amounts and full repairs (Rank IX repair about 80 PED TT, 6 times, per CyreneDream).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Medical Tech Orandius",
+          "waypoint": "[Planet Cyrene, 138452, 77294, 101, Medical Tech Orandius]",
+          "verified": true,
+          "sourceIds": [
+            "CD-HEART"
+          ]
+        },
+        {
+          "label": "Lazarus (Rank X)",
+          "waypoint": "[Planet Cyrene, 138461, 77289, 100, Lazarus]",
+          "verified": true,
+          "sourceIds": [
+            "CD-HEART"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Cheap start with a useful tool; full chain is a long-term goal."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-HEART",
+        "CF-2506",
+        "MA-1980",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "Stage 13 needs healing players with H.E.A.R.T. IX; support-weapon issues were listed as a known Cyrene platform issue through Sept 2026."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "chain",
+        "healing",
+        "beginner"
+      ]
+    },
+    {
+      "id": "cyrene-psyche-master",
+      "title": "Zyn'Tukano Psyche Master (sweat ladder)",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "Four sweat ranks with Zyn Psyche Master Aten'ten. Each rank asks you to sweat creatures yourself and then donate a larger amount. Rank 4 is a Prestige requirement and unlocks Zyn'viathan part 4.",
+      "steps": [
+        "Rank 1: collect 5,000 sweat, donate 10,000 (about 0.98 PED Sweat Gatherer).",
+        "Rank 2: collect 10,000, donate 20,000 (about 2 PED). Rank 3: 20,000 / 40,000 (about 4 PED).",
+        "Rank 4: collect 40,000, donate 80,000 for a voucher for a Synchronization Chip 1 (L) from the Zyn / A.R.C. Trader.",
+        "Side trade offers with Zyn Collector Oro'nobo (3-day cooldown) and two Zyn Summoner dailies."
+      ],
+      "rewards": [
+        "Sweat Gatherer skill (about 7 PED over ranks 1-3)",
+        "Synchronization Chip 1 (L) voucher",
+        "Prestige and Zyn'viathan prerequisites"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "150,000 sweat donated in total (sweat can also be bought).",
+        "markup": "unknown",
+        "markupNote": "Bought sweat has market markup."
+      },
+      "currencies": [
+        {
+          "name": "Sweat",
+          "use": "spent",
+          "note": "Donated per rank."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Zyn Psyche Master Aten'ten",
+          "waypoint": "[Planet Cyrene, 138085, 78707, 166, Zyn Psyche Master Aten'ten]",
+          "verified": true,
+          "sourceIds": [
+            "CD-PSY"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 1,
+        "rationale": "Almost free if you sweat yourself, but very long."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-PSY",
+        "CD-PRES",
+        "CD-ZYNV"
+      ],
+      "warnings": [
+        "Psyche Master page last edited Jan 2023; rewards not re-confirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "chain",
+        "sweat",
+        "budget"
+      ]
+    },
+    {
+      "id": "cyrene-esther-blueprint-challenges",
+      "title": "Challenger Esther 1000-kill blueprint missions",
+      "type": "mission",
+      "stage": "mid",
+      "summary": "Five one-time challenges at A.R.C. HQ: 1000 kills of one species each, each paying a limited blueprint. All five completions are Prestige requirements.",
+      "steps": [
+        "1000 Dire Weeds/Plants -> Dragonfly v1 (L) BP; 1000 Tide Claws -> Enkidd Howler S.4 BP.",
+        "1000 Paneleon -> Imperium Detectonator X2 (L) BP; 1000 Swamp Lurkers -> O.S. F.A.P. M1 (L) BP.",
+        "1000 Crystal Pede -> Ripper Hide Armor Plate (L) BP."
+      ],
+      "rewards": [
+        "Five limited blueprints",
+        "Prestige missions 4-8 completed"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo/decay for 5000 low-level kills.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Challenger Esther",
+          "waypoint": "[Planet Cyrene, 138939, 77254, 101, Challenger Esther]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Needed for Prestige; targets are low-level."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "blueprints",
+        "prestige-prereq"
+      ]
+    },
+    {
+      "id": "cyrene-test-of-faith",
+      "title": "Ultimate Noob Challenge and Test of Faith",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "A long kill-count chain: 15,000 low-maturity kills at Atlas, then five Test of Faith stages (20,000 to 60,000 kills of any Cyrene creature) that each give a piece of Turrelia clothing.",
+      "steps": [
+        "Talk to Jon George at the Rookie Training teleporter, then the A.R.C. Recruitment Officer at Atlas.",
+        "Kill 15,000 Weak/Watcher/Soldier maturity creatures at Atlas Hunting Grounds for Pilot Pistol Rank 1 (L).",
+        "Then Turellia Tailor's Test of Faith: 20k, 30k, 40k, 50k, 60k kills on Cyrene for pants, jacket, boots, goggles and coat."
+      ],
+      "rewards": [
+        "Pilot Pistol Rank 1 (L)",
+        "Turrelia pants, jacket, boots, goggles, coat (M/F)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Huge kill count (215,000 total); cost depends on your weapon efficiency.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Jon George",
+          "waypoint": "[Planet Cyrene, 138873, 77654, 132, Jon George]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "A.R.C. Recruitment Officer",
+          "waypoint": "[Planet Cyrene, 138132, 76357, 110, A.R.C. Recruitment Officer]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 1,
+        "rationale": "Runs in the background of normal hunting; cosmetic rewards."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "chain",
+        "hunting",
+        "cosmetic"
+      ]
+    },
+    {
+      "id": "cyrene-salvage-hunts",
+      "title": "Salvage and hidden-part hunts (free blueprints)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "Exploration missions: find five or seven hidden parts across the planet and return them for limited blueprints. No combat needed, just travel.",
+      "steps": [
+        "Vehicle Master: Dragonfly, Lancer, P.I.G.V. and Spear parts (5 each) -> vehicle (L) blueprints.",
+        "James Williams: weapon parts (Ozpyn Chon BP), clothing pieces (Imperium Common Shirt BP), armor pieces (Ozpyn Cold Armor Plate BP).",
+        "Shaman Toa'quak: 7 recipe pieces -> Cyrene Acid Armor Plate (L) blueprint.",
+        "Part waypoints are listed on the CyreneDream One Time Missions page."
+      ],
+      "rewards": [
+        "Limited blueprints (about 0.10 PED TT each)"
+      ],
+      "prerequisites": [
+        "cyrene-teleporter-network"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Travel time only.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Vehicle Master",
+          "waypoint": "[Planet Cyrene, 138850, 77071, 112, Vehicle Master]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "James Williams",
+          "waypoint": "[Planet Cyrene, 138851, 77074, 112, James Williams]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Shaman Toa'quak",
+          "waypoint": "[Planet Cyrene, 134796, 76749, 185, Shaman Toa'quak]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Free blueprints and a good way to pick up teleporters."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE"
+      ],
+      "warnings": [
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "exploration",
+        "blueprints",
+        "free"
+      ]
+    },
+    {
+      "id": "cyrene-miners-paradise",
+      "title": "Miner's Paradise and Mining Iron Challenges",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "Mining point ladders. Miner's Paradise counts any deposits and climbs to a repeatable rank 7 worth 302.5 PED of a mining skill; Iron Challenges exist per resource.",
+      "steps": [
+        "Miner's Paradise at Mine-R-4900-Bot: 100, 500, 1000, 10,000, 30,000, 60,000 points (ranks 3-6 pay 3, 30, 90, 180 PED of Prospecting or Mining).",
+        "Rank 7 (repeatable): 100,000 points for 302.5 PED of a chosen mining skill.",
+        "Iron Challenges: two bots near A.R.C. Staging give per-resource ladders (e.g. Blue Crystal, Zorn Star, Lysterium)."
+      ],
+      "rewards": [
+        "Mining skill rewards up to 302.5 PED per rank-7 repeat"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Normal mining cost; points come from found deposits.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Ranks are one-time; rank 7 repeats but no cooldown is given."
+      },
+      "locations": [
+        {
+          "label": "Mine-R-4900-Bot",
+          "waypoint": "[Planet Cyrene, 138463, 81071, 99, Mine-R-4900-Bot]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Iron Mining Challenger Bot - Prospector",
+          "waypoint": "[Planet Cyrene, 138847, 77083, 112, Iron Mining Challenger Bot - Prospector]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Big skill payouts for miners who already mine on Cyrene."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE",
+        "CF-2510"
+      ],
+      "warnings": [
+        "In Oct 2025 a player reported Iron Challenge NPCs not giving rank 5+ after rank 4; the Cyrene dev acknowledged it. Not confirmed fixed.",
+        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "skills",
+        "chain"
+      ]
+    },
+    {
+      "id": "cyrene-zyn-rucksack",
+      "title": "Zyn Rucksack mining backpack upgrades",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "A planet-made mining backpack built and upgraded through six versions: Basic, Adjusted, Improved, Modified, Augmented (Oct 2025) and Perfected (June 2026). Each tier mixes hunting, crafting, mining and node-collecting missions.",
+      "steps": [
+        "Basic: enter the Corrupted Laboratory at Zyn'Tukano; trade 10 Zorn Star Ore (male) or 10 Yellow Crystal (female) for a configurator; do Protea'Zyn's hunt, craft and mine missions; collect 100 of each node component for clasps.",
+        "Adjusted: same pattern in the 'Deeper Into the Lab' instance.",
+        "Modified: Zyn Council missions across Cyrene (June 2025). Augmented: Retired Miner Jorad and J.P.D., mining-focused (Oct 2025).",
+        "Perfected: Nulkor, Zelvar and Teskyr at Zyn'Tukano; ore nodes seem to need a surveying level somewhere in 32-50 (CyreneDream guess)."
+      ],
+      "rewards": [
+        "Zyn Rucksack (Basic -> Perfected)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Small ore/crystal turn-ins plus mission kills and crafts; Azale'Zyn's blueprint costs 200 Animal Oil Residue and Colorer level 5.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Corrupted Laboratory entrance",
+          "waypoint": "[Planet Cyrene, 138032, 78744, 166, Corrupted Laboratory]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RUCK"
+          ]
+        },
+        {
+          "label": "Perfected NPCs",
+          "waypoint": "[Planet Cyrene, 138047, 78797, 170, Perfected NPCs]",
+          "verified": true,
+          "sourceIds": [
+            "CD-RUCKP"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Active 2025-2026 content line for miners."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-RUCK",
+        "CD-RUCKP",
+        "CF-2506",
+        "CF-2510",
+        "MA-1990"
+      ],
+      "warnings": [
+        "Perfected tier node list was still incomplete on CyreneDream (Oct 2026)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "chain",
+        "2026"
+      ]
+    },
+    {
+      "id": "cyrene-arc-prestige",
+      "title": "A.R.C. Prestige (late-game area)",
+      "type": "unlock",
+      "stage": "late",
+      "summary": "An area on the top floor of A.R.C. HQ opened in April 2025. Entry checks a list of finished missions and achievements, then you buy a keycard with tokens and badges. Inside are repeatable missions found nowhere else, avatar-bound textures, a Golem portal, the Thunderous Golem instance and A.R.C. Tier 4.",
+      "steps": [
+        "Talk to Cait at A.R.C. HQ (top floor) to see which checks you still lack.",
+        "Checks: Roy Vulker armor statue mission, Psyche Master Rank 4, H.E.A.R.T. Stage 10, all five Esther blueprint missions, A.R.C. Academy achievement, Rare Cavernous Paneleon find, A.R.C. Commander (Rank 3).",
+        "Pay 2000 A.R.C. Faction Badges and 1000 Cyrene Mission Tokens for the keycard.",
+        "Inside: talk to Portal Technician Puah, Lieutenant Amos, Lieutenant Sapphira and Requisitions Officer Obed."
+      ],
+      "rewards": [
+        "Access to Prestige repeatables, textures, Golem Cavern portal, Thunderous instance, Tier 4 (A.R.C. Adept armor for Shrapnel)"
+      ],
+      "prerequisites": [
+        "cyrene-heart-fap",
+        "cyrene-psyche-master",
+        "cyrene-esther-blueprint-challenges",
+        "cyrene-arc-academy",
+        "cyrene-arc-ranks-badge-gates"
+      ],
+      "requirementsText": [
+        "Roy Vulker's full armor set equipped at the statue (pieces drop from r00t, Rhino Beetle, Tide Claw, Zeladoth Nu/XI, Wiles, Muckjaw)",
+        "Rare Cavernous Paneleon achievement (hunter's cavern instance)",
+        "2000 badges and 1000 tokens"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "2000 badges + 1000 tokens, plus all prerequisite chains.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "spent",
+          "note": "2000 for the keycard."
+        },
+        {
+          "name": "Cyrene Mission Token",
+          "use": "spent",
+          "note": "1000 for the keycard."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Cait, A.R.C. HQ top floor",
+          "waypoint": "[Planet Cyrene, 138918, 77277, 148, Cait]",
+          "verified": true,
+          "sourceIds": [
+            "CD-PRES"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "The main end-game hub; costs months of dailies."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "CD-PRES",
+        "CF-2504",
+        "CF-2512",
+        "CD-ROY"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "prestige",
+        "unlock"
+      ]
+    },
+    {
+      "id": "cyrene-prestige-repeatables",
+      "title": "A.R.C. Prestige repeatable missions",
+      "type": "repeatable",
+      "stage": "late",
+      "summary": "Large kill-point missions inside Prestige that pay chosen skills, plus later additions: Undersea Folken (June 2026) and bi-weekly Mang Chang / Rhino Beetle missions (Sept 2026).",
+      "steps": [
+        "Fangs of Babylon: 100,000 points of Nimet, Venataur or Flesh Ripper (1 PED Avoidance/Xenobiology/Biology).",
+        "Judgement of the Serpent: 100,000 points of Whisker Fish, Muckjaw, Skreel or Undersea Folken (0.5 PED).",
+        "The Enemy of my Enemy: 100,000 points of Imperium Soldiers (18.3 PED Dexterity/Alertness/Perception).",
+        "Putting out the Fires: 100,000 Golem points (3.99 PED); Dec 2025 added Protocore and Vlanwing versions.",
+        "Golem Cavern portal: 50 badges for 1 hour. Thunderous Golem weekly: 500 kills for a Thunderous Droplet (needs a Stable or Unstable Assassinator)."
+      ],
+      "rewards": [
+        "Skill rewards from 0.5 to 18.3 PED",
+        "Thunderous Droplets (5 = 1 Thunderous Gem Shard)",
+        "Avatar-bound textures from Obed"
+      ],
+      "prerequisites": [
+        "cyrene-arc-prestige"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "100,000 kill points per mission is a big hunting spend.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "spent",
+          "note": "50 per Golem Cavern portal opening."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "CyreneDream lists 24 hours for the skill missions; the Thunderous mission is weekly and Saphira's 2026 missions are bi-weekly per official notes."
+      },
+      "locations": [
+        {
+          "label": "A.R.C. Prestige Area, 3rd floor A.R.C. Headquarters",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Good skill payouts for heavy hunters already doing these mobs."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-PRES",
+        "CD-REP",
+        "CF-2603",
+        "MA-1990",
+        "MA-19103",
+        "MA-1980",
+        "CF-2512"
+      ],
+      "warnings": [
+        "Skill amounts for the Protocore and Vlanwing missions are not published."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "prestige",
+        "hunting",
+        "skills"
+      ]
+    },
+    {
+      "id": "cyrene-zorra-hk-epic",
+      "title": "Zorra's HK Epic",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "A 14-stage story chain from Zorra Winters ending in the Xent Tech Light Rifle Prototype, which can then be refined with rare Lazidol parts into Zorra's HK.",
+      "steps": [
+        "Talk to Zorra Winters at A.R.C. HQ; kill 1002 Imperium Soldiers.",
+        "For the High Shaman: 560 Mang Chang tusks, 2800 Paneleon, 1454 Zyn'Dos, 11,000 Merfolken (+ the Merfolken Spearman), 40 Imperium Key Cubes, 512 Skreel.",
+        "Refine the six stage items together for the Zyn'Kimbro Enchanted Spear & Lure; Zorra gives the Xent Tech Light Rifle Prototype.",
+        "Make a Greater Power Crystal (10 Lesser + 10 Weakened) to get Lazidol lures; collect 10 each of four Lazidol parts and refine with the prototype."
+      ],
+      "rewards": [
+        "Xent Tech Light Rifle Prototype",
+        "Zorra's HK (after Lazidol parts)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Tens of thousands of kills plus rare Lazidol parts (tradeable).",
+        "markup": "high",
+        "markupNote": "Lazidol parts are rare and traded at markup."
+      },
+      "currencies": [],
+      "limits": "Lazidol lure every 6 hours; part trader swaps 3:1 with a 7-day cooldown.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Zorra Winters",
+          "waypoint": "[Planet Cyrene, 138866, 77220, 101, Zorra Winters]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ZORRA"
+          ]
+        },
+        {
+          "label": "High Shaman",
+          "waypoint": "[Planet Cyrene, 138322, 77624, 122, High Shaman]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ZORRA"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 1,
+        "effort": 1,
+        "rationale": "Iconic Cyrene weapon; very long and expensive."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ZORRA",
+        "CF-2510"
+      ],
+      "warnings": [
+        "CyreneDream page last edited Oct 2022.",
+        "Zorra's HK owners can now also work toward Zorra's Blessed Laser Amp (L) (see cyrene-limited-amps)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "epic",
+        "weapon"
+      ]
+    },
+    {
+      "id": "cyrene-tanhok-ambassador-epic",
+      "title": "Tanhok Ambassador Epic (and Neff's Stim Pack)",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Ten big kill stages for the Tanhok Ambassador; refine the ten completion coins with Tanhok Amber into a token that buys a weapon of your choice. Afterwards Senator Neff's follow-up leads to the Empis Wasp Queen and Neff's Stim Pack.",
+      "steps": [
+        "Stages: 10,000 Zeladoth points (Alpha-Kappa), 1500 Merfolken Spearmen, 10,000 Zeladoth points (Lambda+), 2650 Sky Wraiths, 625 Muckjaw, 600 Molten/Lava Golems, 4400 Skull Birds, 1550 Stalkers, 315 Wiles, 2500 Dusters.",
+        "Refine all 10 coins with Tanhok Amber (drops from Wiles and r00t) for a Tanhok Tribesman Token; trade it to the Tanhok Trader.",
+        "Optional: Senator Calvin Neff's stages 11-12 (Wasp Queen Bait from many materials, then hunt the Queen)."
+      ],
+      "rewards": [
+        "Choice of Tanhok weapon",
+        "Neff's Stim Pack (follow-up)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Very large hunting spend across mid/high-level mobs.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Tanhok Ambassador",
+          "waypoint": "[Planet Cyrene, 138262, 77204, 115, Tanhok Ambassador]",
+          "verified": true,
+          "sourceIds": [
+            "CD-TANHOK"
+          ]
+        },
+        {
+          "label": "Senator Calvin Neff",
+          "waypoint": "[Planet Cyrene, 138545, 77310, 120, Senator Calvin Neff]",
+          "verified": true,
+          "sourceIds": [
+            "CD-NEFF"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 1,
+        "effort": 1,
+        "rationale": "Strong reward, but a months-long hunting chain."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-TANHOK",
+        "CD-NEFF"
+      ],
+      "warnings": [
+        "Pages last edited 2023-2024; weapon options not listed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "epic",
+        "weapon"
+      ]
+    },
+    {
+      "id": "cyrene-zynviathan-epic",
+      "title": "The Zyn'viathan Epic (Epic Jellyworm pet)",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Ten repeatable parts that each give a tradeable Zyn'viathan Coin. Refining all ten makes The Fabled Genesis Key, traded on Genesis Beach for the Epic Jellyworm pet.",
+      "steps": [
+        "Parts can run in parallel: heal hunters, 40,000 Skull Bird points, 500,000 Renegade Hazard Mech points, craft 'Diamond in the Rough' texture 10,000 times, find 5,000 Olerin claims.",
+        "Also: 250,000 Turrelion Zeladoth points at the Rift, 1500 PvP kills, tame 2500 Rhino Beetles, turn in 2500 badges, 320,000 Tide Claw points.",
+        "Part 4 needs Psyche Master Rank 4 and the Diamond blueprint (1000 Bone-Out Meat + 2000 badges at Al'bryt Hoizyn).",
+        "Refine the 10 coins into the Genesis Key and trade it for the pet."
+      ],
+      "rewards": [
+        "Zyn'viathan Coins (tradeable)",
+        "Epic Jellyworm pet"
+      ],
+      "prerequisites": [
+        "cyrene-psyche-master"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Enormous; 4500 badges in parts 4 and 9 alone.",
+        "markup": "high",
+        "markupNote": "Coins are tradeable, so buying some is an alternative."
+      },
+      "currencies": [
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "spent",
+          "note": "2500 for part 9, 2000 for the part 4 blueprint."
+        },
+        {
+          "name": "Zyn'viathan Coin",
+          "use": "earned",
+          "note": "Tradeable; listed in a better auction category since Oct 2025."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "CyreneDream: 24 hours between turning a part in and picking it up again."
+      },
+      "locations": [
+        {
+          "label": "Zyn'Dingo",
+          "waypoint": "[Planet Cyrene, 138275, 77457, 102, Zyn'Dingo]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ZYNV"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 1,
+        "effort": 1,
+        "rationale": "Prestige pet; mainly for dedicated players or coin traders."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ZYNV",
+        "CF-2510"
+      ],
+      "warnings": [
+        "Healing part relies on support tools; support weapons are a known Cyrene issue through Sept 2026."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "epic",
+        "pet"
+      ]
+    },
+    {
+      "id": "cyrene-turrelion-assassinator",
+      "title": "Unstable / Stable Turrelion Assassinator (Cypher of Hyden)",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Cyrene's longest chain. Buy a Hub coat with 550,000 Lime Green Tokens, then follow Hyden the Cypher through rifts, 5,000 PvP kills, 60,000 Vibrant Sweat and huge collections for the planet-bound Unstable Turrelion Assassinator. The Stable follow-up unbinds and improves it; 2026 added attachment missions.",
+      "steps": [
+        "Collect 550,000 Lime Green Tokens in the Hub and buy the Coat of the Proving Grounds.",
+        "Wear it, talk to Hyden near Kwarn, find the seven rifts with the Turrelia Rift Beacon, then do 5,000 PvP kills (repeatable weekly for skills).",
+        "With 900 badges on you, hand in 60,000 Vibrant Sweat; then collect lungs, heart shards, sinew, ears and soulchips; finale needs 1000 Zorn Star Ingots and 10,000 Vibrant Sweat.",
+        "Stable chain: Faction Loyalty kills across factions (Imperium need cut to 8,000 in June 2025), several NPC turn-ins; Mar 2026 terminals above Kwarn TP offer Coat, Sight, Scope or Amp attachments (choose one at a time)."
+      ],
+      "rewards": [
+        "Unstable Turrelion Assassinator (planet-bound)",
+        "Coat of Hyden (upgradable since Dec 2025)",
+        "Stable Turrelion Assassinator",
+        "Stable attachment components (marked rare in June 2026)"
+      ],
+      "prerequisites": [
+        "cyrene-the-hub"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Hundreds of thousands of kills, large sweat and ingot turn-ins; CyreneDream's author reports paying about 450 PED for PvP help.",
+        "markup": "high",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Lime Green Tokens",
+          "use": "spent",
+          "note": "550,000 for the coat."
+        },
+        {
+          "name": "A.R.C. Faction Badge",
+          "use": "kept",
+          "note": "900 must be carried for stage 7."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "Hyden the Cypher",
+          "waypoint": "[Planet Cyrene, 135681, 79542, 109, Hyden the Cypher]",
+          "verified": true,
+          "sourceIds": [
+            "CD-UTA"
+          ]
+        },
+        {
+          "label": "Wes Roberts (Stable chain)",
+          "waypoint": "[Planet Cyrene, 135731, 79599, 140, Wes]",
+          "verified": true,
+          "sourceIds": [
+            "CD-STA"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 1,
+        "effort": 1,
+        "rationale": "Top-tier planet weapon; enormous time and PED commitment."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-UTA",
+        "CD-STA",
+        "CF-2506",
+        "CF-2603",
+        "MA-1990",
+        "CF-2512"
+      ],
+      "warnings": [
+        "CyreneDream notes the later stages are partly guesswork from several players.",
+        "The lootable PvP teleport NPC was noted as disabled on the UTA page."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "epic",
+        "weapon",
+        "pvp"
+      ]
+    },
+    {
+      "id": "cyrene-limited-amps",
+      "title": "Zorra's Blessed Laser Amp (L) and Hyden's Unstable BLP Amp (L)",
+      "type": "repeatable",
+      "stage": "late",
+      "summary": "High-level limited amps added Oct 2025 for owners of Zorra's HK or a Turrelion Assassinator. They mix badge turn-ins, a daily mission and item turn-ins; Dec 2025 raised their TT value.",
+      "steps": [
+        "Zorra's HK owners: talk to Rory at A.R.C. HQ; 3000 Male Zeladoth points earn a Token of Zorra's Blessing (14-day cooldown).",
+        "Assassinator owners: talk to Frankie near Kwarn TP; 5000 Duster points earn a Token of Hyden's Cunning (24h cooldown).",
+        "Hand in the token plus the listed items (including extra Animal Oil Residue since Dec 2025) for the amp."
+      ],
+      "rewards": [
+        "Zorra's Blessed Laser Amp (L)",
+        "Hyden's Unstable BLP Amp (L)"
+      ],
+      "prerequisites": [
+        "cyrene-zorra-hk-epic"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Badges and item turn-ins; exact list shown in-game.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "Hyden token mission 24 hours; Zorra token mission 14 days (CyreneDream)."
+      },
+      "locations": [
+        {
+          "label": "Rory, A.R.C. HQ",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "Frankie, near Kwarn TP",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Only for owners of the epic weapons; renewable amps."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CF-2510",
+        "CF-2512",
+        "CD-AMPS",
+        "CD-REP"
+      ],
+      "warnings": [
+        "Prerequisite is either Zorra's HK or a Turrelion Assassinator; the app can only link one, so Zorra's HK is listed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "amp",
+        "2025"
+      ]
+    },
+    {
+      "id": "cyrene-snow-base-event",
+      "title": "A.R.C. Offensive: Imperium Snow Base event",
+      "type": "event",
+      "stage": "mid",
+      "summary": "Cyrene's recurring planet event: a timed instance entered from A.R.C. HQ with Mecha Lupine creatures (level 8-120), tradeable skill pills and droplets. Runs for about a week several times a year.",
+      "steps": [
+        "Watch CyreneDream or the Cyrene Discord for the next date (recent runs include Dec 15-22 2025, Mar 24-31 2026 and Oct 6-13 2026).",
+        "Enter from the Snow Base waypoint at A.R.C. HQ (solo or team instance; 6-hour timeout, re-entry allowed during the event).",
+        "Hunt Mecha Lupines; pick up zone missions near each teleporter to summon bosses.",
+        "Mecha Lupine kills also count for the Stable Assassinator Imperium faction."
+      ],
+      "rewards": [
+        "Tradeable skill pills",
+        "Droplets (5 refine into a Pristine or a Thunderous Gem Shard)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Normal hunting cost; creature level 8-120 so pick a matching zone.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Event windows are announced per run (about a week each, several times a year)."
+      },
+      "locations": [
+        {
+          "label": "Into Imperium Snow Base",
+          "waypoint": "[Planet Cyrene, 138838, 77250, 101, Into Imperium Snow Base]",
+          "verified": true,
+          "sourceIds": [
+            "CD-SNOW"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Recurring event with tradeable skill loot; low-level zones are newcomer-friendly."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-SNOW",
+        "CD-S26",
+        "CD-W25",
+        "CD-STA"
+      ],
+      "warnings": [
+        "Event dates come from CyreneDream; no official 2026 announcement found because the Cyrene forum is offline."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "event",
+        "hunting",
+        "skills"
+      ]
+    },
+    {
+      "id": "cyrene-seasonal-events",
+      "title": "Seasonal events: Nightmare Nexus and Jolly Wonderland",
+      "type": "event",
+      "stage": "early",
+      "summary": "Limited-time instances: the Halloween Nightmare Nexus (back in October 2026 per MindArk notes) and the winter Jolly Wonderland. Both add special creatures, textures and cosmetics, and holiday gifts for Cyrene players.",
+      "steps": [
+        "Check the latest MindArk release notes for dates.",
+        "Enter the event instance (relog if you leave and want to re-enter the Nightmare Nexus, per CyreneDream 2025).",
+        "Do the event hunting and hidden-texture missions; winter sculptures cost 150 Holiday Magic each (2025)."
+      ],
+      "rewards": [
+        "Event textures, cosmetics, sculptures, holiday gifts"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Hunting cost inside the instance.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Seasonal; dates set each year."
+      },
+      "locations": [
+        {
+          "label": "Event instance entrances (see CyreneDream event pages)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Fun, mostly cosmetic."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "MA-19103",
+        "CF-2510",
+        "CF-2512"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "event",
+        "seasonal",
+        "cosmetic"
+      ]
+    },
+    {
+      "id": "cyrene-hunting-instances",
+      "title": "Free hunter's caverns and sweat-cost instances",
+      "type": "tip",
+      "stage": "early",
+      "summary": "Several private instances let you hunt without competition. The Weak Paneleon, Paneleon, Tide Claw, Zeladoth and Rift caverns are free; Flesh Ripper, r00t and Living Storm instances cost 1000 sweat. Team instances hold 12 players since June 2026.",
+      "steps": [
+        "Free: Weak Paneleon Hunter's Cavern, Paneleon / Tide Claw / Zeladoth Hunter's Caverns (A.R.C. HQ), Sky Labs Arret area, The Rift Cavern.",
+        "1000 sweat: The Cave of Flesh, A.R.C. Forward Camp - ROOT, Aerithalas.",
+        "The hunter's caverns can spawn a rare Cavernous Paneleon (an achievement needed for Prestige)."
+      ],
+      "rewards": [
+        "Uncontested hunting spots",
+        "Chance at the Rare Cavernous Paneleon achievement"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free or 1000 sweat to enter.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "No cooldown listed."
+      },
+      "locations": [
+        {
+          "label": "Weak Paneleon Hunter's Cavern",
+          "waypoint": "[Planet Cyrene, 139019, 77896, 131, Weak Paneleon Hunter's Cavern]",
+          "verified": true,
+          "sourceIds": [
+            "CD-INST"
+          ]
+        },
+        {
+          "label": "Paneleon Hunter's Cavern",
+          "waypoint": "[Planet Cyrene, 138834, 77252, 124, Paneleon Hunter's Cavern]",
+          "verified": true,
+          "sourceIds": [
+            "CD-INST"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free, quiet hunting for newcomers."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-INST",
+        "MA-1990",
+        "CD-PRES"
+      ],
+      "warnings": [
+        "Instance list last edited Nov 2023."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "hunting",
+        "budget",
+        "tip"
+      ]
+    },
+    {
+      "id": "cyrene-cosmetic-proof-chain",
+      "title": "Hidden cosmetic missions and 'Test your Invincibility'",
+      "type": "mission",
+      "stage": "early",
+      "summary": "A set of odd free missions that each give a cosmetic piece; holding four of them unlocks a 2025 mission for the Lava Proof Jacket.",
+      "steps": [
+        "No Poaching! (kill one penned Paneleon at Zyn'Tukano from outside the pen) -> tee.",
+        "Watch your Step! (teleport rings to a floating island, fall off at the marked spot) -> pants.",
+        "Heavy Water... (go under a ruins statue, come back later and swim around it) -> hat.",
+        "Steppin' Out (get killed by all five colours of r00t mech) -> shoes.",
+        "With all four in inventory, go to the trigger point near 0x101 Supply Depot and do the four 'proof' spots -> Lava Proof Jacket."
+      ],
+      "rewards": [
+        "No Poaching Tee, Watch Your Step Pants, Heavy Water Hat, Steppin' Out Shoes, Lava Proof Jacket"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free apart from deaths.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time."
+      },
+      "locations": [
+        {
+          "label": "No Poaching mission spot",
+          "waypoint": "[Planet Cyrene, 138162, 78771, 171, No Poaching Mission]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        },
+        {
+          "label": "Test your Invincibility trigger",
+          "waypoint": "[Planet Cyrene, 138514, 77251, 100, Trigger]",
+          "verified": true,
+          "sourceIds": [
+            "CD-ONE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 1,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Pure cosmetics, but free."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "CD-ONE",
+        "CD-W25"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "cosmetic",
+        "free",
+        "exploration"
+      ]
+    }
+  ]
+}
