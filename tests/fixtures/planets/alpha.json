@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "alpha",
+    "name": "Alpha Fixture",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "Fixture destination for tests only.",
+    "howToReach": "n/a",
+    "lastReviewed": "2026-11-26",
+    "warnings": [],
+    "sourceIds": [
+      "S1"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Fixture source",
+      "url": "https://example.invalid/fixture",
+      "publisher": "tests",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "fixture"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alpha-start",
+      "title": "Start chain",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [
+        {
+          "label": "Gate",
+          "waypoint": "[Alpha, 100, 200, 50, Gate]",
+          "verified": true,
+          "sourceIds": [
+            "S1"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "best"
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    },
+    {
+      "id": "alpha-next",
+      "title": "Alpha Next",
+      "type": "mission",
+      "stage": "early",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [
+        "alpha-start"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "fixture"
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    },
+    {
+      "id": "alpha-daily",
+      "title": "Alpha Daily",
+      "type": "daily",
+      "stage": "arrival",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 20,
+        "resetNote": "20 h after completion"
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "fixture"
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    },
+    {
+      "id": "alpha-fixed",
+      "title": "Alpha Fixed",
+      "type": "daily",
+      "stage": "arrival",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "fixed-reset",
+        "hours": null,
+        "resetNote": "midnight UTC",
+        "resetUtcHour": 0
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "fixture"
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    },
+    {
+      "id": "alpha-late",
+      "title": "Alpha Late",
+      "type": "mission",
+      "stage": "late",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 1,
+        "effort": 1,
+        "rationale": "pricey"
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    }
+  ]
+}

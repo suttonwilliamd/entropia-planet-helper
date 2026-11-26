@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "beta",
+    "name": "Beta Fixture",
+    "kind": "planet",
+    "parent": null,
+    "status": "inactive",
+    "summary": "Fixture destination for tests only.",
+    "howToReach": "n/a",
+    "lastReviewed": "2026-11-26",
+    "warnings": [],
+    "sourceIds": [
+      "S1"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Fixture source",
+      "url": "https://example.invalid/fixture",
+      "publisher": "tests",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "fixture"
+    }
+  ],
+  "activities": [
+    {
+      "id": "beta-cross",
+      "title": "Beta Cross",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "Fixture activity.",
+      "steps": [
+        "Do it"
+      ],
+      "rewards": [
+        "Fixture reward"
+      ],
+      "prerequisites": [
+        "alpha-start"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Nothing",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "fixture"
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": []
+    }
+  ]
+}
