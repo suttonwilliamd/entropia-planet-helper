@@ -264,6 +264,9 @@ def load_dataset(data_dir: Path) -> Dataset:
         for a in doc["activities"]:
             activities[a["id"]] = {**a, "_planet": pid}
     for act in activities.values():
+        # Travel steps are shown but never block: picking a destination means you are already there.
+        act["_blocking"] = [p for p in act["prerequisites"]
+                            if p in activities and activities[p]["type"] != "travel"]
         for p in act["prerequisites"]:
             if p not in activities:
                 rep = next(r for r in reports if Path(r.path).stem == act["_planet"])

@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "next-island",
+    "name": "Next Island",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "Next Island starts newcomers at Paradise Landing with free starter gear and a Strider vehicle from Resa Docks. Its dailies pay Elysian Tech Chips, crystals and blueprints, and lead into long VIP routes. The linked time-travel area Ancient Greece has its own file.",
+    "howToReach": "Virtualsense's Yamato shared warp (6 PED per paying passenger), a Kronan request stop, a token teleport (6 station-to-station or 10 planet-to-planet Teleportation Tokens on eligible links since 19.2.0), or your own ship.",
+    "warnings": [
+      "Desk-checked from public sources only; in-game field verification is pending.",
+      "The Next Island forum would not load during research; official 18.12 notes were read via search-index copies and cross-checked with NI Helper.",
+      "Starter gear eligibility after Setesh, item cargo flags and all timer triggers are unconfirmed.",
+      "Space routes can cross lootable PvP zones. Leave valuables in storage."
+    ],
+    "sourceIds": [
+      "N1a",
+      "N6",
+      "N7",
+      "N15",
+      "N19",
+      "N23"
+    ],
+    "lastReviewed": "2026-11-26"
+  },
+  "sources": [
+    {
+      "id": "N1a",
+      "title": "Virtualsense Space Travel Program | Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-schedule.2148/",
+      "publisher": "Virtualsense (planet partner forum)",
+      "kind": "official-forum",
+      "published": "2016-01-08",
+      "accessed": "2026-11-26",
+      "supports": "Yamato route schedule and stops, including Next Island. Thread start date shown; schedule is updated in place."
+    },
+    {
+      "id": "N1b",
+      "title": "Virtualsense Space Travel Program | Fees & Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-fees-schedule.5926/",
+      "publisher": "Virtualsense (planet partner forum)",
+      "kind": "official-forum",
+      "published": "2016-02-06",
+      "accessed": "2026-11-26",
+      "supports": "6 PED fare for a paying passenger and eligibility. Thread start date shown; fees are updated in place."
+    },
+    {
+      "id": "N2",
+      "title": "Toulan Monthly Event | Friday, Nov 20th - Sunday, Nov 22nd",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-monthly-event-friday-nov-20th-sunday-nov-22nd.11097/",
+      "publisher": "Virtualsense (planet partner forum)",
+      "kind": "official-forum",
+      "published": "2026-11-12",
+      "accessed": "2026-11-26",
+      "supports": "November 2026 event-specific schedule shifts for the Yamato."
+    },
+    {
+      "id": "N3",
+      "title": "Warp Schedule",
+      "url": "https://kronan-ms.info/warp-schedule/",
+      "publisher": "Kronan Interplanetary Spaceship Services (player operator)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Next Island listed as a request stop."
+    },
+    {
+      "id": "N4a",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "150 kg token teleport cap; ordinary station-to-own-planet fee removed."
+    },
+    {
+      "id": "N4b",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Space PvP zones; lootable cargo risk."
+    },
+    {
+      "id": "N5",
+      "title": "Map and Universe | Next Island Academy",
+      "url": "https://nextisland.com/academy/map-and-universe",
+      "publisher": "Next Island (planet partner)",
+      "kind": "official",
+      "published": "2020-05-07",
+      "accessed": "2026-11-26",
+      "supports": "Older travel guide with a 7 PED station fee, superseded by 18.9."
+    },
+    {
+      "id": "N6",
+      "title": "Beginner Missions | NI Helper",
+      "url": "https://www.nihelper.com/beginner-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Beginner walkthrough: starter buildings, missions, Crystal Peak, Resa Docks and the Strider."
+    },
+    {
+      "id": "N7",
+      "title": "News | Next Island",
+      "url": "https://nextisland.com/news",
+      "publisher": "Next Island (planet partner)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Partner news on 18.4/18.5: spawn moved to the starter area, untradeable refiner, Islander quest opened to offworlders and True Islanders."
+    },
+    {
+      "id": "N8",
+      "title": "New Player Missions on Next Island: New Player Guides",
+      "url": "https://www.youtube.com/watch?v=Kryv2EpJW6w",
+      "publisher": "YouTube (player video)",
+      "kind": "video",
+      "published": "2025-12-06",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand December 2025 beginner walkthrough."
+    },
+    {
+      "id": "N12",
+      "title": "Entropia Universe | Daily missions On Next Island And Ancient Greece - Enjar Games",
+      "url": "https://enjargames.com/entropia-universe-or-daily-missions-on-next-island-and-ancient-greece",
+      "publisher": "Enjar Games (player guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Firsthand repeatable walkthroughs: Sebastian, Multi-Faction, Crystal Hoarder, Cecily, May."
+    },
+    {
+      "id": "N13",
+      "title": "Next Island, Ancient Greece - Planet guides - Entropia Central",
+      "url": "https://www.entropiacentral.com/guides/planets/next-island-ancient-greece",
+      "publisher": "Entropia Central (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-13",
+      "accessed": "2026-11-26",
+      "supports": "Ancient Greece guide: Thebes hub, Becoming an Islander, 137 completions and reward bundle. Page shows 'Updated 2026-08-13'."
+    },
+    {
+      "id": "N14",
+      "title": "Entry Level Hunting on Next Island / Ancient Greece – Entropia Codex",
+      "url": "https://www.entropiacodex.com/entropia-universe-mentor-program/entry-level-hunting/entry-level-hunting-on-next-island-ancient-greece/",
+      "publisher": "Entropia Codex (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Entry-level NI/AG hunting and the Sebastian waypoint."
+    },
+    {
+      "id": "N15",
+      "title": "Release Notes 18.12.0 (Next Island forum)",
+      "url": "https://forum.nextisland.com/t/release-notes-18-12-0/1781",
+      "publisher": "Next Island (planet partner, official forum)",
+      "kind": "official-forum",
+      "published": "2025-04-01",
+      "accessed": "2026-11-26",
+      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Page would not load for this converter; title and date from the research notes' link text."
+    },
+    {
+      "id": "N16",
+      "title": "Lastest Missions | NI Helper",
+      "url": "https://www.nihelper.com/newest-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "New missions, brokers and terminals: Screecher reward, Thebes NPC names, key fragments, VIP routes, Hiresh waypoint."
+    },
+    {
+      "id": "N17",
+      "title": "Multi-faction Daily | Entropia Nexus",
+      "url": "https://entropianexus.com/information/missions/Multi-faction~Daily",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Multi-faction Daily and all broker locations."
+    },
+    {
+      "id": "N18",
+      "title": "Next Island, the factions and their V.I.P. lounges - Planet guides - Entropia Central",
+      "url": "https://www.entropiacentral.com/guides/planets/next-island-factions-and-vip",
+      "publisher": "Entropia Central (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-13",
+      "accessed": "2026-11-26",
+      "supports": "Faction, VIP and Islander guide. Page shows 'Updated 2026-08-13'."
+    },
+    {
+      "id": "N19",
+      "title": "Patch Notes 18.12.1 (Next Island forum)",
+      "url": "https://forum.nextisland.com/t/patch-notes-18-12-1/1786",
+      "publisher": "Next Island (planet partner, official forum)",
+      "kind": "official-forum",
+      "published": "2025-04-08",
+      "accessed": "2026-11-26",
+      "supports": "Faction quest choice clarification, key-fragment mission fix, VIP free-access fix, vehicles disabled in the Catacombs. Page would not load for this converter; title and date from the research notes' link text."
+    },
+    {
+      "id": "N20",
+      "title": "Repeatable Missions | NI Helper",
+      "url": "https://www.nihelper.com/repeatable-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Generic timers: 20 h for most older dailies, 1 h for Daily Scouting Resources, 168 h from acceptance for weeklies."
+    },
+    {
+      "id": "N23",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token fares 6 station-to-station and 10 planet-to-planet on eligible links."
+    }
+  ],
+  "activities": [
+    {
+      "id": "next-island-travel",
+      "title": "Get to Next Island",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Use a shared warp when its fare and return timing suit you, or a token teleport. Virtualsense's Yamato route stops at Next Island for 6 PED per paying passenger, and Kronan lists it as a request stop.",
+      "steps": [
+        "Shared warp: check the Virtualsense Yamato schedule (November 2026 has event-specific shifts) or ask Kronan for a request stop. Follow the operator's boarding and cargo instructions.",
+        "Token teleport: since 19.2.0 the published fare is 6 Teleportation Tokens station-to-station or 10 planet-to-planet on eligible links. 150 kg cap.",
+        "The station-to-own-planet fee was removed in 18.9, so the older 7 PED figure in the NI Academy page no longer applies.",
+        "Leave valuable lootables in storage if flying through lootable PvP."
+      ],
+      "rewards": [
+        "Access to Next Island"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "6 PED Yamato passenger fare, or 6/10 Teleportation Tokens on eligible links.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "6 station-to-station or 10 planet-to-planet on eligible links."
+        }
+      ],
+      "limits": "150 kg cap on token teleports.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Required first step; cheap by tokens or shared warp."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "N1a",
+        "N1b",
+        "N2",
+        "N3",
+        "N4a",
+        "N4b",
+        "N5",
+        "N23"
+      ],
+      "warnings": [
+        "Shared-warp schedules shift around events; check the operator's current post.",
+        "Lootable PvP zones in space can cost you cargo."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space"
+      ]
+    },
+    {
+      "id": "next-island-starter-missions",
+      "title": "Starter missions at Paradise Landing",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "The starter buildings down on the beach at Paradise Landing offer hunting, mining and crafting missions that hand out a gun and ammo, a finder, probes and a refiner, and a healing tool. The roof chef also has a gathering mission.",
+      "steps": [
+        "Go to the starter buildings on the beach at Paradise Landing (new avatars spawn there since 18.5; from the Paradise Landing TP, walk down the older path).",
+        "Do the hunting, mining and crafting welcome missions.",
+        "Do the roof chef's gathering mission if convenient."
+      ],
+      "rewards": [
+        "Gun and ammo",
+        "Finder, probes and refiner (refiner is untradeable)",
+        "Healing tool"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Starter buildings on the beach, Paradise Landing",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N6"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "First stop in the recommended route; free starter gear."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N6",
+        "N7",
+        "N8"
+      ],
+      "warnings": [
+        "Current starter gear eligibility after the Setesh onboarding change is unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "gear",
+        "free"
+      ]
+    },
+    {
+      "id": "next-island-resa-docks-strider",
+      "title": "Visit Resa Docks (Strider Mk.I vehicle)",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "Head to Crystal Peak, then north past L.A.R.A. and C.A.R.A. to the Cartographer, and do Visit Resa Docks for the Strider Mk.I (L). Then do the driving mission on the black track near Crystal Peak before driving near aggressive creatures.",
+      "steps": [
+        "Go to Crystal Peak, then north past L.A.R.A. and C.A.R.A. to the Cartographer.",
+        "Complete Visit Resa Docks and collect the Strider Mk.I (L).",
+        "Do the driving mission on the black track near Crystal Peak."
+      ],
+      "rewards": [
+        "Strider Mk.I (L) vehicle"
+      ],
+      "prerequisites": [
+        "next-island-starter-missions"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free; vehicle fuel/decay when driving.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free transport early in the recommended route."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N6",
+        "N8"
+      ],
+      "warnings": [
+        "Sharks are present offshore."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "vehicle",
+        "free"
+      ]
+    },
+    {
+      "id": "next-island-sebastian-piglets",
+      "title": "Sebastian: 200 Mountain Boar Piglets",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Kill 200 eligible Mountain Boar Piglets for Sebastian for 1,600 Elysian Tech Chips. A player guide used the fenced group around 137708, 83319.",
+      "steps": [
+        "Talk to Sebastian (waypoint below).",
+        "Kill 200 eligible Mountain Boar Piglets (a fenced group around 137708, 83319 was used in a player guide).",
+        "Hand in."
+      ],
+      "rewards": [
+        "1,600 Elysian Tech Chips"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for 200 low-level kills.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Elysian Tech Chips",
+          "use": "earned",
+          "note": "Material; reserve for N.E.O. access or crafting."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed."
+      },
+      "locations": [
+        {
+          "label": "Sebastian",
+          "waypoint": "[Next Island, 137870, 83139, 111, Sebastian]",
+          "verified": true,
+          "sourceIds": [
+            "N14"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Top of the recommended repeatable list; cheap low-level targets."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N12",
+        "N14"
+      ],
+      "warnings": [
+        "Exact timer trigger pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "beginner"
+      ]
+    },
+    {
+      "id": "next-island-sebastian-screechers",
+      "title": "Sebastian: 200 Puny Screechers",
+      "type": "daily",
+      "stage": "early",
+      "summary": "A second offer from Sebastian, added in 18.12.0: kill 200 Puny Screechers for 1,600 Elysian Tech Chips.",
+      "steps": [
+        "Take the separate Screecher offer from Sebastian.",
+        "Kill 200 Puny Screechers and hand in.",
+        "Check whether both Sebastian options can be active at once."
+      ],
+      "rewards": [
+        "1,600 Elysian Tech Chips (per NI Helper)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for 200 kills.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Elysian Tech Chips",
+          "use": "earned",
+          "note": "Material; reserve for N.E.O. access or crafting."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed."
+      },
+      "locations": [
+        {
+          "label": "Sebastian",
+          "waypoint": "[Next Island, 137870, 83139, 111, Sebastian]",
+          "verified": true,
+          "sourceIds": [
+            "N14"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Second in the recommended order; same broker and reward as the piglets."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N15",
+        "N16"
+      ],
+      "warnings": [
+        "Whether both Sebastian dailies can run at the same time is unconfirmed.",
+        "Exact timer trigger pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting"
+      ]
+    },
+    {
+      "id": "next-island-multi-faction",
+      "title": "Multi-Faction Daily (2419-Juliana)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "2419-Juliana at Crystal Peak, and at her other hubs including the Ancient Greece market, lets you pick one faction and one hunting, mining or crafting assignment per daily cycle. The reward is a choice of limited-click clothing or texture blueprints.",
+      "steps": [
+        "Find 2419-Juliana at Crystal Peak or another hub (one is near Ancient Greece market around 36234, 20284).",
+        "Choose one faction and one hunting, mining or crafting assignment.",
+        "If you stack it with other missions, match the exact creature. The player example (50 Arges) is much tougher than base Cyclops."
+      ],
+      "rewards": [
+        "Choice of limited-click clothing or texture blueprint (five clicks per Nexus listing)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Depends on the assignment chosen.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "One assignment per daily cycle.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed. Confirm the trigger in game."
+      },
+      "locations": [
+        {
+          "label": "2419-Juliana, Crystal Peak",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N17"
+          ]
+        },
+        {
+          "label": "2419-Juliana, Ancient Greece market around 36234, 20284",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Third in the recommended order; blueprints feed the Haruspex VIP route."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N12",
+        "N13",
+        "N17"
+      ],
+      "warnings": [
+        "Timer trigger unconfirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "blueprints",
+        "faction"
+      ]
+    },
+    {
+      "id": "next-island-crystal-hoarder",
+      "title": "Crystal Hoarder (Hiresh)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Accept Crystal Hoarder from Hiresh before your Ancient Greece trip, pick a Greek creature option, then turn it in at Hiresh for a choice of crystals. It also counts toward access to the Resa VIP.",
+      "steps": [
+        "Accept from Hiresh (waypoint below) before travelling to Ancient Greece.",
+        "Choose a Greek creature option (a player guide used base Cyclops around Ancient Greece 35204, 19703).",
+        "Return to Hiresh to hand in."
+      ],
+      "rewards": [
+        "Choice of crystals",
+        "Progress toward Resa VIP access"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel to Ancient Greece and ammo for the chosen creature.",
+        "markup": "unknown",
+        "markupNote": "Pick the crystal for a planned recipe or current market."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed. Target count per option also needs checking."
+      },
+      "locations": [
+        {
+          "label": "Hiresh",
+          "waypoint": "[Next Island, 126305, 89438, 155, Hiresh]",
+          "verified": true,
+          "sourceIds": [
+            "N16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fourth in the recommended order; also opens a VIP route."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N12",
+        "N16",
+        "N18"
+      ],
+      "warnings": [
+        "Exact timer and target count per option need checking."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "vip"
+      ]
+    },
+    {
+      "id": "next-island-cecily-stalker",
+      "title": "Daily Stalker Challenge (Cecily)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Cecily near 127493, 82784 asks for Red Papoo Stalker kills for 2.5 PED of Universal Ammo. In one firsthand run, kills only counted when finished with the E.A.C. Laspistol (L) from the nearby building, after softening the target with another weapon.",
+      "steps": [
+        "Take Daily Stalker Challenge from Cecily near 127493, 82784.",
+        "Get the E.A.C. Laspistol (L) from the nearby building.",
+        "Damage Red Papoo Stalkers with your own weapon, then finish them with the Laspistol."
+      ],
+      "rewards": [
+        "2.5 PED Universal Ammo"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo for L8 targets plus the weapon restriction.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed. Check the current reset in the journal."
+      },
+      "locations": [
+        {
+          "label": "Cecily, near 127493, 82784",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fifth in the recommended order; weapon restriction and L8 target raise cost."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "N12"
+      ],
+      "warnings": [
+        "Exact kill count and the weapon rule come from one player run."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting"
+      ]
+    },
+    {
+      "id": "next-island-lesser-elysia",
+      "title": "May's Lesser Elysia crafting daily",
+      "type": "daily",
+      "stage": "early",
+      "summary": "May at Tanzanite View (near 135359, 88601) asks for 50 Lesser Elysia crafts using a Technician tailoring blueprint, for Textiles skill worth about 0.4 PED per the player guide.",
+      "steps": [
+        "Talk to May near 135359, 88601 at Tanzanite View.",
+        "Craft 50 Lesser Elysia with the Technician tailoring blueprint.",
+        "Hand in."
+      ],
+      "rewards": [
+        "Textiles skill, about 0.4 PED per the player guide"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials for 50 crafts.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed."
+      },
+      "locations": [
+        {
+          "label": "May, Tanzanite View, near 135359, 88601",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Sixth in the recommended order; small skill reward."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "N12"
+      ],
+      "warnings": [
+        "Check whether the current objective counts attempts or successes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting"
+      ]
+    },
+    {
+      "id": "next-island-daily-timers",
+      "title": "How Next Island daily timers work",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "NI Helper reports 20 h for most older dailies, 1 h for Daily Scouting Resources, and 168 h from acceptance for weeklies. Use a mission's own clock when known, and do not assume newer Thebes missions follow the generic duration.",
+      "steps": [
+        "Note acceptance, completion and hand-in times for each daily you do."
+      ],
+      "rewards": [
+        "Fewer wasted trips"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "None.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free planning help."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N20"
+      ],
+      "warnings": [
+        "Generic timers come from a community site and do not apply to newer Thebes missions."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tip",
+        "timers"
+      ]
+    },
+    {
+      "id": "next-island-chips-and-crystals",
+      "title": "Use Elysian Tech Chips and crystals",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Chips and crystals are materials. Keep chips for N.E.O. access or crafting, and pick Crystal Hoarder crystals for a planned recipe or the current market. Choosing blueprint drops and chips is a different decision from taking ammo.",
+      "steps": [
+        "Decide on a recipe or VIP goal before choosing crystal rewards.",
+        "Reserve chips for N.E.O. access or crafting."
+      ],
+      "rewards": [
+        "Better use of daily rewards"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "None.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elysian Tech Chips",
+          "use": "kept",
+          "note": "For N.E.O. access or crafting."
+        },
+        {
+          "name": "Crystals",
+          "use": "kept",
+          "note": "For planned recipes or trade."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Planning tip with no cost."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N12",
+        "N18"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tip",
+        "currency"
+      ]
+    },
+    {
+      "id": "next-island-vip",
+      "title": "VIP lounges and SVIP",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Next Island has several VIP routes. The shortest documented one is Haruspex at Flora in Tanzanite View. All five VIPs plus Islander status open the later Thebes SVIP area.",
+      "steps": [
+        "Haruspex (Flora, Tanzanite View): attempt each appropriate non-colorable faction garment three times using Multi-Faction Daily blueprints.",
+        "Resa (Glenn, Kamba Outpost): starts after Crystal Hoarder; needs 2,000 harvest points, 300 fruit, 100 stones, 50 dung and 5 PED TT of refining.",
+        "Stel: 500 shirt attempts and 1,000 exact-name Island Sharks plus mining (longer).",
+        "N.E.O.: consumes crafted pieces and Elysian Tech Chips.",
+        "Loyalist Peyton: checks a mission record; the community guide is unsure of the full qualifying list.",
+        "All five VIPs plus Islander status open the Thebes SVIP area. Magical Flowers gates an extra SVIP task.",
+        "Keep unique blueprints while following any route."
+      ],
+      "rewards": [
+        "VIP lounge access",
+        "Thebes SVIP area once all five VIPs and Islander are done"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "Haruspex VIP: blueprints from the Multi-Faction Daily (next-island-multi-faction)",
+        "Resa VIP: Crystal Hoarder done first",
+        "SVIP: Becoming an Islander (see the Ancient Greece file)"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials, crafting attempts, chips and hunting/mining effort; Resa needs 5 PED TT of refining.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Flora, Tanzanite View (Haruspex)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N18"
+          ]
+        },
+        {
+          "label": "Glenn, Kamba Outpost (Resa)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N18"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Long late-game track with large material costs."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N15",
+        "N16",
+        "N18"
+      ],
+      "warnings": [
+        "The full qualifying list for Loyalist Peyton is uncertain.",
+        "18.12.1 fixed incorrect free access to VIP areas."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "vip",
+        "long-track"
+      ]
+    }
+  ]
+}

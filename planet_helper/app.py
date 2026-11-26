@@ -365,6 +365,9 @@ class PlanetHelperApp:
                 pa = self.ds.activities.get(p)
                 done = self.progress.ever_done(p)
                 where = "" if not pa or pa["_planet"] == act["_planet"] else f" ({self.ds.planets[pa['_planet']]['planet']['name']})"
+                if pa and pa["type"] == "travel" and not done:
+                    t.insert("end", f"↪  {pa['title']}{where} (travel step; does not block)\n", ("bullet", "muted"))
+                    continue
                 t.insert("end", f"{'✔' if done else '✗'}  {pa['title'] if pa else p}{where}\n",
                          ("bullet", "ok" if done else "bad"))
             for r in act["requirementsText"]:

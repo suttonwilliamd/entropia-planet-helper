@@ -1,0 +1,1685 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "arkadia",
+    "name": "Arkadia",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "Arkadia's newcomer route runs passport, A New Home starter kit, the puny islands and IFN training. Arkadia Underground (via the teleporter dropdown) and Arkadia Moon (a separate space destination) are covered here as activities. The main repeatables earn Arkadia Insignias, with Arkoins as a separate currency.",
+    "howToReach": "Shared warp to Arkadia Space Station (Kronan boards at Celeste Quarry or Twin Peaks), then the free station-to-planet teleporter; or a token teleport (6 station-to-station or 10 planet-to-planet Teleportation Tokens on eligible links since 19.2.0); or your own ship with a thruster.",
+    "warnings": [
+      "Desk-checked from public sources only; in-game field verification is pending.",
+      "Arkadia Moon travel (current Moon-to-planet fee, any reverse route), Moon entry and taxes, Oratan and Insignia clock triggers and Viceroy availability are unconfirmed.",
+      "Whether passport and IFN gates are identical for returning and planet-born avatars is unverified.",
+      "Space routes can cross lootable PvP zones. Leave lootable materials in storage."
+    ],
+    "sourceIds": [
+      "A1",
+      "A4",
+      "A6",
+      "A14",
+      "A30",
+      "A31"
+    ],
+    "lastReviewed": "2026-11-26"
+  },
+  "sources": [
+    {
+      "id": "A1",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Token teleport travel with a 150 kg cap; ordinary station-to-own-planet fee removed."
+    },
+    {
+      "id": "A2a",
+      "title": "Warp Schedule",
+      "url": "https://kronan-ms.info/warp-schedule/",
+      "publisher": "Kronan Interplanetary Spaceship Services (player operator)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Calypso–Arkadia scheduled service and boarding at Celeste Quarry or Twin Peaks."
+    },
+    {
+      "id": "A2b",
+      "title": "Scheduled warp service – How it works",
+      "url": "https://kronan-ms.info/scheduled-warp-service-how-it-works/",
+      "publisher": "Kronan Interplanetary Spaceship Services (player operator)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Operator boarding and cargo rules."
+    },
+    {
+      "id": "A3a",
+      "title": "Entropia Universe Space Map — Station & Planet Waypoints",
+      "url": "https://www.entropiahub.com/entropia-universe-space-map/",
+      "publisher": "Entropia Hub (community site)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Space waypoint for Arkadia Moon."
+    },
+    {
+      "id": "A3b",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Space PvP zone types."
+    },
+    {
+      "id": "A4",
+      "title": "Arkadia Passport",
+      "url": "https://www.arkadiaarchive.com/arkadia-passport",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Passport Verification at the New Arrivals Hangar, 10,000 Vibrant Sweat hand-in, Passport Officer waypoint. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A5",
+      "title": "A new home - Planet Arkadia",
+      "url": "https://www.arkadiaarchive.com/new-player-mission",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "A New Home route via Advisor Nina and the starter stores and items, including the Exploration Hoverpod MkI (L). Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A6",
+      "title": "New To Arkadia?",
+      "url": "https://www.arkadiaarchive.com/newtoarkadia",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "New-visitor route, Underground access, Mysterious Traveller and mission stacking. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A7a",
+      "title": "Islands Beyond the Horizon-Puny Islands",
+      "url": "https://www.arkadiaarchive.com/islandsbeyondthehorizon",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Commander Sertris and the four low-HP puny hunting islands. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A7b",
+      "title": "A new home - Bonus Mission",
+      "url": "https://www.arkadiaarchive.com/bonusmission",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "A New Home bonus kill chain. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A8",
+      "title": "Welcome to IFN Basic Training",
+      "url": "https://www.arkadiaarchive.com/welcometoifnbasictraining",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "IFN Basic Training and Drill Sergeant Kinzel. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A9",
+      "title": "Oratan Payback - Daily Hunting",
+      "url": "https://www.arkadiaarchive.com/oratanpayback",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Oratan Payback stages, IFN Challenge Terminal and Prospector Puny waypoints, rewards, Secret Camp Arkoin use. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A10",
+      "title": "Arkadia Protection Duty - UL Rifle",
+      "url": "https://www.arkadiaarchive.com/arkprotectionduty",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Arkadia Protection Duty hunting meter and unlimited Herman LAW-R Mk.1 reward. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A11a",
+      "title": "Planet Arkadia Underground Deed FAQ",
+      "url": "https://arkadiaforum.com/threads/planet-arkadia-underground-deed-faq.11183/",
+      "publisher": "Planet Arkadia Forum (planet partner, official)",
+      "kind": "official-forum",
+      "published": "2014-10-14",
+      "accessed": "2026-11-26",
+      "supports": "Underground reached through the surface teleporter dropdown. Site served an expired certificate; read for metadata only."
+    },
+    {
+      "id": "A11b",
+      "title": "Entropia Universe | Planet Arkadia Mission Chains Part 2 - Enjar Games",
+      "url": "https://enjargames.com/entropia-universe-planet-arkadia-mission-chains-part-2",
+      "publisher": "Enjar Games (player guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Firsthand Underground traversal."
+    },
+    {
+      "id": "A12",
+      "title": "Important! - Planet Arkadia VU Notes - April 1 2025",
+      "url": "https://arkadiaforum.com/threads/planet-arkadia-vu-notes-april-1-2025.15978/",
+      "publisher": "Planet Arkadia Forum (planet partner, official)",
+      "kind": "official-forum",
+      "published": "2025-04-01",
+      "accessed": "2026-11-26",
+      "supports": "Nina fix and stale A New Home remedy; Sal'Diresh key missions moved to Professor Felix Dorne in 8 Coins HQ."
+    },
+    {
+      "id": "A13",
+      "title": "Sal'Diresh - Instance",
+      "url": "https://www.arkadiaarchive.com/saldiresh",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Sal'Diresh keyed vaults, key and treasure-map requirements. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A14",
+      "title": "Arkadia Moon launched!",
+      "url": "https://forum.entropiauniverse.com/t/arkadia-moon-launched/250111",
+      "publisher": "Entropia Universe Forum (Arkadia news repost)",
+      "kind": "official-forum",
+      "published": "2018-08-22",
+      "accessed": "2026-11-26",
+      "supports": "Public repost of the 2018 Moon launch, with historical entry conditions and travel discussion."
+    },
+    {
+      "id": "A15",
+      "title": "PTech - Extractors Daily Maintenance",
+      "url": "https://www.arkadiaarchive.com/ptech-extractorsdailymaintenance",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Milo, clothing plans, ten extractors loop, reward and 24 h repeat. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A16",
+      "title": "PTech - Meteorite Samples",
+      "url": "https://www.arkadiaarchive.com/ptech-meteoritesamples",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Laura, Adventurer's Backpack and the seven meteorite samples. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A17",
+      "title": "Gatherer's Routine - Daily Supply Run",
+      "url": "https://www.arkadiaarchive.com/gatherersroutine",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Mysterious Stranger gathering daily and Botany reward. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A18",
+      "title": "Daily hunting - Arkadia Insignias",
+      "url": "https://www.arkadiaarchive.com/dailyhunting-arkadiainsignias",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Mysterious Traveller hunting categories and Insignia rewards; Traveller waypoints. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A19",
+      "title": "Daily mining - Arkadia Insignias",
+      "url": "https://www.arkadiaarchive.com/dailymining-arkadiainsignias",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Mining Insignia categories (1/2/3 Insignias), one Traveller mining daily active. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A20",
+      "title": "ACA Mining Point Challenge -Daily Mining",
+      "url": "https://www.arkadiaarchive.com/acaminingpointchallenge",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Clive Forester at Celeste Quarry, ACA stages and mining skill rewards. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A21",
+      "title": "Daily crafting - Arkadia Insignias",
+      "url": "https://www.arkadiaarchive.com/dailycrafting-arkadiainsignias",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Particle crafting assignments from the Mysterious Travellers. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A22",
+      "title": "Arkadia Moon Daily Mission – Entropia Codex",
+      "url": "https://www.entropiacodex.com/planets/arkadia-moon/arkadia-moon-daily-mission/",
+      "publisher": "Entropia Codex (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Firsthand Moon extractor daily, 24 h repeat and the added hunt after the extractors."
+    },
+    {
+      "id": "A23",
+      "title": "Weekly - 7 Complete Daily's",
+      "url": "https://www.arkadiaarchive.com/weekly-7completedailys",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Mysterious Stranger seven-day challenge for 20 Insignias. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A24",
+      "title": "Smuggler Genetics Laboratory - Instance",
+      "url": "https://www.arkadiaarchive.com/smugglergeneticslaboratory",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Kayla at the Genetic Labs, entry costs in particles or Arkoin, Insignia uses. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A25",
+      "title": "Arkoin Broker",
+      "url": "https://www.arkadiaarchive.com/arkoinbroker",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Arkoin Broker waypoint and stock (clothes, armor, BLP and plasma weapons). Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A26",
+      "title": "IFN Special Operations",
+      "url": "https://www.arkadiaarchive.com/ifnspecialoperations",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Captain Darius, Spec Ops armor, Sicarius Nest and the 'any mob' instance warning. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A27",
+      "title": "Viceroy Amor",
+      "url": "https://www.arkadiaarchive.com/viceroyarmor",
+      "publisher": "Arkadia Archive (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-24",
+      "accessed": "2026-11-26",
+      "supports": "Viceroy armor hand-ins and upgrades. Page shows 'Updated 2026-08-24'."
+    },
+    {
+      "id": "A28",
+      "title": "Planet Arkadia – VU Notes - 24th March 2026",
+      "url": "https://arkadiaforum.com/threads/planet-arkadia-%E2%80%93-vu-notes-24th-march-2026.16153/",
+      "publisher": "Planet Arkadia Forum (planet partner, official)",
+      "kind": "official-forum",
+      "published": "2026-03-24",
+      "accessed": "2026-11-26",
+      "supports": "Trophies/figurines, waypoint, spawn-marker and instance fixes; thread includes a May 2026 Viceroy helmet report."
+    },
+    {
+      "id": "A29",
+      "title": "Planet Arkadia – VU Notes 19.2.0. 9th december 2025",
+      "url": "https://arkadiaforum.com/threads/planet-arkadia-%E2%80%93-vu-notes-19-2-0-9th-december-2025.16123/",
+      "publisher": "Planet Arkadia Forum (planet partner, official)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "New ACA stage 1-6 mining lines."
+    },
+    {
+      "id": "A30",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token fares 6 station-to-station and 10 planet-to-planet on eligible links."
+    },
+    {
+      "id": "A31",
+      "title": "Planet Arkadia Update - Release 16.1.",
+      "url": "https://arkadiaforum.com/threads/planet-arkadia-update-release-16-1.14976/",
+      "publisher": "Planet Arkadia Forum (planet partner, official)",
+      "kind": "official-forum",
+      "published": "2019-03-11",
+      "accessed": "2026-11-26",
+      "supports": "Direct Moon-to-Arkadia teleporter introduced for 7 PED."
+    }
+  ],
+  "activities": [
+    {
+      "id": "arkadia-travel",
+      "title": "Get to Arkadia",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Take a shared warp to Arkadia Space Station and use the station-to-planet teleporter, or teleport with Teleportation Tokens. Kronan runs a Calypso–Arkadia service boarding at Celeste Quarry or Twin Peaks.",
+      "steps": [
+        "Shared warp: check Kronan's schedule (boarding at Celeste Quarry or Twin Peaks) and ask the operator for the current fare and cargo rules.",
+        "Token teleport: since 19.2.0 the published fare is 6 Teleportation Tokens station-to-station or 10 planet-to-planet on eligible links. 150 kg cap.",
+        "From Arkadia Space Station, the teleporter down to the planet has no fee since 18.9.",
+        "Flying yourself needs a thruster. Leave lootable materials in storage and check the PvP map first."
+      ],
+      "rewards": [
+        "Access to Arkadia"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "6 or 10 Teleportation Tokens on eligible links, an operator's warp fare, or own ship fuel and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "6 station-to-station or 10 planet-to-planet on eligible links."
+        }
+      ],
+      "limits": "150 kg cap on token teleports.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Required first step; token fares are low and no ship is needed."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A1",
+        "A2a",
+        "A2b",
+        "A3a",
+        "A3b",
+        "A30"
+      ],
+      "warnings": [
+        "Shared-warp fares and cargo rules are set by the operator; ask before boarding.",
+        "Lootable PvP zones in space can cost you cargo."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space"
+      ]
+    },
+    {
+      "id": "arkadia-passport",
+      "title": "Arkadia Passport Verification",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "Visitors from other planets start by getting their passport verified at the New Arrivals Hangar, handing in 10,000 Vibrant Sweat.",
+      "steps": [
+        "Go to the Passport Officer at the New Arrivals Hangar (waypoint below).",
+        "Hand in 10,000 Vibrant Sweat."
+      ],
+      "rewards": [
+        "Passport verification, opening the Arkadia newcomer route"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "Offworld visitor (it is unconfirmed whether planet-born or returning avatars face the same gate)",
+        "10,000 Vibrant Sweat"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "10,000 Vibrant Sweat.",
+        "markup": "unknown",
+        "markupNote": "Sweat can be gathered yourself or bought from players."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Passport Officer, New Arrivals Hangar",
+          "waypoint": "[Arkadia, 30302, 17951, 184, Passport Officer]",
+          "verified": true,
+          "sourceIds": [
+            "A4"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "First step of the recommended Arkadia route for offworld visitors."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A4"
+      ],
+      "warnings": [
+        "The source shows these coordinates with the label 'Waypoint'; the label here is the research's."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "unlock"
+      ]
+    },
+    {
+      "id": "arkadia-a-new-home",
+      "title": "A New Home (starter kit)",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "Advisor Nina at the IFN Supply Depot sends you around the medical, weapon, armor and clothing stores to collect a starter kit: training weapons, a first-aid pack, mining starter tools, ammo and probes, and the Exploration Hoverpod MkI (L).",
+      "steps": [
+        "Speak to Advisor Nina at the IFN Supply Depot (waypoint below) and take A New Home.",
+        "Visit the medical, weapon, armor and clothing stores as directed.",
+        "Collect the starter items and the hoverpod."
+      ],
+      "rewards": [
+        "Training weapons",
+        "First-aid pack",
+        "Mining starter tools",
+        "Ammo and probes",
+        "Exploration Hoverpod MkI (L)"
+      ],
+      "prerequisites": [
+        "arkadia-passport"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Advisor Nina, IFN Supply Depot",
+          "waypoint": "[Arkadia, 30044, 17828, 180, Advisor Nina]",
+          "verified": true,
+          "sourceIds": [
+            "A5"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free starter kit and vehicle, second step in the recommended route."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A5",
+        "A6",
+        "A12"
+      ],
+      "warnings": [
+        "April 2025 fix: if your A New Home chain is stale, the official remedy was to abandon and retake it, and abandon the old original starter quest if active, to receive the hoverpod. Only use this for that case.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "gear",
+        "free"
+      ]
+    },
+    {
+      "id": "arkadia-islands-beyond-horizon",
+      "title": "Islands Beyond the Horizon (puny islands)",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "Ask Nina, then Commander Sertris at Resolute Firebase. This opens four low-HP auto-loot hunting islands for Carabok, Gallard, Hornet and Monura. Take the A New Home bonus kill chain too if it is offered.",
+      "steps": [
+        "Ask Advisor Nina about Islands Beyond the Horizon.",
+        "Go to Commander Sertris at Resolute Firebase (waypoint below).",
+        "Hunt on the four puny islands (Carabok, Gallard, Hornet, Monura).",
+        "If offered, take the bonus kill chain."
+      ],
+      "rewards": [
+        "Access to four low-HP auto-loot hunting islands",
+        "Bonus kill chain if offered"
+      ],
+      "prerequisites": [
+        "arkadia-passport"
+      ],
+      "requirementsText": [
+        "The research's route does this after A New Home"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for low-HP targets.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Commander Sertris, Resolute Firebase",
+          "waypoint": "[Arkadia, 30145, 17430, 180, Commander Sertris]",
+          "verified": true,
+          "sourceIds": [
+            "A7a"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Third step in the recommended route; cheap, safe early hunting."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A7a",
+        "A7b",
+        "A6"
+      ],
+      "warnings": [
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "hunting"
+      ]
+    },
+    {
+      "id": "arkadia-ifn-basic-training",
+      "title": "Welcome to IFN Basic Training",
+      "type": "mission",
+      "stage": "early",
+      "summary": "Complete IFN Basic Training, then see Drill Sergeant Edmund Kinzel to start the long Oratan Payback daily track.",
+      "steps": [
+        "Complete Welcome to IFN Basic Training.",
+        "See Drill Sergeant Edmund Kinzel (waypoint below) to start Oratan Payback."
+      ],
+      "rewards": [
+        "Access to Oratan Payback"
+      ],
+      "prerequisites": [
+        "arkadia-passport"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Drill Sergeant Edmund Kinzel",
+          "waypoint": "[Arkadia, 17217, 23069, 541, Kinzel]",
+          "verified": true,
+          "sourceIds": [
+            "A8",
+            "A9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Opens the main long-term hunting daily track."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A8",
+        "A9"
+      ],
+      "warnings": [
+        "Whether planet-born or returning avatars face identical IFN gates is unverified.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "unlock"
+      ]
+    },
+    {
+      "id": "arkadia-protection-duty",
+      "title": "Arkadia Protection Duty (unlimited rifle)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "The shorter gear goal: ask Nina for Arkadia Protection Duty, fill its hunting progress meter and claim an unlimited Herman LAW-R Mk.1. Bigger targets fill the meter faster.",
+      "steps": [
+        "Ask Advisor Nina for Arkadia Protection Duty.",
+        "Hunt until the progress meter is full. Larger targets advance it faster.",
+        "Claim the Herman LAW-R Mk.1."
+      ],
+      "rewards": [
+        "Herman LAW-R Mk.1 (unlimited rifle)"
+      ],
+      "prerequisites": [
+        "arkadia-passport"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo, decay and healing to fill the meter. Compare the extra cost of bigger targets with a longer low-maturity hunt.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Advisor Nina, IFN Supply Depot",
+          "waypoint": "[Arkadia, 30044, 17828, 180, Advisor Nina]",
+          "verified": true,
+          "sourceIds": [
+            "A5"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Gets a lasting weapon sooner than the long IFN track, at some combat cost."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A10"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "gear",
+        "hunting"
+      ]
+    },
+    {
+      "id": "arkadia-underground-trip",
+      "title": "Visit Arkadia Underground",
+      "type": "travel",
+      "stage": "early",
+      "summary": "Arkadia Underground is reached from any surface teleporter by choosing it in the top dropdown. Pick up the Oratan Insignia contract from the Underground Mysterious Traveller and pair it with a matching surface Oratan Payback hunt where the objective counts.",
+      "steps": [
+        "At a surface teleporter, select Arkadia Underground in the top dropdown, then its entry teleporter.",
+        "Take the Oratan Insignia contract from the Mysterious Traveller (waypoint below).",
+        "Pair it with Oratan Payback on the surface where the objective counts for both.",
+        "Sal'Diresh Vaults need keys and treasure maps; since 2025 Professor Felix Dorne in 8 Coins HQ manages the key missions."
+      ],
+      "rewards": [
+        "Access to the Underground and its Insignia contracts"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Teleporter travel; Sal'Diresh needs keys and maps.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Mysterious Traveller, Arkadia Underground",
+          "waypoint": "[Arkadia Underground, 13482, 21769, 143, Mysterious Traveller]",
+          "verified": true,
+          "sourceIds": [
+            "A6",
+            "A18"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Fourth step in the recommended route; free side trip that adds Insignia stacking."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A6",
+        "A11a",
+        "A11b",
+        "A12",
+        "A13"
+      ],
+      "warnings": [
+        "Check Sal'Diresh key and treasure-map requirements before going in.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "underground"
+      ]
+    },
+    {
+      "id": "arkadia-moon-trip",
+      "title": "Travel to Arkadia Moon",
+      "type": "travel",
+      "stage": "mid",
+      "summary": "Arkadia Moon is a separate space destination. The 2019 Arkadia 16.1 update added a Moon-to-Arkadia teleporter for 7 PED, replacing the 2018 need to fly back. Its current fee, and any reverse surface-to-Moon link, need checking after later fare changes.",
+      "steps": [
+        "Fly to the Moon's space waypoint (below).",
+        "Confirm a drop-off and a way back before carrying valuables.",
+        "Check the PvP map before travelling."
+      ],
+      "rewards": [
+        "Access to the Moon (Gamma Portal, extractors, backpack, Genetic Labs)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "A way to reach space"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel to the Moon; the Moon-to-Arkadia teleporter cost 7 PED in 2019 (current fee unverified).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Arkadia Moon (space)",
+          "waypoint": "[Space, 76592, 58324, -50, Arkadia Moon]",
+          "verified": true,
+          "sourceIds": [
+            "A3a"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fifth step in the recommended route; opens the Moon daily and backpack, but travel details are unverified."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A3a",
+        "A14",
+        "A30",
+        "A31"
+      ],
+      "warnings": [
+        "Current Moon docking, local teleporter options, cargo rules and hunting/mining tax need field verification.",
+        "The 7 PED Moon-to-Arkadia fee dates from 2019; a reverse route is unconfirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "moon",
+        "space"
+      ]
+    },
+    {
+      "id": "arkadia-moon-backpack",
+      "title": "Adventurer's Backpack (Laura, Moon)",
+      "type": "mission",
+      "stage": "mid",
+      "summary": "On the Moon, wear the qualifying Hazmat or Smuggler gear and see Laura for the Adventurer's Backpack. You collect seven meteorite samples at the waypoints in the mission guide.",
+      "steps": [
+        "Wear the qualifying Hazmat gear (from the extractor daily) or Smuggler gear.",
+        "Talk to Laura (waypoint below).",
+        "Collect seven meteorite samples at the guide's waypoints and hand in."
+      ],
+      "rewards": [
+        "Adventurer's Backpack"
+      ],
+      "prerequisites": [
+        "arkadia-moon-trip"
+      ],
+      "requirementsText": [
+        "Qualifying Hazmat gear or Smuggler gear"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Laura, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 14349, 10937, 204, Laura]",
+          "verified": true,
+          "sourceIds": [
+            "A16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Useful one-time item once you have the Hazmat or Smuggler gear."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "A16",
+        "A15"
+      ],
+      "warnings": [
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "moon",
+        "gear"
+      ]
+    },
+    {
+      "id": "arkadia-gatherer",
+      "title": "Gatherer's Routine – Daily Supply Run",
+      "type": "daily",
+      "stage": "early",
+      "summary": "The Mysterious Stranger at Celeste Quarry asks you to gather surface fruit, stones and dung. Low gear cost.",
+      "steps": [
+        "Take the mission from the Mysterious Stranger at Celeste Quarry (waypoint below).",
+        "Gather fruit, stones and dung on the surface.",
+        "Hand in."
+      ],
+      "rewards": [
+        "Botany skill"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Little beyond time.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger pending. "
+      },
+      "locations": [
+        {
+          "label": "Mysterious Stranger, Celeste Quarry",
+          "waypoint": "[Arkadia, 31185, 9556, 122, Mysterious Stranger]",
+          "verified": true,
+          "sourceIds": [
+            "A17"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "First repeatable in the recommended order; cheap."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A17"
+      ],
+      "warnings": [
+        "Duration and trigger pending.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "gathering",
+        "cheap"
+      ]
+    },
+    {
+      "id": "arkadia-insignia-hunt",
+      "title": "Hunting Insignias (Mysterious Travellers)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Mysterious Travellers on the surface, in the Underground and on the Moon offer hunting categories. Pick the category that matches the creature you already plan to hunt and fill its meter for Arkadia Insignias.",
+      "steps": [
+        "Pick up the Underground Oratan option before doing matching surface hunts.",
+        "At a Mysterious Traveller, choose the category that matches your planned target.",
+        "Fill the meter and hand in."
+      ],
+      "rewards": [
+        "Arkadia Insignias"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for the hunt.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Arkadia Insignia",
+          "use": "earned",
+          "note": "Save for Lunar Plate upgrades, particle blueprints or Sicarius Nest entry."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger pending. "
+      },
+      "locations": [
+        {
+          "label": "Mysterious Traveller, Arkadia Underground",
+          "waypoint": "[Arkadia Underground, 13482, 21769, 143, Mysterious Traveller]",
+          "verified": true,
+          "sourceIds": [
+            "A18"
+          ]
+        },
+        {
+          "label": "Mysterious Traveller, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 10444, 9714, 161, Mysterious Traveller]",
+          "verified": true,
+          "sourceIds": [
+            "A18"
+          ]
+        },
+        {
+          "label": "Mysterious Traveller on the surface (no waypoint in the research)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Second in the recommended order; stacks with hunting you already do."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A6",
+        "A18"
+      ],
+      "warnings": [
+        "Exact timer trigger pending.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "insignias"
+      ]
+    },
+    {
+      "id": "arkadia-oratan",
+      "title": "Oratan Payback (IFN daily hunting)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "A long daily hunting track run from IFN Challenge Terminals. Each stage needs a set number of daily completions against a stage-specific Oratan; stage 1 needs seven. The guide's stage counts add up to 343 daily completions for stages 1-9, ending with an unlimited dropship.",
+      "steps": [
+        "Use an IFN Challenge Terminal (one waypoint below).",
+        "Start with Prospector Puny near the waypoint below.",
+        "Hunt the stage's Oratan once per daily cycle until the stage count is reached.",
+        "Check the current journal for the exact timer."
+      ],
+      "rewards": [
+        "Stage 1: 1.6 PED of ammo",
+        "Later stages: skills and attribute tokens",
+        "UL Dropship after stage 9"
+      ],
+      "prerequisites": [
+        "arkadia-ifn-basic-training"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Daily ammo and decay. The optional Secret Camp consumes Arkoins.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Arkoin",
+          "use": "spent",
+          "note": "Only for the optional Secret Camp."
+        }
+      ],
+      "limits": "343 daily completions across stages 1-9 per the guide's counts.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger pending. Confirm in the current journal."
+      },
+      "locations": [
+        {
+          "label": "IFN Challenge Terminal (one example)",
+          "waypoint": "[Arkadia, 31189, 9559, 122, IFN Challenge Terminal]",
+          "verified": true,
+          "sourceIds": [
+            "A9"
+          ]
+        },
+        {
+          "label": "Prospector Puny area",
+          "waypoint": "[Arkadia, 32411, 8668, 109, Prospector Puny]",
+          "verified": true,
+          "sourceIds": [
+            "A9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Third in the recommended order; long but leads to skills, attribute tokens and a UL dropship."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A9"
+      ],
+      "warnings": [
+        "The 343 total is calculated from the guide's stage counts, not stated by the partner.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "long-track"
+      ]
+    },
+    {
+      "id": "arkadia-insignia-mine",
+      "title": "Mining Insignias and ACA Mining Point Challenge",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Pick one resource-category mining mission from a Mysterious Traveller, ideally a resource you already plan to mine. It can be done anywhere in the Arkadia system, with one Traveller mining daily active at a time. Also take Clive Forester's separate ACA Mining Point Challenge at Celeste Quarry.",
+      "steps": [
+        "Choose a resource category from a Mysterious Traveller.",
+        "Take the ACA Mining Point Challenge from Clive Forester in the Celeste Quarry Managers Office (waypoint below).",
+        "Mine the chosen resource anywhere in the Arkadia system and hand in both."
+      ],
+      "rewards": [
+        "1, 2 or 3 Arkadia Insignias depending on category",
+        "ACA lines (stages 1-6): mining skills"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes and mining decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Arkadia Insignia",
+          "use": "earned",
+          "note": "Save for Lunar Plate upgrades, particle blueprints or Sicarius Nest entry."
+        }
+      ],
+      "limits": "One Traveller mining daily active at a time.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger pending. "
+      },
+      "locations": [
+        {
+          "label": "Clive Forester, Celeste Quarry Managers Office",
+          "waypoint": "[Arkadia, 31274, 9489, 132, Clive Forester]",
+          "verified": true,
+          "sourceIds": [
+            "A20"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fourth in the recommended order; worth it for miners, probe spend otherwise."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A6",
+        "A19",
+        "A20",
+        "A29"
+      ],
+      "warnings": [
+        "Exact mission clocks pending.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "mining",
+        "insignias"
+      ]
+    },
+    {
+      "id": "arkadia-insignia-craft",
+      "title": "Crafting Insignias (particles)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Choose a particle crafting assignment at one of the three Mysterious Travellers. Insignias and the particles you make feed the lab and plate path.",
+      "steps": [
+        "Pick a particle crafting assignment at a Mysterious Traveller.",
+        "Check material cost and blueprint availability first.",
+        "Craft and hand in."
+      ],
+      "rewards": [
+        "Arkadia Insignias",
+        "Particles for the lab and plate path"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Crafting materials.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Arkadia Insignia",
+          "use": "earned",
+          "note": "Save for Lunar Plate upgrades, particle blueprints or Sicarius Nest entry."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger pending. "
+      },
+      "locations": [
+        {
+          "label": "Mysterious Traveller, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 10444, 9714, 161, Mysterious Traveller]",
+          "verified": true,
+          "sourceIds": [
+            "A21"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fifth in the recommended order; depends on materials and blueprints."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A21"
+      ],
+      "warnings": [
+        "Trigger pending.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting",
+        "insignias"
+      ]
+    },
+    {
+      "id": "arkadia-moon-extractors",
+      "title": "P-TECH Extractors Daily Maintenance (Moon)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Milo at Gamma on the Moon sends you around ten extractors, then a Monura hunt. Pick no plan for ammo, or a Hazmat clothing plan that completes after a set number of runs.",
+      "steps": [
+        "Talk to Milo at Gamma (waypoint below).",
+        "Choose no plan for ammo, or a plan: hardhat 1, gloves 2, boots 3, mask 5, suit 7 completions.",
+        "Interact with the ten extractors along the guide's waypoint loop.",
+        "Do the Monura objective and hand in."
+      ],
+      "rewards": [
+        "2 PED Universal Ammo, or progress toward a Hazmat piece"
+      ],
+      "prerequisites": [
+        "arkadia-moon-trip"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel around the loop plus the Monura hunt.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "24 h repeat per both guides; trigger (acceptance or completion) unverified. The app's timer starts when you mark it done."
+      },
+      "locations": [
+        {
+          "label": "Milo, Gamma Portal, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 10379, 9693, 161, Milo]",
+          "verified": true,
+          "sourceIds": [
+            "A15"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Sixth in the recommended order; steady ammo or Hazmat gear needed for the backpack."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A15",
+        "A22"
+      ],
+      "warnings": [
+        "Older accounts end at the extractor stage and omit the added Monura hunt; the exact Monura count varies or is unverified.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "moon",
+        "gear"
+      ]
+    },
+    {
+      "id": "arkadia-weekly-insignia",
+      "title": "Seven-day Insignia challenge (Mysterious Stranger)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "Take the Mysterious Stranger's seven-day challenge before doing your eligible dailies. It counts sets of dailies across the surface, Underground and Moon over seven days, and the days do not have to be consecutive.",
+      "steps": [
+        "Accept the challenge from the Mysterious Stranger before doing eligible dailies.",
+        "Read the current objective before planning trips.",
+        "Complete the required dailies within seven days."
+      ],
+      "rewards": [
+        "20 Arkadia Insignias"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Arkadia Insignia",
+          "use": "earned",
+          "note": "Save for Lunar Plate upgrades, particle blueprints or Sicarius Nest entry."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Seven-day challenge; acceptance rules, per-region counting and reset trigger pending."
+      },
+      "locations": [
+        {
+          "label": "Mysterious Stranger, Celeste Quarry",
+          "waypoint": "[Arkadia, 31185, 9556, 122, Mysterious Stranger]",
+          "verified": true,
+          "sourceIds": [
+            "A17"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Last in the recommended order; bonus Insignias for dailies you already do."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A23"
+      ],
+      "warnings": [
+        "Exact acceptance restrictions, counting per region and reset trigger pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "weekly",
+        "insignias"
+      ]
+    },
+    {
+      "id": "arkadia-insignia-spending",
+      "title": "Spend Arkadia Insignias",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Save Insignias for a targeted Lunar Plate upgrade, the Mysterious Merchant's particle blueprints or Sicarius Nest entry. Kayla at the Genetic Labs on the Moon takes a Pure Particle Sample Mk4 for first entry; repeat entry costs one Heavy Duty Particle or, for Smugglers, 5 PED of Arkoin.",
+      "steps": [
+        "Pick one goal (Lunar Plate upgrade, particle blueprints or Sicarius Nest) before spending.",
+        "Check Genetic Labs entry costs with Kayla before entering."
+      ],
+      "rewards": [
+        "Plate upgrades, blueprints or instance access"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Insignias; Genetic Labs entry: Pure Particle Sample Mk4 first, then one Heavy Duty Particle or 5 PED of Arkoin (Smugglers).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Arkadia Insignia",
+          "use": "spent",
+          "note": "On plates, blueprints or instance entry."
+        },
+        {
+          "name": "Arkoin",
+          "use": "spent",
+          "note": "5 PED of Arkoin for Smuggler repeat entry."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Kayla, Genetic Labs, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 12047, 11625, 170, Kayla]",
+          "verified": true,
+          "sourceIds": [
+            "A24"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 5,
+        "rationale": "Keeps Insignias for a planned upgrade."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A18",
+        "A24"
+      ],
+      "warnings": [
+        "Entry costs are from the August 2026 guide; check before entering."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "insignias",
+        "tip"
+      ]
+    },
+    {
+      "id": "arkadia-arkoins",
+      "title": "Arkoins and the Arkoin Broker",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Arkoins are separate from Insignias. The Arkoin Broker at the IFN Supply Depot sells clothes, armor and BLP/plasma weapons, and Arkoins also pay for optional secret camps and some instance fees.",
+      "steps": [
+        "Compare broker gear with what you own.",
+        "Keep a budget for planned instance entries.",
+        "Check cargo classification before carrying Arkoins through space."
+      ],
+      "rewards": [
+        "Gear from the broker; access to secret camps and some instances"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Arkoins.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Arkoin",
+          "use": "spent",
+          "note": "Broker gear, secret camps and some instance fees."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Arkoin Broker, IFN Supply Depot",
+          "waypoint": "[Arkadia, 30008, 17877, 180, Arkoin Broker]",
+          "verified": true,
+          "sourceIds": [
+            "A25"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 5,
+        "rationale": "Planning tip; avoids spending Arkoins on gear you already have."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A9",
+        "A24",
+        "A25"
+      ],
+      "warnings": [
+        "Cargo classification of Arkoins is unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "currency",
+        "tip"
+      ]
+    },
+    {
+      "id": "arkadia-ifn-spec-ops",
+      "title": "IFN Special Operations",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Captain Darius on the Moon starts recruitment. You train across all three regions to earn IFN Spec Ops armor pieces and access to Sicarius Nest for upgrades. Treat it, and the Smuggler laboratory, as deliberate combat spending.",
+      "steps": [
+        "Talk to Captain Darius (waypoint below).",
+        "Train across surface, Underground and Moon.",
+        "Use Sicarius Nest for upgrades."
+      ],
+      "rewards": [
+        "IFN Spec Ops armor pieces",
+        "Sicarius Nest access"
+      ],
+      "prerequisites": [
+        "arkadia-moon-trip"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Significant combat spend across three regions.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Captain Darius, Arkadia Moon",
+          "waypoint": "[Arkadia Moon, 11352, 13149, 350, Captain Darius]",
+          "verified": true,
+          "sourceIds": [
+            "A26"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Long, combat-heavy armor track for later."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "A26"
+      ],
+      "warnings": [
+        "A player guide warns that instance kills do not progress the Moon stage that says 'any mob'.",
+        "The source shows these coordinates with the label 'Waypoint'."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "armor",
+        "long-track",
+        "hunting"
+      ]
+    },
+    {
+      "id": "arkadia-viceroy-keyed-instances",
+      "title": "Viceroy armor and keyed instances",
+      "type": "tip",
+      "stage": "late",
+      "summary": "Viceroy armor hand-ins and upgrades, and keyed instances, are optional. Check which piece you get and whether it binds before giving up materials. Deeds are optional investments.",
+      "steps": [
+        "Check the piece and binding before surrendering materials.",
+        "Use the current offers and mission journal."
+      ],
+      "rewards": [
+        "Viceroy armor pieces and upgrades"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials for hand-ins; instance keys.",
+        "markup": "unknown",
+        "markupNote": "Deeds are investments, not guaranteed returns."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Optional late spending with a reported mission bug."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "A27",
+        "A28",
+        "A12",
+        "A14"
+      ],
+      "warnings": [
+        "A May 2026 report says a partly completed Viceroy set failed to offer its next helmet mission.",
+        "Current Viceroy piece availability is unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "armor",
+        "optional"
+      ]
+    }
+  ]
+}

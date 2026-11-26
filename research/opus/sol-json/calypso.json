@@ -1,0 +1,1138 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "calypso",
+    "name": "Calypso",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "Calypso is MindArk's main planet. New avatars arrive here after the Setesh starter moon (see the Setesh file). Newcomers work out of Port Atlantis and Camp Icarus, with a new mission chain from Nov 2026 and Daily Mission Terminal token dailies. Crystal Palace Space Station and Asteroid F.O.M.A. are optional orbital side trips.",
+    "howToReach": "New avatars take the onboarding transport from Setesh after its starter chain. Others use a token teleport (6 Teleportation Tokens station-to-station, 10 planet-to-planet on eligible links since 19.2.0), a player-run scheduled warp, or their own ship with a thruster.",
+    "warnings": [
+      "Desk-checked from public sources only; in-game field verification is pending.",
+      "19.0.0 (Sep 2025) temporarily disabled the Calypso Gauntlet and moved the Vivo S10 reward to Setesh (Recon In The Jungle; its starting TT value was lowered to 2 PED in 19.10.1). A later Gauntlet reactivation is unverified. 19.2.0 rebuilt Port Atlantis, Camp Icarus and nearby beginner content, so older guides may be wrong.",
+      "Some Setesh starter rewards are excluded for avatars that completed Thule. Check each reward before using any skip option.",
+      "Daily Terminal bonus rolls, merchant inventory and timers come from player reports. Note acceptance, completion and hand-in times yourself.",
+      "Space routes can cross lootable PvP zones. Leave valuable cargo in storage."
+    ],
+    "sourceIds": [
+      "C1",
+      "C2",
+      "C3",
+      "C5",
+      "C21",
+      "C22"
+    ],
+    "lastReviewed": "2026-11-26"
+  },
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Entropia Universe 19.0.0 Release Notes",
+      "url": "https://account.entropiauniverse.com/news/pages/2025/09/16/3125",
+      "publisher": "MindArk (official)",
+      "kind": "official",
+      "published": "2025-09-16",
+      "accessed": "2026-11-26",
+      "supports": "Setesh replaces Thule as the start, Gauntlet temporarily disabled and Vivo S10 moved, trader hand-in dailies (Joanna, Joel), some rewards excluded after Thule."
+    },
+    {
+      "id": "C2",
+      "title": "Entropia Universe - The Ultimate MMO Experience",
+      "url": "https://www.entropiauniverse.com/",
+      "publisher": "MindArk (official)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Official description of onboarding on Moon Setesh in the Calypso system and the transport path to Calypso."
+    },
+    {
+      "id": "C3",
+      "title": "New player Setesh experience",
+      "url": "https://forum.entropiauniverse.com/t/new-player-setesh-experience/280795",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-01-10",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand report of the Setesh sidearm mission."
+    },
+    {
+      "id": "C4",
+      "title": "Can't figure out how to get to Setesh. (post #3 by JohnCapital)",
+      "url": "https://forum.entropiauniverse.com/t/cant-figure-out-how-to-get-to-setesh/283276/3",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-03-01",
+      "accessed": "2026-11-26",
+      "supports": "Player-tested route from Calypso to Setesh: Port Atlantis pilot and the space station TP list."
+    },
+    {
+      "id": "C5",
+      "title": "Entropia Universe 19.12.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-12-0-release-notes/853664",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2026-11-11",
+      "accessed": "2026-11-26",
+      "supports": "New Port Atlantis newcomer mission chain; Small Iron unlocks after Cliffchaser Run while on Setesh."
+    },
+    {
+      "id": "C6",
+      "title": "Iron Road mission stuck, no Argonauts spawning (Reddit thread)",
+      "url": "https://www.reddit.com/r/entropiauniverse/comments/1y4rb8w/iron_road_mission_stuck_no_argonauts_spawning_at/",
+      "publisher": "Reddit r/entropiauniverse (players)",
+      "kind": "forum",
+      "published": "2026-11-24",
+      "accessed": "2026-11-26",
+      "supports": "Player reports of missing Argonauts at the second Iron Road waypoint and a workaround lead. Page would not load for this converter; title and date taken from the research notes' link text."
+    },
+    {
+      "id": "C7",
+      "title": "Entropia Universe 19.12.1 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-12-1-release-notes/853808",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2026-11-17",
+      "accessed": "2026-11-26",
+      "supports": "RDI Facility access near Fort Lahar restored for Point of Origin."
+    },
+    {
+      "id": "C8",
+      "title": "Removal of Iron Challenges",
+      "url": "https://forum.entropiauniverse.com/t/removal-of-iron-challenges/254794",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2020-08-26",
+      "accessed": "2026-11-26",
+      "supports": "Old Iron Challenge ladders retired on Calypso."
+    },
+    {
+      "id": "C9",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Token teleport travel with a 150 kg cap, station-to-own-planet fee removed, Club Neverdie wording for the Howling Mine."
+    },
+    {
+      "id": "C10",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Lootable PvP, non-lootable PvP and safe zones in space; separate token types."
+    },
+    {
+      "id": "C11a",
+      "title": "Warp Schedule",
+      "url": "https://kronan-ms.info/warp-schedule/",
+      "publisher": "Kronan Interplanetary Spaceship Services (player operator)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Scheduled Calypso/Arkadia warp legs."
+    },
+    {
+      "id": "C11b",
+      "title": "Scheduled warp service – How it works",
+      "url": "https://kronan-ms.info/scheduled-warp-service-how-it-works/",
+      "publisher": "Kronan Interplanetary Spaceship Services (player operator)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Operator boarding and cargo handling policy."
+    },
+    {
+      "id": "C12",
+      "title": "Daily tokens bonus missions? (post #6 by Mr_Odyseo)",
+      "url": "https://forum.entropiauniverse.com/t/daily-tokens-bonus-missions/279392/6",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-08-20",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand Daily Terminal bonus rolls, cave dailies, rewards and timer reports, Argo daily waypoint."
+    },
+    {
+      "id": "C13",
+      "title": "Planet Calypso – Entropia Codex",
+      "url": "https://www.entropiacodex.com/planets/planet-calypso/",
+      "publisher": "Entropia Codex (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Calypso guide backing the Daily Terminal hunting and Argonaut daily timers."
+    },
+    {
+      "id": "C14",
+      "title": "Daily Token Trader | Entropia Nexus",
+      "url": "https://entropianexus.com/information/vendors/Daily~Token~Trader",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Daily Token Trader inventory, largely limited gear."
+    },
+    {
+      "id": "C15",
+      "title": "Monria Token Traders",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-token-traders.5255/",
+      "publisher": "Virtualsense (Monria planet partner forum)",
+      "kind": "official-forum",
+      "published": "2019-06-03",
+      "accessed": "2026-11-26",
+      "supports": "Monria also has a Daily Token Trader."
+    },
+    {
+      "id": "C16",
+      "title": "Entropia Universe Space Map — Station & Planet Waypoints",
+      "url": "https://www.entropiahub.com/entropia-universe-space-map/",
+      "publisher": "Entropia Hub (community site)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Space waypoints for Crystal Palace Space Station and Asteroid F.O.M.A."
+    },
+    {
+      "id": "C17",
+      "title": "Share System - Crystal Palace Space Station Shares",
+      "url": "https://forum.entropiauniverse.com/t/share-system-crystal-palace-space-station-shares/247732",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2019-05-01",
+      "accessed": "2026-11-26",
+      "supports": "MindArk's Crystal Palace station shares."
+    },
+    {
+      "id": "C18",
+      "title": "Creatures Database - Entropia Universe Wiki (Crystal Palace filter)",
+      "url": "https://www.entropiacentral.com/wiki/creatures?planet=crystal-palace",
+      "publisher": "Entropia Central (community wiki)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crystal Palace creatures, including Aurli and Kreltin."
+    },
+    {
+      "id": "C19",
+      "title": "Estate Deed History 2026 — FOMA Asteroid | Entropia Universe",
+      "url": "https://www.entropiahub.com/estates/deeds/?planet=FOMA+Asteroid&year=2026",
+      "publisher": "Entropia Hub (community site)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "2026 estate ledger showing F.O.M.A. as a live location."
+    },
+    {
+      "id": "C20",
+      "title": "F.O.M.A. -- FORTUNA - Land Area",
+      "url": "https://www.entropiacentral.com/landareas/foma-fortuna",
+      "publisher": "Entropia Central (community wiki)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "F.O.M.A.–Fortuna land area record."
+    },
+    {
+      "id": "C21",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token fares cut to 6 (station-to-station) and 10 (planet-to-planet); Port Atlantis, Camp Icarus and beginner content rebuilt."
+    },
+    {
+      "id": "C22",
+      "title": "Entropia Universe 19.10.1 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-10-1-release-notes/852412",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2026-09-15",
+      "accessed": "2026-11-26",
+      "supports": "Recon In The Jungle Vivo S10 reward set to 2 PED starting TT."
+    },
+    {
+      "id": "C23",
+      "title": "Leaving Setesh again?",
+      "url": "https://forum.entropiauniverse.com/t/leaving-setesh-again/284073",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-12-07",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand reports on returning to Setesh, the skip/exit terminal waypoint and separate Setesh storage."
+    }
+  ],
+  "activities": [
+    {
+      "id": "calypso-setesh-transport",
+      "title": "Move between Setesh and Calypso",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "New avatars start on Moon Setesh and use the onboarding transport to reach Calypso. Returning players have reported a pilot in Port Atlantis who flies to Setesh, and an exit terminal on Setesh for the way back. Repeat trips are not guaranteed, so check before moving gear.",
+      "steps": [
+        "New avatar: finish the Setesh starter chain (see the Setesh file) and accept the onboarding transport to Calypso when it is offered.",
+        "Going back to Setesh from Calypso: players report a pilot down the stairs from the Port Atlantis teleporter, just past the service center on your right. Another reported route is to scroll the Calypso Space Station teleporter list to Setesh.",
+        "Leaving Setesh again: players report the skip terminal in the service building opposite the Cabrakan teleporter offers an exit after the tutorial.",
+        "Setesh storage is separate from Calypso storage. Empty it, and confirm your way back, before storing gear or taking a return shuttle."
+      ],
+      "rewards": [
+        "Access to Calypso (or back to Setesh for unfinished starter rewards)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "Return trips to Setesh are player-reported, see warnings"
+      ],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No cost reported for the onboarding transport or the pilot.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Port Atlantis pilot: down the stairs from the TP, past the service center on the right (a player posted a waypoint in March 2026; not copied in the research)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "C4"
+          ]
+        },
+        {
+          "label": "Setesh skip/exit terminal, service building opposite the Cabrakan TP (player report)",
+          "waypoint": "[Setesh, 67634, 68354, 299, Skip Terminal]",
+          "verified": false,
+          "sourceIds": [
+            "C23"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Every new avatar needs this step to reach Calypso. Free, but repeat-trip access is unreliable."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C2",
+        "C4",
+        "C23",
+        "C1"
+      ],
+      "warnings": [
+        "On a return visit, players reported the departure NPC no longer offered the trip. Verify repeat-trip access before relying on it.",
+        "The exit offered by the skip terminal is a player report, not confirmed by MindArk. The source labels this waypoint 'skip'.",
+        "Setesh starter missions, rewards and Small Iron are covered in the Setesh file; this entry only covers the transfer."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner",
+        "setesh"
+      ]
+    },
+    {
+      "id": "calypso-port-atlantis-chain",
+      "title": "Port Atlantis newcomer chain (Nov 2026)",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "MindArk added a new newcomer mission chain at Port Atlantis in November 2026. It is about the Argonauts, robots and the CDF. The start NPC, route and rewards still need an in-game check.",
+      "steps": [
+        "Find the chain in Port Atlantis and follow the quest tracker.",
+        "Before killing a target, pick up any Daily Mission Terminal assignment for the same creature so the kills count twice.",
+        "If no Argonauts appear at the second Iron Road waypoint, one player reported progress after talking to the daily NPC at the Argonaut Research Camp. Treat this as a troubleshooting lead only."
+      ],
+      "rewards": [
+        "Not documented yet. Check the in-game reward list."
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo, decay and healing for the hunting steps.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "First Calypso task in the recommended route and part of the official newcomer path; rewards unknown."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C5",
+        "C6",
+        "C21"
+      ],
+      "warnings": [
+        "A 24 Nov 2026 player report says Argonauts were missing at the second Iron Road waypoint. The fix above is one player's experience, not an official one.",
+        "The chain's start NPC, route and rewards are not yet field-verified.",
+        "Recent quests use 'Iron' in their names, but the old Iron Challenge ladders were retired."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "hunting",
+        "story"
+      ]
+    },
+    {
+      "id": "calypso-interplanetary-travel",
+      "title": "Travel to other planets from Calypso",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "You do not need your own ship to change planets. A shared scheduled warp or a token teleport works. Since 19.2.0 the published token fare is 6 Teleportation Tokens between stations and 10 between planets on eligible links.",
+      "steps": [
+        "Compare options: a player-run scheduled warp (Kronan posts Calypso/Arkadia legs and boarding points), a token teleport, or your own ship's fuel and decay.",
+        "For a token teleport, check the fare shown in the actual teleporter list. Moon routes may differ.",
+        "Token teleports have a 150 kg cap. Teleporting from a space station down to its own planet has no fee since 18.9.",
+        "Flying yourself needs a ship fitted with a thruster. Leave cargo in storage if the route crosses lootable PvP space. Non-lootable PvP zones and safe zones also exist."
+      ],
+      "rewards": [
+        "Access to other planets and space stations"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "6 Teleportation Tokens station-to-station or 10 planet-to-planet (19.2.0, eligible links); shared warp fare set by the operator; or own ship fuel and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "6 per station-to-station or 10 per planet-to-planet jump on eligible links."
+        }
+      ],
+      "limits": "150 kg cap on token teleports.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Needed to leave the Calypso system; token fares are cheap, and no ship purchase is required."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "C9",
+        "C10",
+        "C11a",
+        "C11b",
+        "C21"
+      ],
+      "warnings": [
+        "Check the live fare in the teleporter list, especially for moons. Moon and orbit-to-surface connections are not separately verified.",
+        "Lootable PvP zones in space can cost you cargo. Shared-warp fares and cargo rules are set by the operator."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space"
+      ]
+    },
+    {
+      "id": "calypso-terminal-hunt",
+      "title": "Daily Mission Terminal: hunting roll",
+      "type": "daily",
+      "stage": "arrival",
+      "summary": "Roll the hunting category at a Daily Mission Terminal before you hunt, so kills you were going to make anyway earn Daily Tokens. Players report easy bonus rolls worth 20 tokens.",
+      "steps": [
+        "Go to a Daily Mission Terminal and roll the hunting category.",
+        "Do this before any hunt of the same creature so the kills count.",
+        "Reported easy bonus variants ask for 10 Gibnib, Chirpy or Fugabarba. Other rolls vary."
+      ],
+      "rewards": [
+        "20 Daily Tokens on the reported easy bonus variants; other rolls vary"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for the rolled hunt.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "Spend at a Daily Token Trader; separate from Combat, Mayhem and Teleportation Tokens."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from acceptance per a 2025 player report and guide; the app's timer starts when you mark it done, so it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Any Daily Mission Terminal on Calypso",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Top of the recommended repeatable list: stacks with hunting you already do, and easy rolls are cheap."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C12",
+        "C13"
+      ],
+      "warnings": [
+        "How often the easy bonus rolls appear is unconfirmed.",
+        "Timer length and trigger come from a 2025 player report and a guide, not MindArk."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens",
+        "beginner"
+      ]
+    },
+    {
+      "id": "calypso-crystal-cave",
+      "title": "Crystal Cave daily (Feffoids)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "A small daily from the NPC at the west entrance of Port Atlantis: clear 15 Feffoids in Feffoid Cave and interact with the crystal for 1 Daily Token.",
+      "steps": [
+        "Take the Crystals / Crystal Cave daily from the NPC at the Port Atlantis west entrance.",
+        "Enter Feffoid Cave and kill 15 Feffoids.",
+        "Interact with the crystal, then hand in."
+      ],
+      "rewards": [
+        "1 Daily Token"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Healing and repair depending on your gear.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "Spend at a Daily Token Trader; separate from Combat, Mayhem and Teleportation Tokens."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 20,
+        "resetNote": "20 h reported by one 2025 player; trigger (acceptance or completion) unverified. The app's timer starts when you mark it done."
+      },
+      "locations": [
+        {
+          "label": "NPC at the Port Atlantis west entrance",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "C12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Second in the recommended order; small reward, cheap if your gear suits Feffoids."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "C12"
+      ],
+      "warnings": [
+        "Timer and reward come from one 2025 player report."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "calypso-argonaut-cave",
+      "title": "Argonaut cave daily (50 Argonaut Young)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Kill 50 Argonaut Young for the cave NPC for 1 Daily Token. It can stack with Argonaut Codex progress, but costs more in combat than the bird bonus roll.",
+      "steps": [
+        "Go to the Argonaut cave NPC (waypoint below) and take the daily.",
+        "Kill 50 Argonaut Young. If you are working on the Argonaut Codex, the kills count there too.",
+        "Iron stones from the hunt can be refined for a crafting attempt."
+      ],
+      "rewards": [
+        "1 Daily Token",
+        "Argonaut Codex progress if tracked"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo, decay and healing for 50 kills.",
+        "markup": "low",
+        "markupNote": "Mostly TT spend."
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "Spend at a Daily Token Trader; separate from Combat, Mayhem and Teleportation Tokens."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from finishing, per an Aug 2025 player report. The app's timer starts when you mark it done."
+      },
+      "locations": [
+        {
+          "label": "Argonaut cave daily NPC",
+          "waypoint": "[Calypso, 62681, 76112, 123, Argo daily]",
+          "verified": true,
+          "sourceIds": [
+            "C12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Third in the recommended order; stacks with Codex but needs more combat spend than the terminal bonus."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C12",
+        "C13"
+      ],
+      "warnings": [
+        "Timer is a player report, not confirmed by MindArk."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens",
+        "codex"
+      ]
+    },
+    {
+      "id": "calypso-terminal-craft",
+      "title": "Daily Mission Terminal: crafting roll",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Roll the crafting category at a Daily Mission Terminal before you pick a blueprint. One observed bonus paid 10 Daily Tokens.",
+      "steps": [
+        "Roll the crafting category at a Daily Mission Terminal.",
+        "Craft what it asks for. The observed bonus was 51 Basic Screws attempts using 1 Iron Ingot per click.",
+        "Only stock iron if you expect to use it."
+      ],
+      "rewards": [
+        "10 Daily Tokens on the observed bonus roll"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials for the crafting attempts (observed: 51 Iron Ingots for Basic Screws).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "Spend at a Daily Token Trader; separate from Combat, Mayhem and Teleportation Tokens."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "Same 16 h from acceptance reported for the terminal (one 2025 player report); the app's timer starts when you mark it done, so it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Any Daily Mission Terminal on Calypso",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fourth in the recommended order; useful for crafters, needs materials."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "C12"
+      ],
+      "warnings": [
+        "Bonus rolls are random; only one observed roll is documented."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "calypso-terminal-mine",
+      "title": "Daily Mission Terminal: mining roll",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Roll the mining category before you drop probes. An observed bonus asked for 25 PED of Lysterium or Oil and paid 20 Daily Tokens. Optional for non-miners because probe spend and claim luck add up.",
+      "steps": [
+        "Roll the mining category at a Daily Mission Terminal before mining.",
+        "Extract the requested resource (observed: 25 PED of Lysterium or Oil)."
+      ],
+      "rewards": [
+        "20 Daily Tokens on the observed bonus roll"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes and finder/extractor decay until 25 PED of resource is extracted.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "Spend at a Daily Token Trader; separate from Combat, Mayhem and Teleportation Tokens."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "Same 16 h from acceptance reported for the terminal (one 2025 player report); the app's timer starts when you mark it done, so it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Any Daily Mission Terminal on Calypso",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Fifth in the recommended order; probe spend and claim RNG make it optional for non-miners."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "C12"
+      ],
+      "warnings": [
+        "Bonus rolls are random; only one observed roll is documented."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "mining",
+        "tokens"
+      ]
+    },
+    {
+      "id": "calypso-trader-handoff",
+      "title": "Trader Joanna daily hand-in (Camp Icarus)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Since 19.0.0, Trader Joanna at Camp Icarus takes item hand-ins as a daily, as does Trader Joel at Cabrakan on Setesh. Read the offered reward and compare it with the value of the item before confirming.",
+      "steps": [
+        "Talk to Trader Joanna at Camp Icarus and read what she wants and what she offers.",
+        "Compare the item's market value with the reward before you hand it in.",
+        "Joel's version on Setesh is covered in the Setesh file."
+      ],
+      "rewards": [
+        "Varies; current reward pool unverified"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "The item you hand in.",
+        "markup": "unknown",
+        "markupNote": "Compare the item's markup with the reward."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "The patch calls these dailies; exact timer length and trigger unverified."
+      },
+      "locations": [
+        {
+          "label": "Trader Joanna, Camp Icarus",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "C1"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 5,
+        "rationale": "Last in the recommended order; quick, but value depends on the item you give up."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "C1"
+      ],
+      "warnings": [
+        "Current reward pool and exact timer are unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "trading"
+      ]
+    },
+    {
+      "id": "calypso-point-of-origin",
+      "title": "Point of Origin (RDI Facility near Fort Lahar)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "19.12.1 restored access to the RDI Facility near Fort Lahar, which the Point of Origin mission needs. If it was blocked for you before, try again.",
+      "steps": [
+        "Travel to the RDI Facility near Fort Lahar and continue Point of Origin."
+      ],
+      "rewards": [
+        "Not documented in the research."
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Not documented."
+      },
+      "locations": [
+        {
+          "label": "RDI Facility near Fort Lahar",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "C7"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Mentioned only as a fix in the newcomer route; reward not documented."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C7"
+      ],
+      "warnings": [
+        "Only the access fix is documented; the mission's steps and reward are not."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mission"
+      ]
+    },
+    {
+      "id": "calypso-codex-iron-note",
+      "title": "Use the Codex instead of old Iron Challenges",
+      "type": "tip",
+      "stage": "early",
+      "summary": "For normal hunting on Calypso, advance the creature Codex alongside your missions. The old Iron Challenge ladders were retired, even though recent quests reuse the word 'Iron'.",
+      "steps": [
+        "When you hunt a creature for a mission, track its Codex too.",
+        "Ignore older guides that send you to Iron Challenge ladders; they no longer exist."
+      ],
+      "rewards": [
+        "Codex skill rewards"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No extra cost beyond the hunting itself.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free extra value from hunting you already do."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "C8",
+        "C5"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "codex",
+        "tip"
+      ]
+    },
+    {
+      "id": "calypso-daily-token-spending",
+      "title": "Spend or keep Daily Tokens",
+      "type": "tip",
+      "stage": "early",
+      "summary": "Keep Daily Tokens until a Daily Token Trader has something you will use at your profession level. Most of the listed stock is limited gear, so check the token price against how much use is left in the item.",
+      "steps": [
+        "Check the Daily Token Trader's stock and compare token price with the item's remaining uses.",
+        "Daily, Combat, Mayhem and Teleportation Tokens are separate currencies.",
+        "Monria also has a Daily Token Trader. Store lootable crafting materials instead of carrying them through risky space just to use a trader."
+      ],
+      "rewards": [
+        "Gear chosen from the trader"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Daily Tokens.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "spent",
+          "note": "At a Daily Token Trader."
+        },
+        {
+          "name": "Daily Token",
+          "use": "kept",
+          "note": "Until the trader stocks something useful."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Avoids wasting tokens on gear you will not use."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C14",
+        "C10",
+        "C15"
+      ],
+      "warnings": [
+        "Merchant inventory and item binding need a live check."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tokens",
+        "tip"
+      ]
+    },
+    {
+      "id": "calypso-crystal-palace",
+      "title": "Crystal Palace Space Station (optional)",
+      "type": "travel",
+      "stage": "mid",
+      "summary": "A separate space station and hunting spot in the Calypso system. The main creatures are Aurli and Kreltin. MindArk also sold station shares. Both hunting here and the shares are optional, higher-cost branches.",
+      "steps": [
+        "Fly to the space waypoint below.",
+        "Check current teleporter exits, docking and fees on arrival before relying on them.",
+        "Hunt Aurli or Kreltin if they suit your gear."
+      ],
+      "rewards": [
+        "Hunting access to Aurli and Kreltin"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "A way to reach space (own ship, ride or teleporter)"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel plus higher hunting costs. Station shares are an optional investment.",
+        "markup": "unknown",
+        "markupNote": "No profit promised from shares or hunting."
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Crystal Palace Space Station (space)",
+          "waypoint": "[Space, 58810, 69254, -200, Crystal Palace Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "C16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Optional higher-cost branch outside the recommended newcomer route."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "warnings": [
+        "Crystal Palace-specific teleporter exits, docking and fees need field verification.",
+        "Shares are an investment, not a guaranteed return."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "space",
+        "hunting",
+        "optional"
+      ]
+    },
+    {
+      "id": "calypso-foma",
+      "title": "Asteroid F.O.M.A. / F.O.M.A.–Fortuna (optional)",
+      "type": "travel",
+      "stage": "late",
+      "summary": "A separate asteroid estate in the Calypso system, formerly Club NEVERDIE, still shown on the 2026 estate ledger and space map. It is an optional dome mining and hunting trip with its own economics. The modern Howling Mine is a different destination, even though 18.9 also calls it Club Neverdie.",
+      "steps": [
+        "Fly to the space waypoint below.",
+        "Confirm the current dock route and dome tax before committing resources."
+      ],
+      "rewards": [
+        "Access to dome mining and hunting"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "A way to reach space (own ship or ride)"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel plus any dome tax; mining or hunting spend.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Asteroid F.O.M.A. (space)",
+          "waypoint": "[Space, 58787, 70150, 0, Asteroid F.O.M.A]",
+          "verified": true,
+          "sourceIds": [
+            "C16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Optional trip with area-specific costs and unverified docking and tax."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "C16",
+        "C19",
+        "C20",
+        "C9"
+      ],
+      "warnings": [
+        "Do not confuse it with the Howling Mine, which 18.9 also describes as Club Neverdie.",
+        "Dock route and dome tax are unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "space",
+        "mining",
+        "hunting",
+        "optional"
+      ]
+    }
+  ]
+}

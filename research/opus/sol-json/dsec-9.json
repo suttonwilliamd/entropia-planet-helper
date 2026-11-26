@@ -1,0 +1,1177 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "dsec-9",
+    "name": "DSEC-9",
+    "kind": "special",
+    "parent": "monria",
+    "status": "active",
+    "summary": "DSEC-9 is Virtualsense's outpost region reached through Monria's teleporters. Elara and Mountain of Madness are regions inside it. It offers a free beginner chain with starter gear, ammo-paying repeatables, the Church of the Elder Gods, and a long laptop and crossover story that continues on Toulan.",
+    "howToReach": "Get to Monria, open any Monria teleporter, choose DSEC9 in the top-right map dropdown and select the DSEC9 entry teleporter. There is no separate warp destination.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Desk-checked from public sources only; field verification is pending.",
+      "Clear the Path and Frustrated Local timers, texture-objective counts, the beginner reward list and higher Church tier exceptions are unverified.",
+      "The DSEC-9 Everything Guide PDF could not be read during research; navigation, partner change notes and mission threads were used instead.",
+      "Vehicles and teleport chips are disabled inside the Mountain of Madness."
+    ],
+    "sourceIds": [
+      "S4",
+      "S5",
+      "S6",
+      "S18"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Virtualsense Space Travel Program | Fees & Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-fees-schedule.5926/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-02-06",
+      "accessed": "2026-11-26",
+      "supports": "Yamato fee for the Monria and Toulan legs."
+    },
+    {
+      "id": "S2",
+      "title": "Virtualsense Space Travel Program | Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-schedule.2148/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-01-08",
+      "accessed": "2026-11-26",
+      "supports": "Yamato timetable."
+    },
+    {
+      "id": "S3",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "MindArk space zones, including lootable PvP areas."
+    },
+    {
+      "id": "S4",
+      "title": "Navigating Monria / DSEC9 to Reach Mountain of Madness",
+      "url": "https://www.virtualsense.eu/forum/threads/navigating-monria-dsec9-to-reach-mountain-of-madness.9684/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2022-09-02",
+      "accessed": "2026-11-26",
+      "supports": "Monria TP dropdown route to DSEC9, Elara and Mountain of Madness route and regional waypoints; vehicles and TP chips disabled inside the Mountain."
+    },
+    {
+      "id": "S5",
+      "title": "5th Annual Hallo-Wave Event on DSEC-9, 2026",
+      "url": "https://www.virtualsense.eu/forum/threads/5th-annual-hallo-wave-event-on-dsec-9-2026.11077/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-09-26",
+      "accessed": "2026-11-26",
+      "supports": "October 2026 event instructions still using the Monria route to DSEC-9."
+    },
+    {
+      "id": "S6",
+      "title": "Toulan Monthly Event | Friday, Nov 20th - Sunday, Nov 22nd",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-monthly-event-friday-nov-20th-sunday-nov-22nd.11097/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-11-12",
+      "accessed": "2026-11-26",
+      "supports": "November 2026 operator post confirming scheduled Yamato runs after the September interruption."
+    },
+    {
+      "id": "S7",
+      "title": "A Stranger in the Woods - A Guide From DBug - MoM Beginners Mission Chain",
+      "url": "https://www.virtualsense.eu/forum/threads/a-stranger-in-the-woods-a-guide-from-dbug-mom-beginners-mission-chain.9673/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "community-guide",
+      "published": "2022-08-31",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand screenshot walkthrough of Welcome to the Dark Side, Old Man waypoint, rewards and Destroy Creatures blueprints."
+    },
+    {
+      "id": "S8",
+      "title": "Clear The Path (2 PED Universal Ammo Daily)",
+      "url": "https://www.virtualsense.eu/forum/threads/clear-the-path-2-ped-universal-ammo-daily.9713/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2022-09-18",
+      "accessed": "2026-11-26",
+      "supports": "Clear the Path creature counts and 2 PED Universal Ammo reward."
+    },
+    {
+      "id": "S9",
+      "title": "DSEC9 | Beginning Mission Chain Info",
+      "url": "https://www.virtualsense.eu/forum/threads/dsec9-beginning-mission-chain-info.9005/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2021-09-05",
+      "accessed": "2026-11-26",
+      "supports": "Valeria's opening chain: radio towers, Elara Terminus update, OTIS reboot, access card and DEC access."
+    },
+    {
+      "id": "S10",
+      "title": "DSEC9 | Upgrading your Laptop",
+      "url": "https://www.virtualsense.eu/forum/threads/dsec9-upgrading-your-laptop.9004/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2021-09-05",
+      "accessed": "2026-11-26",
+      "supports": "Laptop 01-04 steps, Holoroom workstations, parts to loot and waypoints for Valeria, Holoroom and Derelict."
+    },
+    {
+      "id": "S11",
+      "title": "Further Mission Requirements For The Crossover Chain.",
+      "url": "https://www.virtualsense.eu/forum/threads/further-mission-requirements-for-the-crossover-chain.9359/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2022-01-21",
+      "accessed": "2026-11-26",
+      "supports": "Crossover requirements, the 20 h Prove Your Worth clock and that missed days only extend the run."
+    },
+    {
+      "id": "S12",
+      "title": "Further Mission Requirements For The Crossover Chain. | Page 2",
+      "url": "https://www.virtualsense.eu/forum/threads/further-mission-requirements-for-the-crossover-chain.9359/page-2",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Virtualsense replies on OTIS Commander (daily at a random time, stays until killed) and the Silver Crown of Sahar."
+    },
+    {
+      "id": "S13",
+      "title": "The Frustrated Local (Daily)",
+      "url": "https://www.virtualsense.eu/forum/threads/the-frustrated-local-daily.10769/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-04-08",
+      "accessed": "2026-11-26",
+      "supports": "Frustrated Local mission, waypoint, reward, and a June 2025 player's CB spawn waypoint."
+    },
+    {
+      "id": "S14",
+      "title": "VU 25.2 | CUHOF Additions",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-2-cuhof-additions.10818/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-06-10",
+      "accessed": "2026-11-26",
+      "supports": "25.2.1 changes: Frustrated Local kill count 500 to 250, Extra Tributes mining clock now 16 h from turn-in with a lower threshold."
+    },
+    {
+      "id": "S15",
+      "title": "Worship The Elder Gods (The Elder Robes) | Mountain of Madness (DSEC9)",
+      "url": "https://www.virtualsense.eu/forum/threads/worship-the-elder-gods-the-elder-robes-mountain-of-madness-dsec9.10226/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2023-11-28",
+      "accessed": "2026-11-26",
+      "supports": "DSEC-9 Church missions, Shrine hand-ins, rewards, 16 h cooldowns, robe thresholds and the Elder Tribute Trader."
+    },
+    {
+      "id": "S16",
+      "title": "VU 23.4 | Church of the Elder Gods",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-23-4-church-of-the-elder-gods.10223/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2023-11-28",
+      "accessed": "2026-11-26",
+      "supports": "Church of the Elder Gods launch and staff clarification that contracts are shared between Toulan and DSEC-9."
+    },
+    {
+      "id": "S17",
+      "title": "Steve's Exchange / Picking Parts for Trade | See Alert Message",
+      "url": "https://www.virtualsense.eu/forum/threads/steves-exchange-picking-parts-for-trade-see-alert-message.9018/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2021-09-07",
+      "accessed": "2026-11-26",
+      "supports": "Alert that the two-hour picking-parts missions were disabled and parts now drop in normal loot."
+    },
+    {
+      "id": "S18",
+      "title": "DSEC9 Guide to Everything (PDF)",
+      "url": "https://www.virtualsense.eu/forum/attachments/dsec9-guide-to-everything-pdf.24628/?hash=721df01e28a1c7e732e04f0cb1939585",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "DSEC-9 Everything Guide. Sol's direct fetch failed, so no fact here relies on it alone; title from Sol's link text and file name."
+    },
+    {
+      "id": "S19",
+      "title": "VU 25.3 | DSEC Melodies",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-3-dsec-melodies.10907/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-10-07",
+      "accessed": "2026-11-26",
+      "supports": "25.3 added trade, repair, storage, revival and a turret at the Larches Green sweat area near the Old Man."
+    }
+  ],
+  "activities": [
+    {
+      "id": "dsec-9-enter-from-monria",
+      "title": "Enter DSEC-9 from Monria",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "DSEC-9 is an outpost region reached only through Monria's teleporters; it has no warp destination of its own. Bring a sweating tool, basic gear and a small ammo budget.",
+      "steps": [
+        "Reach Monria (see the Monria file).",
+        "At any Monria teleporter choose DSEC9 in the map dropdown.",
+        "Select the DSEC9 entry teleporter."
+      ],
+      "rewards": [
+        "Access to DSEC-9"
+      ],
+      "prerequisites": [
+        "monria-get-there"
+      ],
+      "requirementsText": [
+        "Sweating tool, basic gear and a small ammo budget"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "No fee mentioned for the local teleport; travel to Monria costs extra.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Sol's step 1; the only documented way in."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "dsec-9-mountain-of-madness-route",
+      "title": "Reach Mountain of Madness via Elara",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "From the entry, go to Elara Terminus, take the tele-pod to Elara, register the Lotus teleporter in the temple, then head northeast to the Mountain of Madness device. Radio towers and laptops are a separate story.",
+      "steps": [
+        "Walk from the entry to Elara Terminus.",
+        "Follow the wall west to the tele-pod and use its panel.",
+        "In Elara, register the Lotus Teleporter in the temple.",
+        "Travel northeast to the Mountain of Madness Device.",
+        "Inside the Mountain, register teleporters on foot."
+      ],
+      "rewards": [
+        "Lotus and Mountain of Madness teleporters",
+        "Access to the beginner chain area"
+      ],
+      "prerequisites": [
+        "dsec-9-enter-from-monria"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel time only.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time route and teleporter registration."
+      },
+      "locations": [
+        {
+          "label": "Elara Terminus",
+          "waypoint": "[DSEC9, 35957, 20010, 105, Elara Terminus]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "label": "Tele-pod to Elara",
+          "waypoint": "[DSEC9, 35140, 20357, 104, Tele-pod to Elara]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "label": "Lotus Teleporter (Elara temple)",
+          "waypoint": "[DSEC9, 34844, 22139, 99, Lotus Teleporter]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "label": "Mountain of Madness Device",
+          "waypoint": "[DSEC9, 36428, 23447, 99, Mountain of Madness Device]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Sol's first priority; everything newcomer-friendly is behind it."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S4"
+      ],
+      "warnings": [
+        "Vehicles and teleport chips do not work inside the Mountain; walk and register teleporters by hand."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "teleporter",
+        "beginner"
+      ]
+    },
+    {
+      "id": "dsec-9-welcome-to-the-dark-side",
+      "title": "Welcome to the Dark Side (beginner chain)",
+      "type": "mission-chain",
+      "stage": "early",
+      "summary": "The beginner chain is open to visitors. It gives starter equipment and ammo and opens Clear the Path and the blueprint repeatables.",
+      "steps": [
+        "Talk to the Stranger in the Woods.",
+        "Gather ten mushrooms on the way to the Old Man; follow the river to avoid aggressive creatures.",
+        "Accept the hunt/sweat objective and return with ten sweat.",
+        "Follow the mining objective, then the later hunting objectives.",
+        "Register Larches Green for the Church and repeat trips; the sweat area near the Old Man has trade, repair, storage, revival and a turret."
+      ],
+      "rewards": [
+        "Starter equipment and ammo",
+        "Opens Clear the Path and blueprint repeatables"
+      ],
+      "prerequisites": [
+        "dsec-9-mountain-of-madness-route"
+      ],
+      "requirementsText": [
+        "Sweating tool"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Small ammo and tool decay.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Stranger in the Woods",
+          "waypoint": "[DSEC9, 36754, 23522, 104, Stranger in the Woods]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "label": "Old Man",
+          "waypoint": "[DSEC9, 37489, 23899, 108, Old Man]",
+          "verified": true,
+          "sourceIds": [
+            "S7"
+          ]
+        },
+        {
+          "label": "Larches Green teleporter",
+          "waypoint": "[DSEC9, 38123, 23647, 100, Larches Green]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "label": "Sweat Area Terminals",
+          "waypoint": "[DSEC9, 37273, 23882, 101, Sweat Area Terminals]",
+          "verified": true,
+          "sourceIds": [
+            "S19"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Sol's step 3; free starter gear and the key that opens the DSEC-9 repeatables."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S4",
+        "S7",
+        "S8",
+        "S19"
+      ],
+      "warnings": [
+        "The current beginner reward item list and exact unlock dialogue still need a field check."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "starter-gear",
+        "sweating"
+      ]
+    },
+    {
+      "id": "dsec-9-valeria-access-card",
+      "title": "Valeria's chain: radio towers to Access Card",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "Valeria's branch boots four radio towers, updates Elara Terminus, reboots OTIS and ends with the Access Card, Laptop 01 and entry to DEC's Holoroom. It opens the armor upgrade path for DSEC Basic Armor.",
+      "steps": [
+        "See Valeria at the entry outpost; take the televator to the floor-2 lookout.",
+        "Boot radio towers 1 and 2 and report to the Alpha and Alpha-2 outposts.",
+        "Boot towers 3 and 4, then stand in the center of the Elara Terminus TP to trigger the update.",
+        "Visit its outpost upstairs, then Pam in the Terminus building.",
+        "Follow the OTIS reboot and Comms Terminal steps, then Derelict to Steve the Engineer for the Access Card.",
+        "Return to Derelict for Laptop 01 and Holoroom entry."
+      ],
+      "rewards": [
+        "Access Card",
+        "Laptop 01",
+        "Entry to DEC's Holoroom",
+        "Opens the DSEC Basic Armor upgrade path"
+      ],
+      "prerequisites": [
+        "dsec-9-mountain-of-madness-route"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel and some hunting; no fee stated.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Valeria, entry outpost",
+          "waypoint": "[DSEC9, 33280, 16852, 145, Valeria]",
+          "verified": true,
+          "sourceIds": [
+            "S10"
+          ]
+        },
+        {
+          "label": "Derelict's cave",
+          "waypoint": "[DSEC9, 35263, 19120, 152, Derelict]",
+          "verified": true,
+          "sourceIds": [
+            "S10"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 2,
+        "rationale": "Sol's step 4; gates armor upgrades and the laptop/crossover path, but it is long."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S10"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mission-chain",
+        "armor"
+      ]
+    },
+    {
+      "id": "dsec-9-laptop-upgrades",
+      "title": "Upgrade your laptop (Workstations 2-4)",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "In the Holoroom, take the Workstation 2, 3 and 4 objectives as each unlocks, loot the matching part while the mission is active, and turn it in at Derelict's cave.",
+      "steps": [
+        "Pick up the Workstation 2 objective in the Holoroom.",
+        "Loot the 12TB Laptop HDD while it is active; turn in at Derelict.",
+        "Repeat for Workstation 3 (Laptop RAM) and Workstation 4 (DSEC OS 2.0).",
+        "OTIS near Elara Terminus is a documented place to farm the parts."
+      ],
+      "rewards": [
+        "Laptop upgrades up to Laptop 04",
+        "Workstation 4 starts the Toulan crossover"
+      ],
+      "prerequisites": [
+        "dsec-9-valeria-access-card"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Hunting until the parts drop; drops have no guaranteed time.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Holoroom",
+          "waypoint": "[DSEC9, 36099, 20232, 104, Holoroom]",
+          "verified": true,
+          "sourceIds": [
+            "S10"
+          ]
+        },
+        {
+          "label": "Derelict's cave",
+          "waypoint": "[DSEC9, 35263, 19120, 152, Derelict]",
+          "verified": true,
+          "sourceIds": [
+            "S10"
+          ]
+        },
+        {
+          "label": "OTIS, near Elara Terminus",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Sol's step 5; needed for the crossover, with random drop times."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S10"
+      ],
+      "warnings": [
+        "Part drops are random; there is no guaranteed time to finish."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mission-chain",
+        "laptop"
+      ]
+    },
+    {
+      "id": "dsec-9-crossover-silver-crown",
+      "title": "DEC/Toulan crossover to the Silver Crown of Sahar",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "Starting at Workstation 4, carry Laptop 04 and the Access Card to Rais at CorBite on Toulan, alternate DEC and Rais resource objectives, beat the OTIS Commander stage, then finish Prove Your Worth. The final NPC at Toulan's Narian Temple gives the Silver Crown of Sahar, which has a crafting buff.",
+      "steps": [
+        "Start the crossover at Workstation 4.",
+        "Carry Laptop 04 and the Access Card to Rais at CorBite on Toulan; leave unneeded lootables in storage for the space leg.",
+        "Follow the alternating DEC/Rais resource objectives.",
+        "Kill OTIS Commander (appears daily at a random time and stays until killed).",
+        "Finish Prove Your Worth: 30 crafting assignments, a new one every 20 h.",
+        "Collect the Silver Crown of Sahar from the final NPC at the Narian Temple on Toulan."
+      ],
+      "rewards": [
+        "Silver Crown of Sahar (crafting buff)"
+      ],
+      "prerequisites": [
+        "dsec-9-laptop-upgrades",
+        "toulan-get-there"
+      ],
+      "requirementsText": [
+        "Access Card and Laptop 04 in inventory",
+        "Yamato or other travel between Monria and Toulan"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Travel, resource objectives and 30 crafting assignments; budget separately from the newcomer loop.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Prove Your Worth needs 30 assignments at one per 20 h; missed days only extend the run.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain. Its Prove Your Worth stage issues a new assignment every 20 h."
+      },
+      "locations": [
+        {
+          "label": "Rais, CorBite office (Toulan)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "Narian Temple (Toulan)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Long late-game chain; reward is a crafting buff item."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "warnings": [
+        "The broken crown received early in the chain is a quest step, not the reward.",
+        "Space PvP and cargo rules apply on the Monria-Toulan leg."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "crossover",
+        "crafting",
+        "long-term"
+      ]
+    },
+    {
+      "id": "dsec-9-clear-path",
+      "title": "Clear the Path (2 PED Universal Ammo)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Opened by the beginner chain. Kill hatchlings for the Old Man and get Universal Ammo back.",
+      "steps": [
+        "Take Clear the Path from the Old Man.",
+        "Kill 80 Zokaraneus Hatchlings, 20 Shogghols Hatchlings and 60 Tegunstene Hatchlings (use the correct maturities).",
+        "Return to the Old Man."
+      ],
+      "rewards": [
+        "2 PED Universal Ammo per repeat"
+      ],
+      "prerequisites": [
+        "dsec-9-welcome-to-the-dark-side"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for 160 low-level kills.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "The guide calls it a daily, but the timer length and reset trigger are unverified."
+      },
+      "locations": [
+        {
+          "label": "Old Man",
+          "waypoint": "[DSEC9, 37489, 23899, 108, Old Man]",
+          "verified": true,
+          "sourceIds": [
+            "S7"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "First repeatable in Sol's order; low-level hunt that returns ammo."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S7",
+        "S8"
+      ],
+      "warnings": [
+        "Repeat trigger unverified; field check pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting",
+        "beginner"
+      ]
+    },
+    {
+      "id": "dsec-9-frustrated-local",
+      "title": "The Frustrated Local (DSEC Bots)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Kill 250 DSEC Bot CB 01/02/03 for the Frustrated Local near the entry outpost. 25.2.1 cut the count from 500 to 250.",
+      "steps": [
+        "Take the mission from the Frustrated Local.",
+        "Kill 250 DSEC Bot CB 01, 02 or 03.",
+        "Return to turn in."
+      ],
+      "rewards": [
+        "2.50 PED Universal Ammo"
+      ],
+      "prerequisites": [
+        "dsec-9-enter-from-monria"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for 250 kills.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Listed as a daily; exact timer length and trigger unverified."
+      },
+      "locations": [
+        {
+          "label": "Frustrated Local",
+          "waypoint": "[DSEC9, 33272, 16875, 143, Frustrated Local]",
+          "verified": true,
+          "sourceIds": [
+            "S13"
+          ]
+        },
+        {
+          "label": "DSEC Bot CB spawn (June 2025 player report)",
+          "waypoint": "[DSEC9, 33237, 17220, 108, CB spawn]",
+          "verified": false,
+          "sourceIds": [
+            "S13"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Second in Sol's order; ammo back for a hunt near the entry."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S13",
+        "S14"
+      ],
+      "warnings": [
+        "The CB spawn waypoint is one player's 2025 report.",
+        "Timer trigger unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting"
+      ]
+    },
+    {
+      "id": "dsec-9-church-hunt",
+      "title": "Worship the Elder Gods: hunting assignments",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Start Worship the Elder Gods at the Church north of Larches Green. Early hunts are separate assignments for 50 Shogghols and 50 DSEC Bot CB. An optional 100 low-level creature objective is shared with Toulan.",
+      "steps": [
+        "Start Worship the Elder Gods at the Church of the Elder Gods.",
+        "Take the 50 Shogghols and/or 50 DSEC Bot CB assignments.",
+        "Match objectives before stacking with Clear the Path or Frustrated Local.",
+        "Return to the Church to turn in."
+      ],
+      "rewards": [
+        "1 Elder Tribute per listed assignment"
+      ],
+      "prerequisites": [
+        "dsec-9-mountain-of-madness-route"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elder Tribute",
+          "use": "earned",
+          "note": "Kept for robe thresholds; also spent at the Elder Tribute Trader."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h cooldown per the partner guide; Sol does not say what starts it. The app's timer starts when you mark it done, so mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Church of the Elder Gods",
+          "waypoint": "[DSEC9, 38080, 23954, 105, Church]",
+          "verified": true,
+          "sourceIds": [
+            "S15"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Third in Sol's order; tributes from hunts that overlap the other repeatables."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S15",
+        "S16"
+      ],
+      "warnings": [
+        "Ordinary Toulan hunting contracts target different creatures and can run in the same cycle.",
+        "Higher Church tiers may have exceptions; field check pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting",
+        "elder-tribute"
+      ]
+    },
+    {
+      "id": "dsec-9-church-mine",
+      "title": "Worship the Elder Gods: mining assignments",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "The Church also gives mining assignments, such as three Aqeeq or three Nawa Drops claims and one Lysterium or Melchi claim (24.1 entry-level update). They can be done on Toulan or DSEC-9; the contract and its cooldown are shared.",
+      "steps": [
+        "Take an eligible mining assignment at the Church.",
+        "Find the listed claims on Toulan or DSEC-9.",
+        "Turn in at the Church.",
+        "After reaching Initiate, the Extra Tributes Mining Nawa Drops or Aqeeq Weekly also opens."
+      ],
+      "rewards": [
+        "1 Elder Tribute per listed early task"
+      ],
+      "prerequisites": [
+        "dsec-9-mountain-of-madness-route"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes and mining decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elder Tribute",
+          "use": "earned",
+          "note": "1 per listed early task."
+        }
+      ],
+      "limits": "Shared with Toulan's Church: one contract and cooldown across both.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h per the partner guide. The 'Weekly' extra-tribute mining assignment was changed in 25.2.1 to 16 h from turn-in. Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Church of the Elder Gods",
+          "waypoint": "[DSEC9, 38080, 23954, 105, Church]",
+          "verified": true,
+          "sourceIds": [
+            "S15"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Fourth in Sol's order; tributes for mining you can do on either world."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "warnings": [
+        "Despite its name, the Extra Tributes 'Weekly' runs on a 16 h clock since 25.2.1, with a lower threshold; check the current count."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "mining",
+        "elder-tribute"
+      ]
+    },
+    {
+      "id": "dsec-9-shrine-handins",
+      "title": "Shrine material hand-ins",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "At the Shrine, early exchanges take Jelly Baby Textures or Butt Joints plus sweat. Materials you already own count. Toulan and DSEC-9 share these crafting assignments.",
+      "steps": [
+        "Go to the Shrine by the Church.",
+        "Hand in Jelly Baby Textures or Butt Joints plus sweat as listed.",
+        "Compare the ingredient cost with the return before each exchange."
+      ],
+      "rewards": [
+        "1 Elder Tribute plus shrapnel per early exchange"
+      ],
+      "prerequisites": [
+        "dsec-9-mountain-of-madness-route"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "The listed textures or Butt Joints plus sweat.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elder Tribute",
+          "use": "earned",
+          "note": "1 per early exchange."
+        }
+      ],
+      "limits": "Shared with Toulan's Shrine assignments.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h base cooldown per the partner guide; trigger not stated. Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Shrine",
+          "waypoint": "[DSEC9, 38090, 23926, 106, Shrine]",
+          "verified": true,
+          "sourceIds": [
+            "S15"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Fifth in Sol's order; quick if you already hold the materials."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S15"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "crafting",
+        "elder-tribute"
+      ]
+    },
+    {
+      "id": "dsec-9-textures",
+      "title": "Destroy Creatures and texture blueprint repeats",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Finishing Welcome to the Dark Side opens Destroy Creatures and other hunting repeats that pay texture blueprints. Match the creature objective before hunting.",
+      "steps": [
+        "Finish Welcome to the Dark Side.",
+        "Pick a texture repeat such as Destroy Creatures and check its target creature.",
+        "Hunt and turn in."
+      ],
+      "rewards": [
+        "Destroy Creatures: blueprints worth 0.30 PED in total per the walkthrough"
+      ],
+      "prerequisites": [
+        "dsec-9-welcome-to-the-dark-side"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Cooldown not documented in Sol's sources."
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Last in Sol's order; small blueprint rewards."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S4",
+        "S7"
+      ],
+      "warnings": [
+        "Exact cooldown, current objective counters and other reward counts are pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting",
+        "blueprints"
+      ]
+    },
+    {
+      "id": "dsec-9-elder-robes",
+      "title": "Plan Elder Tributes for the robes",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Elder Tributes unlock the Elder robes at 150, 420, 810, 1,320 and 1,980. Tributes carry over and earlier missions stay open. Keep enough for the next robe before buying at the Elder Tribute Trader.",
+      "steps": [
+        "Carry your Elder Tributes in inventory when claiming a robe.",
+        "Save for the next threshold (150, 420, 810, 1,320, 1,980) before spending.",
+        "Check that trader recipes may also charge PED."
+      ],
+      "rewards": [
+        "Elder robes; the top High Priest/Priestess robe is tradeable"
+      ],
+      "prerequisites": [
+        "dsec-9-church-hunt"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elder Tribute",
+          "use": "kept",
+          "note": "Kept in inventory for robe thresholds; spent at the Elder Tribute Trader."
+        }
+      ],
+      "limits": "Lower robes are untradeable per the partner guide.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 5,
+        "rationale": "Prevents spending tributes needed for the next robe."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S15"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "elder-tribute",
+        "armor",
+        "planning"
+      ]
+    },
+    {
+      "id": "dsec-9-repair-parts",
+      "title": "Keep repair parts; timed picking missions are gone",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Keep useful parts for Steve's exchanges, armor upgrades and crossover hand-ins. The old two-hour picking-parts missions were disabled; parts now drop in normal loot.",
+      "steps": [
+        "Keep parts that Steve's exchanges and upgrades need.",
+        "Ignore older routes built around the timed picking missions.",
+        "Budget optional armor upgrades and crossover crafting separately from the cheap newcomer loop."
+      ],
+      "rewards": [
+        "Parts ready for upgrades and crossover hand-ins"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Avoids following outdated guides."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S9",
+        "S11",
+        "S17"
+      ],
+      "warnings": [
+        "Guides that rely on the two-hour picking-parts missions are out of date."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "parts",
+        "planning"
+      ]
+    }
+  ]
+}

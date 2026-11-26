@@ -86,6 +86,16 @@ class RankingTests(unittest.TestCase):
         self.assertEqual(status_of(self.acts["alpha-next"], self.p, NOW).state, AVAILABLE)
         self.assertEqual(status_of(self.acts["beta-cross"], self.p, NOW).state, AVAILABLE)
 
+    def test_travel_prerequisites_do_not_block(self):
+        import copy
+        ds_dir = tempfile.TemporaryDirectory()
+        self.addCleanup(ds_dir.cleanup)
+        doc = copy.deepcopy(ALPHA)
+        doc["activities"][0]["type"] = "travel"          # alpha-start becomes "get there"
+        Path(ds_dir.name, "alpha.json").write_text(json.dumps(doc), encoding="utf-8")
+        acts = load_dataset(Path(ds_dir.name)).activities
+        self.assertEqual(status_of(acts["alpha-next"], self.p, NOW).state, AVAILABLE)
+
     def test_rolling_cooldown_and_ready_again(self):
         a = self.acts["alpha-daily"]
         self.p.mark_done(a["id"], NOW)

@@ -103,5 +103,5 @@ python -m planet_helper.validate data/planets/aris.json
 
 score = (0.40·value + 0.35·budget + 0.25·effort) / 5 × confidence factor (high 1.0, medium 0.85, low 0.6),
 then adjusted for the stage you picked (same stage +10%, one stage earlier +0%, later stages −25% per step).
-Activities with unmet prerequisites go to "Blocked"; ones on cooldown go to "Cooling down"; completed one-time items are hidden.
+Activities with unmet prerequisites go to "Blocked" (prerequisites of type `travel` are shown but never block); ones on cooldown go to "Cooling down"; completed one-time items are hidden.
 "Budget mode" swaps the weights to 0.25/0.55/0.20.

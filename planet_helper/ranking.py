@@ -30,7 +30,7 @@ def next_fixed_reset(after: datetime, utc_hour: int) -> datetime:
 
 
 def status_of(act: dict, progress: Progress, now: datetime) -> Status:
-    missing = tuple(p for p in act["prerequisites"] if not progress.ever_done(p))
+    missing = tuple(p for p in act.get("_blocking", act["prerequisites"]) if not progress.ever_done(p))
     cd = act["cooldown"]
     kind = cd["kind"]
     last = progress.last_done(act["id"])

@@ -15,7 +15,7 @@ progress*.json
 *.log
 chat.log
 # Agent handoff signals and scratch (not public content)
-research/**/DONE.md
+research/**/DONE*.md
 research/**/scratch/
 *.tmp
 .claude/

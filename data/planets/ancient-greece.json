@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "ancient-greece",
+    "name": "Ancient Greece",
+    "kind": "special",
+    "parent": "next-island",
+    "status": "active",
+    "summary": "Ancient Greece is Next Island's linked time-travel area with its own map. Thebes is the market and quest hub. The headline unlock is the unlimited Falcata, and Thebes dailies pay Nots, dungeon key fragments and progress toward Islander status.",
+    "howToReach": "From Next Island, use the Orpheus' Cave teleporter and choose Ancient Greece in the destination dropdown (download the Ancient Greece map first).",
+    "warnings": [
+      "Desk-checked from public sources only; in-game field verification is pending.",
+      "18.12.0 added Thebes, indoor mining and faction/VIP hunting dailies. 18.12.1 fixed a key-fragment mission and incorrect free VIP access, and disabled vehicles in the Catacombs.",
+      "Exact Nots task counts, vendor stock, cargo flags and timer triggers are unconfirmed."
+    ],
+    "sourceIds": [
+      "N9",
+      "N13",
+      "N15",
+      "N19"
+    ],
+    "lastReviewed": "2026-11-26"
+  },
+  "sources": [
+    {
+      "id": "N7",
+      "title": "News | Next Island",
+      "url": "https://nextisland.com/news",
+      "publisher": "Next Island (planet partner)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Partner news on 18.4/18.5: spawn moved to the starter area, untradeable refiner, Islander quest opened to offworlders and True Islanders."
+    },
+    {
+      "id": "N9",
+      "title": "How to get to Ancient Greece | NI Helper",
+      "url": "https://www.nihelper.com/ag-tp-tutorial",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Orpheus' Cave teleporter route and waypoint; destination dropdown in Medium/Large TP view."
+    },
+    {
+      "id": "N10",
+      "title": "Ancient Greece Missions | NI Helper",
+      "url": "https://www.nihelper.com/ag-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Meeting the Gods, Penthesilea and Creon waypoints, Falcata chain, Dark Queen mission."
+    },
+    {
+      "id": "N11",
+      "title": "Falcata | Entropia Central",
+      "url": "https://www.entropiacentral.com/wiki/weapons/falcata",
+      "publisher": "Entropia Central (community wiki)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Falcata item record."
+    },
+    {
+      "id": "N13",
+      "title": "Next Island, Ancient Greece - Planet guides - Entropia Central",
+      "url": "https://www.entropiacentral.com/guides/planets/next-island-ancient-greece",
+      "publisher": "Entropia Central (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-13",
+      "accessed": "2026-11-26",
+      "supports": "Ancient Greece guide: Thebes hub, Becoming an Islander, 137 completions and reward bundle. Page shows 'Updated 2026-08-13'."
+    },
+    {
+      "id": "N15",
+      "title": "Release Notes 18.12.0 (Next Island forum)",
+      "url": "https://forum.nextisland.com/t/release-notes-18-12-0/1781",
+      "publisher": "Next Island (planet partner, official forum)",
+      "kind": "official-forum",
+      "published": "2025-04-01",
+      "accessed": "2026-11-26",
+      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Page would not load for this converter; title and date from the research notes' link text."
+    },
+    {
+      "id": "N16",
+      "title": "Lastest Missions | NI Helper",
+      "url": "https://www.nihelper.com/newest-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "New missions, brokers and terminals: Screecher reward, Thebes NPC names, key fragments, VIP routes, Hiresh waypoint."
+    },
+    {
+      "id": "N18",
+      "title": "Next Island, the factions and their V.I.P. lounges - Planet guides - Entropia Central",
+      "url": "https://www.entropiacentral.com/guides/planets/next-island-factions-and-vip",
+      "publisher": "Entropia Central (community guide)",
+      "kind": "community-guide",
+      "published": "2026-08-13",
+      "accessed": "2026-11-26",
+      "supports": "Faction, VIP and Islander guide. Page shows 'Updated 2026-08-13'."
+    },
+    {
+      "id": "N19",
+      "title": "Patch Notes 18.12.1 (Next Island forum)",
+      "url": "https://forum.nextisland.com/t/patch-notes-18-12-1/1786",
+      "publisher": "Next Island (planet partner, official forum)",
+      "kind": "official-forum",
+      "published": "2025-04-08",
+      "accessed": "2026-11-26",
+      "supports": "Faction quest choice clarification, key-fragment mission fix, VIP free-access fix, vehicles disabled in the Catacombs. Page would not load for this converter; title and date from the research notes' link text."
+    },
+    {
+      "id": "N20",
+      "title": "Repeatable Missions | NI Helper",
+      "url": "https://www.nihelper.com/repeatable-missions",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Generic timers: 20 h for most older dailies, 1 h for Daily Scouting Resources, 168 h from acceptance for weeklies."
+    },
+    {
+      "id": "N21",
+      "title": "Getting in the Gorgon Wave | NI Helper",
+      "url": "https://www.nihelper.com/getting-in-the-gorgon-wave",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Gorgon wave key and route."
+    },
+    {
+      "id": "N22a",
+      "title": "Gorgon Shade: Hunt, Mine, Craft | NI Helper",
+      "url": "https://www.nihelper.com/gorgon-shade-hunt-mine-craft",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Gorgon Shade repeatables and spawning."
+    },
+    {
+      "id": "N22b",
+      "title": "Armour Upgrade and Plate Upgrade | NI Helper",
+      "url": "https://www.nihelper.com/gorgon-armour-plates-upgrade",
+      "publisher": "NI Helper (community guide)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Gorgon armor and plate upgrades."
+    }
+  ],
+  "activities": [
+    {
+      "id": "ancient-greece-orpheus-cave",
+      "title": "Travel to Ancient Greece via Orpheus' Cave",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Download Ancient Greece, then use the Orpheus' Cave teleporter on Next Island and pick Ancient Greece in the destination dropdown (Medium or Large teleporter view). The cave teleporter is reported to be added when you enter.",
+      "steps": [
+        "Download the Ancient Greece map in the client.",
+        "Go to the Orpheus' Cave teleporter on Next Island (waypoint below).",
+        "Switch the teleporter window to Medium or Large view and choose the destination from the dropdown.",
+        "Do not stockpile old time-travel crystals for this; the current route uses the teleporter interface."
+      ],
+      "rewards": [
+        "Access to Ancient Greece"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "Be on Next Island",
+        "Ancient Greece downloaded"
+      ],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No cost documented.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Orpheus' Cave teleporter, Next Island",
+          "waypoint": "[Next Island, 136178, 87223, 101, Orpheus' Cave]",
+          "verified": true,
+          "sourceIds": [
+            "N9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Required to reach Ancient Greece; free and quick."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "N9",
+        "N10"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "ancient-greece-falcata",
+      "title": "Meeting the Gods → Falcata",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "On the Greek side, start Meeting the Gods, speak to Penthesilea twice before Creon, then do Talk with the Elder and Looking at Distant Pasts to earn the unlimited Falcata.",
+      "steps": [
+        "Start Meeting the Gods.",
+        "Speak to Penthesilea twice (waypoint below).",
+        "Then speak to Creon (waypoint below).",
+        "Complete Talk with the Elder and Looking at Distant Pasts."
+      ],
+      "rewards": [
+        "Falcata (unlimited)"
+      ],
+      "prerequisites": [
+        "ancient-greece-orpheus-cave"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [
+        {
+          "label": "Penthesilea",
+          "waypoint": "[Ancient Greece, 36258, 20524, 146, Penthesilea]",
+          "verified": true,
+          "sourceIds": [
+            "N10"
+          ]
+        },
+        {
+          "label": "Creon",
+          "waypoint": "[Ancient Greece, 36312, 20686, 186, Creon]",
+          "verified": true,
+          "sourceIds": [
+            "N10"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Top unlock in the recommended Greek route: a lasting weapon."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "N10",
+        "N11"
+      ],
+      "warnings": [
+        "The source labels these waypoints 'Penthesilea Captain of the Amazon...' and 'Creon Archon of Thebes'; coordinates match."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "weapon",
+        "story"
+      ]
+    },
+    {
+      "id": "ancient-greece-islander-pursuit",
+      "title": "Becoming an Islander (Daily Islander Pursuit)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Pick up Becoming an Islander in Thebes if you plan longer visits. Each day you choose one of the offered hunting, mining, crafting, fishing, sweating or harvesting objectives. The August 2026 guide lists 137 completions for a reward bundle. The partner opened it to both offworlders and True Islanders.",
+      "steps": [
+        "Start Becoming an Islander in Thebes.",
+        "Each day, choose one offered objective and complete it.",
+        "Turn in the selected daily in Thebes."
+      ],
+      "rewards": [
+        "After 137 completions: reward bundle including the Islander Bumpercar and Giant L.A.R.A. Plushie",
+        "Islander status (needed for the Thebes SVIP)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Depends on the objective chosen each day.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "137 completions for the bundle.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; verify the reset trigger and choice limits in the journal."
+      },
+      "locations": [
+        {
+          "label": "Thebes",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N13"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Unlocks the long Islander track; flexible daily choice keeps cost low."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N7",
+        "N13",
+        "N18"
+      ],
+      "warnings": [
+        "Daily reset trigger and choice limits unverified."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "long-track",
+        "islander"
+      ]
+    },
+    {
+      "id": "ancient-greece-key-fragments",
+      "title": "Dungeon key fragments (Alexandra)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "Alexandra in Thebes offers daily dungeon-key fragment missions, including an Asterion hunt and a mining assignment listed at 500 probes. Fragments are exchanged for a key at the Thebes terminal.",
+      "steps": [
+        "Talk to Alexandra in Thebes and read the active description.",
+        "Do the hunt or mining assignment.",
+        "Exchange fragments for a key at the Thebes terminal only when you plan to run a dungeon."
+      ],
+      "rewards": [
+        "Dungeon key fragments"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo for the Asterion hunt, or 500 probes for the mining option.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Dungeon key fragment",
+          "use": "earned",
+          "note": "Exchange for a dungeon key at the Thebes terminal."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; individual timer trigger pending."
+      },
+      "locations": [
+        {
+          "label": "Alexandra, Thebes",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Mid-game path into Thebes dungeons; mining option is probe-heavy."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N15",
+        "N16",
+        "N19"
+      ],
+      "warnings": [
+        "18.12.1 corrected the Asterion daily's description; read the active text before committing."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "dungeon"
+      ]
+    },
+    {
+      "id": "ancient-greece-nots",
+      "title": "Thebes 'Not a Token' dailies",
+      "type": "daily",
+      "stage": "early",
+      "summary": "In Thebes, speak to the NPC for the activity you already plan to do: Antonia (hunting), Nika (crafting), Alina (mining), Dora (harvesting) or Christa (fishing). They pay 'Not a Token' currency (Nots).",
+      "steps": [
+        "Pick the Thebes NPC that matches your planned activity.",
+        "Complete the task and hand in."
+      ],
+      "rewards": [
+        "Nots ('Not a Token' currency)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Depends on the activity.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Nots",
+          "use": "earned",
+          "note": "Spend at the Thebes terminal."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Daily; live counts and cooldown trigger pending. NI Helper's generic 20 h for older dailies should not be assumed for newer Thebes missions."
+      },
+      "locations": [
+        {
+          "label": "Thebes (Antonia, Nika, Alina, Dora, Christa)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "N16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Stacks with what you already do; Nots feed Thebes rewards."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "N15",
+        "N16",
+        "N20"
+      ],
+      "warnings": [
+        "Live task counts, payouts and cooldown triggers are pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "currency"
+      ]
+    },
+    {
+      "id": "ancient-greece-spend-nots-keys",
+      "title": "Spend Nots and key fragments",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Nots and key fragments are separate Thebes resources. Save Nots for a chosen terminal reward, which can also need an extra item at full TT. Early buys like paintings and textures compete with saving for buff clothing or the Falcata-related exchange. Turn fragments into keys only when you intend to run a dungeon.",
+      "steps": [
+        "Pick a terminal reward before spending Nots and check whether it needs an extra item.",
+        "Convert fragments only when you plan a dungeon run."
+      ],
+      "rewards": [
+        "Thebes terminal rewards"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Nots, sometimes plus an item at full TT.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Nots",
+          "use": "spent",
+          "note": "At the Thebes terminal."
+        },
+        {
+          "name": "Dungeon key fragment",
+          "use": "spent",
+          "note": "For a dungeon key."
+        }
+      ],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel or advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 5,
+        "rationale": "Planning tip; avoids wasting Nots on early cosmetics."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "N15",
+        "N16",
+        "N19"
+      ],
+      "warnings": [
+        "Cargo classification and current vendor costs need live verification."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tip",
+        "currency"
+      ]
+    },
+    {
+      "id": "ancient-greece-gorgon",
+      "title": "Gorgon wave and Gorgonforged upgrades",
+      "type": "mission-chain",
+      "stage": "late",
+      "summary": "For the older Gorgon wave, Deliver Us from the Dark Queen gates entry and you assemble a key before going to Knossos. The first Shade spawn needs crafting, mining and hunting hand-ins plus sweat; later spawns use sweat alone. 18.12.0 added a separate dungeon and key-fragment route and the Aegis of the Gorgonforged upgrade terminal.",
+      "steps": [
+        "Complete Deliver Us from the Dark Queen.",
+        "Follow the key assembly guide before going to Knossos.",
+        "First Shade spawn: crafting, mining and hunting hand-ins with sweat. Later spawns: sweat only.",
+        "Read entry and upgrade costs at the Aegis of the Gorgonforged terminal before gearing up."
+      ],
+      "rewards": [
+        "Gorgon wave access",
+        "Armor and plate upgrades"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Hand-in materials, sweat, key parts and combat spend.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "None known.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission or unlock."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Late, costly combat content; plan before gearing."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "N10",
+        "N15",
+        "N21",
+        "N22a",
+        "N22b"
+      ],
+      "warnings": [
+        "Read entry and upgrade costs before committing; vehicles were disabled in the Catacombs in 18.12.1."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "late",
+        "dungeon",
+        "armor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "monria",
+    "name": "Monria",
+    "kind": "moon",
+    "parent": null,
+    "status": "active",
+    "summary": "Monria is Virtualsense's moon, a separate space destination with a local teleporter link to DSEC-9. The core loop is a set of hunting, mining, crafting and taming dailies that pay Daily Tokens, with the long Order of the Elder Gods chain running alongside.",
+    "howToReach": "Shared warp: the Yamato runs from and back to Monria (6 PED per schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens), and Kronan lists Monria as a request stop. Arrive at Monria Space Station and use its teleporter.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Desk-checked from public sources only; field verification is pending.",
+      "Yamato runs were suspended in September 2026 and dates were published again in November 2026. Check the operator thread before planning a trip.",
+      "Some published NPC coordinates differ by a few units or by floor, notably Tobie and Angel. Waypoint names were set by the research notes; the cited sources show the same coordinates.",
+      "Tobie's crafting daily clock is reported as 21 h and as about 22 h. Which crafts count automatically is unconfirmed."
+    ],
+    "sourceIds": [
+      "S1",
+      "S2",
+      "S4",
+      "S5",
+      "S6",
+      "S9"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Virtualsense Space Travel Program | Fees & Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-fees-schedule.5926/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-02-06",
+      "accessed": "2026-11-26",
+      "supports": "Yamato warp fee of 6 PED per paying passenger and the free-travel groups (qualifying born avatars, estate owners, Toulan citizens)."
+    },
+    {
+      "id": "S2",
+      "title": "Virtualsense Space Travel Program | Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-schedule.2148/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-01-08",
+      "accessed": "2026-11-26",
+      "supports": "Yamato schedule starts and ends on Monria, usually Fridays and Sundays, shifting around Toulan event weekends; signup and summons."
+    },
+    {
+      "id": "S3",
+      "title": "URGENT ALERT | Yamato Warp Schedule Canceled for Sep 11th & 13th",
+      "url": "https://www.virtualsense.eu/forum/threads/urgent-alert-yamato-warp-schedule-canceled-for-sep-11th-13th.11071/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-09-10",
+      "accessed": "2026-11-26",
+      "supports": "Yamato runs were cancelled in September 2026."
+    },
+    {
+      "id": "S4",
+      "title": "Toulan Monthly Event | Friday, Nov 20th - Sunday, Nov 22nd",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-monthly-event-friday-nov-20th-sunday-nov-22nd.11097/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-11-12",
+      "accessed": "2026-11-26",
+      "supports": "November 2026 operator post publishing Yamato dates again; October/November route still via Monria."
+    },
+    {
+      "id": "S5",
+      "title": "Warp Schedule",
+      "url": "https://kronan-ms.info/warp-schedule/",
+      "publisher": "Kronan Interplanetary Spaceship Services",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Kronan lists Monria as a request stop."
+    },
+    {
+      "id": "S6",
+      "title": "Entropia Universe Space Map – Station & Planet Waypoints",
+      "url": "https://www.entropiahub.com/entropia-universe-space-map/",
+      "publisher": "Entropia Hub",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Space waypoint for Monria Space Station."
+    },
+    {
+      "id": "S7",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Ordinary station-to-own-planet teleports made free; 150 kg cap for token travel."
+    },
+    {
+      "id": "S8",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "MindArk space map zones, including lootable PvP areas."
+    },
+    {
+      "id": "S9",
+      "title": "Monria Guide to Everything (PDF)",
+      "url": "https://www.virtualsense.eu/forum/attachments/monria-guide-to-everything-pdf.24648/?hash=3def4cf3c66db03ea82d82b2a795ebbd",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Monria hubs, daily timers and NPC waypoints; Tobie's crafting daily listed at 21 h from hand-in. PDF attachment; title taken from Sol's link text and file name."
+    },
+    {
+      "id": "S10",
+      "title": "Monria VU 4.2 - The Order of the Elder Gods",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-vu-4-2-the-order-of-the-elder-gods.5180/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-04-10",
+      "accessed": "2026-11-26",
+      "supports": "The Order of the Elder Gods, its four chapters and which creature each chapter drops from."
+    },
+    {
+      "id": "S11",
+      "title": "Monria Daily Hunting Mission | Shoggoth",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-hunting-mission-shoggoth.5242/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-05-31",
+      "accessed": "2026-11-26",
+      "supports": "Shoggoth daily at Sachem Ursa: waypoint, progress bar, maturities, 1 Daily Token, 16 h from turn-in."
+    },
+    {
+      "id": "S12",
+      "title": "Toy Soldier | Monria Plushies Mission",
+      "url": "https://www.virtualsense.eu/forum/threads/toy-soldier-monria-plushies-mission.5253/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-06-02",
+      "accessed": "2026-11-26",
+      "supports": "Toy Soldier plushie mission started at the Monria Hub."
+    },
+    {
+      "id": "S13",
+      "title": "Navigating Monria / DSEC9 to Reach Mountain of Madness",
+      "url": "https://www.virtualsense.eu/forum/threads/navigating-monria-dsec9-to-reach-mountain-of-madness.9684/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2022-09-02",
+      "accessed": "2026-11-26",
+      "supports": "Choosing DSEC9 in the Monria teleporter map dropdown and using its entry teleporter."
+    },
+    {
+      "id": "S14",
+      "title": "Hi im New Here",
+      "url": "https://www.virtualsense.eu/forum/threads/hi-im-new-here.9968/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2023-04-07",
+      "accessed": "2026-11-26",
+      "supports": "Virtualsense reply that Monrian-born avatars can qualify for the Toulan starter chain."
+    },
+    {
+      "id": "S15",
+      "title": "Monria Daily Hunting Mission | Yog",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-hunting-mission-yog.5243/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-05-31",
+      "accessed": "2026-11-26",
+      "supports": "Yog daily at Negated: waypoint, 2 Daily Tokens, 16 h from turn-in."
+    },
+    {
+      "id": "S16",
+      "title": "Monria Daily Mining Mission",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-mining-mission.5262/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-06-12",
+      "accessed": "2026-11-26",
+      "supports": "Mining daily at Curd: waypoint, 1 Daily Token, 16 h, no Monria mining/hunting tax."
+    },
+    {
+      "id": "S17",
+      "title": "Monria Daily Hunting Mission | Cultist",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-hunting-mission-cultist.5244/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-05-31",
+      "accessed": "2026-11-26",
+      "supports": "Cultist daily at Colonel Wang: waypoint, 2 Daily Tokens, 16 h from turn-in."
+    },
+    {
+      "id": "S18",
+      "title": "Monria Daily Hunting Mission | Shub",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-hunting-mission-shub.5245/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-05-31",
+      "accessed": "2026-11-26",
+      "supports": "Shub daily at Angel: waypoint, 3 Daily Tokens, 16 h from turn-in."
+    },
+    {
+      "id": "S19",
+      "title": "Monria Daily Crafting Mission",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-crafting-mission.5394/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-11-13",
+      "accessed": "2026-11-26",
+      "supports": "Tobie's crafting unlock chain and daily (500 successes, 0.75 PED Engineering skill), about 22 h clock, player field reports."
+    },
+    {
+      "id": "S20",
+      "title": "Monria Daily Pet Taming Mission",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-daily-pet-taming-mission.5251/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-06-01",
+      "accessed": "2026-11-26",
+      "supports": "Taming 200 Green Leprechauns for the plushie, then a 50-tame repeat for 1 Daily Token every 16 h."
+    },
+    {
+      "id": "S21",
+      "title": "Monria Token Traders",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-token-traders.5255/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2019-06-03",
+      "accessed": "2026-11-26",
+      "supports": "Daily Token traders on the Monria Hub second floor and their waypoint."
+    },
+    {
+      "id": "S22",
+      "title": "Monria Quarterly (PDF, Final Rev 5)",
+      "url": "https://virtualsense.eu/wp-content/uploads/2020/07/MonriaQuarterly-Final-Rev-5.pdf",
+      "publisher": "Virtualsense",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Horns of Z'agol reward and its 3% reload speed. PDF; title taken from Sol's link text and file name."
+    },
+    {
+      "id": "S23",
+      "title": "Monria VU 4.2 - The Order of the Elder Gods | Page 2",
+      "url": "https://www.virtualsense.eu/forum/threads/monria-vu-4-2-the-order-of-the-elder-gods.5180/page-2",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Later replies: chapter drops are rare and the chapters became untradeable."
+    },
+    {
+      "id": "S24",
+      "title": "Toulan Crafted Items are Good, but Technician BPs Need a Remix",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-crafted-items-are-good-but-technician-bps-need-a-remix.10922/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2025-11-01",
+      "accessed": "2026-11-26",
+      "supports": "November 2025 players describing the crafting and mining dailies in use."
+    },
+    {
+      "id": "S25",
+      "title": "Virtualsense Monria 2025 directory (PDF)",
+      "url": "https://www.virtualsense.eu/forum/attachments/monria-directory-2025-pdf.26798/?hash=34be3f992a9d4e3849cbe8040f6ec653",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "2025 directory still listing the mining daily and service locations. Did not load (HTTP 404) on 2026-11-26; title is Sol's link text."
+    },
+    {
+      "id": "S26",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token fares lowered to 6 Teleportation Tokens station-to-station and 10 planet-to-planet on eligible links."
+    }
+  ],
+  "activities": [
+    {
+      "id": "monria-get-there",
+      "title": "Travel to Monria by shared warp",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Monria is Virtualsense's moon, its own space destination. The usual way in is a shared warp: the Yamato runs from and back to Monria, and Kronan will stop there on request.",
+      "steps": [
+        "Check the Yamato operator thread for the next run date, signup and summons close to departure.",
+        "Paying passengers pay 6 PED per schedule; qualifying born avatars, estate owners and Toulan citizens can travel free.",
+        "Or ask Kronan for a request stop at Monria.",
+        "Arrive at Monria Space Station and take the station teleporter down."
+      ],
+      "rewards": [
+        "Access to Monria and, through its teleporters, DSEC-9"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "A seat on a scheduled warp (Yamato or Kronan) or your own ship"
+      ],
+      "cost": {
+        "pedEstimate": 6,
+        "text": "6 PED per Yamato schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Runs only on scheduled dates. Usually Fridays and Sundays, moved to Thursday/Monday around Toulan event weekends.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Monria Space Station (space)",
+          "waypoint": "[Space, 58054, 81246, -56, Monria Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "S6"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Needed before anything else on Monria or DSEC-9; cost and timing depend on the warp schedule."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "warnings": [
+        "Yamato runs were suspended in September 2026; the November 2026 post publishes dates again. Confirm the current run, destination station and summons before relying on it.",
+        "Do not fly your own craft through lootable PvP space with valuables."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space",
+        "beginner"
+      ]
+    },
+    {
+      "id": "monria-cargo-and-exit",
+      "title": "Protect cargo and plan your way out",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "Space between planets includes lootable PvP zones. Leave lootables behind when flying yourself and know which teleport options exist before you leave.",
+      "steps": [
+        "Follow the warp operator's instructions; avoid carrying lootable items on personal flights through lootable PvP space.",
+        "Ordinary station-to-own-planet teleports are free since MindArk 18.9; token travel has a 150 kg cap.",
+        "Since 19.2.0 eligible links cost 6 Teleportation Tokens station-to-station and 10 planet-to-planet.",
+        "Check the actual Monria station teleporter menu or the operator's drop instructions before buying tokens."
+      ],
+      "rewards": [
+        "Fewer losses in space; a planned exit route"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "150 kg weight cap for token teleports"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Teleportation Tokens if an eligible token link exists (6 station-to-station, 10 planet-to-planet). PED value of tokens not given.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "6 station-to-station or 10 planet-to-planet on eligible links since 19.2.0."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free advice that avoids losing loot; read before the first trip."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1",
+        "S4",
+        "S7",
+        "S8",
+        "S26"
+      ],
+      "warnings": [
+        "MindArk's general patch notes do not list every moon. Whether Monria has a token link was not confirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space",
+        "safety"
+      ]
+    },
+    {
+      "id": "monria-claim-hubs",
+      "title": "Register Monria's hubs and teleporters",
+      "type": "unlock",
+      "stage": "arrival",
+      "summary": "Find the main bases first: Monria Hub for crafting and traders, DSEC Forensics for the Shoggoth daily and the Order of the Elder Gods, then the Mining Camp, Military Camp and Shub Cavern when your gear and plans call for them.",
+      "steps": [
+        "Register the Monria Hub teleporter (crafting, traders, Tobie, token traders).",
+        "Register DSEC Forensics (Sachem Ursa and Pinthas stand there).",
+        "Register DSEC Mining Camp, DSEC Military Camp and Shub Cavern as you need them.",
+        "Use the Virtualsense directory and waypoint guide for services and routes."
+      ],
+      "rewards": [
+        "Teleporters for all Monria dailies"
+      ],
+      "prerequisites": [
+        "monria-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Walking or vehicle time; no fee mentioned.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time teleporter registration."
+      },
+      "locations": [
+        {
+          "label": "Monria Hub (crafting and traders)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "DSEC Forensics",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "DSEC Mining Camp",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "DSEC Military Camp",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "Shub Cavern",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Sol's step 3; every daily starts from one of these hubs."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S25"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "teleporter"
+      ]
+    },
+    {
+      "id": "monria-order-of-the-elder-gods",
+      "title": "The Order of the Elder Gods (Horns of Z'agol)",
+      "type": "mission-chain",
+      "stage": "early",
+      "summary": "A long chain started at Pinthas. Four chapters drop, rarely, from Shoggoths, Yogs, Cultists and Shubs in that order. Completing all four gives the Horns of Z'agol, a combat item with 3% reload speed.",
+      "steps": [
+        "Start the chain with Pinthas at DSEC Forensics, next to Sachem Ursa.",
+        "Hunt Shoggoths for Chapter 1, Yogs for Chapter 2, Cultists for Chapter 3 and Shubs for Chapter 4.",
+        "Run it alongside the matching hunting dailies; chapters drop independently of the daily progress.",
+        "Hand in all four chapters for the Horns."
+      ],
+      "rewards": [
+        "Horns of Z'agol (3% reload speed per the operator guide)"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay across many hunts; chapters are rare drops.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Chapters are untradeable, so you have to find all four yourself.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Pinthas, DSEC Forensics",
+          "waypoint": "[Monria, 38145, 21022, 11, Pinthas]",
+          "verified": false,
+          "sourceIds": [
+            "S9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 1,
+        "rationale": "Best long-term combat reward on Monria, but the rare chapter drops make it slow; start it early and let it run with the dailies."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S10",
+        "S22",
+        "S23"
+      ],
+      "warnings": [
+        "Older posts about trading chapter copies predate the change that made chapters untradeable.",
+        "The Pinthas waypoint is attributed to the Everything Guide PDF, which this conversion could not text-check; treat it as unconfirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "long-term",
+        "combat"
+      ]
+    },
+    {
+      "id": "monria-toy-soldier",
+      "title": "Toy Soldier plushie mission",
+      "type": "mission",
+      "stage": "early",
+      "summary": "Start Toy Soldier at the Monria Hub so the same Monria hunts also advance plushie progress.",
+      "steps": [
+        "Pick up Toy Soldier at the Monria Hub.",
+        "Hunt as usual for the dailies; plushie progress fills from the same kills."
+      ],
+      "rewards": [
+        "Plushie progress"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "No extra cost beyond hunts you already do.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Sol gives no timer or repeat rule."
+      },
+      "locations": [
+        {
+          "label": "Monria Hub",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free extra progress from hunts you already do; reward details were not given."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S12"
+      ],
+      "warnings": [
+        "Exact plushie rewards and whether it repeats were not covered in Sol's notes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "plushie"
+      ]
+    },
+    {
+      "id": "monria-to-dsec-9",
+      "title": "Go to DSEC-9 through Monria's teleporters",
+      "type": "travel",
+      "stage": "early",
+      "summary": "DSEC-9 has no warp destination of its own. Use any Monria teleporter, choose DSEC9 in the map dropdown at the top right and pick its entry teleporter. Monrian-born avatars may also qualify for Toulan's born starter chain.",
+      "steps": [
+        "Open any Monria teleporter.",
+        "Choose DSEC9 in the top-right map dropdown.",
+        "Select the DSEC9 entry teleporter; continue with the DSEC-9 file."
+      ],
+      "rewards": [
+        "Access to DSEC-9 and its beginner chain (Welcome to the Dark Side)"
+      ],
+      "prerequisites": [
+        "monria-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "No fee mentioned for the local teleport.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Sol's step 4; free local hop to DSEC-9's beginner gear and repeatables."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S13",
+        "S14"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "monria-shoggoth",
+      "title": "Shoggoth daily (Sachem Ursa)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Fill the Shoggoth progress bar for Sachem Ursa at DSEC Forensics. Higher maturities move the bar faster. The same kills can advance Codex, plushies and maybe Chapter 1 of the Order.",
+      "steps": [
+        "Take the Shoggoth daily from Sachem Ursa at DSEC Forensics.",
+        "Hunt Shoggoths until the progress bar is full; bigger maturities count for more.",
+        "Return to Sachem Ursa to turn in."
+      ],
+      "rewards": [
+        "1 Daily Token"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for the Shoggoth hunt.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "1 per turn-in; spend at the Monria Hub token traders."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Sachem Ursa, DSEC Forensics",
+          "waypoint": "[Monria, 38136, 21027, 12, Sachem Ursa]",
+          "verified": true,
+          "sourceIds": [
+            "S11"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "First repeatable in Sol's order; stacks with Codex, plushie and Chapter 1 progress."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S9",
+        "S11"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-yog",
+      "title": "Yog daily (Negated)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Fill Yog progress for Negated, southeast of the DSEC Mining Camp teleporter along the wall. Chapter 2 of the Order can drop independently.",
+      "steps": [
+        "Take the Yog daily from Negated, southeast of the DSEC Mining Camp TP along the wall.",
+        "Hunt Yogs until the progress bar is full.",
+        "Return to Negated to turn in."
+      ],
+      "rewards": [
+        "2 Daily Tokens"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for the Yog hunt.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "2 per turn-in."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Negated, near DSEC Mining Camp",
+          "waypoint": "[Monria, 38837, 19002, 98, Negated]",
+          "verified": true,
+          "sourceIds": [
+            "S15"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Second in Sol's order; double tokens and a Chapter 2 chance."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S10",
+        "S15"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-mining",
+      "title": "Mining daily (Curd)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Curd at DSEC Mining Camp, next to the Repair NPC, gives a mining daily. Pick it up before you start mining. Monria has no mining or hunting tax according to the official page.",
+      "steps": [
+        "Take the daily from Curd next to the Repair NPC at DSEC Mining Camp before mining.",
+        "Follow the active mining objective.",
+        "Return to Curd to turn in."
+      ],
+      "rewards": [
+        "1 Daily Token"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes and finder/extractor decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "1 per turn-in."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Curd, DSEC Mining Camp",
+          "waypoint": "[Monria, 38740, 19113, 115, Curd]",
+          "verified": true,
+          "sourceIds": [
+            "S16"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Third in Sol's order; a token for mining you may do anyway, no local tax."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S16",
+        "S24",
+        "S25"
+      ],
+      "warnings": [
+        "The exact count or points threshold is pending a field check.",
+        "An old 4.2-era token issue with Curd is historical; the 2025 directory still lists the daily."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "mining",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-cultist",
+      "title": "Cultist daily (Colonel Wang)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Colonel Wang stands north of the DSEC Military Camp teleporter by the stable. Fill Cultist progress. Chapter 3 of the Order can drop independently.",
+      "steps": [
+        "Take the Cultist daily from Colonel Wang by the stable north of DSEC Military Camp TP.",
+        "Hunt Cultists until the progress bar is full.",
+        "Return to Colonel Wang to turn in."
+      ],
+      "rewards": [
+        "2 Daily Tokens"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for the Cultist hunt.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "2 per turn-in."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Colonel Wang, DSEC Military Camp stable",
+          "waypoint": "[Monria, 36905, 17856, 175, Colonel Wang]",
+          "verified": true,
+          "sourceIds": [
+            "S17"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fourth in Sol's order; double tokens and a Chapter 3 chance."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S10",
+        "S17"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-shub",
+      "title": "Shub daily (Angel)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "Angel near the Shub Cavern teleporter gives the Shub daily. It pays the most tokens; take it once you are equipped for Shubs. Chapter 4 of the Order can drop independently.",
+      "steps": [
+        "Take the Shub daily from Angel near the Shub Cavern TP.",
+        "Hunt Shubs until the progress bar is full.",
+        "Return to Angel to turn in."
+      ],
+      "rewards": [
+        "3 Daily Tokens"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [
+        "Gear that can handle Shubs"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay for a harder hunt.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "3 per turn-in."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Angel, Shub Cavern TP",
+          "waypoint": "[Monria, 35576, 20034, 92, Angel]",
+          "verified": true,
+          "sourceIds": [
+            "S18"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Fifth in Sol's order; best token payout but needs stronger gear."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S9",
+        "S10",
+        "S18"
+      ],
+      "warnings": [
+        "Published coordinates for Angel differ by a few units between sources; use the NPC name on arrival."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-craft-unlock",
+      "title": "Unlock Tobie's crafting daily",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "Before the crafting daily opens you must finish Tobie's chain: discover a Monria blueprint, become a local crafter, then reach 100 and 500 successful crafts.",
+      "steps": [
+        "Find Tobie on the second floor of Monria Hub, opposite the Trade Center.",
+        "Complete Discover a Monria Blueprint, then Become a Local Crafter.",
+        "Make 100 successful crafts, then 500 successful crafts.",
+        "Check during the unlock that your blueprint actually counts."
+      ],
+      "rewards": [
+        "Access to the repeatable crafting daily"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Crafting materials and blueprint use; 500 successes can take far more than 500 attempts.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time unlock chain."
+      },
+      "locations": [
+        {
+          "label": "Tobie, Monria Hub 2nd floor",
+          "waypoint": "[Monria, 38150, 22090, 212, Tobie]",
+          "verified": true,
+          "sourceIds": [
+            "S19"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Sixth in Sol's order; the payoff is skill, and reaching 500 successes is costly."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S19"
+      ],
+      "warnings": [
+        "Tobie's published altitude differs between sources; use the second-floor Trade Center direction."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "crafting"
+      ]
+    },
+    {
+      "id": "monria-craft",
+      "title": "Crafting daily (Tobie, 500 successes)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "After the unlock, Tobie's daily asks for 500 successful crafts and pays Engineering skill, not spendable PED. Count your cost per success.",
+      "steps": [
+        "Test on a small batch first that your crafts count (the guide flags manual versus automatic crafting; later players describe different workflows).",
+        "Make 500 successful crafts.",
+        "Hand in to Tobie."
+      ],
+      "rewards": [
+        "0.75 PED of Engineering skill (not spendable PED)"
+      ],
+      "prerequisites": [
+        "monria-craft-unlock"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Materials for well over 500 attempts.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 22,
+        "resetNote": "21 h from hand-in per the Everything Guide, about 22 h from turn-in per the mission thread; exact length pending. Set to 22 h so the app does not show it ready early; mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Tobie, Monria Hub 2nd floor",
+          "waypoint": "[Monria, 38150, 22090, 212, Tobie]",
+          "verified": true,
+          "sourceIds": [
+            "S19"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Skill-only reward for a large crafting run; only worth it if you craft anyway."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9",
+        "S19",
+        "S24"
+      ],
+      "warnings": [
+        "Timer conflict: 21 h vs about 22 h in two Virtualsense sources.",
+        "Which crafts count automatically is unclear; validate on a small batch."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "monria-tame-unlock",
+      "title": "Tame 200 Green Leprechauns (plushie)",
+      "type": "mission",
+      "stage": "mid",
+      "summary": "Colonel Wang at the stable runs the taming mission: tame 200 Green Leprechauns to earn the plushie and open a repeat.",
+      "steps": [
+        "Talk to Colonel Wang at the stable north of DSEC Military Camp TP.",
+        "Tame 200 Green Leprechauns.",
+        "Hand in for the plushie; the 50-tame repeat opens."
+      ],
+      "rewards": [
+        "Leprechaun plushie",
+        "Unlocks the taming repeat"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [
+        "Taming gear"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time unlock."
+      },
+      "locations": [
+        {
+          "label": "Colonel Wang, DSEC Military Camp stable",
+          "waypoint": "[Monria, 36905, 17856, 175, Colonel Wang]",
+          "verified": true,
+          "sourceIds": [
+            "S20"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Last in Sol's order; opens a small token repeat."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S20"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "taming",
+        "plushie"
+      ]
+    },
+    {
+      "id": "monria-tame",
+      "title": "Taming repeat (50 Green Leprechauns)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "After the plushie, tame 50 more Green Leprechauns for Colonel Wang each cycle.",
+      "steps": [
+        "Take the repeat from Colonel Wang.",
+        "Tame 50 Green Leprechauns.",
+        "Turn in."
+      ],
+      "rewards": [
+        "1 Daily Token"
+      ],
+      "prerequisites": [
+        "monria-tame-unlock"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "earned",
+          "note": "1 per repeat."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h from turn-in per the Virtualsense mission page. The app's timer starts when you mark it done, so mark it at hand-in or it may show ready later than the game."
+      },
+      "locations": [
+        {
+          "label": "Colonel Wang, DSEC Military Camp stable",
+          "waypoint": "[Monria, 36905, 17856, 175, Colonel Wang]",
+          "verified": true,
+          "sourceIds": [
+            "S20"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Last in Sol's order; one token per cycle."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S20"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "taming",
+        "tokens"
+      ]
+    },
+    {
+      "id": "monria-daily-token-traders",
+      "title": "Spend Daily Tokens wisely",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Daily Tokens buy equipment at the token traders on the Monria Hub second floor. Combat and Mayhem traders are separate. Hold tokens until a limited item fits your profession level or plans.",
+      "steps": [
+        "Go to the token trader area on the Monria Hub second floor.",
+        "Check current stock and the trade/binding rules.",
+        "Buy only when the item matches your level or planned activity."
+      ],
+      "rewards": [
+        "Equipment choice from the Daily Token traders"
+      ],
+      "prerequisites": [
+        "monria-claim-hubs"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Daily Token",
+          "use": "spent",
+          "note": "Spent at the Monria Hub token traders; keep until a suitable item is available."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Token Traders, Monria Hub 2nd floor",
+          "waypoint": "[Monria, 38147, 22079, 212, Token Traders]",
+          "verified": true,
+          "sourceIds": [
+            "S21"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Avoids wasting tokens on gear you cannot use yet."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S21"
+      ],
+      "warnings": [
+        "Current vendor stock and trade/binding rules need confirming in game."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tokens",
+        "trader"
+      ]
+    }
+  ]
+}

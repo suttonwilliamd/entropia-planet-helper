@@ -1,0 +1,1484 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "toulan",
+    "name": "Toulan",
+    "kind": "planet",
+    "parent": null,
+    "status": "active",
+    "summary": "Toulan is Virtualsense's planet, sharing Elder Tribute and crossover progression with DSEC-9. Visitors get a few free missions and a NawaCore that gates many missions and the CUHOF instances; born avatars get a longer starter chain.",
+    "howToReach": "Shared warp to Toulan Space Station (Yamato, 6 PED per schedule for paying passengers, free for qualifying born avatars, estate owners and Toulan citizens; Kronan on request), then the station-to-planet teleporter to the Citadel.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Desk-checked from public sources only; field verification is pending.",
+      "Visitor versus born prompts, current NawaCore options, the Nahar broker floor and coordinates, timers, citizenship requirement and instance costs all need a current check.",
+      "Some old creature dailies are marked deactivated in the community list. The monthly event calendar can move.",
+      "Waypoint names were set by the research notes; the cited sources show the same coordinates (often labelled 'Waypoint')."
+    ],
+    "sourceIds": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S8",
+      "S14",
+      "S27"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Virtualsense Space Travel Program | Fees & Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-fees-schedule.5926/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-02-06",
+      "accessed": "2026-11-26",
+      "supports": "Yamato Toulan legs: 6 PED per schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens."
+    },
+    {
+      "id": "S2",
+      "title": "Virtualsense Space Travel Program | Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/virtualsense-space-travel-program-schedule.2148/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2016-01-08",
+      "accessed": "2026-11-26",
+      "supports": "Yamato route and timetable."
+    },
+    {
+      "id": "S3",
+      "title": "Toulan Monthly Event | Friday, Nov 20th - Sunday, Nov 22nd",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-monthly-event-friday-nov-20th-sunday-nov-22nd.11097/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-11-12",
+      "accessed": "2026-11-26",
+      "supports": "November 2026 operator notice confirming event-weekend schedule shifts."
+    },
+    {
+      "id": "S4",
+      "title": "Entropia Universe Space Map – Station & Planet Waypoints",
+      "url": "https://www.entropiahub.com/entropia-universe-space-map/",
+      "publisher": "Entropia Hub",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Space waypoint for Toulan Space Station."
+    },
+    {
+      "id": "S5",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "150 kg token-travel cap; ordinary station-to-own-planet teleport made free."
+    },
+    {
+      "id": "S6",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/new-space-features/279066",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "MindArk lootable PvP space zones."
+    },
+    {
+      "id": "S7",
+      "title": "Warp Schedule",
+      "url": "https://kronan-ms.info/warp-schedule/",
+      "publisher": "Kronan Interplanetary Spaceship Services",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Kronan lists Toulan as a request stop."
+    },
+    {
+      "id": "S8",
+      "title": "Toulan Beginners Mission Chain | Toulan/Monrian Born Only",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-beginners-mission-chain-toulan-monrian-born-only.8095/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2021-01-07",
+      "accessed": "2026-11-26",
+      "supports": "Born-only starter chain (Salam, Bilal, Ahlan, Guardian Village), its rewards, the visitor restriction and the team-loot warning."
+    },
+    {
+      "id": "S9",
+      "title": "Toulan Main (Storyline) Mission Chain - (Open to all)",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-main-storyline-mission-chain-open-to-all.9134/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "community-guide",
+      "published": "2021-10-16",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand notes on Ahlan's Wedding Ring and the public storyline from Senan and Rabee, with waypoints."
+    },
+    {
+      "id": "S10",
+      "title": "VU 25.2 | CUHOF Additions",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-2-cuhof-additions.10818/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-06-10",
+      "accessed": "2026-11-26",
+      "supports": "25.2/25.2.1: born avatars can skip the Where's My Pants riddle; the extra Elder Tribute mining 'Weekly' now 16 h from turn-in."
+    },
+    {
+      "id": "S11",
+      "title": "Nawa Core Data | Presented by Alaina Bonnie Knight",
+      "url": "https://www.virtualsense.eu/forum/threads/nawa-core-data-presented-by-alaina-bonnie-knight.7951/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2020-12-03",
+      "accessed": "2026-11-26",
+      "supports": "NawaCore MK1 options for visitors, MK2/MK3 upgrade parts, Nawa Energy Cell recipe."
+    },
+    {
+      "id": "S12",
+      "title": "Toulan Citizenship Mission",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-citizenship-mission.9414/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "community-guide",
+      "published": "2022-03-03",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand Citizenship route: MK3 to Haneen, monthly event mobs, shared-loot kills counting, rewards."
+    },
+    {
+      "id": "S13",
+      "title": "Worship The Elder Gods (The Elder Robe) | Toulan",
+      "url": "https://www.virtualsense.eu/forum/threads/worship-the-elder-gods-the-elder-robe-toulan.10281/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2024-01-06",
+      "accessed": "2026-11-26",
+      "supports": "Toulan Church and Shrine waypoints and missions, rewards and base 16 h cooldown."
+    },
+    {
+      "id": "S14",
+      "title": "Toulan Daily Missions | Info & Rewards",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-daily-missions-info-rewards.8835/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "community-guide",
+      "published": "2021-07-04",
+      "accessed": "2026-11-26",
+      "supports": "Toulan daily reference: Thana, Najran, Askari, Nadira, Mirsal contracts, waypoints, rewards and timers."
+    },
+    {
+      "id": "S15",
+      "title": "Toulan Crafted Items are Good, but Technician BPs Need a Remix",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-crafted-items-are-good-but-technician-bps-need-a-remix.10922/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2025-11-01",
+      "accessed": "2026-11-26",
+      "supports": "November 2025 players discussing the Mokhat and Thana dailies."
+    },
+    {
+      "id": "S16",
+      "title": "VU 21.1 | Nadira Wants an Apprentice",
+      "url": "https://virtualsense.eu/vu-21-1-nadira-wants-an-apprentice/",
+      "publisher": "Virtualsense",
+      "kind": "official",
+      "published": "2021-03-02",
+      "accessed": "2026-11-26",
+      "supports": "Official release of Nadira Wants an Apprentice."
+    },
+    {
+      "id": "S17",
+      "title": "Nadira Wants an Apprentice | Toulan Crafting Daily",
+      "url": "https://www.virtualsense.eu/forum/threads/nadira-wants-an-apprentice-toulan-crafting-daily.9647/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2022-08-10",
+      "accessed": "2026-11-26",
+      "supports": "Nadira walkthrough: intro, blueprint versions, 1,000-attempt repeat, a player's note on Aqeeq Texture."
+    },
+    {
+      "id": "S18",
+      "title": "VU 23.4 | Church of the Elder Gods",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-23-4-church-of-the-elder-gods.10223/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2023-11-28",
+      "accessed": "2026-11-26",
+      "supports": "Church of the Elder Gods launch and shared Toulan/DSEC-9 mission rules."
+    },
+    {
+      "id": "S19",
+      "title": "Further Mission Requirements For The Crossover Chain.",
+      "url": "https://www.virtualsense.eu/forum/threads/further-mission-requirements-for-the-crossover-chain.9359/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2022-01-21",
+      "accessed": "2026-11-26",
+      "supports": "DSEC-9/Toulan crossover, CorBite and Rais."
+    },
+    {
+      "id": "S20",
+      "title": "Virtualsense Quarterly, June 2022 (PDF)",
+      "url": "https://www.virtualsense.eu/forum/attachments/vs-qtrly-june-2022-pdf.24790/?hash=cbacbef6840050a5454e047f673c8a98",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "CorBite Tasks (50 tasks, timing, 50 Mirsal Tokens, 7-day repeat) and vendor locations. PDF; title from Sol's link text and file name."
+    },
+    {
+      "id": "S21",
+      "title": "VU 25.1 | CUHOF Legends",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-1-cuhof-legends.10763/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-04-01",
+      "accessed": "2026-11-26",
+      "supports": "CUHOF Legends keys and runs, removal of ordinary CUHOF 1-5 end chests, Improved Baraka, Mirsal blueprints."
+    },
+    {
+      "id": "S22",
+      "title": "VU 25.4 | Mirsal Additions",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-4-mirsal-additions.10943/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Mirsal trader additions."
+    },
+    {
+      "id": "S23",
+      "title": "VU 25.3 | DSEC Melodies",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-25-3-dsec-melodies.10907/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2025-10-07",
+      "accessed": "2026-11-26",
+      "supports": "25.3 added Modified Baraka."
+    },
+    {
+      "id": "S24",
+      "title": "VU 26.1 | Weapons Galore",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-26-1-weapons-galore.11005/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-03-24",
+      "accessed": "2026-11-26",
+      "supports": "26.1 component and weapon blueprints."
+    },
+    {
+      "id": "S25",
+      "title": "VU 26.3 | The Armor Plates",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-26-3-the-armor-plates.11082/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-09-29",
+      "accessed": "2026-11-26",
+      "supports": "26.3 CUHOF armor plate upgrades II-V."
+    },
+    {
+      "id": "S26",
+      "title": "VU 26.4 | Buff Those Plates",
+      "url": "https://www.virtualsense.eu/forum/threads/vu-26-4-buff-those-plates.11096/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-11-11",
+      "accessed": "2026-11-26",
+      "supports": "26.4 (2026-11-11) block chance for plates II-V and the UI truncation note."
+    },
+    {
+      "id": "S27",
+      "title": "2026 Toulan Event Schedule",
+      "url": "https://www.virtualsense.eu/forum/threads/2026-toulan-event-schedule.10954/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "official-forum",
+      "published": "2026-01-01",
+      "accessed": "2026-11-26",
+      "supports": "2026 Toulan monthly event calendar; some old creature dailies marked deactivated."
+    },
+    {
+      "id": "S28",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token fares lowered to 6 Teleportation Tokens station-to-station and 10 planet-to-planet on eligible links."
+    }
+  ],
+  "activities": [
+    {
+      "id": "toulan-get-there",
+      "title": "Travel to Toulan and the Citadel",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Take a shared warp to Toulan Space Station, then the station-to-planet teleporter down to the Citadel. Yamato serves Toulan; Kronan stops on request.",
+      "steps": [
+        "Book a Yamato run (6 PED per schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens) or ask Kronan for a request stop.",
+        "Store valuable lootables before any personal flight through lootable PvP space.",
+        "At Toulan Space Station take the station-to-planet teleporter.",
+        "Token links: since 19.2.0 eligible links cost 6 tokens station-to-station and 10 planet-to-planet; check the actual menu before buying tokens."
+      ],
+      "rewards": [
+        "Access to Toulan"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "150 kg cap for token teleports"
+      ],
+      "cost": {
+        "pedEstimate": 6,
+        "text": "6 PED per Yamato schedule for paying passengers; free for the eligible groups. Token travel, where available, uses Teleportation Tokens.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "Only if an eligible token link appears in the menu."
+        }
+      ],
+      "limits": "Warps run on scheduled dates that shift around event weekends.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Travel, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Toulan Space Station (space)",
+          "waypoint": "[Space, 85276, 81077, -428, Toulan Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "S4"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Required first step; cost and timing depend on the warp schedule."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S28"
+      ],
+      "warnings": [
+        "Whether Toulan has a token link was not confirmed; check the station menu."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space",
+        "beginner"
+      ]
+    },
+    {
+      "id": "toulan-ahlan-wedding-ring",
+      "title": "Ahlan's Wedding Ring",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "A quick visitor mission at the foot of the Citadel TP stairs. Swim to the marker behind the tower; getting close finds the ring. Hand back for a vehicle.",
+      "steps": [
+        "Take Ahlan's Wedding Ring from Ahlan at the foot of the Citadel TP stairs.",
+        "Swim to the ring marker behind the tower; proximity triggers the find.",
+        "Return to Ahlan."
+      ],
+      "rewards": [
+        "Ahlan's Old Vehicle (L)"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time mission."
+      },
+      "locations": [
+        {
+          "label": "Ahlan",
+          "waypoint": "[Planet Toulan, 132641, 94073, 280, Ahlan]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
+        },
+        {
+          "label": "Ring marker behind the tower",
+          "waypoint": "[Planet Toulan, 132645, 93996, 254, Ring]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Sol's step 2; free vehicle for a few minutes' work."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S9"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "vehicle",
+        "free"
+      ]
+    },
+    {
+      "id": "toulan-public-storyline",
+      "title": "Public storyline (Senan, Rabee)",
+      "type": "mission-chain",
+      "stage": "early",
+      "summary": "Visitors start the public storyline with Senan in Al-Nahar City, then Rabee at the Nawa Reactor for the pipe route.",
+      "steps": [
+        "Talk to Senan in Al-Nahar City.",
+        "Continue to Rabee at the Nawa Reactor for the pipe route.",
+        "Check your eligibility before expecting the born-only offworld pistol and outfit rewards."
+      ],
+      "rewards": [
+        "Storyline progress"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Not stated.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Senan, Al-Nahar City",
+          "waypoint": "[Planet Toulan, 134489, 96469, 274, Senan]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
+        },
+        {
+          "label": "Rabee, Nawa Reactor",
+          "waypoint": "[Planet Toulan, 134055, 96748, 323, Rabee]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Sol's step 2; the main visitor story, rewards for visitors unclear."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S8",
+        "S9"
+      ],
+      "warnings": [
+        "Older retrospective notes mention Salam/Bilal for visitors, but the official born guide restricts its extended starter chain. Verify visitor prompts in game."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "storyline",
+        "beginner"
+      ]
+    },
+    {
+      "id": "toulan-born-starter-chain",
+      "title": "Born-only starter chain (Salam to Guardian Village)",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "Toulan- and Monrian-born avatars follow a 20-step chain from Salam through Bilal and Ahlan to Guardian Village for starter tools, weapon and ammo, and clothing.",
+      "steps": [
+        "Start with Salam near the Citadel.",
+        "Follow Bilal and Ahlan to Guardian Village using the partner's 20-step guide.",
+        "At Nadira, eligible born avatars can skip the Where's My Pants riddle and get the waypoint (25.2.1).",
+        "Do the chain solo; mission loot may fail in a team."
+      ],
+      "rewards": [
+        "Starter tools, weapon and ammo, and clothing",
+        "Toulan-born shirt (origin-specific)"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [
+        "Toulan-born or Monrian-born avatar"
+      ],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free for eligible avatars.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Salam",
+          "waypoint": "[Planet Toulan, 132665, 94190, 271, Salam]",
+          "verified": true,
+          "sourceIds": [
+            "S8"
+          ]
+        },
+        {
+          "label": "Guardian Village",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Sol's step 3; free starter kit, but only for born avatars."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S8",
+        "S10"
+      ],
+      "warnings": [
+        "The born guide notes that mission loot may fail when you are in a team."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "born",
+        "starter-gear"
+      ]
+    },
+    {
+      "id": "toulan-nawacore-mk1",
+      "title": "Get NawaCore MK1",
+      "type": "unlock",
+      "stage": "early",
+      "summary": "Many Toulan missions need a NawaCore. Visitors ask the NawaCore Agent at the Nahar City gate and choose to hunt 100 TabTab or hand in 10,000 Vibrant Sweat. Toulan-born get MK1 when leaving the start room.",
+      "steps": [
+        "Visitors: talk to the NawaCore Agent at the Nahar City gate.",
+        "Choose 100 TabTab kills or 10,000 Vibrant Sweat; compare the sweat's cost with the hunt, and pick the hunt if you already hunt TabTab.",
+        "Toulan-born: MK1 is given when you leave the start room."
+      ],
+      "rewards": [
+        "NawaCore MK1"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Either ammo for 100 TabTab or 10,000 Vibrant Sweat.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time unlock."
+      },
+      "locations": [
+        {
+          "label": "NawaCore Agent, Nahar City gate",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Sol's step 4; gates many missions and the instances."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S11"
+      ],
+      "warnings": [
+        "Current MK1 choices need a field check."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "unlock",
+        "nawacore"
+      ]
+    },
+    {
+      "id": "toulan-nawacore-mk2-mk3",
+      "title": "Upgrade NawaCore to MK2 and MK3",
+      "type": "unlock",
+      "stage": "mid",
+      "summary": "For each upgrade bring your current core plus the next core's A-E parts. Parts drop in CUHOF or come from other players. Check which tier your target missions need.",
+      "steps": [
+        "Collect the next core's A-E parts in CUHOF or buy them from players.",
+        "Bring the prior core and parts to upgrade to MK2, then repeat for MK3."
+      ],
+      "rewards": [
+        "NawaCore MK2, then MK3"
+      ],
+      "prerequisites": [
+        "toulan-nawacore-mk1"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "CUHOF runs or player trades for parts.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time unlocks."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Needed for later missions and Citizenship; parts cost time or PED."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S11"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "unlock",
+        "nawacore",
+        "instance"
+      ]
+    },
+    {
+      "id": "toulan-citizenship",
+      "title": "Toulan Citizenship",
+      "type": "mission",
+      "stage": "late",
+      "summary": "Bring MK3 to Haneen at the Citadel info booth. Progress comes from qualifying mobs at the monthly events, usually over several events. Rewards are free Yamato travel eligibility and an outfit.",
+      "steps": [
+        "Bring NawaCore MK3 to Haneen at the Citadel info booth.",
+        "Join monthly Toulan events and kill qualifying event mobs.",
+        "Per the guide, shared-loot kills outside a formal team also count."
+      ],
+      "rewards": [
+        "Yamato free-travel eligibility",
+        "Citizenship outfit"
+      ],
+      "prerequisites": [
+        "toulan-nawacore-mk2-mk3"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo across several monthly events.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time goal."
+      },
+      "locations": [
+        {
+          "label": "Haneen, Citadel info booth",
+          "waypoint": "[Planet Toulan, 132614, 94097, 280, Haneen]",
+          "verified": true,
+          "sourceIds": [
+            "S12"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 1,
+        "rationale": "Sol's long goal; saves warp fees later but takes several events."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1",
+        "S12",
+        "S27"
+      ],
+      "warnings": [
+        "Current citizenship requirement and event counter need confirming. The monthly event calendar can move."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "long-term",
+        "events",
+        "travel"
+      ]
+    },
+    {
+      "id": "toulan-worship-elder-gods-start",
+      "title": "Start Worship the Elder Gods (Toulan Church)",
+      "type": "unlock",
+      "stage": "early",
+      "summary": "From the Pit North teleporter go to the Church; hand-ins start at the nearby Shrine. Unlock it early if you already mine or hunt eligible mobs.",
+      "steps": [
+        "Teleport to Pit North.",
+        "Walk to the Church and start Worship the Elder Gods.",
+        "Find the Shrine nearby for hand-ins."
+      ],
+      "rewards": [
+        "Access to Elder Tribute assignments"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Travel only.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time unlock."
+      },
+      "locations": [
+        {
+          "label": "Church",
+          "waypoint": "[Planet Toulan, 137269, 92209, 119, Church]",
+          "verified": true,
+          "sourceIds": [
+            "S13"
+          ]
+        },
+        {
+          "label": "Shrine",
+          "waypoint": "[Planet Toulan, 137257, 92168, 114, Shrine]",
+          "verified": true,
+          "sourceIds": [
+            "S13"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Sol's step 5; cheap to open and pays tributes for work you already do."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S13",
+        "S18"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "elder-tribute",
+        "unlock"
+      ]
+    },
+    {
+      "id": "toulan-thana-mini",
+      "title": "Thana mining deposit contract",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Thana at the Citadel info desk gives a 50-point deposit contract; a larger 500-point version also exists. Accept before probing.",
+      "steps": [
+        "Accept Thana's contract before you start probing.",
+        "Mine 50 points (or 500 for the larger version).",
+        "Return to Thana."
+      ],
+      "rewards": [
+        "0.05 PED Mining or Prospecting skill (50-point) or 0.50 PED (500-point)"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes and mining decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h reported in the community daily list; what starts it is pending. The app's timer starts when you mark it done, so mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Thana, Citadel info desk",
+          "waypoint": "[Planet Toulan, 132616, 94090, 279, Thana]",
+          "verified": true,
+          "sourceIds": [
+            "S14"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "First in Sol's order; small skill reward right at the arrival area."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S14",
+        "S15"
+      ],
+      "warnings": [
+        "Whether both sizes can be accepted at once is unverified.",
+        "Timer trigger pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "mining",
+        "skill"
+      ]
+    },
+    {
+      "id": "toulan-najran-mokhat",
+      "title": "Najran Mokhat hunt (plus terminal)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Najran at the Jelly Zone teleporter asks for 100 Mokhat. Pair it with the 250-kill terminal assignment when eligible.",
+      "steps": [
+        "Check the exact target and any NawaCore requirement first.",
+        "Take Najran's 100 Mokhat mission.",
+        "Take the 250-kill terminal assignment if eligible.",
+        "Hunt and turn in both."
+      ],
+      "rewards": [
+        "Najran: 0.09 PED Aim skill",
+        "Terminal: 0.22 PED BLP Weapon Technology skill"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 1,
+        "resetNote": "Listed as hourly in the community daily list; what starts the clock is pending. Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Najran, Jelly Zone TP",
+          "waypoint": "[Planet Toulan, 131355, 95263, 127, Najran]",
+          "verified": true,
+          "sourceIds": [
+            "S14"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Second in Sol's order; small skill rewards that pair with one hunt."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S14",
+        "S15"
+      ],
+      "warnings": [
+        "The cited daily list places the 250-kill BLP Weapon Technology terminal under Sunjoq, not Mokhat. Check which creature it targets in game.",
+        "Exact target and core requirement need checking."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting",
+        "skill"
+      ]
+    },
+    {
+      "id": "toulan-dog-tags",
+      "title": "Find the Dog Tags (Askari)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Askari, outside Guardian Village's east gate by the healing bubble, asks you to find five Dog Tags.",
+      "steps": [
+        "Take the mission from Askari by the healing bubble outside the east gate.",
+        "Find five Dog Tags as directed.",
+        "Return to Askari."
+      ],
+      "rewards": [
+        "0.50 PED ammo"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h reported in the community daily list; what starts it is pending. The app's timer starts when you mark it done, so mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Askari, Guardian Village east gate",
+          "waypoint": "[Planet Toulan, 134261, 93330, 107, Askari]",
+          "verified": true,
+          "sourceIds": [
+            "S14"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Third in Sol's order; ammo back for a short task."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S14"
+      ],
+      "warnings": [
+        "How Dog Tags drop and count, and the timer trigger, are pending."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting"
+      ]
+    },
+    {
+      "id": "toulan-nadira",
+      "title": "Nadira Wants an Apprentice (crafting)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "A crafting daily at Guardian Village. Do the intro and the first blueprint-specific version; later repeats count 1,000 craft attempts. No NawaCore is listed.",
+      "steps": [
+        "Take Nadira Wants an Apprentice at Guardian Village.",
+        "Do the intro and the first blueprint-specific version (one player found Aqeeq Texture easier than the Jelly/Hide recipes).",
+        "Later repeats: make 1,000 craft attempts.",
+        "Check ingredient costs before crafting."
+      ],
+      "rewards": [
+        "0.70 PED Machinery skill"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ingredients for 1,000 attempts on repeats.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 20,
+        "resetNote": "20 h reported in the community daily list; trigger not stated. Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Nadira, Guardian Village",
+          "waypoint": "[Planet Toulan, 133926, 93202, 107, Nadira]",
+          "verified": true,
+          "sourceIds": [
+            "S14",
+            "S17"
+          ]
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Fourth in Sol's order; skill only, and 1,000 attempts cost materials."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "toulan-mirsal-nahar",
+      "title": "Mirsal contracts at Nahar Towers",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "On floor 7 of Nahar Towers a mission offer gives contracts such as 50 Duhol, 50 Khaffash, 50 Thawr, 100 mining points, or crafting 50 Butt Joints (needs MK3). Each pays a Mirsal Token.",
+      "steps": [
+        "Go to Nahar Towers floor 7 and find the active mission broker.",
+        "Pick a contract: 50 Duhol, 50 Khaffash, 50 Thawr, 100 mining points, or craft 50 Butt Joints (MK3 needed).",
+        "Complete and hand in."
+      ],
+      "rewards": [
+        "1 Mirsal Token per listed assignment"
+      ],
+      "prerequisites": [
+        "toulan-get-there"
+      ],
+      "requirementsText": [
+        "NawaCore MK3 for the Butt Joints crafting contract"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo, mining or crafting costs depending on contract.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Mirsal Token",
+          "use": "earned",
+          "note": "1 per assignment; spent at the Citadel or Nahar Towers trader."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "16 h per the community daily list; how the clock starts is unconfirmed. Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Nahar Towers, floor 7 mission offer",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Fifth in Sol's order; Mirsal Tokens buy blueprints and keys."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S14"
+      ],
+      "warnings": [
+        "The guide's altitude for the broker differs from its own floor-7 route; navigate by floor and confirm the broker.",
+        "Unlock tier for the hunting/mining contracts is unconfirmed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "hunting",
+        "mining",
+        "tokens"
+      ]
+    },
+    {
+      "id": "toulan-elder-tribute",
+      "title": "Elder Tribute assignments (Toulan Church/Shrine)",
+      "type": "repeatable",
+      "stage": "early",
+      "summary": "Early Church tasks include Bahri or TabTab hunts; match them to other objectives. Mining, crafting hand-ins and the extra low-level hunt share availability with DSEC-9.",
+      "steps": [
+        "Take available assignments at the Church or Shrine.",
+        "Match early Bahri or TabTab hunts with your other hunting objectives.",
+        "Remember mining, crafting hand-ins and the low-level hunt are shared with DSEC-9; ordinary hunting in both regions can count in one cycle.",
+        "After Initiate, the extra Aqeeq/Nawa mining 'Weekly' assignment opens."
+      ],
+      "rewards": [
+        "Usually 1 Elder Tribute per early task; shrapnel on some hand-ins"
+      ],
+      "prerequisites": [
+        "toulan-worship-elder-gods-start"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo, mining or hand-in materials.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Elder Tribute",
+          "use": "earned",
+          "note": "Kept for robe thresholds; see the DSEC-9 file for thresholds."
+        }
+      ],
+      "limits": "Some assignments are shared with DSEC-9's Church.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 16,
+        "resetNote": "Base 16 h per the partner guide. The Initiate extra 'Weekly' Aqeeq/Nawa mining assignment now starts a 16 h clock at turn-in (25.2.1). Mark it at hand-in."
+      },
+      "locations": [
+        {
+          "label": "Church",
+          "waypoint": "[Planet Toulan, 137269, 92209, 119, Church]",
+          "verified": true,
+          "sourceIds": [
+            "S13"
+          ]
+        },
+        {
+          "label": "Shrine",
+          "waypoint": "[Planet Toulan, 137257, 92168, 114, Shrine]",
+          "verified": true,
+          "sourceIds": [
+            "S13"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Sixth in Sol's order; tributes from work that overlaps other dailies."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S10",
+        "S13",
+        "S18"
+      ],
+      "warnings": [
+        "Keep enough tributes for your next robe before buying trader items."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "elder-tribute"
+      ]
+    },
+    {
+      "id": "toulan-corbite",
+      "title": "CorBite Tasks for Rais",
+      "type": "repeatable",
+      "stage": "late",
+      "summary": "After Negotiate a Trade Deal in the DEC Emissary crossover, Rais in the CorBite office hands out tasks. Finish 50 for 50 Mirsal Tokens.",
+      "steps": [
+        "Finish Negotiate a Trade Deal in the DEC Emissary crossover.",
+        "Ask Rais in the CorBite office for a task; ask for a different one if needed.",
+        "Each task has an hour; a new one is available 15 min after you complete one.",
+        "Complete 50 tasks."
+      ],
+      "rewards": [
+        "50 Mirsal Tokens"
+      ],
+      "prerequisites": [
+        "dsec-9-laptop-upgrades"
+      ],
+      "requirementsText": [
+        "Access Card and Laptop 04",
+        "Negotiate a Trade Deal completed in the DEC Emissary crossover"
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Depends on the tasks given.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Mirsal Token",
+          "use": "earned",
+          "note": "50 for the full set of tasks."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 168,
+        "resetNote": "Partner says it repeats after seven days; what starts the timer is pending. Mark it when you finish."
+      },
+      "locations": [
+        {
+          "label": "Rais, CorBite office",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 1,
+        "rationale": "Last in Sol's order; large token payout but needs the crossover and 50 tasks."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S19",
+        "S20"
+      ],
+      "warnings": [
+        "Current timer trigger pending; source is a 2022 quarterly."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "repeatable",
+        "crossover",
+        "tokens"
+      ]
+    },
+    {
+      "id": "toulan-mirsal-trader",
+      "title": "Spend Mirsal Tokens",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Mirsal Tokens buy from the Citadel or Nahar Towers trader. Partner updates added weapon/tool blueprints and CUHOF Legends key blueprints; Estate Lost Pages are optional.",
+      "steps": [
+        "Choose a specific target item before spending.",
+        "Check live stock, transport flags and ingredient costs at the trader."
+      ],
+      "rewards": [
+        "Blueprints and CUHOF Legends key blueprints"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Mirsal Token",
+          "use": "spent",
+          "note": "Spent at the Citadel or Nahar Towers trader."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "Mirsal trader, Citadel",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        },
+        {
+          "label": "Mirsal trader, Nahar Towers",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 5,
+        "rationale": "Helps target token spending."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S20",
+        "S21",
+        "S22"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "tokens",
+        "trader"
+      ]
+    },
+    {
+      "id": "toulan-cuhof-entry",
+      "title": "CUHOF entry: Nawa Energy Cells and Legends keys",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Ordinary CUHOF and Mini runs use Nawa Energy Cells. Each cell is refined from 100 Vibrant Sweat and one Nawa Shard (from two Nawa Fragments). CUHOF Legends uses separate solo or team keys crafted from limited blueprints.",
+      "steps": [
+        "Refine Nawa Energy Cells: 100 Vibrant Sweat plus 1 Nawa Shard (made from 2 Nawa Fragments) per cell.",
+        "Check the entry count at the portal.",
+        "For CUHOF Legends, craft a solo or team key from its limited blueprint."
+      ],
+      "rewards": [
+        "Access to CUHOF instances"
+      ],
+      "prerequisites": [
+        "toulan-nawacore-mk1"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Vibrant Sweat and Nawa Fragments per cell; key materials for Legends.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Nawa Energy Cell",
+          "use": "spent",
+          "note": "Used for ordinary CUHOF/Mini entry."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Explains how to pay for CUHOF entry before you try it."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S11",
+        "S21"
+      ],
+      "warnings": [
+        "Since 25.1 ordinary CUHOF 1-5 end chests are gone in favor of creature loot; Legends has its own two-part run and chest stage.",
+        "Instance costs need a current check."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "instance",
+        "cuhof"
+      ]
+    },
+    {
+      "id": "toulan-cuhof-gear",
+      "title": "CUHOF gear and armor plate upgrades",
+      "type": "tip",
+      "stage": "late",
+      "summary": "Toulan gear grew in steps: Improved Baraka (25.1), Modified Baraka (25.3), component and weapon blueprints (26.1), CUHOF armor plate upgrades II-V (26.3). Since 26.4 (2026-11-11) plates II-V give 0.5%, 1%, 1.5% and 2% block chance.",
+      "steps": [
+        "Ask the CUHOF Caves merchant for current upgrade requirements.",
+        "Note the UI may truncate the block-chance percentages."
+      ],
+      "rewards": [
+        "Plate block chance 0.5% / 1% / 1.5% / 2% for tiers II-V"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Upgrade requirements not listed in Sol's notes.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": "Advice, no cooldown."
+      },
+      "locations": [
+        {
+          "label": "CUHOF Caves merchant",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": []
+        }
+      ],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Useful only once you run CUHOF regularly."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S21",
+        "S23",
+        "S24",
+        "S25",
+        "S26"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "gear",
+        "armor",
+        "cuhof"
+      ]
+    }
+  ]
+}
