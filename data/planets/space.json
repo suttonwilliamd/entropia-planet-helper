@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "space",
+    "name": "Space (stations, Howling Mine, motherships)",
+    "kind": "space",
+    "parent": null,
+    "status": "active",
+    "summary": "The shared space between all worlds: planetary space stations, the Howling Mine space hub, asteroid mining, space hunting and player-owned motherships. Most of space is PvP; some parts are lootable PvP.",
+    "howToReach": "Fly up with a Sleipnir or Quad-Wing that has a Space Thruster (use 'Launch to Space' outside PvP areas), ride a player's mothership, or teleport between space stations and planets with Teleportation Tokens. Teleporting from a station down to its planet is free.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Most of space is PvP. Some areas (notably the belt around the Howling Mine) are lootable PvP: you can lose lootable items such as materials if killed.",
+      "MindArk says the Unreal Engine 5 client is scheduled before Christmas 2026 (announced 2026-08-30). Space travel UI and numbers may change; re-check after the switch.",
+      "Older guides (pre-2025) say teleports to/from stations cost PED or are one-way only; token costs changed again in Dec 2025 (19.2.0). Use the newest numbers here.",
+      "Space mining returns are debated; players in Nov 2026 report below-TT average returns at low skill. Treat space mining as a cost, not income."
+    ],
+    "sourceIds": [
+      "S1890",
+      "SNSF",
+      "S1920",
+      "S19101",
+      "SNEXT"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1890",
+      "title": "Entropia Universe 18.9.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/287506",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Space mining launch, Howling Mine rebuild, token teleports (15 tokens, 150 kg), Launch to Space action, free station-to-planet teleport, extended safe zones."
+    },
+    {
+      "id": "SNSF",
+      "title": "New Space Features",
+      "url": "https://forum.entropiauniverse.com/t/279066",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Station teleport network, free teleport from station to its planet, no teleport from planet surface up to a station, Genesis Star dailies at all stations, Pioneer ship, Outlaw Zones."
+    },
+    {
+      "id": "SHMU",
+      "title": "Howling Mine Update",
+      "url": "https://forum.entropiauniverse.com/t/283421",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "Howling Mine hub: Space Mining Terminal, Genesis Star Contract Terminal dailies, Shipwright Shoal, Contractor dailies, Employer job system, Club Neverdie."
+    },
+    {
+      "id": "S18151",
+      "title": "Entropia Universe 18.15.1 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/280474",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-06-17",
+      "accessed": "2026-11-26",
+      "supports": "Planet-to-planet token teleports via main landing teleporters; Howling Mine and Crystal Palace in the list."
+    },
+    {
+      "id": "S1910",
+      "title": "Entropia Universe 19.1.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/283998",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-10-28",
+      "accessed": "2026-11-26",
+      "supports": "ND asteroids outside the Howling Mine lootable zone, Space Mining Job, laser BP(L) rewards from GenStar dailies, combat buffs no longer apply to space mining, more Scottium on M-types."
+    },
+    {
+      "id": "S1911",
+      "title": "Entropia Universe 19.1.1 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/287741",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-11-04",
+      "accessed": "2026-11-26",
+      "supports": "New Howling Mine tutorial mission teaching space flight and giving a free ship; GenStar mining daily fix."
+    },
+    {
+      "id": "S1911A",
+      "title": "Entropia Universe 19.1.1 Release Notes (account news 5561)",
+      "url": "https://account.entropiauniverse.com/news/pages/2025/11/04/5561",
+      "publisher": "MindArk (official account news)",
+      "kind": "official",
+      "published": "2025-11-04",
+      "accessed": "2026-11-26",
+      "supports": "Official: new Howling Mine tutorial mission teaches space flight and gives a FREE ship."
+    },
+    {
+      "id": "S1920",
+      "title": "19.2.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818118366184963",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Token costs lowered to 6 (station-to-station) and 10 (planet-to-planet); ND asteroid Codex; Club Neverdie teleporter reachable from other planets for tokens."
+    },
+    {
+      "id": "S1950",
+      "title": "Major Update: 19.5.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365765242",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-03-24",
+      "accessed": "2026-11-26",
+      "supports": "Planet/space mining rebalance, space-only materials list, new lasers and attachments from loot and the Howling Mine vendor, asteroid codex in quest tracker."
+    },
+    {
+      "id": "S1981",
+      "title": "19.8.1 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530899769",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-06-02",
+      "accessed": "2026-11-26",
+      "supports": "Known issue after mothership warps between stations; docking fix."
+    },
+    {
+      "id": "S19101",
+      "title": "19.10.1 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262704136",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-09-15",
+      "accessed": "2026-11-26",
+      "supports": "Reworked space map; mothership guest lists need consent; space station warp options from the mothership map fixed."
+    },
+    {
+      "id": "S19106",
+      "title": "19.10.6 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706673572",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-10-14",
+      "accessed": "2026-11-26",
+      "supports": "Warp fixes: destroyed ship cancels warp, map-picked warp and station warp land correctly."
+    },
+    {
+      "id": "S19110",
+      "title": "19.11.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694218",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-10-20",
+      "accessed": "2026-11-26",
+      "supports": "Fixed interplanetary teleports that did not consume Teleportation Tokens."
+    },
+    {
+      "id": "SNEXT",
+      "title": "The Next Era Starts Here",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951307426",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-08-30",
+      "accessed": "2026-11-26",
+      "supports": "Unreal Engine 5 client scheduled before Christmas 2026."
+    },
+    {
+      "id": "SSPACEOFF",
+      "title": "Entropia Universe – Space Guide",
+      "url": "https://be.entropiauniverse.com/entropia-universe/beginners-guide/space-guide/",
+      "publisher": "MindArk (official beginner's guide)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Ship types, thruster need, mothership tickets/guest list, leaving a mothership. Older text: its teleport fee info is outdated."
+    },
+    {
+      "id": "STRANSOFF",
+      "title": "Entropia Universe – Transportation (Beginner's guide)",
+      "url": "https://be.entropiauniverse.com/entropia-universe/beginners-guide/transportation/",
+      "publisher": "MindArk (official beginner's guide)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "You must fly a space-capable vehicle between planets; Sleipnir may need a Space Thruster."
+    },
+    {
+      "id": "SFB",
+      "title": "Space Mining Guide",
+      "url": "https://entropiauniverse.featurebase.app/help/articles/8086562-space-mining-guide",
+      "publisher": "Entropia feedback portal guide by player Nanashana",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Attached vs mounted lasers, ammo types, asteroid types, M-types only in the Howling Mine lootable area, team loot sharing."
+    },
+    {
+      "id": "STTG",
+      "title": "Small guide to TTokens & Howling Mine Missions",
+      "url": "https://forum.entropiauniverse.com/t/280672",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "community-guide",
+      "published": "2025-12-26",
+      "accessed": "2026-11-26",
+      "supports": "Token sources and costs, 150 kg limit, To The Stars free Sleipnir/thruster/oil, one GenStar daily per day, Employer jobs, Mission Galactica, tailings trade."
+    },
+    {
+      "id": "SGSCT",
+      "title": "Genesis Star Contract Terminal",
+      "url": "https://forum.entropiauniverse.com/t/288277",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-12-29",
+      "accessed": "2026-11-26",
+      "supports": "Players: asteroid dailies at any station, Howling Mine has more; scrap asteroid codex rewards."
+    },
+    {
+      "id": "SSM26",
+      "title": "What do you need for space mining",
+      "url": "https://forum.entropiauniverse.com/t/853745",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-11-14",
+      "accessed": "2026-11-26",
+      "supports": "Players, Nov 2026: TT mining laser from any station terminal, dailies upstairs, gear list; claims of below-TT returns; M-types reported in safe space near Rocktropia."
+    },
+    {
+      "id": "SHMLOVE",
+      "title": "Give Space & Howling Mine some love please",
+      "url": "https://forum.entropiauniverse.com/t/851340",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-07-23",
+      "accessed": "2026-11-26",
+      "supports": "Players, Jul-Aug 2026: no in-game Howling Mine map, queues for daily spawns, newbies running out of fuel."
+    },
+    {
+      "id": "STHM",
+      "title": "The Howling Mine – Get Paid to Play",
+      "url": "https://www.thehowlingmine.com/",
+      "publisher": "NEVERDIE Studios (Howling Mine operator)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Employer job system: daily jobs, about 2 PED per mission, resets every 24 hours (promotional site)."
+    },
+    {
+      "id": "STHM101",
+      "title": "Asteroid Mining 101",
+      "url": "https://www.thehowlingmine.com/guides/Asteroid-mining-101",
+      "publisher": "NEVERDIE Studios (Howling Mine operator)",
+      "kind": "official",
+      "published": "2026-02-17",
+      "accessed": "2026-11-26",
+      "supports": "Ship stats, Sleipnir free on arrival, laser types, asteroid table incl. ND and Scrap, lootable belt at Howling Mine, respawn at nearest station."
+    },
+    {
+      "id": "SEHUB",
+      "title": "Entropia Universe Space Map — Station & Planet Waypoints",
+      "url": "https://entropiahub.com/entropia-universe-space-map/",
+      "publisher": "Entropia Hub (fan site)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Copyable space station waypoints (undated list)."
+    },
+    {
+      "id": "SLOOTZ",
+      "title": "Updating the space map to show lootable zones",
+      "url": "https://forum.entropiauniverse.com/t/287662",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-02-15",
+      "accessed": "2026-11-26",
+      "supports": "Players: lootable PvP zones in space apply at all heights."
+    },
+    {
+      "id": "SLEAVE",
+      "title": "Leaving Setesh again?",
+      "url": "https://forum.entropiauniverse.com/t/284073",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-12-07",
+      "accessed": "2026-11-26",
+      "supports": "Players: a station-to-station hangar teleport cost 10 tokens; lootable items can be lost in space."
+    }
+  ],
+  "activities": [
+    {
+      "id": "space-safety-lootable-zones",
+      "title": "Know where space is safe, PvP and lootable",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "Before you fly, know the rules: planetary space stations have extended non-PvP safe zones, but most open space is PvP and some areas are lootable PvP. The belt around the Howling Mine is lootable.",
+      "steps": [
+        "Stay close to a station when testing a ship; safe zones were extended around all planet stations in 18.9.0.",
+        "Expect a warning when you approach a lootable PvP zone. Players report these zones cover all heights, so flying over or under does not avoid them.",
+        "Before crossing space, sell or store lootable items (materials, ores) you do not need. Players say weapons and armor are not lootable.",
+        "If your ship is destroyed you respawn at the nearest space station."
+      ],
+      "rewards": [
+        "Avoids losing materials to other players"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free; this is about avoiding losses.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Cheap knowledge that prevents the most common expensive mistake in space."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1890",
+        "SLOOTZ",
+        "SLEAVE",
+        "STHM101",
+        "SFB"
+      ],
+      "warnings": [
+        "The non-lootable status of weapons/armor and the 'all heights' rule come from players, not release notes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "pvp",
+        "safety"
+      ]
+    },
+    {
+      "id": "space-station-to-planet-free",
+      "title": "Teleport from a space station down to its planet (free)",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "Every planet has a space station. Teleporting from a station down to the planet it orbits is free since 18.9.0. You cannot teleport from a planet's surface up to a station.",
+      "steps": [
+        "Reach a space station (fly, mothership, or token teleport).",
+        "Use the station teleporter and pick the planet below.",
+        "Arrive at a landing teleporter on that planet."
+      ],
+      "rewards": [
+        "Free trip from orbit to the surface"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free, instant and needed by everyone who travels."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1890",
+        "SNSF",
+        "STTG"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "space-teleportation-tokens",
+      "title": "Interplanetary teleports with Teleportation Tokens",
+      "type": "travel",
+      "stage": "early",
+      "summary": "Teleporters link space stations and main planet landing teleporters across the universe, but each jump costs Teleportation Tokens: 6 for station-to-station and 10 for planet-to-planet (since 19.2.0, Dec 2025). You may carry at most 150 kg.",
+      "steps": [
+        "Get tokens: buy them from other players (auction/shops) or craft them from the Teleportation Token blueprint sold at the Space Mining Terminal.",
+        "Drop inventory below 150 kg.",
+        "For planet-to-planet jumps use the planet's main landing teleporter (for Calypso the 'Port Atlantis TP'). The Howling Mine may need to be picked from the planet drop-down list.",
+        "Pick the destination; the tokens are consumed."
+      ],
+      "rewards": [
+        "Skips flying through PvP space"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "6 or 10 Teleportation Tokens per jump. Token price is set by players.",
+        "markup": "unknown",
+        "markupNote": "Tokens are player-crafted; one player in Jun 2025 said 15 tokens cost about 80 PED. Check current auction prices."
+      },
+      "currencies": [
+        {
+          "name": "Teleportation Token",
+          "use": "spent",
+          "note": "6 per station-to-station jump, 10 per planet-to-planet jump."
+        }
+      ],
+      "limits": "150 kg carry limit per teleport (18.9.0; still quoted in a Dec 2025 player guide).",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 5,
+        "rationale": "Fast and safe, but tokens cost real PED; fine for occasional trips."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1890",
+        "S18151",
+        "S1920",
+        "S19110",
+        "STTG"
+      ],
+      "warnings": [
+        "Token counts changed twice (15 in Jan 2025, then 10/6 in Dec 2025). 19.11.0 fixed some teleports that did not charge tokens, so costs now apply consistently."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "tokens"
+      ]
+    },
+    {
+      "id": "space-launch-to-space",
+      "title": "Fly to space with your own small ship",
+      "type": "travel",
+      "stage": "early",
+      "summary": "A Sleipnir VTOL or Quad-Wing Interceptor can fly between a planet and space if a Space Thruster is attached. Use the 'Launch to Space' action outside PvP areas, then fly to a station or another planet.",
+      "steps": [
+        "Equip a Space Thruster on your Sleipnir or Quad-Wing.",
+        "Refuel with oil.",
+        "Outside PvP areas, use the 'Launch to Space' action.",
+        "Use the map to set a target location and fly there; repair the thruster at a station or mothership when it gets low."
+      ],
+      "rewards": [
+        "Free travel apart from fuel and decay"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Oil fuel plus thruster/ship decay and repairs.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Cheapest long-term way to move between worlds once you own a ship."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1890",
+        "SSPACEOFF",
+        "STRANSOFF"
+      ],
+      "warnings": [
+        "The official space guide also says a thruster at 10% health must be repaired (UL) or replaced (L)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "vehicle"
+      ]
+    },
+    {
+      "id": "space-howling-mine-free-ship",
+      "title": "Howling Mine flight tutorial: free starter ship",
+      "type": "mission",
+      "stage": "arrival",
+      "summary": "FREE intro ship. A tutorial mission at the Howling Mine teaches space flight and gives a free ship (19.1.1, 4 Nov 2025). This is not the Pioneer Mining Ship, which needs crafted parts (see separate entry). Players name it 'To The Stars': the NPC near the Howling Mine teleporter hands out a Sleipnir, a thruster and some oil.",
+      "steps": [
+        "Get to the Howling Mine (token teleport, a ride, or the Setesh shuttle the operator's site mentions).",
+        "Talk to the NPC standing at the Howling Mine teleporter and accept 'To The Stars'.",
+        "Follow the flight lessons."
+      ],
+      "rewards": [
+        "Sleipnir (players call it a refurbished one)",
+        "Space Thruster",
+        "Some oil"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "No materials or payment needed; you only have to reach the Howling Mine."
+      ],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free mission; later fuel is on you.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "One-time tutorial.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time tutorial mission."
+      },
+      "locations": [
+        {
+          "label": "NPC at the Howling Mine teleporter",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "STTG"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "A free space-capable ship is the single biggest unlock for space content."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1911A",
+        "S1911",
+        "STTG",
+        "STHM101",
+        "SHMLOVE"
+      ],
+      "warnings": [
+        "The mission name and exact rewards come from a Dec 2025 player guide; the release note only says 'free ship'.",
+        "Players (Aug 2026) report newcomers running out of oil for the free Sleipnir; small oil purchases carry at least 1 PED markup."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "free",
+        "vehicle"
+      ]
+    },
+    {
+      "id": "space-howling-mine-hub",
+      "title": "Visit the Howling Mine space hub",
+      "type": "travel",
+      "stage": "early",
+      "summary": "The Howling Mine is the central space hub run by NEVERDIE: a docking station with a Space Mining Terminal, a respawn point, and an interior with Club Neverdie, shops, apartments, a hunting dome and a mining area. It is in the planet-to-planet teleport list.",
+      "steps": [
+        "Teleport there with tokens from a main planet teleporter, or fly/dock with a mothership.",
+        "At the station use the Space Mining Terminal, then transfer to the interior.",
+        "There is no in-game Howling Mine map (players, Jul 2026); a player-made overview map exists on the forum."
+      ],
+      "rewards": [
+        "Access to Howling Mine dailies, jobs and the laser blueprint vendor"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "10 tokens planet-to-planet, or fuel if flying.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Hub for most space missions; getting there is the main cost."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1890",
+        "SHMU",
+        "S18151",
+        "S1950",
+        "SHMLOVE",
+        "STHM"
+      ],
+      "warnings": [
+        "The surrounding asteroid belt is lootable PvP."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hub",
+        "travel"
+      ]
+    },
+    {
+      "id": "space-howling-mine-employer-jobs",
+      "title": "Howling Mine Employer daily jobs",
+      "type": "daily",
+      "stage": "early",
+      "summary": "The Employer NPC inside the Howling Mine runs a job system with free gear: 'A Job To Do Daily' in the creature dome (gun and ammo given) and 'The Cleanup Job' in space (tools given, needs your own ship). A Space Mining Job was added in 19.1.0.",
+      "steps": [
+        "Walk past the crafting area, Club Neverdie and the apartment/shop area to the Employer.",
+        "Accept the jobs; use the provided weapon/tools.",
+        "For the Cleanup Job you need a ship (get the free one first).",
+        "Hand in for rewards."
+      ],
+      "rewards": [
+        "About 2 PED per job per the operator's site (3 jobs about 6 PED a day)",
+        "Hunting Scrips (convert to PED at 260, per a player guide)",
+        "Credits (for PED or ammo)"
+      ],
+      "prerequisites": [
+        "space-howling-mine-free-ship"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Gear and ammo are provided; your own fuel for space jobs.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Hunting Scrips",
+          "use": "earned",
+          "note": "Player guide: convert to PED once you have 260."
+        },
+        {
+          "name": "Credits",
+          "use": "earned",
+          "note": "Player guide: trade for PED or more ammo."
+        }
+      ],
+      "limits": "Once per day per job.",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "Operator's site: 'The daily job resets every 24 hours.' It does not say when the timer starts."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Small but steady free income and skill for newcomers."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SHMU",
+        "S1910",
+        "STTG",
+        "STHM",
+        "SHMLOVE"
+      ],
+      "warnings": [
+        "Reward amounts come from the operator's promotional site; MindArk notes give no numbers.",
+        "Players report queues for the Argonaut spawn used by the daily (Aug 2026)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "daily",
+        "free"
+      ]
+    },
+    {
+      "id": "space-genstar-dailies",
+      "title": "Genesis Star daily space mining/hunting missions",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Genesis Star personnel offer daily space hunting and mining missions at all space stations; the Howling Mine's Genesis Star Contract Terminal has the most. Mining dailies can reward space mining laser blueprints (L).",
+      "steps": [
+        "At a space station, find the Genesis Star mission NPC (players: usually up the stairs on the left).",
+        "Pick one daily (a player guide says you can only do one per day, so choose carefully).",
+        "Mine/hunt the target asteroids or creatures, then hand in."
+      ],
+      "rewards": [
+        "Mission rewards; chance of space mining laser blueprints (L) since 19.1.0",
+        "Asteroid Codex progress from the kills"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and laser decay; a basic TT laser from the station terminal works.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "One daily per day per a player guide.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "Called 'daily' by MindArk; no exact timer published."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Gives purpose and blueprints to space mining; still costs ammo."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SNSF",
+        "SHMU",
+        "S1910",
+        "S1911",
+        "SGSCT",
+        "STTG",
+        "SSM26"
+      ],
+      "warnings": [
+        "19.1.1 fixed GenStar mining dailies that could not complete."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "mining",
+        "space"
+      ]
+    },
+    {
+      "id": "space-howling-mine-contractor",
+      "title": "Howling Mine Contractor dailies (incl. the Shifter)",
+      "type": "daily",
+      "stage": "mid",
+      "summary": "The Contractor in the Howling Mine gives further daily missions, including hunts deep in the mine where a creature called the Shifter lives.",
+      "steps": [
+        "Find the Contractor inside the Howling Mine.",
+        "Accept the daily and hunt the listed targets."
+      ],
+      "rewards": [
+        "Mission rewards (not listed publicly)",
+        "Creature Codex progress"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Your own ammo and decay.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Daily.",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "MindArk calls these daily missions; no timer published."
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Little public detail on rewards."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "SHMU",
+        "S1890"
+      ],
+      "warnings": [
+        "Only the Jan 2025 announcement describes this; not re-confirmed since (possibly stale)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hunting"
+      ]
+    },
+    {
+      "id": "space-mining-basics",
+      "title": "Start space mining cheaply",
+      "type": "skill",
+      "stage": "early",
+      "summary": "Space mining turns asteroids into ores and energy matter. Buy a basic mining laser at any station's Space Mining Terminal, load ammo, and shoot small asteroids near stations. Since 19.5.0 some materials come only from space (Melchi Crystals, Durulium, Megan, Quantium, Lytairian Dust).",
+      "steps": [
+        "Buy a Basic Mining Laser at a Space Mining Terminal: Type A attaches to your ship (pilot fires it), Type M is mounted from a passenger/gunner seat.",
+        "Kismet lasers use Weapon Cells or Universal Ammo; Genesis Star lasers use explosive projectiles (extra markup).",
+        "Start on scrap and low C-type asteroids just outside stations (inside safe zones).",
+        "Mine in a team if you can: asteroid loot is shared and auto-looted.",
+        "Combat buffs (crit, damage, lifesteal) do not apply to space mining since 19.1.0."
+      ],
+      "rewards": [
+        "Mining Laser and Minable Looter skills",
+        "Asteroid Codex rewards",
+        "Space-only resources"
+      ],
+      "prerequisites": [
+        "space-launch-to-space"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Laser from the terminal, ammo, fuel. Kill cost drives loot; spending more per asteroid does not mean better returns.",
+        "markup": "low",
+        "markupNote": "Players report average returns below TT at low skill (Nov 2026)."
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 2,
+        "effort": 3,
+        "rationale": "Unique materials and skills, but a PED sink for beginners."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1890",
+        "S1910",
+        "S1950",
+        "SFB",
+        "SSM26",
+        "STHM101"
+      ],
+      "warnings": [
+        "Detailed laser/debuff numbers in community guides predate the March 2026 rebalance (19.5.0)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "space"
+      ]
+    },
+    {
+      "id": "space-asteroid-codex",
+      "title": "Asteroid Codex (incl. Scrap and ND asteroids)",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "Asteroids have their own Codex tab (since 18.9.0), so mining them earns skill rewards like creature Codex. ND asteroids near the Howling Mine sit outside the lootable zone (19.1.0) and got a Codex challenge in 19.2.0; Scrap asteroids also have one.",
+      "steps": [
+        "Mine an asteroid type to unlock its Codex challenge.",
+        "Track progress in the Codex (asteroid challenges show in the quest tracker in space since 19.5.0).",
+        "Claim the skill reward at each rank."
+      ],
+      "rewards": [
+        "Skill rewards per rank"
+      ],
+      "prerequisites": [
+        "space-mining-basics"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay from mining.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Adds skill value to mining you already do."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1890",
+        "S1910",
+        "S1920",
+        "S1950",
+        "SGSCT"
+      ],
+      "warnings": [
+        "A player reported Scrap asteroid ranks pay tiny rewards (0.0037 / 0.0075 PED for early ranks) and do not feed the Meta Codex (Dec 2025)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "codex",
+        "mining"
+      ]
+    },
+    {
+      "id": "space-tailings-recycling",
+      "title": "Recycle asteroid tailings into minerals",
+      "type": "repeatable",
+      "stage": "mid",
+      "summary": "Asteroids drop Tailings. A Tailings Recycle Station at most space stations turns them into minerals and gems if you have a Scrip, crafted from a blueprint sold at the Space Mining Terminal.",
+      "steps": [
+        "Buy the Scrip blueprint at a Space Mining Terminal and craft Scrips.",
+        "Take tailings plus Scrips to a Tailings Recycle Station (the Howling Mine also has a Dialogue Terminal trade).",
+        "Collect the minerals/gems."
+      ],
+      "rewards": [
+        "Minerals and gems from leftover tailings"
+      ],
+      "prerequisites": [
+        "space-mining-basics"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Scrip crafting materials.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [
+        {
+          "name": "Recycling Scrip",
+          "use": "spent",
+          "note": "Needed to recycle tailings."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Recovers some value; players note it can also return Universal Ammo."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1890",
+        "STTG",
+        "SSM26"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "crafting"
+      ]
+    },
+    {
+      "id": "space-motherships",
+      "title": "Ride or use a mothership",
+      "type": "travel",
+      "stage": "early",
+      "summary": "Motherships (and smaller Privateers) are player-owned ships that carry passengers and small ships, can dock at stations and warp to stations or map points. You need a ticket (a place on the ship's guest list).",
+      "steps": [
+        "Arrange a ride with a ship owner; since 19.10.1 you must accept before you are added to a guest list.",
+        "At departure you get an auto-teleport request to the ship; accept it.",
+        "Leave by the teleporter when docked, by flying out of the hangar, or by removing yourself from the guest list (you die in space and revive at the nearest station)."
+      ],
+      "rewards": [
+        "Transport between worlds without your own ship"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ticket price set by the ship owner.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Good when you have no ship; depends on finding a pilot."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SSPACEOFF",
+        "S19101",
+        "S19106",
+        "S1981"
+      ],
+      "warnings": [
+        "The official space guide is undated and partly outdated; guest-list consent and warp fixes are from 2026 release notes.",
+        "19.8.1 known issue: after a mothership warp between stations, leaving the pilot seat may show 'area currently unavailable' – relog."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "id": "space-pioneer-mining-ship",
+      "title": "Build a Pioneer Mining Ship with Shipwright Shoal",
+      "type": "unlock",
+      "stage": "mid",
+      "summary": "MATERIAL-GATED, not free. Shipwright Shoal at the Howling Mine lets you build a Pioneer Mining Ship (L): a 3-seat asteroid mining VTOL with high-power mounted mining laser and defensive weapon slots, if you bring the materials to craft its parts.",
+      "steps": [
+        "Talk to Shipwright Shoal in the Howling Mine.",
+        "Gather/craft the required parts (shipyard mission).",
+        "Complete the mission to receive the ship."
+      ],
+      "rewards": [
+        "Pioneer Mining Ship (L)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [
+        "You must supply the materials to craft the ship's parts (Howling Mine Update, 28 Jan 2025).",
+        "Not the free tutorial ship from 19.1.1."
+      ],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Crafting materials for the parts (amount not published).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Limited (L) ship.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "Shipyard mission."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Strong mining ship but a material-heavy project."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SHMU",
+        "S1890",
+        "SNSF",
+        "STHM101"
+      ],
+      "warnings": [
+        "Main sources date from Jan 2025 (possibly stale); no 2026 confirmation of the mission steps found."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "vehicle",
+        "mining"
+      ]
+    },
+    {
+      "id": "space-m-type-scottium",
+      "title": "Mine M-type and ND asteroids for Scottium",
+      "type": "repeatable",
+      "stage": "late",
+      "summary": "Scottium is a rare space mineral used for long-range teleport tech. M-type asteroids (hard, heavily armored) were its main source and sit in the lootable PvP belt around the Howling Mine; ND asteroids outside that zone also drop it at a lower yield.",
+      "steps": [
+        "Get a proper team and mounted lasers (M-types need debuff stacks).",
+        "Mine ND asteroids for safer, lower-yield Scottium.",
+        "Only enter the lootable belt with gear you can afford to lose."
+      ],
+      "rewards": [
+        "Scottium and other M-type ores"
+      ],
+      "prerequisites": [
+        "space-mining-basics"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "High: armored asteroids need strong lasers and lots of ammo.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 1,
+        "effort": 2,
+        "rationale": "Late-game, high-cost, high-risk activity."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SFB",
+        "S1910",
+        "STHM101",
+        "SSM26"
+      ],
+      "warnings": [
+        "Scottium drop rate on M-types was raised in 19.1.0.",
+        "A player (Nov 2026) says M-types now also spawn in safe space near Rocktropia – single unconfirmed report."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "pvp",
+        "late"
+      ]
+    },
+    {
+      "id": "space-mission-galactica",
+      "title": "Mission Galactica (Dread Castamir)",
+      "type": "mission-chain",
+      "stage": "mid",
+      "summary": "A player guide lists Dread Castamir at the Howling Mine offering 'Mission Galactica', which starts at level 5. Details of earlier levels and rewards are not public.",
+      "steps": [
+        "Find Dread Castamir in the Howling Mine.",
+        "Ask about Mission Galactica; check what level is required."
+      ],
+      "rewards": [
+        "Unknown"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 3,
+        "effort": 2,
+        "rationale": "Unclear value; listed so you know it exists."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "STTG"
+      ],
+      "warnings": [
+        "Only one player guide (Dec 2025) mentions it."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mission"
+      ]
+    },
+    {
+      "id": "space-pirates-outlaw-zones",
+      "title": "Space pirates and Outlaw Zones",
+      "type": "repeatable",
+      "stage": "late",
+      "summary": "Space Pirate creatures live around derelict spaceships. Shipwreck Outlaw Zones can be discovered, saved on your map and then used as warp targets; their edges are patrolled by pirates.",
+      "steps": [
+        "Fly a combat-capable ship (Quad-Wing or armed vessel).",
+        "Find derelict ship areas; register discovered Outlaw Zones on your map.",
+        "Hunt pirates with a team."
+      ],
+      "rewards": [
+        "Space creature loot",
+        "Creature Codex progress"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ship decay, ammo, repairs.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 2,
+        "effort": 2,
+        "rationale": "Niche combat content with ship repair costs."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S1890",
+        "SNSF"
+      ],
+      "warnings": [
+        "Sources are from Jan 2025 (possibly stale)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "pvp"
+      ]
+    },
+    {
+      "id": "space-station-waypoints",
+      "title": "Useful space station waypoints",
+      "type": "tip",
+      "stage": "early",
+      "summary": "Copy these into chat to mark stations when flying. They come from an undated fan list; check them on the in-game space map, which was reworked in 19.10.1.",
+      "steps": [
+        "Paste a waypoint into chat and follow the marker."
+      ],
+      "rewards": [
+        "Easier navigation"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [
+        {
+          "label": "Calypso Space Station",
+          "waypoint": "[Space, 58498, 69704, -81, Calypso Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Crystal Palace Space Station",
+          "waypoint": "[Space, 58810, 69254, -200, Crystal Palace Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Asteroid F.O.M.A",
+          "waypoint": "[Space, 58787, 70150, 0, Asteroid F.O.M.A]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Monria Space Station",
+          "waypoint": "[Space, 58054, 81246, -56, Monria Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Rocktropia Space Station",
+          "waypoint": "[Space, 69536, 80528, -25, Rocktropia Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Toulan Space Station",
+          "waypoint": "[Space, 85276, 81077, -428, Toulan Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Next Island Space Station",
+          "waypoint": "[Space, 88685, 69549, 143, Next Island Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Arkadia Space Station",
+          "waypoint": "[Space, 77728, 58544, -50, Arkadia Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        },
+        {
+          "label": "Cyrene Space Station",
+          "waypoint": "[Space, 61344, 58544, -77, Cyrene Space Station]",
+          "verified": true,
+          "sourceIds": [
+            "SEHUB"
+          ]
+        }
+      ],
+      "score": {
+        "value": 2,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Small convenience."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "SEHUB",
+        "S19101"
+      ],
+      "warnings": [
+        "Undated fan-site list; Howling Mine, Setesh and ARIS stations are not included here (the site's Howling Mine entry looks malformed, so it is left out)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "navigation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "setesh",
+    "name": "Setesh",
+    "kind": "moon",
+    "parent": "calypso",
+    "status": "active",
+    "summary": "Setesh is the starter moon for all new avatars since 19.0.0 (16 Sep 2025), replacing Thule. Its hub is Port Cabrakan. A main mission chain teaches the basics and hands out free starter gear before you move on to Calypso.",
+    "howToReach": "New accounts start here. Existing players: talk to the Setesh shuttle pilot near the Port Atlantis teleporter on Calypso, use the VTOL at Camp Icarus (if eligible), pick Setesh in a space station teleporter list, or fly to Setesh Space Station.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Storage is per planet: items stored on Setesh stay on Setesh. Empty your Setesh storage before leaving.",
+      "Leaving a second time is confusing: the Setesh teleporters do not list Calypso, and token teleports from the station cost tokens. Use the leave/skip terminal instead (see 'Leave Setesh').",
+      "MindArk noted weak performance in Port Cabrakan and Outpost Bacab at launch (19.0.0); not confirmed fixed.",
+      "Some Setesh rewards are not given to avatars that already finished Thule (19.0.0)."
+    ],
+    "sourceIds": [
+      "S1900",
+      "S1902",
+      "SFEED",
+      "S19120"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1900",
+      "title": "Entropia Universe 19.0.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/287878",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-09-16",
+      "accessed": "2026-11-26",
+      "supports": "Setesh moon replaces Thule as the beginner experience; Port Cabrakan; missions start with Security Chief Harkov; Vivo S10 moved to Setesh chain; Trader Joel daily in Cabrakan; Setesh Codex variants."
+    },
+    {
+      "id": "S1902",
+      "title": "Entropia Universe 19.0.2 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/284406",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2025-09-23",
+      "accessed": "2026-11-26",
+      "supports": "Standard Undersuit from Harkov in 'A New Arrival'; non-PvP zone around Setesh Space Station; Savannah Survey in Hunraqan open to Thule finishers."
+    },
+    {
+      "id": "SFEED",
+      "title": "Setesh Starter Area: Feedback Thread",
+      "url": "https://forum.entropiauniverse.com/t/285160",
+      "publisher": "MindArk staff (Ludvig_MindArk) on Entropia Universe Forum",
+      "kind": "official-forum",
+      "published": "2025-09-16",
+      "accessed": "2026-11-26",
+      "supports": "How existing players enter Setesh: VTOL at Camp Icarus (Mentor skill 2+ or highest combat profession 5 or lower) or fly to Setesh Space Station."
+    },
+    {
+      "id": "SONBOARD",
+      "title": "Upcoming Update: New Onboarding Experience",
+      "url": "https://www.entropiamuseum.com/news/view/upcoming-update-new-onboarding-experience/",
+      "publisher": "MindArk text mirrored by Entropia Museum",
+      "kind": "official",
+      "published": "2025-09-03",
+      "accessed": "2026-11-26",
+      "supports": "Setesh scope: Port Cabrakan hub, biomes, dynamic events, hunting arenas, core chain, hand-in missions, starter weapons, Wasp vehicle, starter armor."
+    },
+    {
+      "id": "S1920",
+      "title": "19.2.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818118366184963",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Port Atlantis is the next landing point after Setesh; new Port Cabrakan mission leading to an Adjusted SET-P1 Civilian Sidearm."
+    },
+    {
+      "id": "SFISH",
+      "title": "Fishing & Cooking LIVE",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047254349",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-04-15",
+      "accessed": "2026-11-26",
+      "supports": "Fishing works on Setesh; a new Setesh mission gives a basic set of fishing gear."
+    },
+    {
+      "id": "S1970",
+      "title": "19.7.0 Release Notes - New Boats, Balancing Changes, ARIS Update",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502823359",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-05-12",
+      "accessed": "2026-11-26",
+      "supports": "Setesh creature loot changed to include more gear and other items."
+    },
+    {
+      "id": "S19101",
+      "title": "19.10.1 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262704136",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-09-15",
+      "accessed": "2026-11-26",
+      "supports": "Onboarding armor TT adjusted; Vivo S10 from 'Recon In The Jungle' now 2 PED TT; Worn Setesh Assault Commander global threshold 0.50 PED."
+    },
+    {
+      "id": "S19120",
+      "title": "19.12.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178196",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-11-11",
+      "accessed": "2026-11-26",
+      "supports": "Paul Reinhardt offers 'Small Iron' after 'Cliffchaser Run' even if you stay on Setesh; Port Atlantis newcomer chain on Calypso."
+    },
+    {
+      "id": "SSTUCK",
+      "title": "I'm stuck on the Setesh space station.",
+      "url": "https://forum.entropiauniverse.com/t/281409",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-03-01",
+      "accessed": "2026-11-26",
+      "supports": "Players: Harkov gives one-way trip to Calypso; skip terminal waypoint; teleport down from Setesh station works."
+    },
+    {
+      "id": "SLEAVE",
+      "title": "Leaving Setesh again?",
+      "url": "https://forum.entropiauniverse.com/t/284073",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-12-07",
+      "accessed": "2026-11-26",
+      "supports": "Players: storage stays on Setesh; teleporter only lists Setesh/station/space; Calypso from Setesh station costs 10 tokens; use skip terminal."
+    },
+    {
+      "id": "SHOWTO",
+      "title": "Can't figure out how to get to Setesh.",
+      "url": "https://forum.entropiauniverse.com/t/283276",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-03-01",
+      "accessed": "2026-11-26",
+      "supports": "Players: pilot NPC near Port Atlantis TP takes you to Setesh; scroll station teleporter list; leaving terminal in service center next to TP."
+    },
+    {
+      "id": "SMOBMAP",
+      "title": "Setesh Mob Map",
+      "url": "https://forum.entropiauniverse.com/t/287410",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-09-16",
+      "accessed": "2026-11-26",
+      "supports": "Players: most creatures level 1-3; Set Atrox L35/52/60 and Set Altaik L82/88 danger spots."
+    },
+    {
+      "id": "SAINEWB",
+      "title": "AI newbie mission rewards extremely underwhelming?",
+      "url": "https://forum.entropiauniverse.com/t/284691",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-01-30",
+      "accessed": "2026-11-26",
+      "supports": "Players: Setesh healing tools (Vivo and two L ones) are economical; Vivo used to come from the Gauntlet."
+    },
+    {
+      "id": "SRIP",
+      "title": "Ripcraze – Calypso map and daily timers (site data)",
+      "url": "https://ripcraze.com/",
+      "publisher": "Ripcraze (fan tool)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Lists a 'Setesh Shuttle Pilot' point of interest at Calypso 61138, 74137, 103 and a 24 h Setesh NPC daily timer."
+    },
+    {
+      "id": "STHM",
+      "title": "The Howling Mine – Get Paid to Play",
+      "url": "https://www.thehowlingmine.com/",
+      "publisher": "NEVERDIE Studios (Howling Mine operator)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Claims a free shuttle from the Setesh spaceport to the Howling Mine Space Terminal."
+    }
+  ],
+  "activities": [
+    {
+      "id": "setesh-get-there",
+      "title": "Get to Setesh (existing players)",
+      "type": "travel",
+      "stage": "arrival",
+      "summary": "New avatars start on Setesh automatically. Older avatars can visit to collect the starter rewards: a shuttle pilot near the Port Atlantis teleporter takes you there, the Camp Icarus VTOL works if you qualify, or you can fly to Setesh Space Station.",
+      "steps": [
+        "On Calypso, go to the Port Atlantis teleporter, head down the stairs past the service center and talk to the pilot at the top of a short stair (players, Mar 2026).",
+        "Or use the VTOL at Camp Icarus: MindArk staff said this needs Mentor skill 2+ or a highest combat profession of 5 or lower.",
+        "Or fly/teleport to Setesh Space Station (scroll the station teleporter list) and teleport down for free."
+      ],
+      "rewards": [
+        "Access to the Setesh starter chain"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free by shuttle or VTOL.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [
+        {
+          "label": "Setesh Shuttle Pilot near Port Atlantis teleporter (fan map lists about 61138, 74137 on Calypso)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "SHOWTO",
+            "SRIP"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free trip to free starter gear."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SFEED",
+        "SHOWTO",
+        "SRIP",
+        "SSTUCK",
+        "SONBOARD"
+      ],
+      "warnings": [
+        "A Sep 2025 MindArk preview said existing players can travel to Setesh anytime without requirements, but staff later listed VTOL requirements. The shuttle pilot route is newer (players, Mar 2026)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "setesh-a-new-arrival-chain",
+      "title": "Main chain: Security Chief Harkov ('A New Arrival')",
+      "type": "mission-chain",
+      "stage": "arrival",
+      "summary": "The core Setesh chain starts with Security Chief Harkov in Port Cabrakan. It walks you through combat, looting, healing, armor, vehicles and the different biomes, and hands out starter gear along the way.",
+      "steps": [
+        "Talk to Security Chief Harkov in Port Cabrakan and accept 'A New Arrival'.",
+        "Follow the chain through Setesh's areas and outposts; teleporters unlock as you go.",
+        "Finish the chain; Harkov then offers a one-way trip to Calypso."
+      ],
+      "rewards": [
+        "Standard Undersuit (if you never had one)",
+        "Starter armor set",
+        "Starter pistols, rifles and swords (stronger versions as you progress)",
+        "Wasp starter vehicle",
+        "Ammo for the tutorial fights"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free; ammo is provided for the combat parts.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "One-time chain. Some rewards are withheld from avatars that completed Thule.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time chain."
+      },
+      "locations": [
+        {
+          "label": "Security Chief Harkov, Port Cabrakan",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "S1900",
+            "S1902"
+          ]
+        }
+      ],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 3,
+        "rationale": "Free gear and the fastest way to learn the game."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1900",
+        "S1902",
+        "SONBOARD",
+        "S19101",
+        "SSTUCK"
+      ],
+      "warnings": [
+        "19.10.1 lowered the TT value of newly granted onboarding armor and moved ammo rewards around."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "free",
+        "chain"
+      ]
+    },
+    {
+      "id": "setesh-recon-in-the-jungle-vivo",
+      "title": "'Recon In The Jungle': Vivo S10 healing tool",
+      "type": "mission",
+      "stage": "early",
+      "summary": "A mission in the Setesh chain gives the Vivo S10 first-aid tool (it used to come from the Gauntlet on Calypso). Since 19.10.1 it has a 2 PED TT value. Players call the Setesh healing tools very economical.",
+      "steps": [
+        "Progress the Setesh chain until 'Recon In The Jungle'.",
+        "Complete it to receive the Vivo S10."
+      ],
+      "rewards": [
+        "Vivo S10 (2 PED TT)"
+      ],
+      "prerequisites": [
+        "setesh-a-new-arrival-chain"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "A durable healing tool every newcomer needs."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1900",
+        "S19101",
+        "SAINEWB"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "healing",
+        "free"
+      ]
+    },
+    {
+      "id": "setesh-set-p1-adjusted",
+      "title": "Port Cabrakan mission for an Adjusted SET-P1 Civilian Sidearm",
+      "type": "mission",
+      "stage": "early",
+      "summary": "A mission added in Port Cabrakan (19.2.0) leads to an Adjusted version of the SET-P1 Civilian Sidearm, the starter pistol.",
+      "steps": [
+        "Ask around Port Cabrakan for the SET-P1 mission (giver not named in the notes).",
+        "Complete it for the Adjusted SET-P1."
+      ],
+      "rewards": [
+        "Adjusted SET-P1 Civilian Sidearm"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown, likely ammo only.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Upgraded free starter weapon."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1920"
+      ],
+      "warnings": [
+        "Mission name, giver and steps are not in the release notes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "weapon"
+      ]
+    },
+    {
+      "id": "setesh-cliffchaser-small-iron",
+      "title": "'Cliffchaser Run' then 'Small Iron' (Paul Reinhardt)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "After 'Cliffchaser Run', Paul Reinhardt offers the mission 'Small Iron'. Since 19.12.0 (Nov 2026) you no longer have to leave Setesh first.",
+      "steps": [
+        "Complete 'Cliffchaser Run'.",
+        "Talk to Paul Reinhardt to receive 'Small Iron'."
+      ],
+      "rewards": [
+        "Mission rewards (not published)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Unknown.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Side content; rewards unknown."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S19120"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mission"
+      ]
+    },
+    {
+      "id": "setesh-savannah-survey",
+      "title": "'Savannah Survey' mining intro (Hunraqan)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "A mining introduction mission in Hunraqan on Setesh. Since 19.0.2 it is also open to avatars who finished Thule's 'Prospective Prospector'.",
+      "steps": [
+        "Find the giver in Hunraqan.",
+        "Accept 'Savannah Survey' and follow the probing steps."
+      ],
+      "rewards": [
+        "Mining basics; rewards not published"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Probes may be needed.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Learn mining at low cost."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1902"
+      ],
+      "warnings": [
+        "A player (Dec 2025) reported getting the mission without probes or a finder; bring your own if needed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mining",
+        "beginner"
+      ]
+    },
+    {
+      "id": "setesh-trader-joel-daily",
+      "title": "Trader Joel daily hand-in (Port Cabrakan)",
+      "type": "daily",
+      "stage": "early",
+      "summary": "Trader Joel in Cabrakan offers a daily hand-in mission: bring items he asks for and get a reward. MindArk described Setesh hand-ins as trading hunting loot for a chance at something more valuable.",
+      "steps": [
+        "Find Trader Joel in Cabrakan.",
+        "Check which items he wants today.",
+        "Hand them in."
+      ],
+      "rewards": [
+        "Varies; chance at something more valuable"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "The items you hand in (often your own loot).",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "rolling",
+        "hours": 24,
+        "resetNote": "A community tracker uses a 24 h timer for the Setesh daily NPC; MindArk gives no timer."
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Small daily use for starter loot."
+      },
+      "confidence": "low",
+      "sourceIds": [
+        "S1900",
+        "SONBOARD",
+        "SRIP"
+      ],
+      "warnings": [
+        "The 24 h timer is from a fan tool, not MindArk."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "daily",
+        "hand-in"
+      ]
+    },
+    {
+      "id": "setesh-fishing-starter-gear",
+      "title": "Free starter fishing gear mission",
+      "type": "mission",
+      "stage": "early",
+      "summary": "Since Fishing launched (15 Apr 2026) a Setesh mission gives a basic set of fishing gear, and you can fish in Setesh's waters.",
+      "steps": [
+        "Look for the fishing mission giver on Setesh.",
+        "Complete it to get starter gear.",
+        "Fish in any Setesh water."
+      ],
+      "rewards": [
+        "Basic fishing gear set"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free start in a new profession."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SFISH"
+      ],
+      "warnings": [
+        "Giver name not given in the post."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "fishing",
+        "free"
+      ]
+    },
+    {
+      "id": "setesh-hunting-safely",
+      "title": "Hunt safely on Setesh",
+      "type": "tip",
+      "stage": "early",
+      "summary": "Most Setesh creatures are level 1-3, but a few spots hold much stronger animals: Seteshian Atrox (players saw L35, L52, L60) and Seteshian Altaik (L82, L88) around the lake. Setesh creature loot was widened in May 2026 to include more gear.",
+      "steps": [
+        "Stick to low-level spawns until your gear improves.",
+        "Avoid the Atrox and Altaik spots until much later.",
+        "Every new Setesh creature also starts a Codex challenge."
+      ],
+      "rewards": [
+        "Safer skilling",
+        "Codex progress"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay.",
+        "markup": "low",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Avoids wasting PED on deaths."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SMOBMAP",
+        "S1970",
+        "S1900"
+      ],
+      "warnings": [
+        "Mob levels are from a Sep 2025 player map; spawns may have changed."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "hunting",
+        "beginner"
+      ]
+    },
+    {
+      "id": "setesh-leave-to-calypso",
+      "title": "Leave Setesh for Calypso",
+      "type": "travel",
+      "stage": "early",
+      "summary": "When the main chain is done, Harkov offers a one-way trip to Calypso (you land in Port Atlantis, the next newcomer hub). If you come back later, the Setesh teleporters do not list Calypso; use the leave/skip terminal inside the building opposite the Cabrakan teleporter instead.",
+      "steps": [
+        "Empty your Setesh storage first (storage is per planet).",
+        "First time: take Harkov's one-way trip after the chain.",
+        "Later visits: paste the waypoint below in chat, go into the building with the terminals opposite the Cabrakan teleporter, and use the red terminal at the back; confirm leaving.",
+        "Avoid the token route via Setesh Space Station (10 tokens to Calypso's station hangar) unless you have tokens."
+      ],
+      "rewards": [
+        "Free trip to Port Atlantis, Calypso"
+      ],
+      "prerequisites": [
+        "setesh-a-new-arrival-chain"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free via Harkov or the terminal.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [
+        {
+          "label": "Leave/skip terminal, Port Cabrakan",
+          "waypoint": "[Setesh, 67634, 68354, 299, skip]",
+          "verified": true,
+          "sourceIds": [
+            "SSTUCK",
+            "SLEAVE"
+          ]
+        }
+      ],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Saves newcomers from being stuck or paying tokens."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SSTUCK",
+        "SLEAVE",
+        "SHOWTO",
+        "S1920"
+      ],
+      "warnings": [
+        "The terminal and waypoint come from players (Dec 2025 and Mar 2026), not MindArk."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "beginner"
+      ]
+    },
+    {
+      "id": "setesh-space-station",
+      "title": "Setesh Space Station",
+      "type": "travel",
+      "stage": "mid",
+      "summary": "Setesh has its own space station with a non-PvP zone around it (19.0.2). Teleporting down from the station to Setesh works for free; jumps to other stations or planets cost Teleportation Tokens.",
+      "steps": [
+        "Pick 'Setesh Space Station' in a Setesh teleporter to go up.",
+        "Teleport down from the station to Setesh for free.",
+        "Leaving for another world from here needs tokens or a ship."
+      ],
+      "rewards": [
+        "Gateway to space from Setesh"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free down; tokens for other destinations.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Mostly useful once you own a ship."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1902",
+        "SSTUCK",
+        "SLEAVE",
+        "SFEED"
+      ],
+      "warnings": [
+        "Players reported lootable PvP outside the station before the 19.0.2 safe zone; stay inside the safe zone without a ship."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "travel",
+        "space"
+      ]
+    },
+    {
+      "id": "setesh-next-steps-calypso",
+      "title": "After Setesh: continue on Calypso",
+      "type": "tip",
+      "stage": "early",
+      "summary": "MindArk made Port Atlantis the landing point after Setesh (19.2.0) and added a new Port Atlantis newcomer mission chain across Calypso in 19.12.0. The operator of the Howling Mine also advertises a free shuttle from Setesh to its space hub.",
+      "steps": [
+        "Arrive in Port Atlantis and look for the newcomer missions there.",
+        "Optional: try the Howling Mine free ship tutorial for space."
+      ],
+      "rewards": [
+        "Continued free newcomer content"
+      ],
+      "prerequisites": [
+        "setesh-leave-to-calypso"
+      ],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Points you to the next free content."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1920",
+        "S19120",
+        "STHM"
+      ],
+      "warnings": [
+        "The Setesh-to-Howling-Mine shuttle is only claimed on the operator's own site; not confirmed in MindArk notes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "next-steps"
+      ]
+    }
+  ]
+}

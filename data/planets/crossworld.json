@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "crossworld",
+    "name": "Entropia-wide (all worlds)",
+    "kind": "special",
+    "parent": null,
+    "status": "active",
+    "summary": "Systems and events that are not tied to one planet: the Codex, how mission cooldowns work, Mayhem and other global events, the current New Horizons Bonus Track, referral rewards and newcomer help.",
+    "howToReach": "Available on every world; most global events are joined from the Global Events list or from NPCs on Calypso.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "MindArk plans to release the Unreal Engine 5 client before Christmas 2026. MindArk says items, skills and land carry over, but menus and some rules may change.",
+      "Event dates change every year. Only dates printed in an official announcement are given here; future editions are marked as not yet announced."
+    ],
+    "sourceIds": [
+      "S19110",
+      "SNEXT",
+      "SHALL"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S19110",
+      "title": "19.11.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694218",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-10-20",
+      "accessed": "2026-11-26",
+      "supports": "New Horizons Bonus Track: dates, how points are earned, 60 ranks, 500,000 Unreal Token allocation."
+    },
+    {
+      "id": "S19120",
+      "title": "19.12.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178196",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-11-11",
+      "accessed": "2026-11-26",
+      "supports": "Bonus Track claim fixes; ROCKtropia moved to Codex with a 6-month window for old hunting chains; ARIS weekly missions replace some dailies."
+    },
+    {
+      "id": "S1920",
+      "title": "19.2.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818118366184963",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Immersive NPCs and Mission Brokers spawning dynamically across the universe; Merry Mayhem chips."
+    },
+    {
+      "id": "S1950",
+      "title": "Major Update: 19.5.0 Release Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365765242",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-03-24",
+      "accessed": "2026-11-26",
+      "supports": "Recruit a Colonist rewards; immersive quest givers can be negotiated with."
+    },
+    {
+      "id": "SHALL",
+      "title": "Halloween Mayhem 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035889",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-10-23",
+      "accessed": "2026-11-26",
+      "supports": "Mayhem token rules, Mayhem Token Traders, daily chain 'once per day' wording, Global Events list access."
+    },
+    {
+      "id": "SSUMM",
+      "title": "SUMMER MAYHEM 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721201100",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-06-09",
+      "accessed": "2026-11-26",
+      "supports": "Summer Mayhem dates; instance reachable from any planet via the Global Events list; do not abandon the mission."
+    },
+    {
+      "id": "SEAST",
+      "title": "Easter Mayhem 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365756949",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-03-20",
+      "accessed": "2026-11-26",
+      "supports": "Easter Mayhem dates and Annihilation track rules."
+    },
+    {
+      "id": "SMERRY",
+      "title": "Merry Mayhem 2025",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818118366175542",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2025-12-05",
+      "accessed": "2026-11-26",
+      "supports": "Merry Mayhem 2025 dates, Annihilation tracks (choose once), FFA, Jul Snarg Hunt once per avatar."
+    },
+    {
+      "id": "SMVEND",
+      "title": "Mayhem Vendor Restock and Additions",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633193935",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-02-23",
+      "accessed": "2026-11-26",
+      "supports": "Mayhem Vendor prices: apartments 3,000-6,000 tokens, Land Area Fragments 50,000 tokens + 1 Rare token."
+    },
+    {
+      "id": "SNEXT",
+      "title": "The Next Era Starts Here",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951307426",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-08-30",
+      "accessed": "2026-11-26",
+      "supports": "Unreal Engine 5 client scheduled before Christmas 2026; new map, auction, chat."
+    },
+    {
+      "id": "SUE5",
+      "title": "Dev Blog: The Road to Unreal Engine 5",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466509297",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-02-10",
+      "accessed": "2026-11-26",
+      "supports": "Everything live at the switch (items, land, skills) carries over to the Unreal version."
+    },
+    {
+      "id": "STIER",
+      "title": "Tier Boost Weekend!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814452418",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-09-07",
+      "accessed": "2026-11-26",
+      "supports": "Example short global event: doubled minor tier-increase chance for a weekend."
+    },
+    {
+      "id": "SRX",
+      "title": "Locate and Eliminate RX Units: Unreal Edition",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010503642",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-09-22",
+      "accessed": "2026-11-26",
+      "supports": "Example timed event with Unreal Tokens and a temporary daily mission."
+    },
+    {
+      "id": "SFISH",
+      "title": "Fishing & Cooking LIVE",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047254349",
+      "publisher": "MindArk (official, Steam news mirror)",
+      "kind": "official",
+      "published": "2026-04-15",
+      "accessed": "2026-11-26",
+      "supports": "Fishing on Calypso, Next Island, Rocktropia, ARIS and Setesh; free Baitfishing Rod from Lars; starter gear mission on Setesh; Fishing Codex."
+    },
+    {
+      "id": "SCODEXOFF",
+      "title": "Entropia Universe – Skill Rewards (Codex)",
+      "url": "https://be.entropiauniverse.com/entropia-universe/beginners-guide/skill-rewards/",
+      "publisher": "MindArk (official beginner's guide)",
+      "kind": "official",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Codex basics: challenge unlocks on first kill of a new creature, rank progress per kill, choose skill rewards per rank."
+    },
+    {
+      "id": "SONBOARD",
+      "title": "Upcoming Update: New Onboarding Experience",
+      "url": "https://www.entropiamuseum.com/news/view/upcoming-update-new-onboarding-experience/",
+      "publisher": "MindArk text mirrored by Entropia Museum",
+      "kind": "official",
+      "published": "2025-09-03",
+      "accessed": "2026-11-26",
+      "supports": "Universe Chat added; option to opt out of Rookie and Universe Chat."
+    },
+    {
+      "id": "SMETA",
+      "title": "Meta Codex (player ladder)",
+      "url": "https://forum.entropiauniverse.com/t/269168",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2021-06-04",
+      "accessed": "2026-11-26",
+      "supports": "Players: Meta Codex points ladder; first post edited to state 314 codexes and 1,570 Meta points."
+    },
+    {
+      "id": "SRIPF",
+      "title": "Ripcraze.com | Maps and Tools for Entropians",
+      "url": "https://forum.entropiauniverse.com/t/283905",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-10-18",
+      "accessed": "2026-11-26",
+      "supports": "Players and tool author: daily timers differ (16 h dailies, 20 h ARIS instances, 24 h daily bosses)."
+    },
+    {
+      "id": "SRIP",
+      "title": "Ripcraze – daily timers (site data)",
+      "url": "https://ripcraze.com/daily",
+      "publisher": "Ripcraze (fan tool)",
+      "kind": "community-guide",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Per-mission cooldown table used by the tool: 1 h to 168 h, mostly 16-24 h."
+    },
+    {
+      "id": "SDAILY17",
+      "title": "The daily missions no longer on 16 hour cycle?",
+      "url": "https://forum.entropiauniverse.com/t/247866",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2017-03-19",
+      "accessed": "2026-11-26",
+      "supports": "Old player discussion: daily timers are per-player and not a midnight reset."
+    }
+  ],
+  "activities": [
+    {
+      "id": "crossworld-new-horizons-bonus-track",
+      "title": "New Horizons Bonus Track (until 1 Jan 2027)",
+      "type": "event",
+      "stage": "early",
+      "summary": "A season-pass style event. You earn Bonus Track points automatically from item decay and ammo use anywhere in the game, unlocking cosmetics, creature trading cards, Unreal Strongboxes, the New Horizon Wasp and more. It runs from 20 Oct 2026 08:15 UTC to 1 Jan 2027 00:00 UTC.",
+      "steps": [
+        "Play normally; points come from decay and ammo use.",
+        "Open the Bonus Track HUD icon (or your account page) to see your rank.",
+        "Claim rewards for each of the 60 ranks; after rank 60 there are repeatable ranks."
+      ],
+      "rewards": [
+        "Cosmetics, trading cards, Unreal Strongboxes, New Horizon Wasp",
+        "Unreal Tokens while the shared pool of 500,000 lasts"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No extra cost beyond what you already spend playing.",
+        "markup": "unknown",
+        "markupNote": "Do not spend extra just to rank up; reward value is not guaranteed."
+      },
+      "currencies": [
+        {
+          "name": "Unreal Token",
+          "use": "earned",
+          "note": "From a shared, limited pool of 500,000; delivered automatically while available."
+        }
+      ],
+      "limits": "Ends 1 Jan 2027 00:00 UTC. Unreal Strongboxes need a separately obtained key.",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 5,
+        "rationale": "Free extra rewards on top of normal play for a limited time."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S19110",
+        "S19120"
+      ],
+      "warnings": [
+        "Points may take time to update. 19.12.0 fixed some rank rewards that could not be claimed.",
+        "Remember to claim before the event ends."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "event",
+        "limited-time",
+        "beginner"
+      ]
+    },
+    {
+      "id": "crossworld-codex-basics",
+      "title": "Use the Codex for free skill rewards",
+      "type": "skill",
+      "stage": "arrival",
+      "summary": "The Codex turns hunting into skill rewards. The first kill of a new creature type unlocks its Codex challenge; each later kill adds progress, and each completed rank lets you pick a skill reward (for example Aim, Anatomy, Handgun). There are also asteroid and fishing Codex tabs.",
+      "steps": [
+        "Kill a new creature type; its challenge appears in the Codex automatically.",
+        "Keep hunting the same type to fill the rank.",
+        "Open the Codex, claim the rank and pick the skill that fits your goals."
+      ],
+      "rewards": [
+        "Skill points of your choice",
+        "Meta Codex points across many codexes"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "No extra cost; progress comes from normal hunting.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 5,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free, permanent skill gains from activity you already do."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "SCODEXOFF",
+        "SMETA",
+        "SFISH",
+        "S19120"
+      ],
+      "warnings": [
+        "ROCKtropia moved to Codex in 19.12.0 (11 Nov 2026): new old-style hunting chains cannot be started; started ones can be finished within 6 months."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "skills",
+        "hunting"
+      ]
+    },
+    {
+      "id": "crossworld-mission-cooldowns-explained",
+      "title": "How 'daily' mission timers really work",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "Most 'daily' missions are personal timers that start when you finish the mission, not a shared midnight reset. Lengths differ by giver: community trackers list 16, 20, 21, 23 and 24 hours, plus 168-hour weeklies and a few hourly ones. Some event dailies follow the calendar day instead.",
+      "steps": [
+        "Note the time when you hand in a daily; the next one is usually 16-24 h later depending on the giver.",
+        "For Mayhem-style event chains, read the event post: Halloween Mayhem 2026's chain could be started once per day and not again on the same day Stage 1 was completed.",
+        "Weekly missions (for example ARIS since 19.12.0) use about 7-day timers.",
+        "In this app, rolling cooldowns start when you tick the activity done."
+      ],
+      "rewards": [
+        "Fewer wasted trips"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Understanding timers saves time on every planet."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SRIPF",
+        "SRIP",
+        "SDAILY17",
+        "SHALL",
+        "S19120"
+      ],
+      "warnings": [
+        "MindArk does not publish a single rule; timer lengths come from community trackers and can change with updates."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "cooldowns"
+      ]
+    },
+    {
+      "id": "crossworld-mayhem-tokens",
+      "title": "Mayhem tokens and the Mayhem Token Traders",
+      "type": "tip",
+      "stage": "mid",
+      "summary": "Mayhem events pay Mayhem Tokens, Rare Mayhem Tokens and Cosmetic Tokens. They are not tradable, but they add up across events and buy tradable items from the Mayhem Token Traders in Cape Corinth, Port Atlantis and Twin Peaks on Calypso.",
+      "steps": [
+        "Earn tokens in Mayhem events.",
+        "Visit a Mayhem Token Trader on Calypso to see stock.",
+        "Big items take many events: e.g. apartment vouchers cost 3,000-6,000 Mayhem Tokens; a Land Area Fragment costs 50,000 Mayhem Tokens plus 1 Rare Mayhem Token (Feb 2026 stock)."
+      ],
+      "rewards": [
+        "Tradable vendor items (cosmetics, apartments, land fragments, chips)"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Tokens only.",
+        "markup": "unknown",
+        "markupNote": "Items bought from the trader are tradable, so they may have markup."
+      },
+      "currencies": [
+        {
+          "name": "Mayhem Token",
+          "use": "kept",
+          "note": "Non-tradable; save across events."
+        },
+        {
+          "name": "Rare Mayhem Token",
+          "use": "kept",
+          "note": "Non-tradable; needed for top items like Land Area Fragments."
+        },
+        {
+          "name": "Cosmetic Token",
+          "use": "kept",
+          "note": "Non-tradable; for cosmetics."
+        }
+      ],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Long-term value from events you join anyway."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "SHALL",
+        "SMERRY",
+        "SMVEND"
+      ],
+      "warnings": [
+        "Vendor stock and prices change with restocks; the numbers are from the 23 Feb 2026 restock post."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mayhem",
+        "currency"
+      ]
+    },
+    {
+      "id": "crossworld-mayhem-calendar",
+      "title": "Seasonal Mayhem events (yearly cycle)",
+      "type": "event",
+      "stage": "mid",
+      "summary": "MindArk runs Mayhem events several times a year. In 2026: Easter Mayhem 31 Mar-13 Apr, Summer Mayhem 16 Jun-25 Aug, Halloween Mayhem 30 Oct-13 Nov. Merry Mayhem 2025 ran 10 Dec 2025-15 Jan 2026. Instances are entered from the Global Events list on any planet; Annihilation missions start from NPCs on Calypso.",
+      "steps": [
+        "Watch the official news for the next event post (Merry Mayhem 2026 had not been announced on 26 Nov 2026).",
+        "Open the Global Events list to enter the event instance.",
+        "Do not abandon event missions: progress is lost and support will not restore it.",
+        "For Annihilation, you pick one track (Bronze/Silver/Gold/Redulite) once per event."
+      ],
+      "rewards": [
+        "Mayhem/Cosmetic/Rare tokens",
+        "Strongboxes",
+        "Universal Ammo",
+        "small attribute rewards",
+        "Codex progress"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo and decay; higher stages need strong gear.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Stage rewards are paid only for the first completion of each stage per event.",
+      "cooldown": {
+        "kind": "fixed-reset",
+        "hours": null,
+        "resetNote": "Per event: each Mayhem runs once a year on dates announced by MindArk."
+      },
+      "locations": [],
+      "score": {
+        "value": 4,
+        "budget": 3,
+        "effort": 3,
+        "rationale": "Good rewards for active hunters; low stages are newbie-friendly."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "SEAST",
+        "SSUMM",
+        "SHALL",
+        "SMERRY"
+      ],
+      "warnings": [
+        "Dates differ every year; the next Merry Mayhem dates are not yet announced (last year's post came on 5 Dec)."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mayhem",
+        "seasonal",
+        "event"
+      ]
+    },
+    {
+      "id": "crossworld-jul-snarg-hunt",
+      "title": "Jul Snarg Hunt (Merry Mayhem, once per avatar)",
+      "type": "mission",
+      "stage": "early",
+      "summary": "During Merry Mayhem, a newcomer-friendly hunt for Merry Snargs on Calypso. Completing it once gives an Isis LLC 2 Merry Edition (L) laser rifle with increased laser skill gain. Hunting Merry Snargs also advances a Snarg Codex challenge.",
+      "steps": [
+        "When Merry Mayhem is live, talk to Santa's Little Helper by the Port Atlantis teleporter.",
+        "Hunt Merry Snargs near Cape Corinth and Port Atlantis.",
+        "Hand in for the rifle."
+      ],
+      "rewards": [
+        "Isis LLC 2 Merry Edition (L) laser rifle",
+        "Snarg Codex progress"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Ammo for low-level Snargs.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Only once per avatar ever; not offered again if you did it in a previous year.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "Once per avatar (any year)."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 4,
+        "rationale": "Cheap, newcomer-level event mission with a useful limited rifle."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SMERRY"
+      ],
+      "warnings": [
+        "Based on the 2025 edition; check the 2026 announcement for changes."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "mayhem",
+        "beginner",
+        "seasonal"
+      ]
+    },
+    {
+      "id": "crossworld-recruit-a-colonist",
+      "title": "Recruit a Colonist (referral bonuses)",
+      "type": "unlock",
+      "stage": "arrival",
+      "summary": "A referral system since 19.5.0. A new player who signs up through a friend's invite link gets a 25% skill gain bonus for 7 days after reaching Trained status; the recruiter gets a 10% skill gain bonus for 24 hours plus skill and PED milestone rewards.",
+      "steps": [
+        "If a friend plays, ask for their invite link before you create your account (the link ties your account to them).",
+        "Reach Trained status to trigger the 7-day bonus.",
+        "Track it in the Recruit a Colonist window in the client."
+      ],
+      "rewards": [
+        "25% skill gain bonus for 7 days (recruit)",
+        "Recruiter: 10% skill gain for 24 h, skill rewards, PED payouts in 5 tiers"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "Linking happens when the account is created through the link.",
+      "cooldown": {
+        "kind": "once",
+        "hours": null,
+        "resetNote": "One-time bonus per recruited account."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Free skill boost for newcomers who have a friend in game."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "S1950"
+      ],
+      "warnings": [
+        "Recruiter PED payouts depend on the recruit's deposits; never deposit to help someone else's reward."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "free"
+      ]
+    },
+    {
+      "id": "crossworld-dynamic-npc-missions",
+      "title": "Immersive NPCs and Mission Brokers",
+      "type": "tip",
+      "stage": "early",
+      "summary": "Since 19.2.0 many NPCs are 'immersive': you can talk to them in plain text, they know their surroundings, and some Mission Brokers spawn in different places to give context missions. Since 19.5.0 some quest givers negotiate rewards.",
+      "steps": [
+        "Talk to NPCs with a chat interface and ask direct questions (players got directions this way).",
+        "Look for Mission Brokers appearing in new places; community trackers list about 24 h timers for AI NPC missions."
+      ],
+      "rewards": [
+        "Extra missions and directions"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 4,
+        "rationale": "Free extra missions and in-game help."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "S1920",
+        "S1950",
+        "SRIP"
+      ],
+      "warnings": [
+        "AI NPC behaviour varies; players report mixed results."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "missions"
+      ]
+    },
+    {
+      "id": "crossworld-newcomer-help-chat",
+      "title": "Where newcomers get help",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "Rookie chat is the classic newcomer channel; the Sep 2025 onboarding update added a Universe Chat and lets you opt out of Rookie and Universe chat. Planet- and society chats, the official Entropia forum and the official Discord (Feb 2026) are other help routes.",
+      "steps": [
+        "Ask questions in Rookie or Universe chat in game.",
+        "If chat is too noisy, you can opt out in settings.",
+        "Search the official forum's n00bs Corner before asking."
+      ],
+      "rewards": [
+        "Faster answers"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Cheap help, especially in the first days."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SONBOARD"
+      ],
+      "warnings": [
+        "Never share account details; scams target new players."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "beginner",
+        "help"
+      ]
+    },
+    {
+      "id": "crossworld-fishing-start",
+      "title": "Try fishing for free",
+      "type": "skill",
+      "stage": "early",
+      "summary": "Fishing and Cooking launched on 15 Apr 2026. You can fish any water on Calypso, Next Island, ROCKtropia, ARIS and Setesh. Lars gives a free Baitfishing Rod (the free-to-play version), and a Setesh mission gives a basic gear set. Caught fish feed a Fishing Codex with skill rewards.",
+      "steps": [
+        "Get the free Baitfishing Rod from Lars (the post only says 'at the camp') or the starter gear mission on Setesh.",
+        "Get Spool Cells (crafted, or a one-time exchange with Lars for universal ammo).",
+        "Cast at water (E), then win the minigame.",
+        "Claim Fishing Codex rewards."
+      ],
+      "rewards": [
+        "Fish for cooking buffs",
+        "Fishing Codex skill rewards"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Spool Cells; advanced rods are crafted.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 4,
+        "effort": 3,
+        "rationale": "Low-cost new profession with its own Codex."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "SFISH"
+      ],
+      "warnings": [
+        "MindArk warned fishing numbers may be rebalanced after release; several patches did so."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "fishing",
+        "beginner"
+      ]
+    },
+    {
+      "id": "crossworld-watch-timed-events",
+      "title": "Watch for short global events",
+      "type": "event",
+      "stage": "mid",
+      "summary": "MindArk also runs short events announced only days ahead, e.g. Tier Boost Weekend (12-14 Sep 2026: doubled chance of minor tier increases) and RX Unit hunts (25 Sep-5 Oct 2026) that dropped Unreal Tokens and added a temporary daily.",
+      "steps": [
+        "Check the in-game News Feed or official news every few days.",
+        "Plan tiering or hunting around the event window."
+      ],
+      "rewards": [
+        "Event-specific boosts or drops"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": null,
+        "text": "Depends on event.",
+        "markup": "unknown",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "unknown",
+        "hours": null,
+        "resetNote": "No fixed schedule; announced case by case."
+      },
+      "locations": [],
+      "score": {
+        "value": 3,
+        "budget": 3,
+        "effort": 4,
+        "rationale": "Good timing can make normal play cheaper."
+      },
+      "confidence": "medium",
+      "sourceIds": [
+        "STIER",
+        "SRX"
+      ],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "crossworld-unreal-transition",
+      "title": "Unreal Engine 5 switch (before Christmas 2026)",
+      "type": "tip",
+      "stage": "late",
+      "summary": "MindArk says the Unreal Engine 5 client is scheduled for release before Christmas 2026, and that everything live at the switch (items, land, deeds, skills) carries over. New avatars, map, auction and chat already shipped in 19.10.",
+      "steps": [
+        "Expect new menus and possible changes to guides after the switch.",
+        "Re-check waypoints and mission steps afterwards."
+      ],
+      "rewards": [
+        "Awareness"
+      ],
+      "prerequisites": [],
+      "requirementsText": [],
+      "cost": {
+        "pedEstimate": 0,
+        "text": "Free.",
+        "markup": "none",
+        "markupNote": ""
+      },
+      "currencies": [],
+      "limits": "",
+      "cooldown": {
+        "kind": "none",
+        "hours": null,
+        "resetNote": ""
+      },
+      "locations": [],
+      "score": {
+        "value": 2,
+        "budget": 5,
+        "effort": 5,
+        "rationale": "Context for why guides may go stale soon."
+      },
+      "confidence": "high",
+      "sourceIds": [
+        "SNEXT",
+        "SUE5"
+      ],
+      "warnings": [
+        "Schedule is MindArk's plan, not a confirmed date."
+      ],
+      "lastVerified": "2026-11-26",
+      "tags": [
+        "news"
+      ]
+    }
+  ]
+}

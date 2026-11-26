@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "planet": {
+    "id": "hunt-the-thing",
+    "name": "Hunt The THING",
+    "kind": "instance",
+    "parent": "rocktropia",
+    "status": "inactive",
+    "summary": "An arctic movie tie-in area for 'The Thing' (2011), reached from ROCKtropia's teleporter drop-down. MindArk staff said in February 2025 that NEVERDIE had decided to deactivate the instance. No sign of it returning was found up to November 2026.",
+    "howToReach": "Not reachable. It used to be a separate area chosen from the drop-down at any ROCKtropia teleporter.",
+    "lastReviewed": "2026-11-26",
+    "warnings": [
+      "Inactive since early 2025, per a MindArk staff post on the official forum (2025-02-07).",
+      "Some community guides (joinentropia.com, Entropia Nexus maps, rocktropia.com's 'Featuring THE THING') still list Hunt The THING missions or maps. That content is stale.",
+      "THING creatures still exist on the ROCKtropia mainland, and a 2022 blog mentions a 'Hunt Things' mission on Secret Island. These are not the old instance."
+    ],
+    "sourceIds": ["T1", "T2"]
+  },
+  "sources": [
+    {"id": "T1", "title": "Bring Hunt The Thing Back", "url": "https://forum.entropiauniverse.com/t/bring-hunt-the-thing-back/283660", "publisher": "Entropia Universe Forum (includes MindArk staff reply by Ludvig_MindArk)", "kind": "official-forum", "published": "2025-01-31", "accessed": "2026-11-26", "supports": "Players note HTT is gone (2025-01-31). The MindArk reply (2025-02-07) says NeverDie decided to deactivate it and items can be recovered through a support case."},
+    {"id": "T2", "title": "Mindark takes over the operations of Planet Rocktropia to be Run by New Entropia Universe AI President", "url": "https://news.cision.com/mindark-pe-ab/r/mindark-takes-over-the-operations-of-planet-rocktropia-to-be-run-by-new-entropia-universe-ai-preside,c3998274", "publisher": "MindArk PE AB (press release)", "kind": "official", "published": "2024-06-10", "accessed": "2026-11-26", "supports": "Hunt The Thing was a movie-tie-in destination made through a Universal licensing partnership."},
+    {"id": "T3", "title": "RockTropia - Mission Guide & Knowledge Base", "url": "https://joinentropia.com/rocktropia/", "publisher": "JoinEntropia (community site)", "kind": "community-guide", "published": null, "accessed": "2026-11-26", "supports": "Still lists HTT access point and Sgt Savagery missions (stale)."}
+  ],
+  "activities": [
+    {
+      "id": "hunt-the-thing-recover-items",
+      "title": "Items left in Hunt The THING: open a support case",
+      "type": "tip",
+      "stage": "arrival",
+      "summary": "If you had items stored or left in the Hunt The THING area when it was shut down, MindArk said they are not lost. Open a support case and support will move them somewhere you can reach.",
+      "steps": ["Open a support case with MindArk.", "Say which items were left in Hunt The THING and ask for them to be moved."],
+      "rewards": ["Your stranded items returned"],
+      "prerequisites": [],
+      "requirementsText": ["You had items in the old HTT area"],
+      "cost": {"pedEstimate": 0, "text": "Free.", "markup": "none", "markupNote": ""},
+      "currencies": [],
+      "limits": "Only for players with items there.",
+      "cooldown": {"kind": "once", "hours": null, "resetNote": ""},
+      "locations": [{"label": "MindArk support (account website)", "waypoint": null, "verified": false, "sourceIds": ["T1"]}],
+      "score": {"value": 2, "budget": 5, "effort": 4, "rationale": "Only matters to returning players with stranded items."},
+      "confidence": "high",
+      "sourceIds": ["T1"],
+      "warnings": [],
+      "lastVerified": "2026-11-26",
+      "tags": ["support", "inactive"]
+    }
+  ]
+}
