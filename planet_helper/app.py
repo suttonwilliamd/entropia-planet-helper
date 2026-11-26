@@ -151,9 +151,14 @@ class PlanetHelperApp:
                         command=self._set_budget).grid(row=1, column=5, sticky="w")
         top.columnconfigure(4, weight=1)
 
-        self.header = tk.Text(self.root, height=5, wrap="word", bg=BG, fg=FG, relief="flat",
+        hdr = ttk.Frame(self.root)
+        hdr.pack(fill="x")
+        self.header = tk.Text(hdr, height=5, wrap="word", bg=BG, fg=FG, relief="flat",
                               font=self.f_body, padx=12, pady=4, cursor="arrow", highlightthickness=0)
-        self.header.pack(fill="x")
+        hsb = ttk.Scrollbar(hdr, orient="vertical", command=self.header.yview)
+        self.header.configure(yscrollcommand=hsb.set)
+        self.header.pack(side="left", fill="x", expand=True)
+        hsb.pack(side="right", fill="y")
         self._text_tags(self.header)
 
         body = ttk.PanedWindow(self.root, orient="horizontal")
@@ -161,10 +166,10 @@ class PlanetHelperApp:
         left = ttk.Frame(body)
         cols = ("rank", "title", "type", "stage", "status", "score")
         self.tree = ttk.Treeview(left, columns=cols, show="headings", selectmode="browse")
-        for c, w, txt in (("rank", 50, "#"), ("title", 330, "Activity"), ("type", 110, "Type"),
-                          ("stage", 80, "Stage"), ("status", 150, "Status"), ("score", 60, "Score")):
+        for c, w, txt in (("rank", 40, "#"), ("title", 250, "Activity"), ("type", 95, "Type"),
+                          ("stage", 70, "Stage"), ("status", 125, "Status"), ("score", 60, "Score")):
             self.tree.heading(c, text=txt)
-            self.tree.column(c, width=w, stretch=(c == "title"), anchor="w")
+            self.tree.column(c, width=w, minwidth=w if c != "title" else 140, stretch=(c == "title"), anchor="w")
         sb = ttk.Scrollbar(left, orient="vertical", command=self.tree.yview)
         self.tree.configure(yscrollcommand=sb.set)
         self.tree.pack(side="left", fill="both", expand=True)
@@ -183,6 +188,7 @@ class PlanetHelperApp:
         self.b_undo = ttk.Button(btns, text="Undo / not done", command=self.undo)
         for b in (self.b_done, self.b_ready, self.b_undo):
             b.pack(side="left", padx=(0, 6))
+        ttk.Button(btns, text="About this destination", command=self.show_about).pack(side="right")
         self.detail = tk.Text(right, wrap="word", bg=PANEL, fg=FG, relief="flat", font=self.f_body,
                               padx=14, pady=10, highlightthickness=0, cursor="arrow")
         dsb = ttk.Scrollbar(right, orient="vertical", command=self.detail.yview)
@@ -240,13 +246,15 @@ class PlanetHelperApp:
         doc = self.ds.planets[pid]
         p = doc["planet"]
         self.root.title(f"Entropia Planet Helper - {p['name']}")
-        parts = [(p["name"], "h1"), (f"   {p['status'].upper()} · {p['kind']} · reviewed {p['lastReviewed']}\n", "muted"),
-                 (p["summary"] + "\n", None), ("Getting there: ", "b"), (p["howToReach"] + "\n", None)]
-        for w in p["warnings"]:
-            parts.append(("⚠ " + w + "\n", "warn"))
+        nwarn = len(p["warnings"])
+        parts = [(p["name"], "h1"), (f"   {p['status'].upper()} · {p['kind']} · reviewed {p['lastReviewed']}   ", "muted")]
+        if nwarn:
+            parts.append((f"⚠ {nwarn} caution{'s' if nwarn != 1 else ''}: press 'About this destination'\n", "warn"))
+        else:
+            parts.append(("\n", None))
+        parts += [(p["summary"] + "\n", None), ("Getting there: ", "b"), (p["howToReach"], None)]
         self._write(self.header, parts)
-        lines = int(self.header.count("1.0", "end", "displaylines")[0]) if self.header.winfo_ismapped() else 5
-        self.header.configure(height=max(4, min(9, lines)))
+        self.header.yview_moveto(0)
         self.refresh()
 
     # ------------------------------------------------------------ list
@@ -395,17 +403,49 @@ class PlanetHelperApp:
                 t.insert("end", "\n")
         t.insert("end", "Sources\n", "h2")
         for sid in act["sourceIds"]:
-            s = srcs[sid]
-            tag = f"link-{sid}"
-            t.insert("end", "•  ", "bullet")
-            t.insert("end", s["title"], ("link", tag))
-            t.tag_bind(tag, "<Button-1>", lambda e, u=s["url"]: webbrowser.open(u))
-            t.insert("end", f"  ({s['publisher']}, {s['kind']}, published {s['published'] or 'undated'}, "
-                            f"checked {s['accessed']})\n", "muted")
-            t.insert("end", f"    {s['supports']}\n", "muted")
+            self._source_line(t, srcs[sid])
         if act["tags"]:
             t.insert("end", "\nTags: " + ", ".join(act["tags"]) + "\n", "muted")
         t.configure(state="disabled")
+
+    def show_about(self):
+        """Full destination info: summary, travel, every caution and the destination-level sources."""
+        pid = self.planet.get()
+        if not pid:
+            return
+        self.tree.selection_remove(*self.tree.selection())
+        self._buttons(None)
+        doc = self.ds.planets[pid]
+        p = doc["planet"]
+        srcs = {s["id"]: s for s in doc["sources"]}
+        t = self.detail
+        t.configure(state="normal")
+        t.delete("1.0", "end")
+        t.insert("end", f"About {p['name']}\n", "h1")
+        parent = self.ds.planets.get(p["parent"], {}).get("planet", {}).get("name", p["parent"]) if p["parent"] else None
+        t.insert("end", f"{p['kind']} · status {p['status']}" + (f" · part of {parent}" if parent else "")
+                 + f" · reviewed {p['lastReviewed']} · {len(doc['activities'])} activities, {len(doc['sources'])} sources\n", "muted")
+        t.insert("end", p["summary"] + "\n")
+        t.insert("end", "Getting there\n", "h2")
+        t.insert("end", p["howToReach"] + "\n")
+        if p["warnings"]:
+            t.insert("end", "Cautions\n", "h2")
+            for w in p["warnings"]:
+                t.insert("end", "⚠  " + w + "\n", ("bullet", "warn"))
+        t.insert("end", "Main sources for this destination\n", "h2")
+        for sid in p["sourceIds"]:
+            self._source_line(t, srcs[sid])
+        t.insert("end", "\nEvery activity lists its own sources. The README has the full list.\n", "muted")
+        t.configure(state="disabled")
+
+    def _source_line(self, t, s):
+        tag = f"link-{s['id']}"
+        t.insert("end", "•  ", "bullet")
+        t.insert("end", s["title"], ("link", tag))
+        t.tag_bind(tag, "<Button-1>", lambda e, u=s["url"]: webbrowser.open(u))
+        t.insert("end", f"  ({s['publisher']}, {s['kind']}, published {s['published'] or 'undated'}, "
+                        f"checked {s['accessed']})\n", "muted")
+        t.insert("end", f"    {s['supports']}\n", "muted")
 
     def _list(self, t, title, items, numbered=False):
         if not items:

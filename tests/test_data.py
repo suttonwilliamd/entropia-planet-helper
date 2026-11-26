@@ -84,6 +84,10 @@ class EntryPointTests(unittest.TestCase):
                     app.view.set("Everything")
                     app.refresh()
                     self.assertEqual(len(app.tree.get_children()), len(app.ds.planets[pid]["activities"]), pid)
+                    app.show_about()                                 # destination cautions + sources render
+                    text = app.detail.get("1.0", "end")
+                    for w in app.ds.planets[pid]["planet"]["warnings"]:
+                        self.assertIn(w[:40], text)
         finally:
             root.destroy()
 

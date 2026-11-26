@@ -37,6 +37,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install_shortcut.ps1 -Planet ar
 - **Type / Search (Ctrl+F):** narrow by kind (daily, unlock, mission chain...) or words. Esc clears the search.
 - **Budget mode:** weights cost more heavily, for low-budget play.
 - **Detail pane:** why it is ranked there, steps, rewards, cost and markup notes, currencies earned/spent/kept, prerequisites (✔/✗), limits, cooldown, waypoints with a **Copy** button (paste `/wp [...]` into game chat yourself), warnings and dated sources.
+- **About this destination:** full summary, how to get there, every caution for that place, and its main sources.
 - **Mark done (D) / Ready again / Undo:** Ctrl+ and Ctrl- change text size.
 
 ### How ranking works
