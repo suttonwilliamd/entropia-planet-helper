@@ -86,11 +86,31 @@ python -m planet_helper.validate data/planets/aris.json
       "sourceIds": ["S1"],
       "warnings": [],
       "lastVerified": "2026-11-26",
-      "tags": ["beginner", "hunting"]
+      "tags": ["beginner", "hunting"],
+      // REQUIRED. How much we know about prerequisites. An empty list is never "none" by itself.
+      "prereqInfo": {
+        "status": "partial",            // verified | partial | unknown | unreviewed
+        "note": "What the sources say about what comes first.",
+        "unknowns": ["Each thing no source settles"],   // required for partial/unknown; empty for verified
+        "sourceIds": ["S1"]             // required for verified/partial
+      },
+      // OPTIONAL extras
+      "unknowns": ["Facts about the activity no source settles (counts, tradeability...)"],
+      "diagnostics": [                  // shown as "Stuck? Check these in order"
+        { "symptom": "NPC won't talk to you", "check": "What to look at, in plain words", "sourceIds": ["S1"] }
+      ],
+      "formerIds": ["old-activity-id"]  // ids merged into this one; their saved progress carries over
     }
   ]
 }
 ```
+
+## Prerequisite status
+
+- `verified`: the prerequisites listed (possibly none) are backed by the cited sources.
+- `partial`: some are sourced; `unknowns` says what is not.
+- `unknown`: no source says; `unknowns` says what was looked for.
+- `unreviewed`: nobody has checked yet. All entries start here until audited.
 
 ## Cooldown meaning in the app
 

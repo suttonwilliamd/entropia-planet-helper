@@ -174,6 +174,12 @@
         "Be on Next Island",
         "Ancient Greece downloaded"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "No cost documented.",
@@ -234,6 +240,12 @@
         "ancient-greece-orpheus-cave"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown.",
@@ -302,6 +314,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Depends on the objective chosen each day.",
@@ -363,6 +381,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo for the Asterion hunt, or 500 probes for the mining option.",
@@ -428,6 +452,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Depends on the activity.",
@@ -493,6 +523,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Nots, sometimes plus an item at full TT.",
@@ -557,6 +593,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Hand-in materials, sweat, key parts and combat spend.",

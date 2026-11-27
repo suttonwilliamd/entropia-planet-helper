@@ -442,6 +442,12 @@
         "Spacecraft plus Space Thruster, or a ride on another player's ship",
         "Planet download in the client loader (one player had to restart the client before ARIS appeared)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Craft fuel plus thruster decay. One newcomer guide (Aug 2025) says a thruster decays about 0.10 PED per launch and per landing and costs about 7 PED, and says docking at the station avoids the landing decay. Rides from players may be free or paid.",
@@ -527,6 +533,12 @@
         "10 Teleportation Tokens per jump (since VU 19.2.0)",
         "150 kg teleport weight limit was set when interplanetary teleport launched (VU 18.9.0)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "10 Teleportation Tokens per jump. Their PED value was not found in any source.",
@@ -602,6 +614,12 @@
       "requirementsText": [
         "Be on ARIS (by ship or by token teleport; see the two travel entries)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",
@@ -687,6 +705,12 @@
       "requirementsText": [
         "Ground vehicle strongly recommended"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Vehicle oil and repairs, plus healing if you are attacked.",
@@ -830,6 +854,12 @@
         "Ground vehicle recommended",
         "Some sites sit in high-level spawns"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Only vehicle oil and repairs. Dying costs armor decay and time.",
@@ -908,6 +938,12 @@
       "requirementsText": [
         "Low tier: starter-level weapon (Frontier-class) per a March 2026 video of the old tier 1"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, decay and healing. A player reported about 750 PED cycled for the top tier before the 17 Nov fix. The old tier-1 daily cost about 10-15 PED (Aug 2025 video).",
@@ -987,6 +1023,12 @@
       "requirementsText": [
         "Finder, excavator and probes"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes and tool decay. Mining returns vary.",
@@ -1060,6 +1102,12 @@
       "requirementsText": [
         "30 Hyperion Daily Vouchers + 2 PED per blueprint"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 2,
         "text": "2 PED plus 30 vouchers per blueprint.",
@@ -1125,6 +1173,12 @@
         "The right blueprint (each costs 30 vouchers)",
         "Materials for 25 attempts"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials for 25 crafting attempts.",
@@ -1195,6 +1249,12 @@
       "requirementsText": [
         "Starter-pack-level weapon and armor"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay. You choose the pace.",
@@ -1274,6 +1334,12 @@
       "requirementsText": [
         "Ground vehicle; careful routing around high-level spawns"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Travel only, plus deaths if you pull creatures.",
@@ -1428,6 +1494,12 @@
       "requirementsText": [
         "About 10+ DPS weapon and healing (video estimate)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, decay and healing for one short run.",
@@ -1504,6 +1576,12 @@
       "requirementsText": [
         "Mid to high level gear; one 2025 player at level 100 with 250+ HP could not solo Oblivitron"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Significant ammo and decay per run.",
@@ -1588,6 +1666,12 @@
       "requirementsText": [
         "Mid-level gear for medium caves; strong gear for Cinderak and Vesuvor"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, decay and healing.",
@@ -1679,6 +1763,12 @@
         "aris-cave-instances"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "The cost of the four boss runs.",
@@ -1739,6 +1829,12 @@
       "requirementsText": [
         "High-level gear for Oblivitron"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Four boss runs, Oblivitron being expensive.",
@@ -1799,6 +1895,12 @@
       "requirementsText": [
         "Survive near high-level robots, or tag along with others"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Time camping spawns plus ammo.",
@@ -1941,6 +2043,12 @@
       "requirementsText": [
         "High DPS weapon and many hours"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Often thousands of PED cycled.",
@@ -2013,6 +2121,12 @@
         "aris-ironhaven-orientation"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for the chosen ship.",
@@ -2107,6 +2221,12 @@
         "Rakamakafon from the Spina ship bosses",
         "Two voucher blueprints' worth of components"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials listed in the steps plus boss runs.",
@@ -2208,6 +2328,12 @@
         "80 vouchers per base piece",
         "CushionCore Padding and FlexPlate Fabric per piece: helmet 104, harness 192, arm guards 120, gloves 72, thigh 112, shin 112, foot 88"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Vouchers plus crafted materials. Players often sell 'pulls' (using their vouchers for a buyer who supplies the materials) for about 150-250 PED, a price that fell during 2025-2026.",
@@ -2273,6 +2399,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Comes from normal hunting spend.",
@@ -2331,6 +2463,12 @@
       "requirementsText": [
         "Mid-level or better gear"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -2399,6 +2537,12 @@
         "At least 2 players",
         "Access Fragments (source not documented)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Access Fragments plus ammo and decay.",
@@ -2492,6 +2636,12 @@
       "requirementsText": [
         "Materials for Nora's chain"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 150,
         "text": "One player estimated about 150 PED in materials (14 Nov 2026). Not confirmed.",
@@ -2575,6 +2725,12 @@
         "aris-breakwater-access"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown.",
@@ -2629,6 +2785,12 @@
         "aris-breakwater-access"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -2701,6 +2863,12 @@
         "aris-breakwater-access"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown per mission.",
@@ -2763,6 +2931,12 @@
         "aris-breakwater-access"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -2842,6 +3016,12 @@
         "aris-sketh-incursion"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Travel only.",
@@ -3011,6 +3191,12 @@
         "aris-breakwater-access"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Travel only.",
@@ -3099,6 +3285,12 @@
         "aris-ironhaven-orientation"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown.",
@@ -3150,6 +3342,12 @@
         "aris-teleporter-run"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown. Players in 2025 said it asked for a very large amount of Hyperium; that was before the rebuild.",

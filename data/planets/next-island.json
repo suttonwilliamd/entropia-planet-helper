@@ -244,6 +244,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "6 PED Yamato passenger fare, or 6/10 Teleportation Tokens on eligible links.",
@@ -309,6 +315,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",
@@ -372,6 +384,12 @@
         "next-island-starter-missions"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free; vehicle fuel/decay when driving.",
@@ -423,6 +441,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for 200 low-level kills.",
@@ -489,6 +513,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for 200 kills.",
@@ -555,6 +585,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Depends on the assignment chosen.",
@@ -625,6 +661,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel to Ancient Greece and ammo for the chosen creature.",
@@ -686,6 +728,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo for L8 targets plus the weapon restriction.",
@@ -744,6 +792,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials for 50 crafts.",
@@ -800,6 +854,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "None.",
@@ -848,6 +908,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "None.",
@@ -916,6 +982,12 @@
         "Resa VIP: Crystal Hoarder done first",
         "SVIP: Becoming an Islander (see the Ancient Greece file)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials, crafting attempts, chips and hunting/mining effort; Resa needs 5 PED TT of refining.",

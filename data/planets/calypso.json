@@ -287,6 +287,12 @@
       "requirementsText": [
         "Return trips to Setesh are player-reported, see warnings"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "No cost reported for the onboarding transport or the pilot.",
@@ -359,6 +365,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, decay and healing for the hunting steps.",
@@ -414,6 +426,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "6 Teleportation Tokens station-to-station or 10 planet-to-planet (19.2.0, eligible links); shared warp fare set by the operator; or own ship fuel and decay.",
@@ -474,6 +492,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for the rolled hunt.",
@@ -540,6 +564,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Healing and repair depending on your gear.",
@@ -606,6 +636,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, decay and healing for 50 kills.",
@@ -673,6 +709,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials for the crafting attempts (observed: 51 Iron Ingots for Basic Screws).",
@@ -735,6 +777,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes and finder/extractor decay until 25 PED of resource is extracted.",
@@ -798,6 +846,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "The item you hand in.",
@@ -854,6 +908,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Unknown.",
@@ -910,6 +970,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "No extra cost beyond the hunting itself.",
@@ -959,6 +1025,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Daily Tokens.",
@@ -1023,6 +1095,12 @@
       "requirementsText": [
         "A way to reach space (own ship, ride or teleporter)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel plus higher hunting costs. Station shares are an optional investment.",
@@ -1086,6 +1164,12 @@
       "requirementsText": [
         "A way to reach space (own ship or ride)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel plus any dome tax; mining or hunting spend.",

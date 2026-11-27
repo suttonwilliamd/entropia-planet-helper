@@ -144,6 +144,12 @@
         "rocktropia-travel-getting-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free from ROCKtropia or Secret Island teleporters (February 2026 player report).",
@@ -210,6 +216,12 @@
       "requirementsText": [
         "Gear for level 30+ creatures"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Your own ammo, armor decay and healing.",
@@ -272,6 +284,12 @@
       "requirementsText": [
         "Forum account or in-game contact with the organiser"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Normal hunting cost. Entry is free.",
@@ -335,6 +353,12 @@
       "requirementsText": [
         "Mid to high level gear advised"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, armor decay and healing for big mobs.",
@@ -396,6 +420,12 @@
         "hell-travel-club-hell"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, plus extra healing if your armor is weak to electric damage.",
@@ -466,6 +496,12 @@
         "A Hell Key",
         "Solo only"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Key cost (crafting material value 4.2 to 40.2 PED by tier) plus ammo and decay.",
@@ -542,6 +578,12 @@
       "requirementsText": [
         "Mining finder and excavator"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes, amps and decay. 5% land tax on claims.",
@@ -606,6 +648,12 @@
       "requirementsText": [
         "Chain already started before 2026-11-11 (for hunting chains)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Kill-point grinds.",
@@ -671,6 +719,12 @@
       "requirementsText": [
         "Mindkey (not tradeable)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Gives up a tradeable vaccine, plus heavy ammo and decay.",

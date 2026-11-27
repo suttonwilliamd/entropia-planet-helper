@@ -476,6 +476,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Teleportation Tokens per trip (15 at launch in Jan 2025; players reported 10 per planet trip by Dec 2025/Jan 2026). Ship trips cost whatever the pilot charges.",
@@ -542,6 +548,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free apart from time and any travel risk.",
@@ -710,6 +722,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free; the probes you drop come from the reward.",
@@ -789,6 +807,12 @@
         "cyrene-arc-academy"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 5,
         "text": "5 PED of Shrapnel.",
@@ -854,6 +878,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for roughly 100 low-level kills in total.",
@@ -945,6 +975,12 @@
         "cyrene-teleporter-network"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo/decay; harder targets need mid-level gear.",
@@ -1019,6 +1055,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo/decay for 10-30 kills per trial.",
@@ -1090,6 +1132,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo/decay; Scout Bot Collector XT is the newcomer-friendly badge daily.",
@@ -1153,6 +1201,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "You give up the TT value (and any markup) of the handed-in materials.",
@@ -1226,6 +1280,12 @@
       "requirementsText": [
         "200 A.R.C. Faction Badges in inventory for the Stage 2 mining dailies"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probe and finder/extractor decay.",
@@ -1292,6 +1352,12 @@
         "cyrene-arc-academy"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Mindforce chip decay is negligible; TT weapons for Jameson come from the Academy.",
@@ -1380,6 +1446,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 9,
         "text": "5-9 PED of residue (TT value) per gun.",
@@ -1441,6 +1513,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "A few shots plus travel; bring armor for level 44-56 hits.",
@@ -1535,6 +1613,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials for one successful craft each (failures cost extra).",
@@ -1609,6 +1693,12 @@
       "requirementsText": [
         "300 A.R.C. Faction Badges in inventory for Kayde's mission"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Crafting materials; Hoban's version also costs 50 badges.",
@@ -1693,6 +1783,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 5,
         "text": "50,000 Shrapnel for the hammer (refundable when returned fully repaired) plus hammer decay.",
@@ -1775,6 +1871,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Many hundreds of kills for the Bylar variants.",
@@ -1836,6 +1938,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "No direct cost; badges are checked, not consumed, for ranks.",
@@ -1908,6 +2016,12 @@
         "500 badges carried (Rana Haven)",
         "1500 badges carried (Z.R.Q.)"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Time only.",
@@ -1982,6 +2096,12 @@
         "Voucher drop",
         "200+ badges carried for Stage 1 terminal"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 105,
         "text": "About 105 PED of ingots end up in the cube (150 in, 45 back); weapon TT comes from the cube.",
@@ -2049,6 +2169,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Nothing to bring; Hub weapons come from Hub tokens.",
@@ -2116,6 +2242,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Kills and turn-ins; later stages need large residue amounts and full repairs (Rank IX repair about 80 PED TT, 6 times, per CyreneDream).",
@@ -2189,6 +2321,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "150,000 sweat donated in total (sweat can also be bought).",
@@ -2257,6 +2395,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo/decay for 5000 low-level kills.",
@@ -2318,6 +2462,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Huge kill count (215,000 total); cost depends on your weapon efficiency.",
@@ -2388,6 +2538,12 @@
         "cyrene-teleporter-network"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Travel time only.",
@@ -2463,6 +2619,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Normal mining cost; points come from found deposits.",
@@ -2533,6 +2695,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Small ore/crystal turn-ins plus mission kills and crafts; Azale'Zyn's blueprint costs 200 Animal Oil Residue and Colorer level 5.",
@@ -2615,6 +2783,12 @@
         "Rare Cavernous Paneleon achievement (hunter's cavern instance)",
         "2000 badges and 1000 tokens"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "2000 badges + 1000 tokens, plus all prerequisite chains.",
@@ -2692,6 +2866,12 @@
         "cyrene-arc-prestige"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "100,000 kill points per mission is a big hunting spend.",
@@ -2764,6 +2944,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Tens of thousands of kills plus rare Lazidol parts (tradeable).",
@@ -2834,6 +3020,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Very large hunting spend across mid/high-level mobs.",
@@ -2906,6 +3098,12 @@
         "cyrene-psyche-master"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Enormous; 4500 badges in parts 4 and 9 alone.",
@@ -2983,6 +3181,12 @@
         "cyrene-the-hub"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Hundreds of thousands of kills, large sweat and ingot turn-ins; CyreneDream's author reports paying about 450 PED for PvP help.",
@@ -3071,6 +3275,12 @@
         "cyrene-zorra-hk-epic"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Badges and item turn-ins; exact list shown in-game.",
@@ -3139,6 +3349,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Normal hunting cost; creature level 8-120 so pick a matching zone.",
@@ -3201,6 +3417,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Hunting cost inside the instance.",
@@ -3259,6 +3481,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free or 1000 sweat to enter.",
@@ -3331,6 +3559,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free apart from deaths.",

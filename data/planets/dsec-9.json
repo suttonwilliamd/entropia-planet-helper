@@ -235,6 +235,12 @@
       "requirementsText": [
         "Sweating tool, basic gear and a small ammo budget"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "No fee mentioned for the local teleport; travel to Monria costs extra.",
@@ -289,6 +295,12 @@
         "dsec-9-enter-from-monria"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel time only.",
@@ -379,6 +391,12 @@
       "requirementsText": [
         "Sweating tool"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Small ammo and tool decay.",
@@ -473,6 +491,12 @@
         "dsec-9-mountain-of-madness-route"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel and some hunting; no fee stated.",
@@ -542,6 +566,12 @@
         "dsec-9-valeria-access-card"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Hunting until the parts drop; drops have no guaranteed time.",
@@ -623,6 +653,12 @@
         "Access Card and Laptop 04 in inventory",
         "Yamato or other travel between Monria and Toulan"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Travel, resource objectives and 30 crafting assignments; budget separately from the newcomer loop.",
@@ -694,6 +730,12 @@
         "dsec-9-welcome-to-the-dark-side"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for 160 low-level kills.",
@@ -756,6 +798,12 @@
         "dsec-9-enter-from-monria"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for 250 kills.",
@@ -827,6 +875,12 @@
         "dsec-9-mountain-of-madness-route"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -897,6 +951,12 @@
         "dsec-9-mountain-of-madness-route"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes and mining decay.",
@@ -966,6 +1026,12 @@
         "dsec-9-mountain-of-madness-route"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "The listed textures or Butt Joints plus sweat.",
@@ -1031,6 +1097,12 @@
         "dsec-9-welcome-to-the-dark-side"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -1084,6 +1156,12 @@
         "dsec-9-church-hunt"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",
@@ -1138,6 +1216,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",

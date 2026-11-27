@@ -16,6 +16,9 @@ MARKUP = {"none", "low", "medium", "high", "unknown"}
 CURRENCY_USE = {"earned", "spent", "kept"}
 COOLDOWN_KINDS = {"none", "once", "rolling", "fixed-reset", "unknown"}
 CONFIDENCE = {"high", "medium", "low"}
+# verified: the listed prerequisites (possibly none) are backed by sources; partial: some are known, some not;
+# unknown: no source says; unreviewed: nobody has checked yet. An empty list never means "none" by itself.
+PREREQ_STATUS = {"verified", "partial", "unknown", "unreviewed"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 WAYPOINT_RE = re.compile(r"^\[[^,\[\]]+(,\s*-?\d+(\.\d+)?){3}(,[^\[\]]*)?\]$")
@@ -208,6 +211,7 @@ def validate_doc(doc, path: str = "<memory>") -> Report:
         if lv and not DATE_RE.match(lv):
             rep.errors.append(f"{w}: lastVerified must be YYYY-MM-DD")
         _str_list(a, "tags", w, rep)
+        _validate_prereq_extras(a, w, rep, check_src_refs)
 
     for a in acts:
         if isinstance(a, dict) and isinstance(a.get("prerequisites"), list):
@@ -217,6 +221,41 @@ def validate_doc(doc, path: str = "<memory>") -> Report:
                 elif isinstance(p, str) and p not in act_ids:
                     rep.warnings.append(f"activity {a.get('id')}: prerequisite {p!r} not in this file (must exist in another file)")
     return rep
+
+
+def _validate_prereq_extras(a: dict, w: str, rep: Report, check_src_refs) -> None:
+    """prereqInfo (required), plus optional unknowns, diagnostics and formerIds."""
+    pi = _req(a, "prereqInfo", dict, w, rep) or {}
+    if pi:
+        pw = f"{w} prereqInfo"
+        status = _req(pi, "status", str, pw, rep)
+        _enum(status, PREREQ_STATUS, w, "prereqInfo.status", rep)
+        _req(pi, "note", str, pw, rep)
+        unknowns = _str_list(pi, "unknowns", pw, rep)
+        psrc = _str_list(pi, "sourceIds", pw, rep)
+        check_src_refs(psrc, pw)
+        if status in ("verified", "partial") and not psrc:
+            rep.errors.append(f"{pw}: status {status!r} needs sourceIds that back the prerequisites")
+        if status == "verified" and unknowns:
+            rep.errors.append(f"{pw}: 'verified' cannot list unknowns; use 'partial'")
+        if status in ("partial", "unknown") and not unknowns:
+            rep.errors.append(f"{pw}: status {status!r} must say what is unknown in 'unknowns'")
+    if "unknowns" in a:
+        _str_list(a, "unknowns", w, rep)
+    for j, d in enumerate(a.get("diagnostics", []) if isinstance(a.get("diagnostics", []), list) else [None]):
+        dw = f"{w} diagnostics[{j}]"
+        if not isinstance(d, dict):
+            rep.errors.append(f"{dw}: must be an object")
+            continue
+        _req(d, "symptom", str, dw, rep)
+        _req(d, "check", str, dw, rep)
+        dsrc = _str_list(d, "sourceIds", dw, rep)
+        if not dsrc:
+            rep.errors.append(f"{dw}: needs sourceIds")
+        check_src_refs(dsrc, dw)
+    for j, f in enumerate(a.get("formerIds", [])):
+        if not isinstance(f, str) or not ID_RE.match(f):
+            rep.errors.append(f"{w}: formerIds[{j}] must be a lowercase slug")
 
 
 def load_file(path: Path) -> tuple[dict | None, Report]:
@@ -239,6 +278,7 @@ class Dataset:
     planets: dict[str, dict]           # id -> planet doc
     activities: dict[str, dict]        # activity id -> activity (with '_planet' key)
     reports: list[Report]
+    former_ids: dict[str, str] = field(default_factory=dict)   # retired id -> current id (keeps old progress)
 
     @property
     def errors(self) -> list[str]:
@@ -263,7 +303,15 @@ def load_dataset(data_dir: Path) -> Dataset:
         planets[pid] = doc
         for a in doc["activities"]:
             activities[a["id"]] = {**a, "_planet": pid}
+    former: dict[str, str] = {}
     for act in activities.values():
+        for f in act.get("formerIds", []):
+            if f in activities or f in former:
+                rep = next(r for r in reports if Path(r.path).stem == act["_planet"])
+                rep.errors.append(f"activity {act['id']}: former id {f!r} is still in use")
+            former[f] = act["id"]
+    for act in activities.values():
+        act["prerequisites"] = [former.get(p, p) for p in act["prerequisites"]]
         # Travel steps are shown but never block: picking a destination means you are already there.
         act["_blocking"] = [p for p in act["prerequisites"]
                             if p in activities and activities[p]["type"] != "travel"]
@@ -271,4 +319,4 @@ def load_dataset(data_dir: Path) -> Dataset:
             if p not in activities:
                 rep = next(r for r in reports if Path(r.path).stem == act["_planet"])
                 rep.errors.append(f"activity {act['id']}: prerequisite {p!r} does not exist in any file")
-    return Dataset(planets, activities, reports)
+    return Dataset(planets, activities, reports, former)

@@ -306,6 +306,12 @@
       "requirementsText": [
         "A seat on a scheduled warp (Yamato or Kronan) or your own ship"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 6,
         "text": "6 PED per Yamato schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens.",
@@ -374,6 +380,12 @@
       "requirementsText": [
         "150 kg weight cap for token teleports"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Teleportation Tokens if an eligible token link exists (6 station-to-station, 10 planet-to-planet). PED value of tokens not given.",
@@ -437,6 +449,12 @@
         "monria-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Walking or vehicle time; no fee mentioned.",
@@ -522,6 +540,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay across many hunts; chapters are rare drops.",
@@ -586,6 +610,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "No extra cost beyond hunts you already do.",
@@ -645,6 +675,12 @@
         "monria-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "No fee mentioned for the local teleport.",
@@ -695,6 +731,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for the Shoggoth hunt.",
@@ -761,6 +803,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for the Yog hunt.",
@@ -827,6 +875,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes and finder/extractor decay.",
@@ -897,6 +951,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for the Cultist hunt.",
@@ -965,6 +1025,12 @@
       "requirementsText": [
         "Gear that can handle Shubs"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay for a harder hunt.",
@@ -1035,6 +1101,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Crafting materials and blueprint use; 500 successes can take far more than 500 attempts.",
@@ -1095,6 +1167,12 @@
         "monria-craft-unlock"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Materials for well over 500 attempts.",
@@ -1162,6 +1240,12 @@
       "requirementsText": [
         "Taming gear"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",
@@ -1220,6 +1304,12 @@
         "monria-tame-unlock"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",
@@ -1285,6 +1375,12 @@
         "monria-claim-hubs"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",

@@ -45,6 +45,18 @@ class SchemaTests(unittest.TestCase):
         self.assertTrue(any("not like" in e for e in errors_after(bad_format)))
         self.assertTrue(any("needs sourceIds" in e for e in errors_after(verified_without_source)))
 
+    def test_prerequisite_knowledge_is_explicit(self):
+        a0 = lambda d: d["activities"][0]
+        self.assertTrue(any("missing 'prereqInfo'" in e for e in errors_after(lambda d: a0(d).pop("prereqInfo"))))
+        self.assertTrue(any("needs sourceIds" in e for e in errors_after(
+            lambda d: a0(d).update(prereqInfo={"status": "verified", "note": "", "unknowns": [], "sourceIds": []}))))
+        self.assertTrue(any("must say what is unknown" in e for e in errors_after(
+            lambda d: a0(d).update(prereqInfo={"status": "partial", "note": "x", "unknowns": [], "sourceIds": ["S1"]}))))
+        self.assertTrue(any("cannot list unknowns" in e for e in errors_after(
+            lambda d: a0(d).update(prereqInfo={"status": "verified", "note": "", "unknowns": ["?"], "sourceIds": ["S1"]}))))
+        self.assertTrue(any("diagnostics[0]: needs sourceIds" in e for e in errors_after(
+            lambda d: a0(d).update(diagnostics=[{"symptom": "s", "check": "c", "sourceIds": []}]))))
+
     def test_enum_scores_and_cooldowns(self):
         self.assertTrue(errors_after(lambda d: d["activities"][0].update(stage="endgame")))
         self.assertTrue(errors_after(lambda d: d["activities"][0]["score"].update(value=9)))
@@ -127,6 +139,24 @@ class RankingTests(unittest.TestCase):
         self.assertGreater(score_of(self.acts["alpha-late"], "late", False)[0],
                            score_of(self.acts["alpha-late"], "late", True)[0])  # budget mode punishes pricey
         self.assertEqual(score_of(cheap, "arrival", True)[0], score_of(cheap, "arrival", False)[0])
+
+
+class FormerIdTests(unittest.TestCase):
+    def test_merged_entry_keeps_progress_and_prerequisite_links(self):
+        doc = copy.deepcopy(ALPHA)
+        doc["activities"][0]["id"] = "alpha-start-v2"              # entry renamed/merged
+        doc["activities"][0]["formerIds"] = ["alpha-start"]
+        with tempfile.TemporaryDirectory() as d, tempfile.TemporaryDirectory() as prof:
+            Path(d, "alpha.json").write_text(json.dumps(doc), encoding="utf-8")
+            ds = load_dataset(Path(d))
+            self.assertEqual(ds.errors, [])
+            self.assertEqual(ds.activities["alpha-next"]["prerequisites"], ["alpha-start-v2"])
+            p = Progress(Path(prof))
+            p.mark_done("alpha-start", NOW)                       # ticked under the old id
+            self.assertEqual(p.adopt_former_ids(ds.former_ids), ["alpha-start-v2"])
+            self.assertTrue(p.ever_done("alpha-start-v2"))
+            self.assertTrue(Progress(Path(prof)).ever_done("alpha-start"))   # old record kept
+            self.assertEqual(status_of(ds.activities["alpha-next"], p, NOW).state, AVAILABLE)
 
 
 class PersistenceTests(unittest.TestCase):

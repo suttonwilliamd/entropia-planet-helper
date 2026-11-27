@@ -46,6 +46,46 @@ class RealDataTests(unittest.TestCase):
         self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
 
 
+class SetP1AdjustedTests(unittest.TestCase):
+    """The entry William's friend needed: the confirmed dependency and the stuck-player path."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.ds = load_dataset(DATA)
+        cls.act = cls.ds.activities["setesh-set-p1-adjusted"]
+        cls.srcs = {s["id"]: s for s in cls.ds.planets["setesh"]["sources"]}
+
+    def test_cliffchaser_run_dependency_is_official_and_blocking(self):
+        import tempfile
+        from datetime import datetime, timezone
+        from planet_helper.ranking import AVAILABLE, BLOCKED, status_of
+        from planet_helper.store import Progress
+        self.assertEqual(self.act["prerequisites"], ["setesh-cliffchaser-run"])
+        pi = self.act["prereqInfo"]
+        self.assertIn("forum.entropiauniverse.com/t/entropia-universe-19-12-0-release-notes/853664",
+                      " ".join(self.srcs[s]["url"] for s in pi["sourceIds"]))
+        self.assertTrue(pi["unknowns"])                       # Thule etc. stated as unknown, not guessed
+        now = datetime(2026, 11, 26, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as d:
+            p = Progress(Path(d))
+            self.assertEqual(status_of(self.act, p, now).state, BLOCKED)
+            p.mark_done("setesh-cliffchaser-run", now)
+            self.assertEqual(status_of(self.act, p, now).state, AVAILABLE)
+
+    def test_diagnostics_and_pins(self):
+        symptoms = " ".join(d["symptom"] for d in self.act["diagnostics"]).lower()
+        for needed in ("paul", "already have", "leave setesh", "thule"):
+            self.assertIn(needed, symptoms)
+        self.assertFalse(any(l["verified"] for l in self.act["locations"]))      # Nexus pin is not in-game verified
+        chain = self.ds.activities["setesh-a-new-arrival-chain"]
+        self.assertTrue(all(l["waypoint"] is None for l in chain["locations"]))  # no Harkov pin (sources disagree)
+        raw = (DATA / "setesh.json").read_text(encoding="utf-8")
+        self.assertNotIn("69257", raw)
+
+    def test_old_small_iron_progress_carries_over(self):
+        self.assertEqual(self.ds.former_ids.get("setesh-cliffchaser-small-iron"), "setesh-set-p1-adjusted")
+
+
 class EntryPointTests(unittest.TestCase):
     def test_exact_aris_entry_point_in_check_mode(self):
         out = io.StringIO()
@@ -88,6 +128,18 @@ class EntryPointTests(unittest.TestCase):
                     text = app.detail.get("1.0", "end")
                     for w in app.ds.planets[pid]["planet"]["warnings"]:
                         self.assertIn(w[:40], text)
+                # William's path: Destination Setesh -> Show Everything -> search "gun" -> SET-P1 entry
+                app.planet_box.current(app.planet_ids.index("setesh"))
+                app._pick_planet()
+                app.view.set("Everything")
+                app.query.set("gun")
+                self.assertIn("setesh-set-p1-adjusted", app.tree.get_children())
+                app.tree.selection_set("setesh-set-p1-adjusted")
+                app.show_detail()
+                text = app.detail.get("1.0", "end")
+                for needed in ("Stuck? Check these in order", "Cliffchaser Run", "Partly known", "Not known yet"):
+                    self.assertIn(needed, text)
+                self.assertEqual(app.tree.set("setesh-set-p1-adjusted", "status"), "Blocked")
         finally:
             root.destroy()
 

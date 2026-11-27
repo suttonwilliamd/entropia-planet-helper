@@ -25,6 +25,13 @@ VIEWS = {
     "Done": {DONE},
 }
 STATE_LABEL = {AVAILABLE: "Ready", COOLDOWN: "Cooling down", BLOCKED: "Blocked", DONE: "Done"}
+PREREQ_SHORT = {"verified": "Checked", "partial": "Partly known", "unknown": "Unknown", "unreviewed": "Not checked"}
+PREREQ_HEADLINE = {
+    "verified": "✔ Checked against sources: this is the full list as far as the sources show.",
+    "partial": "◐ Partly known: the items below are sourced, but something may be missing (see Unknown).",
+    "unknown": "? Unknown: no source says what is needed first. An empty list does NOT mean nothing is needed.",
+    "unreviewed": "… Not checked yet: nobody has verified prerequisites for this entry. An empty list does NOT mean nothing is needed.",
+}
 TYPE_LABEL = {t: t.replace("-", " ").capitalize() for t in ACTIVITY_TYPES}
 SAFETY = ("Manual planet choice. This app does not read the game, its memory, logs or chat, sends nothing "
           "over the network, and never presses keys for you. Progress is stored only on this PC.")
@@ -37,6 +44,7 @@ def _local(dt: datetime) -> str:
 class PlanetHelperApp:
     def __init__(self, root: tk.Tk, dataset: Dataset, progress: Progress, start_planet: str | None = None):
         self.root, self.ds, self.progress = root, dataset, progress
+        progress.adopt_former_ids(dataset.former_ids)   # merged entries keep what you already ticked
         self.rows: list = []
         self.base_size = int(progress.settings.get("fontSize", 11))
         root.title("Entropia Planet Helper")
@@ -164,10 +172,11 @@ class PlanetHelperApp:
         body = ttk.PanedWindow(self.root, orient="horizontal")
         body.pack(fill="both", expand=True, padx=12, pady=6)
         left = ttk.Frame(body)
-        cols = ("rank", "title", "type", "stage", "status", "score")
+        cols = ("rank", "title", "type", "stage", "status", "prereqs", "score")
         self.tree = ttk.Treeview(left, columns=cols, show="headings", selectmode="browse")
-        for c, w, txt in (("rank", 40, "#"), ("title", 250, "Activity"), ("type", 95, "Type"),
-                          ("stage", 70, "Stage"), ("status", 125, "Status"), ("score", 60, "Score")):
+        for c, w, txt in (("rank", 36, "#"), ("title", 230, "Activity"), ("type", 90, "Type"),
+                          ("stage", 64, "Stage"), ("status", 110, "Status"), ("prereqs", 105, "Prereqs"),
+                          ("score", 52, "Score")):
             self.tree.heading(c, text=txt)
             self.tree.column(c, width=w, minwidth=w if c != "title" else 140, stretch=(c == "title"), anchor="w")
         sb = ttk.Scrollbar(left, orient="vertical", command=self.tree.yview)
@@ -274,7 +283,9 @@ class PlanetHelperApp:
                 continue
             if q:
                 hay = " ".join([act["title"], act["summary"], " ".join(act["tags"]), " ".join(act["steps"]),
-                                " ".join(act["rewards"]), " ".join(l["label"] for l in act["locations"])]).lower()
+                                " ".join(act["rewards"]), " ".join(l["label"] for l in act["locations"]),
+                                " ".join(act["requirementsText"]), act["prereqInfo"]["note"],
+                                " ".join(d["symptom"] + " " + d["check"] for d in act.get("diagnostics", []))]).lower()
                 if not all(word in hay for word in q.split()):
                     continue
             out.append(row)
@@ -290,7 +301,8 @@ class PlanetHelperApp:
             if st.state == COOLDOWN and st.ready_at:
                 label = f"Ready {_local(st.ready_at)}"
             self.tree.insert("", "end", iid=act["id"], tags=(st.state,),
-                             values=(i, act["title"], TYPE_LABEL[act["type"]], act["stage"].capitalize(), label, f"{sc:g}"))
+                             values=(i, act["title"], TYPE_LABEL[act["type"]], act["stage"].capitalize(), label,
+                                     PREREQ_SHORT[act["prereqInfo"]["status"]], f"{sc:g}"))
         if keep and self.tree.exists(keep):
             self.tree.selection_set(keep)
         elif self.rows:
@@ -352,6 +364,18 @@ class PlanetHelperApp:
         t.insert("end", act["summary"] + "\n", None)
         for w in act["warnings"]:
             t.insert("end", "⚠ " + w + "\n", "warn")
+        if act.get("diagnostics"):
+            t.insert("end", "Stuck? Check these in order\n", "h2")
+            for i, d in enumerate(act["diagnostics"], 1):
+                t.insert("end", f"{i}. {d['symptom']}\n", ("bullet", "b"))
+                t.insert("end", f"    {d['check']}\n", "bullet")
+                names = "; ".join(srcs[s]["title"] for s in d["sourceIds"])
+                t.insert("end", f"    Source: {names}\n", ("bullet", "muted"))
+        self._prereq_section(t, act)
+        if act.get("unknowns"):
+            t.insert("end", "Not known yet (no source found)\n", "h2")
+            for u in act["unknowns"]:
+                t.insert("end", f"?  {u}\n", ("bullet", "muted"))
 
         t.insert("end", "Why it is ranked here\n", "h2")
         t.insert("end", act["score"]["rationale"] + "\n", None)
@@ -367,19 +391,6 @@ class PlanetHelperApp:
             t.insert("end", "Currencies / tokens\n", "h2")
             for cur in act["currencies"]:
                 t.insert("end", f"•  {cur['name']} ({cur['use']}): {cur['note']}\n", "bullet")
-        if act["prerequisites"] or act["requirementsText"]:
-            t.insert("end", "Before you start\n", "h2")
-            for p in act["prerequisites"]:
-                pa = self.ds.activities.get(p)
-                done = self.progress.ever_done(p)
-                where = "" if not pa or pa["_planet"] == act["_planet"] else f" ({self.ds.planets[pa['_planet']]['planet']['name']})"
-                if pa and pa["type"] == "travel" and not done:
-                    t.insert("end", f"↪  {pa['title']}{where} (travel step; does not block)\n", ("bullet", "muted"))
-                    continue
-                t.insert("end", f"{'✔' if done else '✗'}  {pa['title'] if pa else p}{where}\n",
-                         ("bullet", "ok" if done else "bad"))
-            for r in act["requirementsText"]:
-                t.insert("end", f"•  {r}\n", "bullet")
         t.insert("end", "Limits and cooldown\n", "h2")
         if act["limits"]:
             t.insert("end", act["limits"] + "\n", None)
@@ -437,6 +448,28 @@ class PlanetHelperApp:
             self._source_line(t, srcs[sid])
         t.insert("end", "\nEvery activity lists its own sources. The README has the full list.\n", "muted")
         t.configure(state="disabled")
+
+    def _prereq_section(self, t, act):
+        """Always shown: what must be done first, and how sure we are about that list."""
+        pi = act["prereqInfo"]
+        t.insert("end", "Before you start (prerequisites)\n", "h2")
+        tag = {"verified": "ok", "partial": "warn", "unknown": "warn", "unreviewed": "muted"}[pi["status"]]
+        t.insert("end", PREREQ_HEADLINE[pi["status"]] + "\n", tag)
+        if pi["note"]:
+            t.insert("end", pi["note"] + "\n")
+        for p in act["prerequisites"]:
+            pa = self.ds.activities.get(p)
+            done = self.progress.ever_done(p)
+            where = "" if not pa or pa["_planet"] == act["_planet"] else f" ({self.ds.planets[pa['_planet']]['planet']['name']})"
+            if pa and pa["type"] == "travel" and not done:
+                t.insert("end", f"↪  {pa['title']}{where} (travel step; does not block)\n", ("bullet", "muted"))
+                continue
+            t.insert("end", f"{'✔' if done else '✗'}  {pa['title'] if pa else p}{where}\n",
+                     ("bullet", "ok" if done else "bad"))
+        for r in act["requirementsText"]:
+            t.insert("end", f"•  {r}\n", "bullet")
+        for u in pi["unknowns"]:
+            t.insert("end", f"?  Unknown: {u}\n", ("bullet", "muted"))
 
     def _source_line(self, t, s):
         tag = f"link-{s['id']}"

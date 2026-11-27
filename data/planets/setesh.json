@@ -182,6 +182,166 @@
       "published": null,
       "accessed": "2026-11-26",
       "supports": "Claims a free shuttle from the Setesh spaceport to the Howling Mine Space Terminal."
+    },
+    {
+      "id": "S19120F",
+      "title": "Entropia Universe 19.12.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-12-0-release-notes/853664",
+      "publisher": "MindArk (Ludvig_MindArk, official forum)",
+      "kind": "official-forum",
+      "published": "2026-11-11",
+      "accessed": "2026-11-26",
+      "supports": "Fixed: players had to leave Setesh before Paul Reinhardt offered 'Small Iron'; it is now available after completing 'Cliffchaser Run', even if you stay on Setesh."
+    },
+    {
+      "id": "S1902ACC",
+      "title": "Entropia Universe 19.0.2 Release Notes",
+      "url": "https://account.entropiauniverse.com/news/pages/2025/09/23/9650",
+      "publisher": "MindArk (official)",
+      "kind": "official",
+      "published": "2025-09-23",
+      "accessed": "2026-11-26",
+      "supports": "Harkov in Port Cabrakan gives the Standard Undersuit when starting 'A New Arrival' (only if you never had one); if you already completed 'A New Arrival' without it, talk to Harkov again."
+    },
+    {
+      "id": "S1920F",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "A new mission in Port Cabrakan leads to an Adjusted version of the SET-P1 Civilian Sidearm."
+    },
+    {
+      "id": "FSETP1A",
+      "title": "SET-P1 Civilian Sidearm, should I tier it up?",
+      "url": "https://forum.entropiauniverse.com/t/set-p1-civilian-sidearm-should-i-tier-it-up/281157",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-02-16",
+      "accessed": "2026-11-26",
+      "supports": "Players: talk to the NPC by the shooting range on Setesh; the mission is called 'Small Iron' (drones and Spinas); the regular SET-P1 is not handed in, the Adjusted is a second pistol; tiering only adds an enhancer socket and Tier 1 needs large material amounts."
+    },
+    {
+      "id": "FSETP1B",
+      "title": "SET-P1 Civilian Sidearm, should I tier it up? (page 2)",
+      "url": "https://forum.entropiauniverse.com/t/set-p1-civilian-sidearm-should-i-tier-it-up/281157?page=2",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-02-17",
+      "accessed": "2026-11-26",
+      "supports": "Players: Paul Reinhardt by the shooting range gave the Adjusted pistol mission; a player whose Paul stayed silent was told to finish the Setesh beginner line first, check the mission log for 'Small Iron', click the NPC more than once, and talk to Harkov first."
+    },
+    {
+      "id": "YTOBG",
+      "title": "Entropia - New Player Experience part 9 - Setesh - Set P1 Adjusted quest",
+      "url": "https://www.youtube.com/watch?v=adii6eZlUQc",
+      "publisher": "Old Bloke Gaming (YouTube)",
+      "kind": "video",
+      "published": "2026-08-27",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand run of 'Small Iron': kill robots (just outside Port Cabrakan) and Spinas (at a base further out), progress shown by the tracker; hand in at Port Cabrakan for the SET-P1 Adjusted; about 6-7 PED and 6-7 hours with starter gear. Recorded before 19.12.0; the player had left Setesh and come back."
+    },
+    {
+      "id": "YTAXE1",
+      "title": "A New Arrival, Restoring Signal and First of Many missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=LggThOPsHCM",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-01-31",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'A New Arrival', 'Restoring Signal' and 'First of Many', each labelled Main."
+    },
+    {
+      "id": "YTAXE2",
+      "title": "To Hunraqan and Tell A 'Porter missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=Qbou-5hutyg",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-01-31",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'To Hunraqan' and 'Tell A 'Porter', labelled Main."
+    },
+    {
+      "id": "YTAXE3",
+      "title": "Satellite Hunt and Survey the Savannah missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=PhI6HgNpCvQ",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-01-31",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Satellite Hunt' (Main) and 'Survey the Savannah' (side)."
+    },
+    {
+      "id": "YTAXE4",
+      "title": "Black Shuttle Down mission on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=la-dXuhSL4w",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-02-01",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Black Shuttle Down', labelled Main."
+    },
+    {
+      "id": "YTAXE5",
+      "title": "Scouting The Scout mission on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=J2wSSRiBwCA",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-02-02",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Scouting The Scout', labelled Main."
+    },
+    {
+      "id": "YTAXE6",
+      "title": "Tele-Port of Call and A Helping Hand missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=YvFY2BPR970",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-02-03",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Tele-Port of Call' (Main) and 'A Helping Hand' (side)."
+    },
+    {
+      "id": "YTAXE7",
+      "title": "Lakeview Tower and Recon In The Jungle missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=hMbgCYHd5C8",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-02-04",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Lakeview Tower' and 'Recon In The Jungle', both labelled Main."
+    },
+    {
+      "id": "YTAXE8",
+      "title": "Cliffchaser Run and There And Back Again missions on Setesh - Entropia Universe",
+      "url": "https://www.youtube.com/watch?v=q_KwvrtppGY",
+      "publisher": "AxeMurderer (YouTube)",
+      "kind": "video",
+      "published": "2026-02-04",
+      "accessed": "2026-11-26",
+      "supports": "Firsthand: 'Cliffchaser Run' and 'There And Back Again', both labelled Main; the last uploads of the series."
+    },
+    {
+      "id": "NXPAUL",
+      "title": "Entropia Nexus location record: Paul Reinhardt (Setesh)",
+      "url": "https://api.entropianexus.com/locations/9234",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Lists NPC Paul Reinhardt on Setesh at longitude 67609, latitude 68250 (altitude 100, which looks like a default)."
+    },
+    {
+      "id": "NXHARKOV",
+      "title": "Entropia Nexus location record: Security Chief Harkov (Setesh)",
+      "url": "https://api.entropianexus.com/locations/9233",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Lists NPC Security Chief Harkov on Setesh at longitude 67569, latitude 68256; the Port Cabrakan teleporter is listed at 67646, 68323 (about 100 m away)."
     }
   ],
   "activities": [
@@ -201,6 +361,16 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "MindArk staff named requirements for the Camp Icarus VTOL route only.",
+        "unknowns": [
+          "Whether the Port Atlantis shuttle pilot or the space-station route has any requirement."
+        ],
+        "sourceIds": [
+          "SFEED"
+        ]
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free by shuttle or VTOL.",
@@ -240,7 +410,8 @@
         "SONBOARD"
       ],
       "warnings": [
-        "A Sep 2025 MindArk preview said existing players can travel to Setesh anytime without requirements, but staff later listed VTOL requirements. The shuttle pilot route is newer (players, Mar 2026)."
+        "A Sep 2025 MindArk preview said existing players can travel to Setesh anytime without requirements, but staff later listed VTOL requirements. The shuttle pilot route is newer (players, Mar 2026).",
+        "Getting to Setesh does not make you eligible for a given mission. Each mission entry lists its own prerequisites."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -250,14 +421,16 @@
     },
     {
       "id": "setesh-a-new-arrival-chain",
-      "title": "Main chain: Security Chief Harkov ('A New Arrival')",
+      "title": "Setesh main chain (starts with Harkov: 'A New Arrival')",
       "type": "mission-chain",
       "stage": "arrival",
-      "summary": "The core Setesh chain starts with Security Chief Harkov in Port Cabrakan. It walks you through combat, looting, healing, armor, vehicles and the different biomes, and hands out starter gear along the way.",
+      "summary": "The core Setesh chain starts with Security Chief Harkov in Port Cabrakan. It walks you through combat, looting, healing, armor, vehicles and the different biomes, and hands out starter gear. One player's mission-by-mission video series shows 13 missions labelled Main, ending with 'Cliffchaser Run' and 'There And Back Again'. Completing 'Cliffchaser Run' is what unlocks the SET-P1 Adjusted mission.",
       "steps": [
         "Talk to Security Chief Harkov in Port Cabrakan and accept 'A New Arrival'.",
-        "Follow the chain through Setesh's areas and outposts; teleporters unlock as you go.",
-        "Finish the chain; Harkov then offers a one-way trip to Calypso."
+        "Main missions in the order one player completed them (Jan-Feb 2026; your in-game tracker is the authority): A New Arrival -> Restoring Signal -> First of Many -> To Hunraqan -> Tell A 'Porter -> Satellite Hunt -> Black Shuttle Down -> Scouting The Scout -> Tele-Port of Call -> Lakeview Tower -> Recon In The Jungle -> Cliffchaser Run -> There And Back Again.",
+        "The same player also did side missions on the way (for example Survey the Savannah, Supplying the Hunt, A Helping Hand and creature Hunt/Culling missions). No source says whether any of them are required.",
+        "After 'Cliffchaser Run', talk to Paul Reinhardt by the Port Cabrakan shooting range for 'Small Iron' (the SET-P1 Adjusted). See that entry.",
+        "When the chain is done, Harkov offers a one-way trip to Calypso."
       ],
       "rewards": [
         "Standard Undersuit (if you never had one)",
@@ -268,6 +441,17 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "Official: the Setesh missions start with Security Chief Harkov. Being on Setesh is the only documented requirement to begin.",
+        "unknowns": [
+          "Which rewards are withheld from avatars that played through Thule (MindArk says some are, but does not list them)."
+        ],
+        "sourceIds": [
+          "S1900",
+          "S1902ACC"
+        ]
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free; ammo is provided for the combat parts.",
@@ -283,12 +467,12 @@
       },
       "locations": [
         {
-          "label": "Security Chief Harkov, Port Cabrakan",
+          "label": "Security Chief Harkov, Port Cabrakan, about 100 m from the main teleporter according to Entropia Nexus coordinates. No pin given: community coordinate sources disagree, so check in game.",
           "waypoint": null,
           "verified": false,
           "sourceIds": [
-            "S1900",
-            "S1902"
+            "NXHARKOV",
+            "S1900"
           ]
         }
       ],
@@ -304,16 +488,54 @@
         "S1902",
         "SONBOARD",
         "S19101",
-        "SSTUCK"
+        "SSTUCK",
+        "S1902ACC",
+        "YTAXE1",
+        "YTAXE2",
+        "YTAXE3",
+        "YTAXE4",
+        "YTAXE5",
+        "YTAXE6",
+        "YTAXE7",
+        "YTAXE8"
       ],
       "warnings": [
-        "19.10.1 lowered the TT value of newly granted onboarding armor and moved ammo rewards around."
+        "19.10.1 lowered the TT value of newly granted onboarding armor and moved ammo rewards around.",
+        "The mission order comes from the upload order of one player's video series (AxeMurderer, 31 Jan - 4 Feb 2026), not from an official list. Later patches may have changed it."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "free",
         "chain"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Harkov is short with you or offers nothing new",
+          "check": "Harkov's documented roles are starting 'A New Arrival' and re-issuing the Standard Undersuit if you finished 'A New Arrival' without one. If 'A New Arrival' is already in your log or done, open your mission log and follow the current main mission instead. What else Harkov says later is not documented.",
+          "sourceIds": [
+            "S1900",
+            "S1902ACC"
+          ]
+        },
+        {
+          "symptom": "You don't know which main mission comes next",
+          "check": "Open the mission log and track the active main mission. For reference, one player's order was: A New Arrival -> Restoring Signal -> First of Many -> To Hunraqan -> Tell A 'Porter -> Satellite Hunt -> Black Shuttle Down -> Scouting The Scout -> Tele-Port of Call -> Lakeview Tower -> Recon In The Jungle -> Cliffchaser Run -> There And Back Again.",
+          "sourceIds": [
+            "YTAXE1",
+            "YTAXE2",
+            "YTAXE3",
+            "YTAXE4",
+            "YTAXE5",
+            "YTAXE6",
+            "YTAXE7",
+            "YTAXE8"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Official mission count and order (only one player's series is available).",
+        "Exact rewards per mission for avatars that played Thule."
       ]
     },
     {
@@ -329,10 +551,18 @@
       "rewards": [
         "Vivo S10 (2 PED TT)"
       ],
-      "prerequisites": [
-        "setesh-a-new-arrival-chain"
-      ],
+      "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "A main-chain mission. In one player's run it came right after 'Lakeview Tower'.",
+        "unknowns": [
+          "Official order of the main chain."
+        ],
+        "sourceIds": [
+          "YTAXE7"
+        ]
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",
@@ -357,7 +587,8 @@
       "sourceIds": [
         "S1900",
         "S19101",
-        "SAINEWB"
+        "SAINEWB",
+        "YTAXE7"
       ],
       "warnings": [],
       "lastVerified": "2026-11-26",
@@ -368,23 +599,39 @@
       ]
     },
     {
-      "id": "setesh-set-p1-adjusted",
-      "title": "Port Cabrakan mission for an Adjusted SET-P1 Civilian Sidearm",
+      "id": "setesh-cliffchaser-run",
+      "title": "Cliffchaser Run (main chain; unlocks Small Iron)",
       "type": "mission",
       "stage": "early",
-      "summary": "A mission added in Port Cabrakan (19.2.0) leads to an Adjusted version of the SET-P1 Civilian Sidearm, the starter pistol.",
+      "summary": "A main-chain mission on Setesh. Completing it is what makes Paul Reinhardt offer 'Small Iron', the SET-P1 Adjusted mission (official, 19.12.0). In one player's Feb 2026 run it came after 'Recon In The Jungle' and was followed by 'There And Back Again'.",
       "steps": [
-        "Ask around Port Cabrakan for the SET-P1 mission (giver not named in the notes).",
-        "Complete it for the Adjusted SET-P1."
+        "Carry on with the Setesh main chain until your tracker gives 'Cliffchaser Run'.",
+        "Follow its tracked objectives to the end.",
+        "Then go to Paul Reinhardt by the Port Cabrakan shooting range (see the SET-P1 Adjusted entry)."
       ],
       "rewards": [
-        "Adjusted SET-P1 Civilian Sidearm"
+        "Unlocks 'Small Iron' from Paul Reinhardt (official)"
       ],
-      "prerequisites": [],
-      "requirementsText": [],
+      "prerequisites": [
+        "setesh-recon-in-the-jungle-vivo"
+      ],
+      "requirementsText": [
+        "The earlier Setesh main missions"
+      ],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "Labelled a main mission in a player's series, where it followed 'Recon In The Jungle'.",
+        "unknowns": [
+          "The order comes from one player's uploads, not an official list."
+        ],
+        "sourceIds": [
+          "YTAXE7",
+          "YTAXE8"
+        ]
+      },
       "cost": {
         "pedEstimate": null,
-        "text": "Unknown, likely ammo only.",
+        "text": "Ammo, decay and healing for whatever it asks; not documented in text.",
         "markup": "unknown",
         "markupNote": ""
       },
@@ -393,71 +640,179 @@
       "cooldown": {
         "kind": "once",
         "hours": null,
-        "resetNote": ""
+        "resetNote": "Main-chain mission; one-time."
       },
       "locations": [],
       "score": {
-        "value": 3,
+        "value": 4,
         "budget": 4,
         "effort": 3,
-        "rationale": "Upgraded free starter weapon."
+        "rationale": "Needed to unlock the free SET-P1 Adjusted; it is part of the main chain you do anyway."
       },
       "confidence": "medium",
       "sourceIds": [
-        "S1920"
+        "S19120F",
+        "YTAXE7",
+        "YTAXE8"
       ],
-      "warnings": [
-        "Mission name, giver and steps are not in the release notes."
+      "warnings": [],
+      "unknowns": [
+        "Objectives, giver, location and rewards (a video exists, but no text transcript was available to check)."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
-        "beginner",
-        "weapon"
+        "main chain",
+        "small iron",
+        "set-p1",
+        "pistol",
+        "gun",
+        "sidearm"
       ]
     },
     {
-      "id": "setesh-cliffchaser-small-iron",
-      "title": "'Cliffchaser Run' then 'Small Iron' (Paul Reinhardt)",
+      "id": "setesh-set-p1-adjusted",
+      "formerIds": [
+        "setesh-cliffchaser-small-iron"
+      ],
+      "title": "SET-P1 Civilian Sidearm, Adjusted (mission 'Small Iron' from Paul Reinhardt)",
       "type": "mission",
       "stage": "early",
-      "summary": "After 'Cliffchaser Run', Paul Reinhardt offers the mission 'Small Iron'. Since 19.12.0 (Nov 2026) you no longer have to leave Setesh first.",
+      "summary": "A free second starter pistol. Paul Reinhardt, by the shooting range in Port Cabrakan on Setesh, offers the mission 'Small Iron' once you have completed the main-chain mission 'Cliffchaser Run'. Finish its robot and Spina kills and hand in for the SET-P1 Civilian Sidearm, Adjusted. Since 19.12.0 (11 Nov 2026) you no longer have to leave Setesh first.",
       "steps": [
-        "Complete 'Cliffchaser Run'.",
-        "Talk to Paul Reinhardt to receive 'Small Iron'."
+        "Finish the Setesh main chain up to and including 'Cliffchaser Run' (it starts with Harkov's 'A New Arrival'; see the main chain entry for the order).",
+        "Go to Paul Reinhardt by the shooting range in Port Cabrakan and talk to him. Players advise clicking him more than once.",
+        "Accept 'Small Iron'. It shows in your mission log under that name; track it.",
+        "Kill the robots it asks for (one player found them just outside Port Cabrakan) and the Spinas (at a base further out). The tracker shows your progress; exact counts are not published.",
+        "Go back to Port Cabrakan and hand in for the Adjusted pistol."
       ],
       "rewards": [
-        "Mission rewards (not published)"
+        "SET-P1 Civilian Sidearm, Adjusted. Players report it is a second pistol: the regular SET-P1 is not taken from you (Feb 2026).",
+        "Skill gains from the kills"
       ],
-      "prerequisites": [],
-      "requirementsText": [],
+      "prerequisites": [
+        "setesh-cliffchaser-run"
+      ],
+      "requirementsText": [
+        "Be on Setesh. Getting there (see 'Getting to Setesh') is separate from being eligible.",
+        "A weapon and ammo for the kills"
+      ],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "Official (19.12.0): Paul Reinhardt offers 'Small Iron' after you complete 'Cliffchaser Run', even if you stay on Setesh. Cliffchaser Run is a main-chain mission, so the earlier main missions come first.",
+        "unknowns": [
+          "Whether avatars that played through Thule are excluded. MindArk says some Setesh items are withheld from Thule veterans but does not say which.",
+          "Whether anything besides 'Cliffchaser Run' is needed. Players also suggest talking to Harkov first; this is unconfirmed.",
+          "What happens to a 'Small Iron' accepted before 19.12.0."
+        ],
+        "sourceIds": [
+          "S19120F",
+          "S1900",
+          "FSETP1B"
+        ]
+      },
       "cost": {
         "pedEstimate": null,
-        "text": "Unknown.",
+        "text": "Ammo, weapon decay and healing for the kills. One player (Aug 2026) estimated about 6-7 PED and 6-7 hours of play with starter gear.",
         "markup": "unknown",
-        "markupNote": ""
+        "markupNote": "Whether the Adjusted pistol can be traded, and its market value, are not verified."
       },
       "currencies": [],
-      "limits": "",
+      "limits": "Whether the mission can be repeated is not documented.",
       "cooldown": {
         "kind": "once",
         "hours": null,
-        "resetNote": ""
+        "resetNote": "Repeatability is not documented; the app treats it as one-time."
       },
-      "locations": [],
+      "locations": [
+        {
+          "label": "Paul Reinhardt, by the shooting range in Port Cabrakan. Coordinates from the Entropia Nexus database (its altitude looks like a default); not confirmed in game.",
+          "waypoint": "[Setesh, 67609, 68250, 100, Paul Reinhardt]",
+          "verified": false,
+          "sourceIds": [
+            "NXPAUL",
+            "FSETP1B"
+          ]
+        }
+      ],
       "score": {
-        "value": 2,
+        "value": 4,
         "budget": 4,
-        "effort": 3,
-        "rationale": "Side content; rewards unknown."
+        "effort": 2,
+        "rationale": "A free, ammo-efficient extra pistol for low-level mobs, but one player needed 6-7 hours of kills."
       },
       "confidence": "medium",
       "sourceIds": [
-        "S19120"
+        "S19120F",
+        "S1920F",
+        "FSETP1A",
+        "FSETP1B",
+        "YTOBG",
+        "NXPAUL",
+        "YTAXE8"
       ],
-      "warnings": [],
+      "warnings": [
+        "Older advice says you must leave Setesh and come back before Paul offers 'Small Iron'. That was a bug, fixed in 19.12.0 (11 Nov 2026). The Aug 2026 video was recorded before that fix.",
+        "Tradeability of the Adjusted pistol is not verified by any source.",
+        "Tiering it up is optional and costly: players say tiering only adds a socket for enhancers and Tier 1 needs large amounts of materials (Feb 2026)."
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Paul Reinhardt won't talk to you or offers nothing",
+          "check": "Open your mission log and check that 'Cliffchaser Run' is completed. If it is not, Small Iron is not offered yet: carry on with your current main mission. In one player's run Cliffchaser Run came right after 'Recon In The Jungle'.",
+          "sourceIds": [
+            "S19120F",
+            "YTAXE7",
+            "YTAXE8"
+          ]
+        },
+        {
+          "symptom": "You already have 'Small Iron'",
+          "check": "Look for 'Small Iron' in your mission log and track it. You only need to finish the robot and Spina kills, then return to Port Cabrakan.",
+          "sourceIds": [
+            "FSETP1A",
+            "YTOBG"
+          ]
+        },
+        {
+          "symptom": "Cliffchaser Run is done but Paul still says nothing",
+          "check": "Players suggest clicking Paul more than once, and talking to Security Chief Harkov first, then Paul. These are player tips, not official steps. If he still offers nothing, the cause is not documented (see Unknowns).",
+          "sourceIds": [
+            "FSETP1B"
+          ]
+        },
+        {
+          "symptom": "Someone told you to leave Setesh and come back",
+          "check": "Not needed since 19.12.0 (11 Nov 2026): Small Iron is offered after Cliffchaser Run even if you stay on Setesh.",
+          "sourceIds": [
+            "S19120F"
+          ]
+        },
+        {
+          "symptom": "This avatar played through Thule",
+          "check": "MindArk says some Setesh items are not given to Thule veterans but does not say which. No source says whether Small Iron or the Adjusted pistol is one of them.",
+          "sourceIds": [
+            "S1900"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Exact number of robots and Spinas, and which spawns count.",
+        "Exact robot species names.",
+        "Whether the Adjusted pistol can be traded.",
+        "Whether the mission can be repeated."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
-        "mission"
+        "gun",
+        "pistol",
+        "sidearm",
+        "set-p1",
+        "small iron",
+        "paul reinhardt",
+        "harkov",
+        "free gear",
+        "beginner",
+        "stuck"
       ]
     },
     {
@@ -475,6 +830,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes may be needed.",
@@ -524,6 +885,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "The items you hand in (often your own loot).",
@@ -575,6 +942,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",
@@ -625,6 +998,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -679,6 +1058,17 @@
         "setesh-a-new-arrival-chain"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "partial",
+        "note": "Players report Harkov offers the one-way trip once the main chain is done; the leave/skip terminal works for later visits.",
+        "unknowns": [
+          "Whether the skip terminal has any requirement."
+        ],
+        "sourceIds": [
+          "SSTUCK",
+          "SLEAVE"
+        ]
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free via Harkov or the terminal.",
@@ -741,6 +1131,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free down; tokens for other destinations.",
@@ -794,6 +1190,12 @@
         "setesh-leave-to-calypso"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",

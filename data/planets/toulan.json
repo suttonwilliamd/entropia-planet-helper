@@ -327,6 +327,12 @@
       "requirementsText": [
         "150 kg cap for token teleports"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 6,
         "text": "6 PED per Yamato schedule for paying passengers; free for the eligible groups. Token travel, where available, uses Teleportation Tokens.",
@@ -401,6 +407,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free.",
@@ -468,6 +480,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Not stated.",
@@ -541,6 +559,12 @@
       "requirementsText": [
         "Toulan-born or Monrian-born avatar"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Free for eligible avatars.",
@@ -609,6 +633,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Either ammo for 100 TabTab or 10,000 Vibrant Sweat.",
@@ -666,6 +696,12 @@
         "toulan-nawacore-mk1"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "CUHOF runs or player trades for parts.",
@@ -717,6 +753,12 @@
         "toulan-nawacore-mk2-mk3"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo across several monthly events.",
@@ -780,6 +822,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": 0,
         "text": "Travel only.",
@@ -847,6 +895,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Probes and mining decay.",
@@ -912,6 +966,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -975,6 +1035,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo and decay.",
@@ -1036,6 +1102,12 @@
         "toulan-get-there"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ingredients for 1,000 attempts on repeats.",
@@ -1100,6 +1172,12 @@
       "requirementsText": [
         "NawaCore MK3 for the Butt Joints crafting contract"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, mining or crafting costs depending on contract.",
@@ -1168,6 +1246,12 @@
         "toulan-worship-elder-gods-start"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Ammo, mining or hand-in materials.",
@@ -1248,6 +1332,12 @@
         "Access Card and Laptop 04",
         "Negotiate a Trade Deal completed in the DEC Emissary crossover"
       ],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Depends on the tasks given.",
@@ -1311,6 +1401,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "",
@@ -1381,6 +1477,12 @@
         "toulan-nawacore-mk1"
       ],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Vibrant Sweat and Nawa Fragments per cell; key materials for Legends.",
@@ -1437,6 +1539,12 @@
       ],
       "prerequisites": [],
       "requirementsText": [],
+      "prereqInfo": {
+        "status": "unreviewed",
+        "note": "",
+        "unknowns": [],
+        "sourceIds": []
+      },
       "cost": {
         "pedEstimate": null,
         "text": "Upgrade requirements not listed in Sol's notes.",

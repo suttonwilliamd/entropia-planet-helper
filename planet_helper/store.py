@@ -110,6 +110,17 @@ class Progress:
         if self.records.pop(activity_id, None) is not None:
             self.save()
 
+    def adopt_former_ids(self, former_ids: dict[str, str]) -> list[str]:
+        """Copy progress from retired activity ids to their replacement (old record is kept). Returns ids copied."""
+        copied = []
+        for old, new in former_ids.items():
+            if old in self.records and new not in self.records:
+                self.records[new] = dict(self.records[old])
+                copied.append(new)
+        if copied:
+            self.save()
+        return copied
+
     def set_setting(self, key: str, value) -> None:
         if self.settings.get(key) != value:
             self.settings[key] = value
