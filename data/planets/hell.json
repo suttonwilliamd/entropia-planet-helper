@@ -31,7 +31,7 @@
       "kind": "forum",
       "published": "2026-01-23",
       "accessed": "2026-11-26",
-      "supports": "Scott's Valley mobs and levels, monthly event rules and prizes, how to reach Hell without tokens, Club HELL services (posts up to March 2026)."
+      "supports": "Scott's Valley mobs and levels, monthly event rules and prizes, how to reach Hell without tokens, Club HELL services. The newest post is the March 2026 round; post dates show 2026-06-01 because of the forum move."
     },
     {
       "id": "H2",
@@ -71,7 +71,7 @@
       "kind": "wiki",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Club Hell Landing teleporter waypoint (read from search-result text; the page needs JavaScript)."
+      "supports": "Club Hell Landing teleporter waypoint. Confirmed on 2026-11-26 from the Nexus page and the Nexus API (location 468)."
     },
     {
       "id": "H6",
@@ -122,6 +122,66 @@
       "published": "2026-06-25",
       "accessed": "2026-11-26",
       "supports": "Hell is interesting visually but not economically (June 2026 opinion)."
+    },
+    {
+      "id": "HNX-DUTY",
+      "title": "Duty Calls | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/4529",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Duty Calls (HELL, NPC at 39393, 19782): one-time, kill Kong. No prerequisites listed."
+    },
+    {
+      "id": "HNX-GAIW",
+      "title": "The Great AI War | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/5800",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "The Great AI War from Sgt. Barriga (HELL): repeatable, kill Virus Kong or Kong."
+    },
+    {
+      "id": "HNX-HACK",
+      "title": "Hackathon I | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/4630",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Hackathon I from the Imprisoned Demon (39373, 19750): kill Demon Hackers, Laser Weaponry Technology reward; Hackathon II follows."
+    },
+    {
+      "id": "HNX-DEVIL",
+      "title": "A Deal With The Horny Devil II | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/4310",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Little Devil chain (HELL, 39408, 19687): stage I leads to II and III; each stage needs the one before."
+    },
+    {
+      "id": "HNX-LIST",
+      "title": "Entropia Nexus missions list (HELL entries)",
+      "url": "https://api.entropianexus.com/missions",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "HELL missions on Nexus: five ore 'Mining Raid' chains (Belkar, Blausariam, Iron, Lysterium, Zinc) from Thief NPCs, plus the hunting chains above."
+    },
+    {
+      "id": "HNX-KEY",
+      "title": "Search 'Hell Key' | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/search?query=Hell%20Key",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Hell Key I to X exist as items, with blueprints."
     }
   ],
   "activities": [
@@ -143,12 +203,19 @@
       "prerequisites": [
         "rocktropia-travel-getting-there"
       ],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be on ROCKtropia or Secret Island (no tokens needed from there)",
+        "The first visit downloads extra area files"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Players (Feb 2026 and Oct 2026) and a player blog describe the same access: from any ROCKtropia teleporter pick HELL in the drop-down. The Feb 2026 post says no tokens are needed when you are on ROCKtropia or Secret Island. No other condition is reported.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "H1",
+          "H2",
+          "H6"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -184,7 +251,8 @@
         "H1",
         "H2",
         "H3",
-        "H5"
+        "H5",
+        "H6"
       ],
       "warnings": [
         "Club HELL is a taxed area."
@@ -285,10 +353,12 @@
         "Forum account or in-game contact with the organiser"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "The thread's rules: anyone hunting (or mining) in Scott's Valley during the round can enter by posting screenshots; teams count once per global; winners must contact the organiser within 14 days.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "H1"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -324,13 +394,16 @@
         "H1"
       ],
       "warnings": [
-        "Player-run event. Latest round seen in the thread was March 2026. Check the thread before you count on it still running in late 2026."
+        "Player-run event. The single source thread's latest round is March 2026, more than 8 months before this review. Check the thread before you count on it still running."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "event",
         "community",
         "hunting"
+      ],
+      "unknowns": [
+        "Whether rounds continued after March 2026. The thread shows no newer round."
       ]
     },
     {
@@ -354,10 +427,14 @@
         "Mid to high level gear advised"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Access is sourced: reach HELL first (see 'Travel to HELL'). The 2026 organiser's post lists only how to get there and advises armor.",
+        "unknowns": [
+          "Whether the event has any entry condition; the post does not state one either way."
+        ],
+        "sourceIds": [
+          "H2"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -400,6 +477,10 @@
         "event",
         "seasonal",
         "halloween"
+      ],
+      "unknowns": [
+        "Whether it runs again in 2027.",
+        "What the event mobs drop (the organiser could not see the loot pool)."
       ]
     },
     {
@@ -497,10 +578,18 @@
         "Solo only"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "JoinEntropia and a player blog say each instance needs a Hell Key, used up on entry, and is solo only. Nexus lists Hell Keys I to X.",
+        "unknowns": [
+          "Which key tier opens which instance.",
+          "Whether any mission, level or other unlock is needed before you can enter."
+        ],
+        "sourceIds": [
+          "H8",
+          "H6",
+          "H7",
+          "HNX-KEY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -546,16 +635,22 @@
       "sourceIds": [
         "H6",
         "H7",
-        "H8"
+        "H8",
+        "HNX-KEY"
       ],
       "warnings": [
-        "No 2025-2026 run reports found. Which key tier opens which instance is not documented in the sources."
+        "No 2025-2026 run reports found. Which key tier opens which instance is not documented in the sources.",
+        "Rests on an undated fan page and an undated blog (sister posts from 2022). No first-hand report from 2025-2026."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "instance",
         "late",
         "crafting"
+      ],
+      "unknowns": [
+        "Entrance waypoints in HELL coordinates (the source prints them with 'Rocktropia').",
+        "Instance cooldown, if any."
       ]
     },
     {
@@ -646,13 +741,25 @@
         "hell-travel-club-hell"
       ],
       "requirementsText": [
-        "Chain already started before 2026-11-11 (for hunting chains)"
+        "Chain already started before 2026-11-11 (for hunting chains)",
+        "For later stages, the previous stage of the same chain (Nexus)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official 19.12.0: new ROCKtropia hunting chains can no longer be started; started ones can be finished for 6 months. Nexus shows Hackathon I before II and the Little Devil chain I, II, III in order. EntropiaCentral (Aug 2026) says taking The Great AI War blocks Duty Calls.",
+        "unknowns": [
+          "Whether HELL chains count as 'ROCKtropia hunting mission chains' under 19.12.0. HELL is part of ROCKtropia, but the notes do not name it.",
+          "Whether the ore Mining Raid chains are affected (they are mining, not hunting).",
+          "Whether Duty Calls or Hackathon I need anything before them; Nexus lists nothing."
+        ],
+        "sourceIds": [
+          "H4",
+          "H3",
+          "HNX-HACK",
+          "HNX-DEVIL",
+          "HNX-DUTY",
+          "HNX-GAIW"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -687,16 +794,26 @@
       "sourceIds": [
         "H3",
         "H4",
-        "H8"
+        "H8",
+        "HNX-DUTY",
+        "HNX-GAIW",
+        "HNX-HACK",
+        "HNX-DEVIL",
+        "HNX-LIST"
       ],
       "warnings": [
-        "Reward figures are old community data."
+        "Reward figures are old community data.",
+        "Nexus still uses the old name 'Horny Little Devil'; 19.12.0 renamed the creature Happy Little Devil."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "legacy",
         "skills",
         "closing"
+      ],
+      "unknowns": [
+        "Nexus lists only five ore raid chains (Belkar, Blausariam, Iron, Lysterium, Zinc), each with 4-5 stages. The other five ore names in older guides are unconfirmed.",
+        "Kill-point targets for each stage."
       ]
     },
     {

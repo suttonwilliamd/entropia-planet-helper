@@ -43,7 +43,7 @@
       "kind": "community-guide",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Calypso–Arkadia scheduled service and boarding at Celeste Quarry or Twin Peaks."
+      "supports": "Calypso-Arkadia scheduled legs (times in game time); other planets only on request."
     },
     {
       "id": "A2b",
@@ -53,7 +53,7 @@
       "kind": "community-guide",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Operator boarding and cargo rules."
+      "supports": "Operator rules: ticket seller ('spammer') at Celeste Quarry on Arkadia and Twin Peaks on Calypso before departure; summons to the ship; log off on board if carrying lootables."
     },
     {
       "id": "A3a",
@@ -163,7 +163,7 @@
       "kind": "official-forum",
       "published": "2014-10-14",
       "accessed": "2026-11-26",
-      "supports": "Underground reached through the surface teleporter dropdown. Site served an expired certificate; read for metadata only."
+      "supports": "Underground reached from any Arkadia teleporter via the dropdown at the top of the teleport map. Old (2014); the site serves an invalid certificate but the page is readable."
     },
     {
       "id": "A11b",
@@ -374,6 +374,26 @@
       "published": "2019-03-11",
       "accessed": "2026-11-26",
       "supports": "Direct Moon-to-Arkadia teleporter introduced for 7 PED."
+    },
+    {
+      "id": "A31NX",
+      "title": "Entropia Nexus mission record: Arkadia Passport",
+      "url": "https://api.entropianexus.com/missions/4331",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: hand 10,000 Vibrant Sweat to the Passport Officer at the New Arrivals Hangar for the Arkadia Passport; unlocks Oratan Payback dailies and Adviser Nina's missions; no prerequisite mission listed."
+    },
+    {
+      "id": "A32",
+      "title": "Entropia Universe 18.9.0 Release Notes ('Launch to Space')",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-18-9-0-release-notes/287506",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-01-28",
+      "accessed": "2026-11-26",
+      "supports": "'Launch to Space' needs a Space Thruster equipped and only works outside PvP areas; Teleportation Tokens are made from blueprints at the Space Mining Terminal."
     }
   ],
   "activities": [
@@ -382,9 +402,9 @@
       "title": "Get to Arkadia",
       "type": "travel",
       "stage": "arrival",
-      "summary": "Take a shared warp to Arkadia Space Station and use the station-to-planet teleporter, or teleport with Teleportation Tokens. Kronan runs a Calypso–Arkadia service boarding at Celeste Quarry or Twin Peaks.",
+      "summary": "Take a shared warp to Arkadia Space Station and use the station-to-planet teleporter, or teleport with Teleportation Tokens. Kronan runs a Calypso–Arkadia service; its ticket sellers stand at Twin Peaks (Calypso) and Celeste Quarry (Arkadia).",
       "steps": [
-        "Shared warp: check Kronan's schedule (boarding at Celeste Quarry or Twin Peaks) and ask the operator for the current fare and cargo rules.",
+        "Shared warp: check Kronan's schedule, buy a seat from their ticket seller at Twin Peaks (Calypso) or Celeste Quarry (Arkadia) about 15 minutes before departure, and follow the operator's cargo rules.",
         "Token teleport: since 19.2.0 the published fare is 6 Teleportation Tokens station-to-station or 10 planet-to-planet on eligible links. 150 kg cap.",
         "From Arkadia Space Station, the teleporter down to the planet has no fee since 18.9.",
         "Flying yourself needs a thruster. Leave lootable materials in storage and check the PvP map first."
@@ -393,12 +413,21 @@
         "Access to Arkadia"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Token teleport: be at a space station teleporter with enough Teleportation Tokens (6 or 10) and 150 kg or less.",
+        "Flying yourself: a space-capable vehicle with a Space Thruster; launch only outside PvP areas.",
+        "Shared warp: a ticket from the operator."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "MindArk's 18.9.0 and 19.2.0 notes set the requirements (tokens and 150 kg for teleports, a Space Thruster to fly yourself); Kronan's own pages set the shared-warp rules. No mission or skill is required.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "A1",
+          "A30",
+          "A32",
+          "A2b"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -433,7 +462,8 @@
         "A2b",
         "A3a",
         "A3b",
-        "A30"
+        "A30",
+        "A32"
       ],
       "warnings": [
         "Shared-warp fares and cargo rules are set by the operator; ask before boarding.",
@@ -460,14 +490,19 @@
       ],
       "prerequisites": [],
       "requirementsText": [
-        "Offworld visitor (it is unconfirmed whether planet-born or returning avatars face the same gate)",
+        "Be on Arkadia (see 'Get to Arkadia'). This is access, not eligibility.",
+        "For avatars not born on Arkadia; the Arkadia Archive says Arkadia-born avatars do not need it.",
         "10,000 Vibrant Sweat"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Two community sources agree: talk to the Passport Officer at the New Arrivals Hangar and hand in 10,000 Vibrant Sweat; Nexus lists no earlier mission. The Archive says it is for avatars not born on Arkadia. The passport then opens IFN Basic Training (needed for Oratan Payback) and Adviser Nina's missions.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "A4",
+          "A6",
+          "A31NX"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -500,15 +535,22 @@
       },
       "confidence": "high",
       "sourceIds": [
-        "A4"
+        "A4",
+        "A6",
+        "A31NX"
       ],
       "warnings": [
-        "The source shows these coordinates with the label 'Waypoint'; the label here is the research's."
+        "The source shows these coordinates with the label 'Waypoint'; the label here is the research's.",
+        "No partner (Planet Arkadia) page confirming the passport steps was found; this rests on the Arkadia Archive (updated Aug 2026) and the Nexus database."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "unlock"
+      ],
+      "unknowns": [
+        "Whether the passport item can be traded or lost.",
+        "Whether Arkadia-born avatars can take the mission at all (the Archive only says they do not need it)."
       ]
     },
     {
@@ -805,12 +847,22 @@
         "Access to the Underground and its Insignia contracts"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be on Arkadia. The Underground map may need a short download the first time.",
+        "Sal'Diresh vaults: Professor Felix Dorne only responds if you carry at least one Arkadian Treasure Map; you need a key, and you must be in a team to enter (a one-person team works)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "The partner FAQ (2014) and a firsthand guide say any Arkadia teleporter lists Arkadia Underground; the guide adds that Underground teleporters come already discovered. The Arkadia Archive (Aug 2026) gives the Sal'Diresh conditions: a treasure map to activate Dorne, a key, and a team.",
+        "unknowns": [
+          "Whether the Underground Mysterious Traveller (Oratan Insignia contract) needs the Arkadia Passport or anything else.",
+          "Whether the 2014 teleporter description still matches the current interface (the firsthand guide agrees but is undated)."
+        ],
+        "sourceIds": [
+          "A11a",
+          "A11b",
+          "A13"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -852,12 +904,29 @@
       ],
       "warnings": [
         "Check Sal'Diresh key and treasure-map requirements before going in.",
-        "The source shows these coordinates with the label 'Waypoint'."
+        "The source shows these coordinates with the label 'Waypoint'.",
+        "Underground access rests on a 2014 partner FAQ and an undated player guide."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "underground"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Professor Felix Dorne offers no key missions",
+          "check": "The Arkadia Archive says he only responds if you have at least one Arkadian Treasure Map in your inventory.",
+          "sourceIds": [
+            "A13"
+          ]
+        },
+        {
+          "symptom": "You cannot enter a Sal'Diresh vault alone",
+          "check": "Entry needs a team. The Archive says a team of one works, and you can leave the team once inside.",
+          "sourceIds": [
+            "A13"
+          ]
+        }
       ]
     },
     {
@@ -1017,9 +1086,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "The Arkadia Archive only says to talk to the Mysterious Stranger at Celeste Quarry and pick the mission; it mentions no requirement. No other source was found.",
+        "unknowns": [
+          "Whether the Arkadia Passport or any earlier mission is needed.",
+          "Whether the Mysterious Stranger is the same NPC as the Celeste Quarry Mysterious Traveller (the Archive gives the same coordinates)."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -1057,13 +1129,19 @@
       ],
       "warnings": [
         "Duration and trigger pending.",
-        "The source shows these coordinates with the label 'Waypoint'."
+        "The source shows these coordinates with the label 'Waypoint'.",
+        "Rests on a single fan page (Arkadia Archive, updated Aug 2026); no second source found."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
         "gathering",
         "cheap"
+      ],
+      "unknowns": [
+        "How many fruit, stones and dung are needed.",
+        "Size of the Botany reward.",
+        "Cooldown length."
       ]
     },
     {
@@ -1074,7 +1152,7 @@
       "summary": "Mysterious Travellers on the surface, in the Underground and on the Moon offer hunting categories. Pick the category that matches the creature you already plan to hunt and fill its meter for Arkadia Insignias.",
       "steps": [
         "Pick up the Underground Oratan option before doing matching surface hunts.",
-        "At a Mysterious Traveller, choose the category that matches your planned target.",
+        "At a Mysterious Traveller, choose the category that matches your planned target (Category 1, 2 or 3 pays 1, 2 or 3 Insignias).",
         "Fill the meter and hand in."
       ],
       "rewards": [
@@ -1083,9 +1161,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "The Arkadia Archive describes picking a hunting category from any Mysterious Traveller and does not mention a requirement. Its newcomer guide lists the passport first, but as a route, not as a gate.",
+        "unknowns": [
+          "Whether the Arkadia Passport or any earlier mission is needed before the Travellers offer dailies.",
+          "Whether the Underground and Moon Travellers have their own access requirements."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -1125,10 +1206,12 @@
           ]
         },
         {
-          "label": "Mysterious Traveller on the surface (no waypoint in the research)",
-          "waypoint": null,
-          "verified": false,
-          "sourceIds": []
+          "label": "Mysterious Traveller, Celeste Quarry (Arkadia surface; same spot as the Mysterious Stranger)",
+          "waypoint": "[Arkadia, 31185, 9556, 122, Waypoint]",
+          "verified": true,
+          "sourceIds": [
+            "A18"
+          ]
         }
       ],
       "score": {
@@ -1151,6 +1234,10 @@
         "daily",
         "hunting",
         "insignias"
+      ],
+      "unknowns": [
+        "Cooldown length and whether it starts at accept or hand-in.",
+        "Whether more than one Traveller hunting daily can be active at once (the mining limit of one is documented; hunting is not)."
       ]
     },
     {
@@ -1256,9 +1343,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "The Arkadia Archive describes both missions without any requirement: choose a category at a Mysterious Traveller, and talk to Clive Forester in the Celeste Quarry Managers Office for the ACA lines. The partner's 19.2.0 notes add more ACA stage 1-6 lines but name no gate.",
+        "unknowns": [
+          "Whether the Arkadia Passport or the ACA newcomer missions are needed before Clive Forester offers the ACA Mining Point Challenge.",
+          "Whether the Traveller mining dailies need anything first."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -1312,6 +1402,10 @@
         "daily",
         "mining",
         "insignias"
+      ],
+      "unknowns": [
+        "Which resources fall in each mining category (the Archive's lists are empty).",
+        "Cooldown lengths for both missions."
       ]
     },
     {

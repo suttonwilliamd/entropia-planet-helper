@@ -61,7 +61,7 @@
       "kind": "official-forum",
       "published": "2022-09-02",
       "accessed": "2026-11-26",
-      "supports": "Monria TP dropdown route to DSEC9, Elara and Mountain of Madness route and regional waypoints; vehicles and TP chips disabled inside the Mountain."
+      "supports": "Monria TP dropdown route to DSEC9, Elara and Mountain of Madness route and regional waypoints; vehicles and TP chips disabled inside the Mountain; the beginner chain is open to everyone and needs a sweating tool. First post last edited 2026-09-21. Staff reply (Oct 2024): scroll the drop-down to find DSEC9."
     },
     {
       "id": "S5",
@@ -91,7 +91,7 @@
       "kind": "community-guide",
       "published": "2022-08-31",
       "accessed": "2026-11-26",
-      "supports": "Firsthand screenshot walkthrough of Welcome to the Dark Side, Old Man waypoint, rewards and Destroy Creatures blueprints."
+      "supports": "Firsthand screenshot walkthrough of Welcome to the Dark Side; assumes the Lotus teleporter and the second map section are already unlocked; Old Man waypoint, rewards and Destroy Creatures blueprints."
     },
     {
       "id": "S8",
@@ -212,6 +212,26 @@
       "published": "2025-10-07",
       "accessed": "2026-11-26",
       "supports": "25.3 added trade, repair, storage, revival and a turret at the Larches Green sweat area near the Old Man."
+    },
+    {
+      "id": "NX-CHURCH",
+      "title": "Pay tribute hunting DSEC Bots | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/6295",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Elder Shrine (38081, 23954) tribute missions: 50 Shogghols, 50 DSEC CB Bots, 3 Aqeeq or 3 Nawa Drops claims, 1 Lysterium/Melchi claim, 100 low-level creatures; 16 h each; no prerequisites listed."
+    },
+    {
+      "id": "S20",
+      "title": "Hi im New Here",
+      "url": "https://www.virtualsense.eu/forum/threads/hi-im-new-here.9968/",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2023-04-07",
+      "accessed": "2026-11-26",
+      "supports": "Virtualsense staff tell a new Monrian-born player to do the Mountain of Madness beginner chain for items and ammo."
     }
   ],
   "activities": [
@@ -236,10 +256,13 @@
         "Sweating tool, basic gear and a small ammo budget"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Partner guide (last edited Sep 2026) and the October 2026 event post: from any Monria teleporter pick DSEC9 in the drop-down and select the DSEC9 teleporter. No other condition is mentioned.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S4",
+          "S5"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -272,6 +295,15 @@
       "tags": [
         "travel",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "DSEC9 is not in the teleporter drop-down",
+          "check": "Scroll the drop-down list: it is longer than the box and the scroll bar on the right is thin. Virtualsense staff gave this answer in Oct 2024.",
+          "sourceIds": [
+            "S4"
+          ]
+        }
       ]
     },
     {
@@ -296,10 +328,13 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Partner guide (last edited Sep 2026): walk to Elara Terminus, take the tele-pod, register the Lotus teleporter, then the device to the Mountain. The beginner-chain guide assumes this route is done first.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S4",
+          "S7"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -389,13 +424,20 @@
         "dsec-9-mountain-of-madness-route"
       ],
       "requirementsText": [
-        "Sweating tool"
+        "Sweating tool",
+        "Lotus teleporter and the Mountain of Madness area unlocked (see the route entry)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Partner guide: the chain is meant for new players but everyone can do it; bring a sweating tool. The walkthrough assumes the Lotus teleporter and the second map section are already unlocked.",
+        "unknowns": [
+          "Whether the mining step gives you a finder and probes or you must bring your own (the walkthrough is unclear)."
+        ],
+        "sourceIds": [
+          "S4",
+          "S7",
+          "S20"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -455,7 +497,8 @@
         "S4",
         "S7",
         "S8",
-        "S19"
+        "S19",
+        "S20"
       ],
       "warnings": [
         "The current beginner reward item list and exact unlock dialogue still need a field check."
@@ -465,6 +508,23 @@
         "beginner",
         "starter-gear",
         "sweating"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "You cannot find the Stranger in the Woods",
+          "check": "He is past the Mountain of Madness device. Follow the route: Elara Terminus, tele-pod, Lotus teleporter, then northeast to the device.",
+          "sourceIds": [
+            "S4",
+            "S7"
+          ]
+        },
+        {
+          "symptom": "DSEC9 is not in the teleporter drop-down",
+          "check": "Scroll the drop-down list: it is longer than the box and the scroll bar on the right is thin. Virtualsense staff gave this answer in Oct 2024.",
+          "sourceIds": [
+            "S4"
+          ]
+        }
       ]
     },
     {
@@ -799,10 +859,15 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "The partner mission thread (Apr 2025, updated Jun 2025) gives the giver's waypoint and target bots but lists no requirement.",
+        "unknowns": [
+          "Whether the beginner chain or anything else must be done first.",
+          "Whether it can be done in a team (players were unsure in June 2026)."
+        ],
+        "sourceIds": [
+          "S13"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -876,10 +941,16 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Partner guides: the Church of the Elder Gods is north of Larches Green inside the Mountain of Madness; the Worshipper stage assignments are open from the start, with more unlocked at 150 Elder Tributes. Nexus lists no prerequisite missions.",
+        "unknowns": [
+          "Whether the beginner chain (which sends you to the Church) must be finished first. No source says so either way."
+        ],
+        "sourceIds": [
+          "S15",
+          "S16",
+          "NX-CHURCH"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -919,7 +990,8 @@
       "confidence": "medium",
       "sourceIds": [
         "S15",
-        "S16"
+        "S16",
+        "NX-CHURCH"
       ],
       "warnings": [
         "Ordinary Toulan hunting contracts target different creatures and can run in the same cycle.",
@@ -950,12 +1022,21 @@
       "prerequisites": [
         "dsec-9-mountain-of-madness-route"
       ],
-      "requirementsText": [],
+      "requirementsText": [
+        "A finder and probes",
+        "For the Extra Tributes weekly: Initiate rank (150 Elder Tributes)"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Partner guides: the Church of the Elder Gods is north of Larches Green inside the Mountain of Madness; the Worshipper stage assignments are open from the start, with more unlocked at 150 Elder Tributes. Nexus lists no prerequisite missions.",
+        "unknowns": [
+          "Whether the beginner chain must be finished first. No source says so either way."
+        ],
+        "sourceIds": [
+          "S15",
+          "S16",
+          "NX-CHURCH"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -996,7 +1077,8 @@
       "sourceIds": [
         "S14",
         "S15",
-        "S16"
+        "S16",
+        "NX-CHURCH"
       ],
       "warnings": [
         "Despite its name, the Extra Tributes 'Weekly' runs on a 16 h clock since 25.2.1, with a lower threshold; check the current count."
@@ -1006,6 +1088,15 @@
         "repeatable",
         "mining",
         "elder-tribute"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "The Church won't give you a mining assignment",
+          "check": "Mining contracts are shared with the Toulan Church: if you took it there, finish it (on either world) before taking it here.",
+          "sourceIds": [
+            "S15"
+          ]
+        }
       ]
     },
     {

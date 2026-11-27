@@ -119,11 +119,11 @@
       "id": "N8",
       "title": "New Player Missions on Next Island: New Player Guides",
       "url": "https://www.youtube.com/watch?v=Kryv2EpJW6w",
-      "publisher": "YouTube (player video)",
+      "publisher": "cat1000er (YouTube)",
       "kind": "video",
       "published": "2025-12-06",
       "accessed": "2026-11-26",
-      "supports": "Firsthand December 2025 beginner walkthrough."
+      "supports": "Firsthand December 2025 beginner walkthrough. Title and channel confirmed; the video itself could not be reviewed by this audit."
     },
     {
       "id": "N12",
@@ -133,7 +133,7 @@
       "kind": "community-guide",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Firsthand repeatable walkthroughs: Sebastian, Multi-Faction, Crystal Hoarder, Cecily, May."
+      "supports": "Firsthand repeatable walkthroughs: Sebastian (not every Mountain Boar counts; a fenced group did), Multi-Faction (one per day), Crystal Hoarder, Cecily, May. Undated; the page shows it was posted about four years ago (around 2022)."
     },
     {
       "id": "N13",
@@ -163,7 +163,7 @@
       "kind": "official-forum",
       "published": "2025-04-01",
       "accessed": "2026-11-26",
-      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Page would not load for this converter; title and date from the research notes' link text."
+      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Not readable: forum.nextisland.com did not resolve (DNS failure) on 2026-11-26; title and date come from earlier research notes."
     },
     {
       "id": "N16",
@@ -224,6 +224,36 @@
       "published": "2025-12-09",
       "accessed": "2026-11-26",
       "supports": "Token fares 6 station-to-station and 10 planet-to-planet on eligible links."
+    },
+    {
+      "id": "N24",
+      "title": "Entropia Nexus mission record: Sebastian's Find",
+      "url": "https://api.entropianexus.com/missions/5636",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: repeatable from Sebastian at Papoo Village (137871, 83138); kill 200 Mountain Boar Piglets for 1,600 Elysian Tech Chips; no prerequisite listed."
+    },
+    {
+      "id": "N25",
+      "title": "Entropia Nexus mission record: Daily Crystal Hoarder Mission",
+      "url": "https://api.entropianexus.com/missions/6026",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: Hiresh at Kamba Outpost; kill 100 Cyclops, Arges or Brontes; crystal reward worth about 0.60, 4.50 or 12.80 PED by target; 20 h cooldown from completion; no prerequisite listed."
+    },
+    {
+      "id": "N26",
+      "title": "Entropia Nexus mission records: Hunting (Joe) and Mining (Herbert)",
+      "url": "https://api.entropianexus.com/missions/4692",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: one-time starter missions at the Paradise Landing beach (Joe, Hunting; Herbert at /missions/5320, Mining, rewards a finder); no prerequisite listed."
     }
   ],
   "activities": [
@@ -243,12 +273,20 @@
         "Access to Next Island"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Token teleport: be at a space station teleporter with enough Teleportation Tokens (6 or 10) and 150 kg or less.",
+        "Yamato shared warp: 6 PED unless you qualify for free travel (Monria- or Toulan-born, a Virtualsense estate owner, or Toulan Citizenship done).",
+        "Flying yourself: a space-capable vehicle with a Space Thruster."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "MindArk's 18.9.0 and 19.2.0 notes set the token rules (6/10 tokens, 150 kg). Virtualsense's own fee post sets who rides the Yamato free and that others pay 6 PED. No mission or skill is required.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "N4a",
+          "N23",
+          "N1b"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -304,22 +342,31 @@
       "stage": "arrival",
       "summary": "The starter buildings down on the beach at Paradise Landing offer hunting, mining and crafting missions that hand out a gun and ammo, a finder, probes and a refiner, and a healing tool. The roof chef also has a gathering mission.",
       "steps": [
-        "Go to the starter buildings on the beach at Paradise Landing (new avatars spawn there since 18.5; from the Paradise Landing TP, walk down the older path).",
+        "Talk to the welcoming NPC at Paradise Landing, then go down to the starter buildings on the beach (new avatars spawn in the starter area since 18.5; from the Paradise Landing TP use the televator or the path).",
         "Do the hunting, mining and crafting welcome missions.",
         "Do the roof chef's gathering mission if convenient."
       ],
       "rewards": [
         "Gun and ammo",
         "Finder, probes and refiner (refiner is untradeable)",
-        "Healing tool"
+        "Healing tool",
+        "Jumpsuit for 50 Animal Hide (NI Helper)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be at Paradise Landing on Next Island (see 'Get to Next Island')."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "NI Helper starts the tour with the welcoming NPC at Paradise Landing, then the beach buildings, and addresses both new avatars and players who 'just landed'. Nexus lists the beach Hunting and Mining missions with no prerequisite.",
+        "unknowns": [
+          "Whether avatars not born on Next Island (for example those who started on Setesh) still get the free gear.",
+          "Whether the starter rewards are limited to one avatar or one time per account."
+        ],
+        "sourceIds": [
+          "N6",
+          "N26"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -354,7 +401,8 @@
       "sourceIds": [
         "N6",
         "N7",
-        "N8"
+        "N8",
+        "N26"
       ],
       "warnings": [
         "Current starter gear eligibility after the Setesh onboarding change is unverified."
@@ -364,6 +412,9 @@
         "beginner",
         "gear",
         "free"
+      ],
+      "unknowns": [
+        "Exact gun, finder and healing tool models handed out today."
       ]
     },
     {
@@ -432,7 +483,7 @@
       "stage": "early",
       "summary": "Kill 200 eligible Mountain Boar Piglets for Sebastian for 1,600 Elysian Tech Chips. A player guide used the fenced group around 137708, 83319.",
       "steps": [
-        "Talk to Sebastian (waypoint below).",
+        "Talk to Sebastian at Papoo Village (waypoint below). The mission is listed as 'Sebastian's Find' in the Nexus database.",
         "Kill 200 eligible Mountain Boar Piglets (a fenced group around 137708, 83319 was used in a player guide).",
         "Hand in."
       ],
@@ -440,12 +491,19 @@
         "1,600 Elysian Tech Chips"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be on Next Island (see 'Get to Next Island')."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Nexus lists 'Sebastian's Find' as a repeatable with no prerequisite, and a firsthand guide took it straight from Sebastian.",
+        "unknowns": [
+          "No partner or dated firsthand source confirms that anyone can take it (for example, no faction or VIP needed)."
+        ],
+        "sourceIds": [
+          "N24",
+          "N12"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -485,16 +543,30 @@
       "confidence": "medium",
       "sourceIds": [
         "N12",
-        "N14"
+        "N14",
+        "N24"
       ],
       "warnings": [
-        "Exact timer trigger pending."
+        "Exact timer trigger pending.",
+        "The firsthand guide is about four years old; Nexus is crowd-sourced."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
         "hunting",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Piglet kills do not count",
+          "check": "A player found that not every Mountain Boar counts; the fenced group around 137708, 83319 did. Check the creature's exact name.",
+          "sourceIds": [
+            "N12"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Exact cooldown and whether it starts at accept or hand-in."
       ]
     },
     {
@@ -512,12 +584,19 @@
         "1,600 Elysian Tech Chips (per NI Helper)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be on Next Island (see 'Get to Next Island')."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "NI Helper lists 'Daily Sebastian's Screechers' (200 Screecher Puny for 1,600 Elysian Tech Chips) with no 'Mission Required' line, while it does list VIP requirements for the other new dailies on the same page.",
+        "unknowns": [
+          "No source states outright that the Screecher option has no requirement.",
+          "The partner's 18.12.0 notes could not be read (forum.nextisland.com does not resolve)."
+        ],
+        "sourceIds": [
+          "N16"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -567,6 +646,10 @@
       "tags": [
         "daily",
         "hunting"
+      ],
+      "unknowns": [
+        "Whether both Sebastian dailies can be active at once.",
+        "Exact cooldown."
       ]
     },
     {
@@ -576,7 +659,7 @@
       "stage": "early",
       "summary": "2419-Juliana at Crystal Peak, and at her other hubs including the Ancient Greece market, lets you pick one faction and one hunting, mining or crafting assignment per daily cycle. The reward is a choice of limited-click clothing or texture blueprints.",
       "steps": [
-        "Find 2419-Juliana at Crystal Peak or another hub (one is near Ancient Greece market around 36234, 20284).",
+        "Find 2419-Juliana at one of six hubs: Crystal Peak teleporter, Sypherton Gardens, Oasis Outlook, Thebes Market (Ancient Greece, around 36234, 20284), Kamba Outpost or Tanzanite View.",
         "Choose one faction and one hunting, mining or crafting assignment.",
         "If you stack it with other missions, match the exact creature. The player example (50 Arges) is much tougher than base Cyclops."
       ],
@@ -584,12 +667,19 @@
         "Choice of limited-click clothing or texture blueprint (five clicks per Nexus listing)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Reach any of the six Juliana hubs (the Thebes one is in Ancient Greece)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Nexus lists no prerequisite and a firsthand guide picked it from Juliana with no gate. Nexus and the guide agree on one assignment per day (Nexus: 50 kills, drops or crafts).",
+        "unknowns": [
+          "No partner source confirms there is no requirement such as faction membership."
+        ],
+        "sourceIds": [
+          "N17",
+          "N12"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -642,6 +732,10 @@
         "daily",
         "blueprints",
         "faction"
+      ],
+      "unknowns": [
+        "Whether faction choice changes later options or rewards.",
+        "Exact cooldown trigger."
       ]
     },
     {
@@ -649,10 +743,10 @@
       "title": "Crystal Hoarder (Hiresh)",
       "type": "daily",
       "stage": "early",
-      "summary": "Accept Crystal Hoarder from Hiresh before your Ancient Greece trip, pick a Greek creature option, then turn it in at Hiresh for a choice of crystals. It also counts toward access to the Resa VIP.",
+      "summary": "Accept Crystal Hoarder from Hiresh at Kamba Outpost before your Ancient Greece trip, pick Cyclops, Arges or Brontes, then turn it in at Hiresh for a choice of crystals. Completing it once is the first stage of the Resa V.I.P. entry.",
       "steps": [
         "Accept from Hiresh (waypoint below) before travelling to Ancient Greece.",
-        "Choose a Greek creature option (a player guide used base Cyclops around Ancient Greece 35204, 19703).",
+        "Choose Cyclops, Arges or Brontes; Nexus lists 100 kills and a bigger crystal reward for tougher targets (a player guide used base Cyclops around Ancient Greece 35204, 19703).",
         "Return to Hiresh to hand in."
       ],
       "rewards": [
@@ -660,12 +754,21 @@
         "Progress toward Resa VIP access"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Travel to Ancient Greece for the kills (see the Ancient Greece file, Orpheus' Cave)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Nexus lists no prerequisite and a firsthand guide took it straight from Hiresh. Entropia Central (from NI Helper) says completing it once is stage 1 of the Resa V.I.P. entry, so it is a step toward Resa, not gated by it.",
+        "unknowns": [
+          "No partner source confirms there is no requirement (for example a faction).",
+          "Whether the reward differs for avatars born on Next Island."
+        ],
+        "sourceIds": [
+          "N25",
+          "N12",
+          "N18"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -678,7 +781,7 @@
       "cooldown": {
         "kind": "unknown",
         "hours": null,
-        "resetNote": "Daily; exact timer and trigger pending. NI Helper reports 20 h for most older dailies, but this mission's own clock is not confirmed. Target count per option also needs checking."
+        "resetNote": "Daily. Nexus lists 20 h from completion; NI Helper says 20 h for most older dailies. Neither is official. Target count per option comes from Nexus only."
       },
       "locations": [
         {
@@ -700,7 +803,8 @@
       "sourceIds": [
         "N12",
         "N16",
-        "N18"
+        "N18",
+        "N25"
       ],
       "warnings": [
         "Exact timer and target count per option need checking."
@@ -710,6 +814,10 @@
         "daily",
         "hunting",
         "vip"
+      ],
+      "unknowns": [
+        "Kill count per option (Nexus says 100; not corroborated).",
+        "Crystal reward values (Nexus: about 0.60, 4.50 and 12.80 PED by target)."
       ]
     },
     {

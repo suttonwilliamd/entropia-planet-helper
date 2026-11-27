@@ -320,22 +320,22 @@
     {
       "id": "CF-2506",
       "title": "Planet Cyrene June 10th, 2025 VU Notes",
-      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-june-10th-2025-vu-notes.9344/",
+      "url": "http://web.archive.org/web/20260215140531/https://www.cyreneforum.com/threads/planet-cyrene-june-10th-2025-vu-notes.9344/",
       "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
       "kind": "official-forum",
       "published": "2025-06-10",
       "accessed": "2026-11-26",
-      "supports": "H.E.A.R.T. Rank X, Zyn Rucksack Modified, Prestige Golem portal, trainee weapon re-trade, Stable chain faction reduced 20,000 to 8,000."
+      "supports": "H.E.A.R.T. Rank X, Zyn Rucksack Modified, Prestige Golem portal, trainee weapon re-trade, Stable chain faction reduced 20,000 to 8,000. Pinned to the Feb 2026 capture because cyreneforum.com is now a parked domain."
     },
     {
       "id": "CF-2510",
       "title": "Planet Cyrene October 7th, 2025 VU Notes",
-      "url": "http://web.archive.org/web/2026/https://cyreneforum.com/threads/planet-cyrene-october-7th-2025-vu-notes.9407/",
+      "url": "http://web.archive.org/web/20260115015707/https://cyreneforum.com/threads/planet-cyrene-october-7th-2025-vu-notes.9407/",
       "publisher": "Planet Cyrene team on CyreneForum (Wayback copy)",
       "kind": "official-forum",
       "published": "2025-10-07",
       "accessed": "2026-11-26",
-      "supports": "Zyn Rucksack Augmented, limited amps via Rory/Frankie, tempo marker fix, Mining Iron Challenge rank-5 bug acknowledged in replies."
+      "supports": "Zyn Rucksack Augmented, limited amps via Rory/Frankie, tempo marker fix, Mining Iron Challenge rank-5 bug acknowledged in replies. Pinned to the Jan 2026 capture: cyreneforum.com now shows a parked-domain page and later captures are of that page."
     },
     {
       "id": "CF-2512",
@@ -425,7 +425,7 @@
       "kind": "wiki",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "37 Cyrene teleporters with coordinates, including Rookie Training Area (missing from CyreneDream list)."
+      "supports": "37 Cyrene teleporters with coordinates, including Rookie Training Area (missing from CyreneDream list). The Planet filter in this URL is ignored (the reply lists every planet); 37 entries are tagged Cyrene."
     },
     {
       "id": "EC-CY",
@@ -456,6 +456,66 @@
       "published": "2026-08-13",
       "accessed": "2026-11-26",
       "supports": "Secondary overview; used only for corroboration and to flag contradictions."
+    },
+    {
+      "id": "NX-ACAD",
+      "title": "Entropia Nexus mission records: A.R.C. Academy chain",
+      "url": "https://api.entropianexus.com/missions/6236",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "A.R.C. Academy 01 has no prerequisite; 02-06 each need the previous part; the optional knife and finder missions need Academy 06 (mission ids 6236-6243). Crowd-sourced.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "NX-ONE",
+      "title": "Entropia Nexus mission records: Cyrene starter one-offs",
+      "url": "https://api.entropianexus.com/missions/4586",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "Gathering Parts needs 'Trial By Fire' (a Drill Instructor chain: In The Shadows, Getting Battle Ready, Trial By Fire); Hollingsworth's Other Task needs Help the Cap'n; envoy and armor-plating missions list no prerequisite (ids 4586, 5914, 4603, 4658, 4666, 5239, 4629, 4214, 4657, 4490, 4479, 4618, 5911). Crowd-sourced.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "NX-DAILY",
+      "title": "Entropia Nexus mission records: A.R.C. Stage 1 dailies, Meet the... and Duvall's dailies",
+      "url": "https://api.entropianexus.com/missions/6063",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "Stage 1 badge dailies (ids 6060-6064): kill counts, 1 badge, 21 h counted from completion; Meet the... (5285-5287) and Duvall's (4530-4531): counts and skill rewards; no prerequisites listed. Crowd-sourced.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "NX-TOK",
+      "title": "Entropia Nexus mission records: Cyrene token dailies",
+      "url": "https://api.entropianexus.com/missions/6106",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "Yellow Crystals?, Zorn Star Prospects, Blue Crystals for Wilco, the two Tributes (48 h), Pict's Pollen Issue, Getting Slimed, The Chief's Request (4 days), Auraforging for 'Axe' (21 h from completion) and a separate one-time 'Find the Auraforger'; no prerequisites listed. Crowd-sourced.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "NX-HEART",
+      "title": "Entropia Nexus mission records: Gear up: New Fap",
+      "url": "https://api.entropianexus.com/missions/4590",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "Gear up: New Fap stages 1-8 from Medical Tech Orandius; no prerequisites recorded (the stage-to-stage links are missing too). Crowd-sourced.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "NX-TEMPO",
+      "title": "Entropia Nexus mission records: Cyrene tempo trials",
+      "url": "https://api.entropianexus.com/missions/5502",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "supports": "Puny Tempo Trials (ids 5500-5504) and Zyn'Nix Tempos (6000-6004): kill counts, 15/25-minute limits, skill rewards, 21 h; no prerequisites listed. Crowd-sourced.",
+      "accessed": "2026-11-26"
     }
   ],
   "activities": [
@@ -549,10 +609,16 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "You add a teleporter by reaching it, so you only need to be on Cyrene and able to get there. The Hub is chosen from any teleporter's drop-down (CyreneDream).",
+        "unknowns": [
+          "Whether any teleporter on the list is locked behind a mission, faction rank or instance. No source checked says either way."
+        ],
+        "sourceIds": [
+          "CD-TP",
+          "CD-HUB",
+          "NX-TP"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -689,7 +755,8 @@
       ],
       "warnings": [
         "CyreneDream lists 36 teleporters and omits the Rookie Training Area TP that Entropia Nexus lists; Nexus also names one as 'Ngu Volcano Island Lookout Teleporter'.",
-        "MindArk is reworking the map/teleport UI ahead of the Unreal Engine 5 client (due before Christmas 2026); teleporter names may change."
+        "MindArk is reworking the map/teleport UI ahead of the Unreal Engine 5 client (due before Christmas 2026); teleporter names may change.",
+        "The teleporter list rests on a fan page last edited June 2024 and an undated community database; no newer official list was found."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -723,10 +790,16 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Entropia Nexus lists Academy 01 with no prerequisite and each later part needing the one before (01 to 06), with the two optional missions after 06. CyreneDream lists no requirement.",
+        "unknowns": [
+          "Whether veteran avatars arriving on Cyrene get the same free kit as new ones.",
+          "Whether the 2023 reward list is still current."
+        ],
+        "sourceIds": [
+          "NX-ACAD",
+          "CD-ONE"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -776,16 +849,30 @@
       "confidence": "medium",
       "sourceIds": [
         "CD-ONE",
-        "CD-PRES"
+        "CD-PRES",
+        "NX-ACAD",
+        "CF-2506"
       ],
       "warnings": [
-        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source. Reward list dates from 2023."
+        "Steps and rewards come from a CyreneDream page last edited Dec 2023. Newer sources confirm the Academy still runs (Cyrene June 2025 notes on Selbor's trainee re-trade; CyreneDream's Feb 2026 Prestige page lists the 'A.R.C. Academy!' achievement) but do not re-list the rewards."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "free",
         "starter-gear"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "The optional knife or finder mission is not offered",
+          "check": "Entropia Nexus shows both only after Academy 06 'Trial by fire!' is done. Finish 06 first.",
+          "sourceIds": [
+            "NX-ACAD"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Whether the free kit's TT values changed since 2023."
       ]
     },
     {
@@ -877,12 +964,21 @@
         "Trophy items (Broken Scorpion, Confiscated Duster Slicer, Busted Zyn Mordincran)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "'Hollingsworth's other task!' needs Captain Doan's 'Help the Cap'n' done first (CyreneDream and Entropia Nexus).",
+        "'Gathering Parts': Entropia Nexus lists 'Trial By Fire' from the Drill Instructor as its prerequisite. Whether that is A.R.C. Academy 06 'Trial by fire!' is not confirmed."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "CyreneDream and Entropia Nexus list no requirement for most of these. Two do: Hollingsworth needs 'Help the Cap'n'; Nexus puts 'Gathering Parts' after a Drill Instructor mission 'Trial By Fire'.",
+        "unknowns": [
+          "Whether Nexus' 'Trial By Fire' (end of a 'Cyrene New Arrival' chain: In The Shadows, Getting Battle Ready, Trial By Fire) is the same as Academy 06, and whether that chain still exists.",
+          "Whether the other one-offs have requirements no source lists."
+        ],
+        "sourceIds": [
+          "CD-ONE",
+          "NX-ONE"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -945,15 +1041,37 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "CD-ONE"
+        "CD-ONE",
+        "NX-ONE"
       ],
       "warnings": [
-        "CyreneDream page last edited over 18 months ago; not re-confirmed by a newer source."
+        "Rests on a CyreneDream page last edited Dec 2023 and the undated Entropia Nexus database; no newer source re-confirms these missions."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "hunting"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Hollingsworth won't give his task",
+          "check": "Finish Captain Doan's 'Help the Cap'n' (5 Imperium Scouts) first.",
+          "sourceIds": [
+            "CD-ONE",
+            "NX-ONE"
+          ]
+        },
+        {
+          "symptom": "Drill Instructor Selbor doesn't offer 'Gathering Parts'",
+          "check": "Entropia Nexus lists 'Trial By Fire' as its prerequisite. Finish the A.R.C. Academy chain (part 06 is 'Trial by fire!') and ask again. That this is the right mission is not confirmed.",
+          "sourceIds": [
+            "NX-ONE",
+            "NX-ACAD"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Which of these CyreneDream currently flags as broken (it marks some one-time missions as not working)."
       ]
     },
     {
@@ -1056,10 +1174,15 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "CyreneDream (Feb 2026) and Entropia Nexus list no requirement; you start each trial at its Tempo Manager.",
+        "unknowns": [
+          "No source says outright that the trials need nothing first."
+        ],
+        "sourceIds": [
+          "CD-REP",
+          "NX-TEMPO"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -1102,10 +1225,12 @@
       "sourceIds": [
         "CD-REP",
         "EC-CY",
-        "CF-2510"
+        "CF-2510",
+        "NX-TEMPO"
       ],
       "warnings": [
-        "The Oct 2025 VU moved the Crystal Pede Tempo Manager away from the water and restored map markers back to tempo givers; older waypoints for that NPC may be off."
+        "The Oct 2025 VU moved the Crystal Pede Tempo Manager away from the water and restored map markers back to tempo givers; older waypoints for that NPC may be off.",
+        "Rests on fan sources only (CyreneDream, Entropia Codex, Entropia Nexus); no official list."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -1133,10 +1258,15 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Neither CyreneDream (Feb 2026) nor Entropia Nexus lists a requirement for these dailies, although CyreneDream does list them for other missions (for example Stage 2 needs 200 badges on you).",
+        "unknowns": [
+          "No source says outright that these need nothing first (for example the A.R.C. Academy or the Stage 1 one-time missions)."
+        ],
+        "sourceIds": [
+          "CD-REP",
+          "NX-DAILY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -1155,14 +1285,16 @@
       "cooldown": {
         "kind": "rolling",
         "hours": 21,
-        "resetNote": "CyreneDream lists 21 hours for each of these."
+        "resetNote": "CyreneDream and Entropia Nexus list 21 hours; Nexus says the timer starts when you complete the mission."
       },
       "locations": [
         {
           "label": "Waypoints per mission on the CyreneDream Repeatable Missions page",
           "waypoint": null,
           "verified": false,
-          "sourceIds": []
+          "sourceIds": [
+            "CD-REP"
+          ]
         }
       ],
       "score": {
@@ -1174,9 +1306,12 @@
       "confidence": "high",
       "sourceIds": [
         "CD-REP",
-        "EC-CY"
+        "EC-CY",
+        "NX-DAILY"
       ],
-      "warnings": [],
+      "warnings": [
+        "Rests on fan sources only (CyreneDream, Entropia Codex, Entropia Nexus); no official list."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
@@ -1200,12 +1335,21 @@
         "1-8 Cyrene Mission Tokens per mission; 40 from The Chief's Request"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Auraforging daily: stay in the Weak Paneleon area near NPC Axe while you gather the sweat (Entropia Codex)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "CyreneDream (Feb 2026) and Entropia Nexus list no requirement for these turn-ins and hunts. For the Auraforging sweat daily, Nexus also lists a one-time 'Find the Auraforger' (visit Sweat Acolyte Zep'zen, then the Auraforger).",
+        "unknowns": [
+          "Whether 'Find the Auraforger' must be done before the Auraforging daily.",
+          "No source says outright that the other dailies need nothing first."
+        ],
+        "sourceIds": [
+          "CD-REP",
+          "NX-TOK",
+          "EC-CY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -1236,7 +1380,9 @@
           "label": "NPC waypoints per mission on the CyreneDream Repeatable Missions page",
           "waypoint": null,
           "verified": false,
-          "sourceIds": []
+          "sourceIds": [
+            "CD-REP"
+          ]
         }
       ],
       "score": {
@@ -1248,9 +1394,13 @@
       "confidence": "high",
       "sourceIds": [
         "CD-REP",
-        "EC-CY"
+        "EC-CY",
+        "NX-TOK"
       ],
-      "warnings": [],
+      "warnings": [
+        "Entropia Codex gives 24 hours for the Auraforging daily; Entropia Nexus gives 21 hours and CyreneDream does not list it.",
+        "Rests on fan sources only (CyreneDream, Entropia Codex, Entropia Nexus); no official list."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
@@ -2241,12 +2391,20 @@
         "Completion 'Gear Up: New Fap - Stage 10' counts for Prestige"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "For each rank upgrade: the previous H.E.A.R.T. repaired and handed in (CyreneDream)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "CyreneDream: talk to Medical Tech Orandius to start; each new rank needs the previous FAP repaired and handed in. The Rank X work starts with Lazarus at the 0x101 Supply Depot (Cyrene June 2025 notes). Nexus lists no prerequisite for Stage 1.",
+        "unknowns": [
+          "Whether Stage 1 needs anything before you talk to Orandius. No source says."
+        ],
+        "sourceIds": [
+          "CD-HEART",
+          "CF-2506",
+          "NX-HEART"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -2290,7 +2448,8 @@
         "CD-HEART",
         "CF-2506",
         "MA-1980",
-        "CD-PRES"
+        "CD-PRES",
+        "NX-HEART"
       ],
       "warnings": [
         "Stage 13 needs healing players with H.E.A.R.T. IX; support-weapon issues were listed as a known Cyrene platform issue through Sept 2026."
@@ -2300,6 +2459,15 @@
         "chain",
         "healing",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Orandius won't upgrade your FAP",
+          "check": "Repair the previous rank fully and carry it so you can hand it in; CyreneDream says each upgrade needs that.",
+          "sourceIds": [
+            "CD-HEART"
+          ]
+        }
       ]
     },
     {

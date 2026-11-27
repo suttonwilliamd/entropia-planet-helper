@@ -30,7 +30,7 @@
       "kind": "official",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Partner news on 18.4/18.5: spawn moved to the starter area, untradeable refiner, Islander quest opened to offworlders and True Islanders."
+      "supports": "Partner news (undated page): 18.4.0 added two Thebes NPCs so non-born avatars can become Islanders, with the quest open to everyone including True Islanders; a later note says you now start with the Orpheus Cave teleporter unlocked when arriving on Next Island; spawn moved to the starter area; starter refiner untradeable."
     },
     {
       "id": "N9",
@@ -60,7 +60,7 @@
       "kind": "wiki",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Falcata item record."
+      "supports": "Falcata item record: melee longblade, 10 PED TT, source Mission; trade-chat listings at about TT+5 to TT+10 through Nov 2026 suggest it can be traded."
     },
     {
       "id": "N13",
@@ -80,7 +80,7 @@
       "kind": "official-forum",
       "published": "2025-04-01",
       "accessed": "2026-11-26",
-      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Page would not load for this converter; title and date from the research notes' link text."
+      "supports": "Thebes content, indoor mining in Ancient Greece, faction/VIP hunting dailies, Screecher option, key fragments, Nots, Aegis of the Gorgonforged. Not readable: forum.nextisland.com did not resolve (DNS failure) on 2026-11-26; title and date come from earlier research notes."
     },
     {
       "id": "N16",
@@ -110,7 +110,7 @@
       "kind": "official-forum",
       "published": "2025-04-08",
       "accessed": "2026-11-26",
-      "supports": "Faction quest choice clarification, key-fragment mission fix, VIP free-access fix, vehicles disabled in the Catacombs. Page would not load for this converter; title and date from the research notes' link text."
+      "supports": "Faction quest choice clarification, key-fragment mission fix, VIP free-access fix, vehicles disabled in the Catacombs. Not readable: forum.nextisland.com did not resolve (DNS failure) on 2026-11-26; title and date come from earlier research notes."
     },
     {
       "id": "N20",
@@ -151,6 +151,56 @@
       "published": null,
       "accessed": "2026-11-26",
       "supports": "Gorgon armor and plate upgrades."
+    },
+    {
+      "id": "G1",
+      "title": "Entropia Nexus mission record: Meeting the Gods",
+      "url": "https://api.entropianexus.com/missions/5280",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: starts at Orpheus Cave on the Ancient Greece side (start NPC listed as Sophia, Amazon Guard); talk to Penthesilea twice before Creon; says to speak with the Haruspex Elder first; no prerequisite mission listed."
+    },
+    {
+      "id": "G2",
+      "title": "Entropia Nexus mission record: Looking at distant pasts",
+      "url": "https://api.entropianexus.com/missions/5253",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: from Creon, Archon of Thebes; prerequisite 'Meeting the Gods'; rewards the Falcata."
+    },
+    {
+      "id": "G3",
+      "title": "Entropia Nexus mission record: Deliver us from the Dark Queen",
+      "url": "https://api.entropianexus.com/missions/4472",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: from Batiatus; prerequisite 'Find Batiatus'; unlocks the Gorgon wave area and is required for the three Gorgon Shade missions."
+    },
+    {
+      "id": "G4",
+      "title": "Entropia Nexus mission record: Find Batiatus",
+      "url": "https://api.entropianexus.com/missions/4557",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced stub: given by the Haruspex Elder (about 36002, 19856, Ancient Greece); no prerequisite listed."
+    },
+    {
+      "id": "G5",
+      "title": "Entropia Nexus mission record: Daily Asterion Hunt",
+      "url": "https://api.entropianexus.com/missions/6015",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: a separate 500-Asterion daily from the Hunting Specialist at Tanzanite View that needs Haruspex V.I.P. access."
     }
   ],
   "activities": [
@@ -175,10 +225,13 @@
         "Ancient Greece downloaded"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "NI Helper gives the three conditions: be on Next Island, have Ancient Greece downloaded, and use the Medium or Large teleporter view to see the destination. The partner's news confirms the Orpheus Cave teleporter is unlocked on arrival. No mission or item is required.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "N9",
+          "N7"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -212,13 +265,25 @@
       "confidence": "high",
       "sourceIds": [
         "N9",
-        "N10"
+        "N10",
+        "N7"
       ],
-      "warnings": [],
+      "warnings": [
+        "The download and map-size steps come from an undated fan guide (NI Helper, which says it is officially supported by Next Island)."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Ancient Greece is not in the teleporter list",
+          "check": "Switch the teleporter map to Medium or Large view, and make sure the Ancient Greece area is downloaded.",
+          "sourceIds": [
+            "N9"
+          ]
+        }
       ]
     },
     {
@@ -228,7 +293,7 @@
       "stage": "arrival",
       "summary": "On the Greek side, start Meeting the Gods, speak to Penthesilea twice before Creon, then do Talk with the Elder and Looking at Distant Pasts to earn the unlimited Falcata.",
       "steps": [
-        "Start Meeting the Gods.",
+        "Start Meeting the Gods at Orpheus' Cave on the Ancient Greece side.",
         "Speak to Penthesilea twice (waypoint below).",
         "Then speak to Creon (waypoint below).",
         "Complete Talk with the Elder and Looking at Distant Pasts."
@@ -239,12 +304,21 @@
       "prerequisites": [
         "ancient-greece-orpheus-cave"
       ],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be at Orpheus' Cave on the Ancient Greece side (see 'Travel to Ancient Greece')."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "NI Helper and Nexus agree on the order: Meeting the Gods (starts at Orpheus' Cave, Ancient Greece side), then Talk with the Elder, then Looking at Distant Pasts, which pays the Falcata. Nexus lists no mission before Meeting the Gods.",
+        "unknowns": [
+          "Nexus says to speak with the Haruspex Elder before Meeting the Gods; NI Helper puts 'Talk with the Elder' after it. Which is right is not settled.",
+          "Who exactly gives Meeting the Gods (Nexus names Sophia, Amazon Guard)."
+        ],
+        "sourceIds": [
+          "N10",
+          "G1",
+          "G2"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -286,15 +360,31 @@
       "confidence": "high",
       "sourceIds": [
         "N10",
-        "N11"
+        "N11",
+        "G1",
+        "G2"
       ],
       "warnings": [
-        "The source labels these waypoints 'Penthesilea Captain of the Amazon...' and 'Creon Archon of Thebes'; coordinates match."
+        "The source labels these waypoints 'Penthesilea Captain of the Amazon...' and 'Creon Archon of Thebes'; coordinates match.",
+        "The chain rests on an undated fan guide and the crowd-sourced Nexus database."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "weapon",
         "story"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Creon has nothing for you",
+          "check": "NI Helper says you must talk to Penthesilea at the stairs twice before Creon.",
+          "sourceIds": [
+            "N10"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Whether the Falcata can be traded (players list it for sale on the market, which suggests it can).",
+        "Whether the chain can be done more than once."
       ]
     },
     {
@@ -313,12 +403,17 @@
         "Islander status (needed for the Thebes SVIP)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be in Thebes, Ancient Greece (see 'Travel to Ancient Greece')."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Next Island's own 18.4.0 notes say two Thebes NPCs offer the Islander quest and that it is open to everyone, including True Islanders. Entropia Central describes no other condition.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "N7",
+          "N13"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -363,6 +458,10 @@
         "daily",
         "long-track",
         "islander"
+      ],
+      "unknowns": [
+        "Which of the two Thebes NPCs starts it.",
+        "Exact daily reset and whether a missed day breaks anything."
       ]
     },
     {
@@ -380,11 +479,16 @@
         "Dungeon key fragments"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be in Thebes, Ancient Greece."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "NI Helper lists Alexandra as the Thebes key-fragment NPC with hunting, mining and crafting options. On the same page it says all SVIP missions need the five V.I.P.s and Becoming an Islander, but it is unclear whether that covers Alexandra. The partner's own 18.12.0 notes could not be read.",
+        "unknowns": [
+          "Whether Alexandra's missions need Thebes SVIP access (five V.I.P.s plus Becoming an Islander) or nothing.",
+          "Whether any other mission must be done first."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -429,12 +533,27 @@
         "N19"
       ],
       "warnings": [
-        "18.12.1 corrected the Asterion daily's description; read the active text before committing."
+        "18.12.1 corrected the Asterion daily's description; read the active text before committing.",
+        "The partner notes cited here (18.12.0, 18.12.1) could not be opened: forum.nextisland.com does not resolve (26 Nov 2026)."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
         "dungeon"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "An Asterion daily asks for 500 kills and Haruspex V.I.P.",
+          "check": "That is a different mission: the Hunting Specialist's 'Daily Asterion Hunt' at Tanzanite View, which needs Haruspex V.I.P. Alexandra's key-fragment missions are in Thebes.",
+          "sourceIds": [
+            "G5",
+            "N16"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Fragment counts per option and how many fragments a key needs.",
+        "Cooldown length."
       ]
     },
     {
@@ -451,11 +570,16 @@
         "Nots ('Not a Token' currency)"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be in Thebes, Ancient Greece."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "NI Helper names the five Thebes NPCs and notes that all SVIP missions need the five V.I.P.s and Becoming an Islander, but does not say whether these Nots dailies count as SVIP missions. No other source says.",
+        "unknowns": [
+          "Whether the Nots dailies need Thebes SVIP access (five V.I.P.s plus Becoming an Islander) or nothing.",
+          "Whether any other mission must be done first."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -500,12 +624,17 @@
         "N20"
       ],
       "warnings": [
-        "Live task counts, payouts and cooldown triggers are pending."
+        "Live task counts, payouts and cooldown triggers are pending.",
+        "The partner notes cited here (18.12.0) could not be opened: forum.nextisland.com does not resolve (26 Nov 2026)."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "daily",
         "currency"
+      ],
+      "unknowns": [
+        "Nots paid per task.",
+        "Task counts per NPC."
       ]
     },
     {
@@ -582,7 +711,7 @@
       "stage": "late",
       "summary": "For the older Gorgon wave, Deliver Us from the Dark Queen gates entry and you assemble a key before going to Knossos. The first Shade spawn needs crafting, mining and hunting hand-ins plus sweat; later spawns use sweat alone. 18.12.0 added a separate dungeon and key-fragment route and the Aegis of the Gorgonforged upgrade terminal.",
       "steps": [
-        "Complete Deliver Us from the Dark Queen.",
+        "At Orpheus' Cave (Ancient Greece side) speak with the Haruspex Elder, who sends you to Batiatus ('Find Batiatus'), then complete Deliver Us from the Dark Queen.",
         "Follow the key assembly guide before going to Knossos.",
         "First Shade spawn: crafting, mining and hunting hand-ins with sweat. Later spawns: sweat only.",
         "Read entry and upgrade costs at the Aegis of the Gorgonforged terminal before gearing up."
@@ -592,12 +721,24 @@
         "Armor and plate upgrades"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Find Batiatus (from the Haruspex Elder) before Deliver Us from the Dark Queen.",
+        "For Deliver Us from the Dark Queen: Vellum from Cyclops kills, 3 Blood of the Gods from mining, and 3 crafted Block Chisels (Batiatus gives the blueprint only once).",
+        "For the first Gorgon's Shade spawn: the Book, Gem and Elixir from the three Shade missions plus sweat."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "NI Helper and Nexus agree: Haruspex Elder, then Find Batiatus, then Deliver Us from the Dark Queen, which opens the Gorgon wave area and the three Shade missions (hunting, mining, crafting) from Aegeus at Knossos. Their items plus sweat spawn the Shade the first time.",
+        "unknowns": [
+          "Entry requirements for the 18.12.0 dungeons and key route (the partner notes could not be read).",
+          "Whether the Aegis of the Gorgonforged upgrade terminal needs anything besides Serpent's Heads."
+        ],
+        "sourceIds": [
+          "N21",
+          "N22a",
+          "G3",
+          "G4"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -625,16 +766,47 @@
         "N15",
         "N21",
         "N22a",
-        "N22b"
+        "N22b",
+        "G3",
+        "G4"
       ],
       "warnings": [
-        "Read entry and upgrade costs before committing; vehicles were disabled in the Catacombs in 18.12.1."
+        "Read entry and upgrade costs before committing; vehicles were disabled in the Catacombs in 18.12.1.",
+        "NI Helper warns: do not abandon Deliver Us from the Dark Queen after handing in items, and do not sell or TT the Block Chisel blueprint before finishing; both are given only once."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "late",
         "dungeon",
         "armor"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Aegeus does not offer the Gorgon's Shade missions",
+          "check": "Check that Deliver Us from the Dark Queen is completed. Nexus and NI Helper list it as required for all three.",
+          "sourceIds": [
+            "G3",
+            "N10"
+          ]
+        },
+        {
+          "symptom": "You sold or lost the Block Chisel blueprint",
+          "check": "NI Helper says Batiatus gives it only once; you would need another player's copy (the guide author offered one for rent).",
+          "sourceIds": [
+            "N21"
+          ]
+        },
+        {
+          "symptom": "Vellum is not dropping",
+          "check": "NI Helper says only creatures named exactly 'Cyclops' count toward the Vellum bar.",
+          "sourceIds": [
+            "N21"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Exact sweat amount to spawn the Shade.",
+        "Whether the Medal of Heroism has any use now that estates are sold out."
       ]
     }
   ]

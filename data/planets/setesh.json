@@ -342,6 +342,66 @@
       "published": null,
       "accessed": "2026-11-26",
       "supports": "Lists NPC Security Chief Harkov on Setesh at longitude 67569, latitude 68256; the Port Cabrakan teleporter is listed at 67646, 68323 (about 100 m away)."
+    },
+    {
+      "id": "FJOEL1",
+      "title": "Setesh Starter Area: Feedback Thread (post #105)",
+      "url": "https://forum.entropiauniverse.com/t/285160/105",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2025-10-03",
+      "supports": "One player, Oct 2025: Trader Joel's daily 'Fetch: Robot Component Residue' (hand in 100 Robot Component Residue for oil, Universal Ammo, a Blazer and a Nova fragment) near the Port Cabrakan gates at about 67821, 68118; Specialist Mel's Savannah Survey needs 3 surveys with a Genesis Star Rookie Finder (L).",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FMEL",
+      "title": "Setesh Starter Area: Feedback Thread (post #29, MindArk staff reply)",
+      "url": "https://forum.entropiauniverse.com/t/285160/29",
+      "publisher": "Entropia Universe Forum (MindArk staff reply)",
+      "kind": "official-forum",
+      "published": "2025-09-18",
+      "supports": "MindArk staff confirm that Specialist Mel at Outpost Hunraqan is the mining tutorial NPC (answer to a Thule veteran who could not talk to her).",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FWHAT",
+      "title": "What to do in Satesh",
+      "url": "https://forum.entropiauniverse.com/t/what-to-do-in-satesh/851608",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-08-08",
+      "supports": "Player waypoint for the daily AI Joel [Setesh, 67819, 68112, 268, Joel]; a newcomer says they did about 10 Setesh missions before learning to fish.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FFISH9",
+      "title": "Fishing spreadsheets and info (post #9)",
+      "url": "https://forum.entropiauniverse.com/t/284171/9",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-04-17",
+      "supports": "One player, two days after launch: the free rod attachments from Setesh also work on other rods and run out fairly quickly.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FFISH111",
+      "title": "Fishing and Cooking (post #111)",
+      "url": "https://forum.entropiauniverse.com/t/286671/111",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-04-16",
+      "supports": "One player relays an unconfirmed claim that Lars' one-time Spool Cell exchange on Calypso may stop you getting the Setesh fishing gear.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "F1960",
+      "title": "Entropia Universe 19.6.0 Release Notes (thread)",
+      "url": "https://forum.entropiauniverse.com/t/287175",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum) + replies",
+      "kind": "official-forum",
+      "published": "2026-04-15",
+      "supports": "19.6.0: fishing launched and hand-in quest objectives can no longer be negotiated. Replies: staff say the free fishing gear missions work normally; one player reports some could not fish after finishing the Setesh fishing mission.",
+      "accessed": "2026-11-26"
     }
   ],
   "activities": [
@@ -820,25 +880,39 @@
       "title": "'Savannah Survey' mining intro (Hunraqan)",
       "type": "mission",
       "stage": "early",
-      "summary": "A mining introduction mission in Hunraqan on Setesh. Since 19.0.2 it is also open to avatars who finished Thule's 'Prospective Prospector'.",
+      "summary": "A mining introduction side mission from Specialist Mel at Outpost Hunraqan on Setesh (MindArk staff confirmed the giver, Sep 2025). One player's Jan 2026 video calls it 'Survey the Savannah'. Since 19.0.2 it is also open to avatars who finished Thule's 'Prospective Prospector'.",
       "steps": [
-        "Find the giver in Hunraqan.",
-        "Accept 'Savannah Survey' and follow the probing steps."
+        "Go to Outpost Hunraqan and find Specialist Mel.",
+        "Accept the mission ('Savannah Survey' in the release notes, 'Survey the Savannah' in one player's video).",
+        "Do the surveys it asks for. One player (Oct 2025) said it needs 3 surveys with a Genesis Star Rookie Finder (L).",
+        "Follow the mission tracker to finish it."
       ],
       "rewards": [
         "Mining basics; rewards not published"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be at Outpost Hunraqan on Setesh.",
+        "A Genesis Star Rookie Finder (L) for the surveys, according to one player (Oct 2025), who said veterans may not have one and the trade terminal does not sell it."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official (19.0.2): avatars that finished Thule's 'Prospective Prospector' can also accept it. MindArk staff confirmed the giver is Specialist Mel at Outpost Hunraqan. One player says the surveys need a Genesis Star Rookie Finder (L). In one player's Jan 2026 run it came after 'To Hunraqan' and 'Tell A 'Porter', next to 'Satellite Hunt'.",
+        "unknowns": [
+          "Whether a main-chain mission (for example 'To Hunraqan') must be finished first. One player's video order suggests it comes after, but no source says it is required.",
+          "Where newcomers get the Genesis Star Rookie Finder (L), and what veterans without one can do.",
+          "Whether avatars that played through Thule get the same rewards (MindArk says some Setesh items are withheld from them)."
+        ],
+        "sourceIds": [
+          "S1902",
+          "FMEL",
+          "FJOEL1",
+          "YTAXE3"
+        ]
       },
       "cost": {
         "pedEstimate": null,
-        "text": "Probes may be needed.",
+        "text": "Probes for the surveys may be needed; whether the mission supplies them is not documented.",
         "markup": "unknown",
         "markupNote": ""
       },
@@ -849,7 +923,16 @@
         "hours": null,
         "resetNote": ""
       },
-      "locations": [],
+      "locations": [
+        {
+          "label": "Specialist Mel, Outpost Hunraqan (no coordinates in any source)",
+          "waypoint": null,
+          "verified": false,
+          "sourceIds": [
+            "FMEL"
+          ]
+        }
+      ],
       "score": {
         "value": 3,
         "budget": 4,
@@ -858,15 +941,43 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "S1902"
+        "S1902",
+        "FMEL",
+        "FJOEL1",
+        "YTAXE3"
       ],
       "warnings": [
-        "A player (Dec 2025) reported getting the mission without probes or a finder; bring your own if needed."
+        "Only one player (Oct 2025) describes the finder requirement; it may have changed since.",
+        "Thin evidence: a one-line official note, one staff reply and one player's post, all from 2025, plus a Jan 2026 video title."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
+        "beginner",
+        "hunraqan",
         "mining",
-        "beginner"
+        "specialist mel",
+        "survey the savannah"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Specialist Mel shows a question mark but offers nothing",
+          "check": "Since 19.0.2 (23 Sep 2025) avatars that finished Thule's 'Prospective Prospector' can accept it too; before that they could not. If she still offers nothing, the cause is not documented.",
+          "sourceIds": [
+            "S1902",
+            "FMEL"
+          ]
+        },
+        {
+          "symptom": "You can't do the surveys",
+          "check": "One player (Oct 2025) said they need a Genesis Star Rookie Finder (L) in your inventory. Check that you have one.",
+          "sourceIds": [
+            "FJOEL1"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Rewards.",
+        "Whether it can be repeated."
       ]
     },
     {
@@ -874,22 +985,33 @@
       "title": "Trader Joel daily hand-in (Port Cabrakan)",
       "type": "daily",
       "stage": "early",
-      "summary": "Trader Joel in Cabrakan offers a daily hand-in mission: bring items he asks for and get a reward. MindArk described Setesh hand-ins as trading hunting loot for a chance at something more valuable.",
+      "summary": "Trader Joel, an AI NPC near the Port Cabrakan gates on Setesh, gives a daily hand-in. One player (Oct 2025) saw 'Fetch: Robot Component Residue': bring 100 Robot Component Residue (about 1 PED TT) for some oil, Universal Ammo and two small items. MindArk describes Setesh hand-ins as trading hunting loot for a chance at something more valuable.",
       "steps": [
-        "Find Trader Joel in Cabrakan.",
-        "Check which items he wants today.",
-        "Hand them in."
+        "Go to Trader Joel near the Port Cabrakan gates (player waypoint below).",
+        "Talk to him and accept the daily. One player got 'Fetch: Robot Component Residue'.",
+        "Collect what he asks for. That player found the robots a short way outside town, down the road.",
+        "Hand it in to him."
       ],
       "rewards": [
-        "Varies; chance at something more valuable"
+        "One player (Oct 2025): about 0.5 PED of oil and 0.5 PED of Universal Ammo, plus a Blazer and a Nova fragment, for 100 Robot Component Residue. May have changed."
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be in Port Cabrakan on Setesh.",
+        "The items Joel asks for (one player: 100 Robot Component Residue)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official (19.0.0): Trader Joel in Cabrakan is a daily item-for-reward giver. Players found him near the town gates and say he gives the mission again each day. No source mentions a mission or level that must come first.",
+        "unknowns": [
+          "Whether any Setesh main-chain mission must be finished first.",
+          "Whether avatars that played through Thule can take it."
+        ],
+        "sourceIds": [
+          "S1900",
+          "FJOEL1",
+          "FWHAT"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -902,28 +1024,60 @@
       "cooldown": {
         "kind": "rolling",
         "hours": 24,
-        "resetNote": "A community tracker uses a 24 h timer for the Setesh daily NPC; MindArk gives no timer."
+        "resetNote": "Players confirm it is a daily and a fan tracker uses 24 h. MindArk gives no timer."
       },
-      "locations": [],
+      "locations": [
+        {
+          "label": "Trader Joel near the Port Cabrakan gates (player-posted waypoint, Aug 2026; an Oct 2025 post gives almost the same spot)",
+          "waypoint": "[Setesh, 67819, 68112, 268, Joel]",
+          "verified": true,
+          "sourceIds": [
+            "FWHAT",
+            "FJOEL1"
+          ]
+        }
+      ],
       "score": {
         "value": 2,
         "budget": 4,
         "effort": 4,
         "rationale": "Small daily use for starter loot."
       },
-      "confidence": "low",
+      "confidence": "medium",
       "sourceIds": [
         "S1900",
         "SONBOARD",
-        "SRIP"
+        "SRIP",
+        "FJOEL1",
+        "FWHAT",
+        "F1960"
       ],
       "warnings": [
-        "The 24 h timer is from a fan tool, not MindArk."
+        "The 24 h timer is from a fan tool, not MindArk.",
+        "Mission name, item count and rewards come from one player's Oct 2025 post.",
+        "Since 19.6.0 (15 Apr 2026) hand-in objectives can no longer be negotiated with NPCs."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
+        "cabrakan",
         "daily",
-        "hand-in"
+        "hand-in",
+        "robot component residue",
+        "trader joel"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "You can't find Trader Joel",
+          "check": "Players place him near the Port Cabrakan gates; paste the waypoint into chat. One player noted that, unlike other AI NPCs, he does not hand out creature waypoints.",
+          "sourceIds": [
+            "FWHAT",
+            "FJOEL1"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Whether the requested items change from day to day.",
+        "Current reward amounts."
       ]
     },
     {
@@ -931,22 +1085,32 @@
       "title": "Free starter fishing gear mission",
       "type": "mission",
       "stage": "early",
-      "summary": "Since Fishing launched (15 Apr 2026) a Setesh mission gives a basic set of fishing gear, and you can fish in Setesh's waters.",
+      "summary": "Since Fishing launched (15 Apr 2026) a Setesh mission gives a basic set of fishing gear, and you can fish in Setesh's waters. No source names the mission or its giver.",
       "steps": [
-        "Look for the fishing mission giver on Setesh.",
-        "Complete it to get starter gear.",
+        "Look for the fishing mission on Setesh; no source names the giver or where it starts.",
+        "Complete it to get the starter gear.",
         "Fish in any Setesh water."
       ],
       "rewards": [
-        "Basic fishing gear set"
+        "Basic fishing gear set (official). One player says its free rod attachments also fit other rods (Apr 2026)."
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be on Setesh."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "unknown",
+        "note": "MindArk only says a new Setesh mission gives a basic set of fishing gear. No source names it or says what must be done first.",
+        "unknowns": [
+          "Mission name and giver.",
+          "Whether Setesh main-chain missions must be done first. One newcomer (Aug 2026) said they did about 10 Setesh missions before learning to fish, which hints it comes later; not confirmed.",
+          "Whether using Lars' one-time Spool Cell exchange on Calypso affects it (an unconfirmed player claim, Apr 2026)."
+        ],
+        "sourceIds": [
+          "SFISH",
+          "FWHAT",
+          "FFISH111"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -970,15 +1134,25 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "SFISH"
+        "SFISH",
+        "FFISH9",
+        "FWHAT",
+        "FFISH111",
+        "F1960"
       ],
       "warnings": [
-        "Giver name not given in the post."
+        "Giver name not given in the post.",
+        "Rests on one official sentence and scattered player remarks from 2026."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "fishing",
         "free"
+      ],
+      "unknowns": [
+        "Exact gear in the set.",
+        "Whether it is one-time.",
+        "A launch-day player report (15 Apr 2026) says some could not fish after finishing the Setesh fishing mission; no follow-up found."
       ]
     },
     {

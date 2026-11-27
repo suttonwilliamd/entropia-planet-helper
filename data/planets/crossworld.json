@@ -168,7 +168,7 @@
       "kind": "official",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Codex basics: challenge unlocks on first kill of a new creature, rank progress per kill, choose skill rewards per rank."
+      "supports": "Codex basics: challenge unlocks on first kill of a new creature, rank progress per kill, choose skill rewards per rank. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn."
     },
     {
       "id": "SONBOARD",
@@ -219,6 +219,46 @@
       "published": "2017-03-19",
       "accessed": "2026-11-26",
       "supports": "Old player discussion: daily timers are per-player and not a midnight reset."
+    },
+    {
+      "id": "F1960T",
+      "title": "Entropia Universe 19.6.0 Release Notes (thread, MindArk staff reply #17)",
+      "url": "https://forum.entropiauniverse.com/t/287175/17",
+      "publisher": "Entropia Universe Forum (MindArk staff reply)",
+      "kind": "official-forum",
+      "published": "2026-04-15",
+      "supports": "Staff: fishing blueprints are at Calypso technicians and the Fishing Blueprint Terminal at the Port Atlantis fishing camp; answering a player who lost the free rod after trading Universal Ammo for Spool Cells with Lars, staff say the missions work normally and suggest checking inventory, relogging or using Compact.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FLARS",
+      "title": "Fishing - confused about fishbait",
+      "url": "https://forum.entropiauniverse.com/t/287339",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-04-29",
+      "supports": "Player: the free Baitfishing Rod catches baitfish; Lars is in the north-east of Port Atlantis, near a campfire.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "F1961",
+      "title": "Entropia Universe 19.6.1 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/288221",
+      "publisher": "MindArk (official release notes on Entropia Universe Forum)",
+      "kind": "official-forum",
+      "published": "2026-04-21",
+      "supports": "Baitfishing Rod stats raised and unintended skill requirements removed from it; fishing and cooking blueprint terminals added on other planets.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "FHALL",
+      "title": "Halloween Mayhem 2026 (forum thread)",
+      "url": "https://forum.entropiauniverse.com/t/853251",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-10-24",
+      "supports": "Player, Oct 2026: Halloween Mayhem 2025 had no Annihilation tracks, which returned for Merry Mayhem 2025; the player asks MindArk to confirm whether Halloween 2026 again has none (the 2026 post lists none).",
+      "accessed": "2026-11-26"
     }
   ],
   "activities": [
@@ -240,10 +280,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Official (19.11.0): points come automatically from decay and ammo use during the event window; rewards are claimed from the Bonus Track HUD icon or your account page. No other condition is given.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S19110"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -285,6 +327,9 @@
         "event",
         "limited-time",
         "beginner"
+      ],
+      "unknowns": [
+        "How many of the 500,000 Unreal Tokens are left."
       ]
     },
     {
@@ -305,10 +350,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Official: a creature's Codex challenge unlocks automatically on your first kill of it; nothing else is needed.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "SCODEXOFF"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -345,6 +392,9 @@
         "beginner",
         "skills",
         "hunting"
+      ],
+      "unknowns": [
+        "Which creature groups still have no Codex entry (ROCKtropia only got Codex for all regular groups in 19.12.0)."
       ]
     },
     {
@@ -490,7 +540,7 @@
         "Watch the official news for the next event post (Merry Mayhem 2026 had not been announced on 26 Nov 2026).",
         "Open the Global Events list to enter the event instance.",
         "Do not abandon event missions: progress is lost and support will not restore it.",
-        "For Annihilation, you pick one track (Bronze/Silver/Gold/Redulite) once per event."
+        "For Annihilation, you pick one track (Bronze/Silver/Gold/Redulite) once per event. Merry Mayhem 2025 and Easter Mayhem 2026 had it; the Halloween Mayhem 2026 announcement has no Annihilation track."
       ],
       "rewards": [
         "Mayhem/Cosmetic/Rare tokens",
@@ -502,10 +552,18 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: each event must be running; instances are entered from the Global Events list on any planet (Easter, Summer, Halloween 2026) or from event NPCs on Calypso (Merry Mayhem 2025, Annihilation). In Summer Mayhem 2026 each stage unlocked the next.",
+        "unknowns": [
+          "Whether any event has a level or skill requirement (none is stated).",
+          "Whether Halloween Survival stages must be cleared in order (the 2026 post says you pick a stage at the statue)."
+        ],
+        "sourceIds": [
+          "SEAST",
+          "SSUMM",
+          "SHALL",
+          "SMERRY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -532,7 +590,8 @@
         "SEAST",
         "SSUMM",
         "SHALL",
-        "SMERRY"
+        "SMERRY",
+        "FHALL"
       ],
       "warnings": [
         "Dates differ every year; the next Merry Mayhem dates are not yet announced (last year's post came on 5 Dec)."
@@ -560,12 +619,19 @@
         "Snarg Codex progress"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Merry Mayhem must be running",
+        "Your avatar must not have completed it in an earlier year"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official (Merry Mayhem 2025): start it with Santa's Little Helper by the Port Atlantis teleporter while the event runs; an avatar that finished it in an earlier year is not offered it again.",
+        "unknowns": [
+          "Whether the 2026 edition keeps the same rules; Merry Mayhem 2026 had not been announced on 26 Nov 2026."
+        ],
+        "sourceIds": [
+          "SMERRY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -599,6 +665,15 @@
         "mayhem",
         "beginner",
         "seasonal"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Santa's Little Helper won't give the Jul Snarg Hunt",
+          "check": "If this avatar finished it in any earlier year, it is not offered again. The Snarg Codex challenge still counts your Merry Snarg kills without the mission.",
+          "sourceIds": [
+            "SMERRY"
+          ]
+        }
       ]
     },
     {
@@ -617,12 +692,20 @@
         "Recruiter: 10% skill gain for 24 h, skill rewards, PED payouts in 5 tiers"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Create the new account through the recruiter's invite link",
+        "Reach Trained status to trigger the rewards"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official (19.5.0): the link ties you to a recruiter when you create your account through it; both bonuses start when the recruit reaches Trained status.",
+        "unknowns": [
+          "What 'Trained status' means exactly (MindArk does not define it in the notes).",
+          "Whether an account created without the link can be linked later; the notes only describe linking at account creation."
+        ],
+        "sourceIds": [
+          "S1950"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -773,9 +856,9 @@
       "title": "Try fishing for free",
       "type": "skill",
       "stage": "early",
-      "summary": "Fishing and Cooking launched on 15 Apr 2026. You can fish any water on Calypso, Next Island, ROCKtropia, ARIS and Setesh. Lars gives a free Baitfishing Rod (the free-to-play version), and a Setesh mission gives a basic gear set. Caught fish feed a Fishing Codex with skill rewards.",
+      "summary": "Fishing and Cooking launched on 15 Apr 2026. You can fish any water on Calypso, Next Island, ROCKtropia, ARIS and Setesh. Lars at the Port Atlantis fishing camp gives a free Baitfishing Rod (the free-to-play version), and a Setesh mission gives a basic gear set. Caught fish feed a Fishing Codex with skill rewards.",
       "steps": [
-        "Get the free Baitfishing Rod from Lars (the post only says 'at the camp') or the starter gear mission on Setesh.",
+        "Get the free Baitfishing Rod from Lars at the Port Atlantis fishing camp (players: north-east of Port Atlantis, by a campfire), or the starter gear mission on Setesh.",
         "Get Spool Cells (crafted, or a one-time exchange with Lars for universal ammo).",
         "Cast at water (E), then win the minigame.",
         "Claim Fishing Codex rewards."
@@ -785,12 +868,22 @@
         "Fishing Codex skill rewards"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be by any water on Calypso, Next Island, ROCKtropia, ARIS or Setesh",
+        "Normal rods need Spool Cells; the Baitfishing Rod is the free option"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: Lars gives the free Baitfishing Rod; 19.6.1 removed skill requirements that had wrongly been put on it. MindArk staff place the fishing camp at Port Atlantis.",
+        "unknowns": [
+          "Whether trading Universal Ammo for Spool Cells with Lars first stops you getting the free rod. One player said it did; MindArk staff said the missions work normally.",
+          "Whether the advanced rods have skill requirements."
+        ],
+        "sourceIds": [
+          "SFISH",
+          "F1961",
+          "F1960T"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -814,7 +907,10 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "SFISH"
+        "SFISH",
+        "F1960T",
+        "FLARS",
+        "F1961"
       ],
       "warnings": [
         "MindArk warned fishing numbers may be rebalanced after release; several patches did so."
@@ -823,6 +919,15 @@
       "tags": [
         "fishing",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Lars won't give you the free Baitfishing Rod",
+          "check": "MindArk staff (15 Apr 2026) say the missions work normally: check your inventory, relog, or use the inventory 'Compact' button. One player believed trading for Spool Cells first blocked the rod; that is not confirmed.",
+          "sourceIds": [
+            "F1960T"
+          ]
+        }
       ]
     },
     {

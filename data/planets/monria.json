@@ -33,7 +33,7 @@
       "kind": "official-forum",
       "published": "2016-02-06",
       "accessed": "2026-11-26",
-      "supports": "Yamato warp fee of 6 PED per paying passenger and the free-travel groups (qualifying born avatars, estate owners, Toulan citizens)."
+      "supports": "Yamato fee of 6 PED for paying passengers, who sign up through the travel program thread. Free travel for Monrian or Toulan born avatars, estate owners at Monria, DSEC9 or Toulan, and players who completed the Toulan Citizenship Mission."
     },
     {
       "id": "S2",
@@ -73,7 +73,7 @@
       "kind": "community-guide",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Kronan lists Monria as a request stop."
+      "supports": "Kronan lists Monria and Toulan as 'at request' stops; requests must be in by 01:25 game time and pick-ups go on a guest list."
     },
     {
       "id": "S6",
@@ -113,7 +113,7 @@
       "kind": "official-forum",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Monria hubs, daily timers and NPC waypoints; Tobie's crafting daily listed at 21 h from hand-in. PDF attachment; title taken from Sol's link text and file name."
+      "supports": "Monria hubs, daily timers and NPC waypoints, including DSEC Forensics, Mining Camp, Military Camp and Shub Cavern teleporters; says Forensics is given and the others must be collected, cave teleporters by fighting through on foot. PDF footer says 2024. Read in full on 2026-11-26."
     },
     {
       "id": "S10",
@@ -273,7 +273,7 @@
       "kind": "official-forum",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "2025 directory still listing the mining daily and service locations. Did not load (HTTP 404) on 2026-11-26; title is Sol's link text."
+      "supports": "2025 directory still listing the mining daily and service locations. Did not load (HTTP 404) on 2026-11-26, checked twice; title is Sol's link text. Nothing in this file relies on it alone."
     },
     {
       "id": "S26",
@@ -284,6 +284,16 @@
       "published": "2025-12-09",
       "accessed": "2026-11-26",
       "supports": "Token fares lowered to 6 Teleportation Tokens station-to-station and 10 planet-to-planet on eligible links."
+    },
+    {
+      "id": "NX-3HUB",
+      "title": "3 Hub (Monria teleporter) | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/locations/286",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Monria teleporter named '3 Hub' at 38014, 22061 (altitude looks like a default), next to the Monria Hub city point."
     }
   ],
   "activities": [
@@ -304,13 +314,24 @@
       ],
       "prerequisites": [],
       "requirementsText": [
-        "A seat on a scheduled warp (Yamato or Kronan) or your own ship"
+        "A seat on a scheduled warp (Yamato or Kronan) or your own ship",
+        "Yamato paying passengers sign up in the Virtualsense travel program thread; free travel only for Monrian/Toulan born, estate owners at Monria, DSEC9 or Toulan, and Toulan citizens",
+        "Kronan request stops must be requested before 01:25 game time"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Virtualsense: the Yamato starts and ends on Monria; paying passengers sign up and pay 6 PED; listed groups ride free. Kronan stops at Monria on request.",
+        "unknowns": [
+          "Whether a Teleportation Token link to Monria exists. No official note found lists one.",
+          "Whether Yamato runs are back on their normal schedule after the September 2026 interruption (the November 2026 post lists dates again)."
+        ],
+        "sourceIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ]
       },
       "cost": {
         "pedEstimate": 6,
@@ -448,12 +469,16 @@
       "prerequisites": [
         "monria-get-there"
       ],
-      "requirementsText": [],
+      "requirementsText": [
+        "Gear to fight through the caves on foot for Shub Cavern (no vehicles or teleport chips there)"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "The partner's Monria guide (2024) says DSEC Forensics is a given teleporter, the Mining and Military Camp teleporters must be collected, and the cave teleporters up to Shub Cavern are reached by fighting through on foot. Nothing else is required beyond being on Monria.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S9"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -470,34 +495,45 @@
       },
       "locations": [
         {
-          "label": "Monria Hub (crafting and traders)",
-          "waypoint": null,
+          "label": "Monria Hub (crafting and traders). Nexus lists a teleporter called '3 Hub' here; its altitude looks like a default and it is not confirmed in game.",
+          "waypoint": "[Monria, 38014, 22061, 100, 3 Hub]",
           "verified": false,
-          "sourceIds": []
+          "sourceIds": [
+            "NX-3HUB",
+            "S9"
+          ]
         },
         {
-          "label": "DSEC Forensics",
-          "waypoint": null,
-          "verified": false,
-          "sourceIds": []
+          "label": "DSEC Forensics (given to you, per the guide)",
+          "waypoint": "[Monria, 38132, 21010, 12, DSEC Forensics]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
         },
         {
           "label": "DSEC Mining Camp",
-          "waypoint": null,
-          "verified": false,
-          "sourceIds": []
+          "waypoint": "[Monria, 38752, 19114, 116, DSEC Mining Camp]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
         },
         {
           "label": "DSEC Military Camp",
-          "waypoint": null,
-          "verified": false,
-          "sourceIds": []
+          "waypoint": "[Monria, 37738, 17985, 106, DSEC Military Camp]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
         },
         {
-          "label": "Shub Cavern",
-          "waypoint": null,
-          "verified": false,
-          "sourceIds": []
+          "label": "Shub Cavern teleporter",
+          "waypoint": "[Monria, 35600, 20045, 91, Shub Cavern]",
+          "verified": true,
+          "sourceIds": [
+            "S9"
+          ]
         }
       ],
       "score": {
@@ -512,13 +548,19 @@
         "S10",
         "S11",
         "S12",
-        "S25"
+        "S25",
+        "NX-3HUB"
       ],
-      "warnings": [],
+      "warnings": [
+        "The guide PDF is from 2024 and the 2025 directory link is dead (404); waypoints may have moved."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "teleporter"
+      ],
+      "unknowns": [
+        "Exact name of the Monria Hub teleporter in game."
       ]
     },
     {
@@ -676,10 +718,12 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Partner guides (Sep 2022, last edited Sep 2026) and the October 2026 event post: from any Monria teleporter pick DSEC9 in the drop-down. No other condition is mentioned.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S13"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -706,11 +750,22 @@
         "S13",
         "S14"
       ],
-      "warnings": [],
+      "warnings": [
+        "This is the same step as 'Enter DSEC-9 from Monria' in the DSEC-9 list."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "DSEC9 is not in the teleporter drop-down",
+          "check": "Scroll the drop-down list: it is longer than the box and the scroll bar on the right is thin. Virtualsense staff gave this answer in Oct 2024.",
+          "sourceIds": [
+            "S13"
+          ]
+        }
       ]
     },
     {

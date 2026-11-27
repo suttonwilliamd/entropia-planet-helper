@@ -37,7 +37,7 @@
       "kind": "official",
       "published": "2025-05-07",
       "accessed": "2026-11-26",
-      "supports": "Launch, lore, new Planet Partner, Hyperion Enterprises runs Ironhaven, no flying or MF teleport, daily instanced dungeons, Steelrise planned."
+      "supports": "Launch, lore, new Planet Partner, Hyperion Enterprises runs Ironhaven, no flying or MF teleport, daily instanced dungeons, Steelrise planned. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn."
     },
     {
       "id": "S2",
@@ -418,6 +418,36 @@
       "published": "2025-05-09",
       "accessed": "2026-11-26",
       "supports": "Arrival flow: station hangar, ARIS Space Station Transit, Ironhaven HQ, Ironhaven representative, General Tiberius Ashfall, voucher exchange and upgrade station."
+    },
+    {
+      "id": "ASPACE",
+      "title": "Entropia Universe – Space Guide",
+      "url": "https://be.entropiauniverse.com/entropia-universe/beginners-guide/space-guide/",
+      "publisher": "MindArk (official beginner's guide)",
+      "kind": "official",
+      "published": null,
+      "supports": "Only a Quad-Wing Interceptor or Sleipnir with a Space Thruster can fly between a planet and space; you can ride with another player instead; teleporting from a station to a planet is one-way. Undated; its teleport fee text is older. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "ACODEX",
+      "title": "Entropia Universe – Skill Rewards (Codex)",
+      "url": "https://be.entropiauniverse.com/entropia-universe/beginners-guide/skill-rewards/",
+      "publisher": "MindArk (official beginner's guide)",
+      "kind": "official",
+      "published": null,
+      "supports": "A Codex challenge unlocks automatically on the first kill of a new creature; later kills fill the rank; you pick a skill reward per rank. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn.",
+      "accessed": "2026-11-26"
+    },
+    {
+      "id": "ATTG",
+      "title": "Small guide to TTokens & Howling Mine Missions",
+      "url": "https://forum.entropiauniverse.com/t/280672",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "community-guide",
+      "published": "2025-12-26",
+      "supports": "Players, Dec 2025-Jan 2026: 10 tokens per trip, 150 kg limit still applies, token blueprint sold at the Space Mining Terminal and a certain crafting level is needed to craft tokens.",
+      "accessed": "2026-11-26"
     }
   ],
   "activities": [
@@ -439,14 +469,20 @@
       ],
       "prerequisites": [],
       "requirementsText": [
-        "Spacecraft plus Space Thruster, or a ride on another player's ship",
+        "A Sleipnir or Quad-Wing Interceptor with a Space Thruster attached (the only small ships that can leave a planet, per MindArk's space guide), or a ride on another player's ship",
         "Planet download in the client loader (one player had to restart the client before ARIS appeared)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official guides: leaving a planet for space needs a Sleipnir or Quad-Wing with a Space Thruster, or a ride with another player; teleporting from a station down to its planet is free (18.9.0). A launch-day player also had to download ARIS in the launcher and restart the client.",
+        "unknowns": [
+          "Whether the station teleporter to ARIS needs anything else. No source mentions a level, mission or other gate, but none rules one out."
+        ],
+        "sourceIds": [
+          "ASPACE",
+          "S17",
+          "S20"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -501,17 +537,30 @@
         "S51",
         "S52",
         "S42",
-        "S43"
+        "S43",
+        "ASPACE",
+        "S17",
+        "S9"
       ],
       "warnings": [
         "The two space coordinates differ slightly. Both point at ARIS; fly toward the visible station.",
-        "The thruster decay numbers come from one player's video, not from MindArk."
+        "The thruster decay numbers come from one player's video, not from MindArk.",
+        "On launch day (May 2025) a player found nothing at the 'ARIS space station' marker and was told to fly at the moon itself. Since 19.2.0 (Dec 2025) the ARIS planet has collision in space, so head for the station."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "space",
         "beginner"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "ARIS or its station does not show up in space",
+          "check": "Check that ARIS is downloaded in the launcher, then restart the client. A launch-day player only saw it after relaunching.",
+          "sourceIds": [
+            "S20"
+          ]
+        }
       ]
     },
     {
@@ -531,13 +580,22 @@
       "prerequisites": [],
       "requirementsText": [
         "10 Teleportation Tokens per jump (since VU 19.2.0)",
-        "150 kg teleport weight limit was set when interplanetary teleport launched (VU 18.9.0)"
+        "150 kg teleport weight limit, set when interplanetary teleport launched (VU 18.9.0) and still quoted by players in Dec 2025",
+        "Crafting tokens yourself needs a certain crafting level (players, Dec 2025-Jan 2026); otherwise buy them from players."
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: planet-to-planet teleports to and from ARIS leave from the main landing teleporter and cost 10 tokens since 19.2.0; MindArk set a 150 kg limit for interplanetary teleports in 18.9.0 and players still quote it.",
+        "unknowns": [
+          "Whether you must have been to ARIS (or registered its transit teleporter) before you can teleport there.",
+          "Whether MindArk still applies the 150 kg limit to planet-to-planet jumps; only player posts confirm it after 18.9.0."
+        ],
+        "sourceIds": [
+          "S7",
+          "S9",
+          "S17",
+          "ATTG"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -580,7 +638,8 @@
         "S9",
         "S14",
         "S17",
-        "S50"
+        "S50",
+        "ATTG"
       ],
       "warnings": [
         "Players in May 2025 and a March 2026 video describe the teleport from ARIS back to Calypso as free. VU 19.11.0 (Oct 2026) fixed 'certain interplanetary teleports' that did not consume tokens, so assume it now costs 10 tokens.",
@@ -615,10 +674,16 @@
         "Be on ARIS (by ship or by token teleport; see the two travel entries)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Being on ARIS is the only requirement any source gives. The talk order (representative, then General Tiberius Ashfall) comes from a May 2025 player video.",
+        "unknowns": [
+          "Whether the Ironhaven representative or General Ashfall missions have their own requirements (level, earlier mission).",
+          "Whether the talk order is required or just how one player did it."
+        ],
+        "sourceIds": [
+          "S52",
+          "S20"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -671,16 +736,28 @@
         "S52",
         "S51",
         "S20",
-        "S42"
+        "S42",
+        "S15"
       ],
       "warnings": [
-        "NPC names come from player videos from 2025-2026. VU 19.10.3 moved Bonnie Garland and Fenton Bunting outside the main building."
+        "NPC names come from player videos from 2025-2026. VU 19.10.3 moved Bonnie Garland and Fenton Bunting outside the main building.",
+        "The NPC order comes from 2025 player videos and may have shifted with later updates such as the Nov 2026 southern expansion."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "hub",
         "missions"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "No sound on ARIS",
+          "check": "Turn sound off and on again in Options (a launch-day workaround). 19.12.0 (11 Nov 2026) also fixed a sound-memory problem seen in areas such as ARIS.",
+          "sourceIds": [
+            "S20",
+            "S15"
+          ]
+        }
       ]
     },
     {
@@ -2400,10 +2477,13 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Official: a creature's Codex challenge unlocks automatically on your first kill of it. Nothing else is needed; ARIS creatures use the same Codex rules as the rest of the universe (18.14.2).",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "ACODEX",
+          "S18"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -2431,15 +2511,19 @@
         "S10",
         "S19",
         "S16",
-        "S29"
+        "S29",
+        "ACODEX"
       ],
       "warnings": [
-        "Players reported new southern creatures not counting toward the meta until the 17 Nov 2026 fix."
+        "Until the 19.12.1 fix (17 Nov 2026) the new southern ARIS Codex challenges did not count toward the Meta challenge; MindArk says the progress is added back at login."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "codex",
         "skills"
+      ],
+      "unknowns": [
+        "Which ARIS creatures, if any, have no Codex entry."
       ]
     },
     {

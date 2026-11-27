@@ -148,13 +148,13 @@
     },
     {
       "id": "C12",
-      "title": "Daily tokens bonus missions? (post #6 by Mr_Odyseo)",
-      "url": "https://forum.entropiauniverse.com/t/daily-tokens-bonus-missions/279392/6",
+      "title": "Daily tokens bonus missions? (post #7 by Arja)",
+      "url": "https://forum.entropiauniverse.com/t/daily-tokens-bonus-missions/279392/7",
       "publisher": "Entropia Universe Forum (players)",
       "kind": "forum",
       "published": "2025-08-20",
       "accessed": "2026-11-26",
-      "supports": "Firsthand Daily Terminal bonus rolls, cave dailies, rewards and timer reports, Argo daily waypoint."
+      "supports": "Player (Aug 2025): terminal bonus rolls (10 Gibnib, Chirpy or Fugabarba for 20 Daily Tokens), terminal dailies every 16 h from pickup, Argonaut cave daily (50 Argonaut Young, 1 token, 16 h from finishing) and the Argo daily waypoint. Previously cited as post #6, which only says bonus rolls are random."
     },
     {
       "id": "C13",
@@ -265,6 +265,86 @@
       "published": "2025-12-07",
       "accessed": "2026-11-26",
       "supports": "Firsthand reports on returning to Setesh, the skip/exit terminal waypoint and separate Setesh storage."
+    },
+    {
+      "id": "C30",
+      "title": "Help With Fort Lahar Mission Point of Origin",
+      "url": "https://forum.entropiauniverse.com/t/help-with-fort-lahar-mission-point-of-origin/853761",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2026-11-15",
+      "accessed": "2026-11-26",
+      "supports": "Players: Point of Origin was offered after finishing a Fort Lahar swamp mission; the facility door did nothing until 19.12.1; after the fix the lab worked, can be re-entered, and a box after the boss gives RDI Designs (turned in at Fort Medusa, 1,000 for 1 PED of ammo)."
+    },
+    {
+      "id": "C31",
+      "title": "Entropia Nexus mission record: Research Recovery (Daily)",
+      "url": "https://api.entropianexus.com/missions/5591",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: daily to kill 50 Argonauts in a cave and collect 5 pieces of equipment; 20 h cooldown from completion; prerequisite 'Argonautical Assassination'."
+    },
+    {
+      "id": "C32",
+      "title": "Entropia Nexus mission record: Argonautical Assassination",
+      "url": "https://api.entropianexus.com/missions/4330",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced: kill 3 Argonaut Leaders; prerequisite 'Scare Tactics' (Harzol Kenna, about 62702, 76109); unlocks Research Recovery (Daily)."
+    },
+    {
+      "id": "C33",
+      "title": "Planet Calypso Content Release 2017.4.1",
+      "url": "https://forum.entropiauniverse.com/t/planet-calypso-content-release-2017-4-1/268368",
+      "publisher": "MindArk / Planet Calypso (official forum)",
+      "kind": "official-forum",
+      "published": "2017-10-24",
+      "accessed": "2026-11-26",
+      "supports": "The Argonaut cave on Argonaut Island is always accessible; its contents depend on whether you have a mission for it; solo-only instance. Old (2017)."
+    },
+    {
+      "id": "C34",
+      "title": "Planet Calypso Content Release 2017.4.1 (post #30)",
+      "url": "https://forum.entropiauniverse.com/t/planet-calypso-content-release-2017-4-1/268368/30",
+      "publisher": "Entropia Universe Forum (players)",
+      "kind": "forum",
+      "published": "2017-10-24",
+      "accessed": "2026-11-26",
+      "supports": "Player (2017): Argonaut Island has a small quest chain that unlocks the daily cave quest (50 Argonauts, 1 Daily Token). Old."
+    },
+    {
+      "id": "C35",
+      "title": "Research Recovery (daily)",
+      "url": "https://forum.entropiauniverse.com/t/research-recovery-daily/278031",
+      "publisher": "Entropia Universe Forum (players, MindArk staff reply)",
+      "kind": "forum",
+      "published": "2024-09-25",
+      "accessed": "2026-11-26",
+      "supports": "Players (Sep-Oct 2024): in the Argonaut cave daily, a creature could freeze and become unhittable; leaving and re-entering the cave or re-tagging the target got past it. MindArk staff forwarded the report."
+    },
+    {
+      "id": "C36",
+      "title": "Entropia Nexus mission record: The Daily Hunter Category 1 (Daily)",
+      "url": "https://api.entropianexus.com/missions/5776",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Crowd-sourced stub (marked TODO): Daily Mission Terminal hunting daily, 20 h cooldown counted from completion, no prerequisite listed."
+    },
+    {
+      "id": "C37",
+      "title": "Setesh Starter Area: Feedback Thread",
+      "url": "https://forum.entropiauniverse.com/t/setesh-starter-area-feedback-thread/285160",
+      "publisher": "MindArk staff (Ludvig_MindArk) on Entropia Universe Forum",
+      "kind": "official-forum",
+      "published": "2025-09-16",
+      "accessed": "2026-11-26",
+      "supports": "Existing players can use the Camp Icarus VTOL to Setesh if Mentor skill is 2+ or their highest combat profession is 5 or lower; others can fly to Setesh Space Station."
     }
   ],
   "activities": [
@@ -285,13 +365,23 @@
       ],
       "prerequisites": [],
       "requirementsText": [
+        "New avatars: the one-way trip to Calypso is offered once the Setesh main chain is done (see 'Leave Setesh for Calypso' in the Setesh file).",
+        "Existing avatars going to Setesh by the Camp Icarus VTOL: Mentor skill 2+ or highest combat profession 5 or lower (MindArk staff, Sep 2025). The Port Atlantis pilot and the space-station route have no published requirement.",
         "Return trips to Setesh are player-reported, see warnings"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "MindArk staff named the only official requirement: the Camp Icarus VTOL to Setesh needs Mentor skill 2+ or a highest combat profession of 5 or lower; otherwise fly to Setesh Space Station. Players report that new avatars get the trip to Calypso after the Setesh chain and that a skip terminal in Port Cabrakan lets you leave on later visits.",
+        "unknowns": [
+          "Whether the Port Atlantis pilot has any requirement.",
+          "Whether the Port Cabrakan skip terminal needs anything (one player says to finish all missions first; another used it on a return visit).",
+          "Whether the onboarding trip can be taken before the Setesh chain is finished."
+        ],
+        "sourceIds": [
+          "C37",
+          "C23",
+          "C4"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -317,8 +407,8 @@
         },
         {
           "label": "Setesh skip/exit terminal, service building opposite the Cabrakan TP (player report)",
-          "waypoint": "[Setesh, 67634, 68354, 299, Skip Terminal]",
-          "verified": false,
+          "waypoint": "[Setesh, 67634, 68354, 299, skip]",
+          "verified": true,
           "sourceIds": [
             "C23"
           ]
@@ -335,18 +425,45 @@
         "C2",
         "C4",
         "C23",
-        "C1"
+        "C1",
+        "C37"
       ],
       "warnings": [
         "On a return visit, players reported the departure NPC no longer offered the trip. Verify repeat-trip access before relying on it.",
-        "The exit offered by the skip terminal is a player report, not confirmed by MindArk. The source labels this waypoint 'skip'.",
-        "Setesh starter missions, rewards and Small Iron are covered in the Setesh file; this entry only covers the transfer."
+        "Setesh starter missions, rewards and Small Iron are covered in the Setesh file; this entry only covers the transfer.",
+        "The exit offered by the skip terminal is a player report, not confirmed by MindArk. The waypoint is copied exactly as a player posted it (Dec 2025)."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "beginner",
         "setesh"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Back on Setesh, the teleporters only list Setesh, its space station and space",
+          "check": "Players say Calypso is not in the Setesh teleporter list. Use the skip/exit terminal inside the service building opposite the Cabrakan teleporter instead of paying tokens at the space station.",
+          "sourceIds": [
+            "C23"
+          ]
+        },
+        {
+          "symptom": "The NPC who sent you to Calypso the first time offers nothing on a later visit",
+          "check": "One player found the departure NPC only offers the trip once. Use the skip/exit terminal in Port Cabrakan to leave again.",
+          "sourceIds": [
+            "C23"
+          ]
+        },
+        {
+          "symptom": "Your Setesh gear is missing on Calypso",
+          "check": "Storage is per planet. Players had to go back to Setesh to empty it; do this before you leave.",
+          "sourceIds": [
+            "C23"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Whether repeat trips from Port Atlantis to Setesh stay available long term."
       ]
     },
     {
@@ -366,10 +483,18 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "unknown",
+        "note": "MindArk's 19.12.0 notes only say a new newcomer chain starts in Port Atlantis. No source names the start NPC or any requirement. Since 19.2.0 Port Atlantis is where avatars land after Setesh, so the chain is aimed at them.",
+        "unknowns": [
+          "Start NPC and first mission name.",
+          "Whether the Setesh main chain (or the trip from Setesh) must be done first.",
+          "Whether avatars that already did the old Calypso newcomer missions can take it.",
+          "Whether the 'Iron Road' step players mention is the same as the older mission of that name in community databases."
+        ],
+        "sourceIds": [
+          "C5",
+          "C21"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -400,13 +525,18 @@
       "warnings": [
         "A 24 Nov 2026 player report says Argonauts were missing at the second Iron Road waypoint. The fix above is one player's experience, not an official one.",
         "The chain's start NPC, route and rewards are not yet field-verified.",
-        "Recent quests use 'Iron' in their names, but the old Iron Challenge ladders were retired."
+        "Recent quests use 'Iron' in their names, but the old Iron Challenge ladders were retired.",
+        "The Iron Road tip rests on one Reddit thread (24 Nov 2026) that blocks automated readers (HTTP 403 on 26 Nov 2026); it could not be re-read for this audit."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "beginner",
         "hunting",
         "story"
+      ],
+      "unknowns": [
+        "Rewards of the chain.",
+        "Number of missions in the chain."
       ]
     },
     {
@@ -425,12 +555,19 @@
         "Access to other planets and space stations"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Token teleport: be at a space station teleporter with enough Teleportation Tokens (6 station-to-station, 10 planet-to-planet) and carry 150 kg or less.",
+        "Flying yourself: a space-capable vehicle with a Space Thruster equipped; 'Launch to Space' only works outside PvP areas.",
+        "Shared warp: a seat bought from the operator; its fare and rules are set by the operator."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "MindArk's 18.9.0 and 19.2.0 notes set the requirements: Teleportation Tokens (now 6 or 10) and a 150 kg limit for token teleports, a Space Thruster for flying yourself. Teleportation Tokens are craftable and tradable. No mission or skill is required by any source.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "C9",
+          "C21"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -474,6 +611,9 @@
       "tags": [
         "travel",
         "space"
+      ],
+      "unknowns": [
+        "Whether every moon and station link charges the same token fare."
       ]
     },
     {
@@ -493,9 +633,12 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
+        "status": "unknown",
+        "note": "No source mentions a requirement to use the Daily Mission Terminal. The Entropia Nexus records for the hunting categories list no prerequisite, but they are unfinished stubs.",
+        "unknowns": [
+          "Whether Category 2 and 3 hunting rolls need any skill, level or earlier mission.",
+          "Whether brand-new avatars need to finish any newcomer mission before the terminal offers dailies."
+        ],
         "sourceIds": []
       },
       "cost": {
@@ -534,11 +677,13 @@
       "confidence": "medium",
       "sourceIds": [
         "C12",
-        "C13"
+        "C13",
+        "C36"
       ],
       "warnings": [
         "How often the easy bonus rolls appear is unconfirmed.",
-        "Timer length and trigger come from a 2025 player report and a guide, not MindArk."
+        "Timer length and trigger come from a 2025 player report and a guide, not MindArk.",
+        "Timers disagree: a 2025 player and a fan guide say 16 h from pickup; the Entropia Nexus database says 20 h from completion. Neither is official."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -546,6 +691,10 @@
         "hunting",
         "tokens",
         "beginner"
+      ],
+      "unknowns": [
+        "Exact cooldown: 16 h from pickup (players) or 20 h from completion (Nexus).",
+        "How often bonus rolls appear."
       ]
     },
     {
@@ -635,12 +784,24 @@
         "Argonaut Codex progress if tracked"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Unlock first: players (2017) and the Entropia Nexus database say a short Argonaut Island chain opens this daily. Nexus lists 'Scare Tactics' (Harzol Kenna, about 62702, 76109) then 'Argonautical Assassination' (kill 3 Argonaut Leaders) before the daily.",
+        "Solo only: the cave is a solo instance (MindArk, 2017)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Players and Nexus agree the daily (Nexus name: 'Research Recovery (Daily)') is unlocked by a short Argonaut Island chain: Scare Tactics, then Argonautical Assassination. MindArk (2017) says the cave is always open but its contents depend on having the mission. This predates the 19.2.0 newcomer rebuild.",
+        "unknowns": [
+          "Whether the unlock chain is still the same after the 19.2.0 Calypso newcomer rebuild.",
+          "Whether anything comes before Scare Tactics (Nexus does not link it to an earlier mission).",
+          "Whether the old Port Atlantis mission 'To Argonaut Island' (Linn) is part of this path."
+        ],
+        "sourceIds": [
+          "C34",
+          "C31",
+          "C32",
+          "C33"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -680,10 +841,16 @@
       "confidence": "medium",
       "sourceIds": [
         "C12",
-        "C13"
+        "C13",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35"
       ],
       "warnings": [
-        "Timer is a player report, not confirmed by MindArk."
+        "Timer is a player report, not confirmed by MindArk. Nexus instead lists 20 h from completion.",
+        "The unlock chain comes from a 2017 player post and the crowd-sourced Nexus database; no current official source confirms it."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -691,6 +858,34 @@
         "hunting",
         "tokens",
         "codex"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "The cave NPC has no daily for you",
+          "check": "Check your mission log for the Argonaut Island missions 'Scare Tactics' and 'Argonautical Assassination'. Players and Nexus say these come before the daily.",
+          "sourceIds": [
+            "C32",
+            "C34"
+          ]
+        },
+        {
+          "symptom": "The cave is empty or has the wrong creatures",
+          "check": "MindArk says what is inside depends on whether you hold the mission. Accept the daily first, then enter.",
+          "sourceIds": [
+            "C33"
+          ]
+        },
+        {
+          "symptom": "An Argonaut freezes and you cannot hit it while it still hits you",
+          "check": "Players (2024) got past this by leaving and re-entering the cave or by re-tagging the target from range.",
+          "sourceIds": [
+            "C35"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Exact target: 50 Argonaut Young (player, 2025) or 50 Argonauts plus 5 pieces of equipment (Nexus).",
+        "Exact cooldown: 16 h from finishing (player) or 20 h from completion (Nexus)."
       ]
     },
     {
@@ -899,20 +1094,31 @@
       "title": "Point of Origin (RDI Facility near Fort Lahar)",
       "type": "mission",
       "stage": "early",
-      "summary": "19.12.1 restored access to the RDI Facility near Fort Lahar, which the Point of Origin mission needs. If it was blocked for you before, try again.",
+      "summary": "A Fort Lahar mission that sends you into the RDI Facility near Fort Lahar. The facility was closed for a while; 19.12.1 (17 Nov 2026) restored access. Players report it opens after a Fort Lahar swamp mission.",
       "steps": [
-        "Travel to the RDI Facility near Fort Lahar and continue Point of Origin."
+        "Finish the Fort Lahar swamp mission that leads to Point of Origin (players do not name it).",
+        "Travel to the RDI Facility near Fort Lahar and enter it.",
+        "Clear the lab and its boss. Before leaving, open the box on the table at the end for extra rewards (player tip)."
       ],
       "rewards": [
-        "Not documented in the research."
+        "Mission reward not documented.",
+        "Players: RDI Designs from the box after the boss, handed in at Fort Medusa (1,000 for 1 PED of ammo)."
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "A Fort Lahar swamp mission completed first (player report; name not given)."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "One player (15 Nov 2026) got Point of Origin after finishing 'the swamp mission' at Fort Lahar. MindArk only confirms the facility was reopened in 19.12.1.",
+        "unknowns": [
+          "Which swamp mission unlocks Point of Origin, and whether more missions come before it.",
+          "Whether an item or key is needed to open the facility door (one player received none and the door later worked)."
+        ],
+        "sourceIds": [
+          "C30",
+          "C7"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -925,7 +1131,7 @@
       "cooldown": {
         "kind": "unknown",
         "hours": null,
-        "resetNote": "Not documented."
+        "resetNote": "Not documented. Players say the lab can be entered repeatedly; whether the mission repeats is unknown."
       },
       "locations": [
         {
@@ -945,14 +1151,37 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "C7"
+        "C7",
+        "C30"
       ],
       "warnings": [
-        "Only the access fix is documented; the mission's steps and reward are not."
+        "Only the access fix is official; prerequisites and rewards come from one forum thread (Nov 2026).",
+        "One player was teleported back to the entrance for the first few minutes after 19.12.1; it then worked."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "mission"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Clicking the facility door does nothing",
+          "check": "Before 19.12.1 (17 Nov 2026) the instance was closed. Players confirmed it opens after that patch.",
+          "sourceIds": [
+            "C7",
+            "C30"
+          ]
+        },
+        {
+          "symptom": "Inside, you keep being moved back to the entrance or a creature cannot be hit",
+          "check": "One player had this right after the reopening; it stopped after a few minutes.",
+          "sourceIds": [
+            "C30"
+          ]
+        }
+      ],
+      "unknowns": [
+        "Whether the mission itself repeats; players say the lab can be re-entered.",
+        "The mission's own reward."
       ]
     },
     {

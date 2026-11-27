@@ -34,7 +34,7 @@
       "kind": "official-forum",
       "published": "2016-02-06",
       "accessed": "2026-11-26",
-      "supports": "Yamato Toulan legs: 6 PED per schedule for paying passengers; free for qualifying born avatars, estate owners and Toulan citizens."
+      "supports": "Yamato fee of 6 PED for paying passengers, who sign up through the travel program thread. Free travel for Monrian or Toulan born avatars, estate owners at Monria, DSEC9 or Toulan, and players who completed the Toulan Citizenship Mission."
     },
     {
       "id": "S2",
@@ -54,7 +54,7 @@
       "kind": "official-forum",
       "published": "2026-11-12",
       "accessed": "2026-11-26",
-      "supports": "November 2026 operator notice confirming event-weekend schedule shifts."
+      "supports": "November 2026 operator notice: event-weekend schedule shifts; Citizenship needs NawaCore MK3 and is worked only during the monthly event; completing it makes you eligible for all current and future Toulan Born missions."
     },
     {
       "id": "S4",
@@ -94,7 +94,7 @@
       "kind": "community-guide",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Kronan lists Toulan as a request stop."
+      "supports": "Kronan lists Toulan as an 'at request' stop; requests must be in by 01:25 game time and pick-ups go on a guest list."
     },
     {
       "id": "S8",
@@ -104,7 +104,7 @@
       "kind": "official-forum",
       "published": "2021-01-07",
       "accessed": "2026-11-26",
-      "supports": "Born-only starter chain (Salam, Bilal, Ahlan, Guardian Village), its rewards, the visitor restriction and the team-loot warning."
+      "supports": "Born-only starter chain (Salam, Bilal, Ahlan, Guardian Village), its rewards and the team-loot warning. Staff say avatars created on Toulan get the Toulan_Player tag that makes them eligible, Monrian born also qualify, and Ahlan's Wedding Ring is the one step open to all."
     },
     {
       "id": "S9",
@@ -305,6 +305,56 @@
       "published": "2025-12-09",
       "accessed": "2026-11-26",
       "supports": "Token fares lowered to 6 Teleportation Tokens station-to-station and 10 planet-to-planet on eligible links."
+    },
+    {
+      "id": "NX-NAWA",
+      "title": "NawaCore Agent | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/locations/7950",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "NawaCore Agent on Toulan at 134555, 96449, 274."
+    },
+    {
+      "id": "NX-MK1",
+      "title": "Earn a Nawacore MK1 | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/4532",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Earn a Nawacore MK1: one-time, kill 100 TabTab; no prerequisites listed."
+    },
+    {
+      "id": "S29",
+      "title": "Toulan Beginners Mission Chain | Toulan/Monrian Born Only (page 5)",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-beginners-mission-chain-toulan-monrian-born-only.8095/page-5",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2024-11-25",
+      "accessed": "2026-11-26",
+      "supports": "Players returning to the chain: a Toulan citizen restarted it (Jan 2024); one got stuck at Faiza because the TabTab teeth had been TT'd (Nov 2024)."
+    },
+    {
+      "id": "S30",
+      "title": "Toulan Beginners Mission Chain | Toulan/Monrian Born Only (page 6)",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-beginners-mission-chain-toulan-monrian-born-only.8095/page-6",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2026-08-08",
+      "accessed": "2026-11-26",
+      "supports": "Jun 2026: Labiba's last step also paid 2 PED Universal Ammo. Aug 2026: Ahlan's ring did not update until the player relogged; staff agreed."
+    },
+    {
+      "id": "S31",
+      "title": "Toulan Daily Missions | Info & Rewards (page 3)",
+      "url": "https://www.virtualsense.eu/forum/threads/toulan-daily-missions-info-rewards.8835/page-3",
+      "publisher": "Virtualsense (planet partner) forum",
+      "kind": "forum",
+      "published": "2024-02-03",
+      "accessed": "2026-11-26",
+      "supports": "Feb 2024: Thana's 500-point reward also offers Drilling or Surveying; a mini 50-point version exists; a player thinks only one Thana contract can be held at once."
     }
   ],
   "activities": [
@@ -325,13 +375,23 @@
       ],
       "prerequisites": [],
       "requirementsText": [
-        "150 kg cap for token teleports"
+        "150 kg cap for token teleports",
+        "Yamato paying passengers sign up in the Virtualsense travel program thread; free travel only for Monrian/Toulan born, estate owners at Monria, DSEC9 or Toulan, and Toulan citizens",
+        "Kronan request stops must be requested before 01:25 game time"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Virtualsense: Yamato serves Toulan; paying passengers sign up and pay 6 PED; listed groups ride free. Kronan stops on request. The station-to-planet teleport is free since 18.9.0.",
+        "unknowns": [
+          "Whether a Teleportation Token link to Toulan exists. No official note found lists one."
+        ],
+        "sourceIds": [
+          "S1",
+          "S2",
+          "S3",
+          "S5",
+          "S7"
+        ]
       },
       "cost": {
         "pedEstimate": 6,
@@ -408,10 +468,15 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Staff (2021): Ahlan's Wedding Ring is the one beginner mission open to everyone. In the born chain Bilal sends you to Ahlan after his TabTab and Sunjoq hunt. A 2021 player guide for visitors also starts with Salam and Bilal before Ahlan.",
+        "unknowns": [
+          "Whether a visitor can take the ring mission from Ahlan directly, or must do Salam's and Bilal's steps first. The two 2021 guides differ."
+        ],
+        "sourceIds": [
+          "S8",
+          "S9"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -452,7 +517,9 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "S9"
+        "S9",
+        "S8",
+        "S30"
       ],
       "warnings": [],
       "lastVerified": "2026-11-26",
@@ -460,6 +527,22 @@
         "beginner",
         "vehicle",
         "free"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "You swam to the ring but the mission did not update",
+          "check": "Relog. A player had this in August 2026; relogging fixed it and Virtualsense staff agreed.",
+          "sourceIds": [
+            "S30"
+          ]
+        },
+        {
+          "symptom": "Ahlan offers nothing",
+          "check": "Talk to Salam (the platform round the corner from the teleporter) and then Bilal first; the visitor guide starts there.",
+          "sourceIds": [
+            "S9"
+          ]
+        }
       ]
     },
     {
@@ -551,19 +634,29 @@
       ],
       "rewards": [
         "Starter tools, weapon and ammo, and clothing",
-        "Toulan-born shirt (origin-specific)"
+        "Toulan-born shirt (origin-specific)",
+        "Players report (June 2026) that Labiba's final step also gives 2 PED of Universal Ammo"
       ],
       "prerequisites": [
         "toulan-get-there"
       ],
       "requirementsText": [
-        "Toulan-born or Monrian-born avatar"
+        "Toulan-born (avatar created on Toulan, which gives the Toulan_Player tag) or Monrian-born avatar",
+        "Or: completed the Toulan Citizenship Mission, which makes you eligible for Toulan Born missions (Nov 2026 notice)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Staff: the chain is for avatars created on Toulan (Toulan_Player tag) and Monrian-born avatars. The November 2026 event notice adds that finishing the Toulan Citizenship Mission makes you eligible for all Toulan Born missions.",
+        "unknowns": [
+          "Whether Toulan citizens can do the whole chain from Salam or only the later steps (a returning citizen got stuck at step 7 in 2024).",
+          "Whether players who did the old open version before the split can redo it."
+        ],
+        "sourceIds": [
+          "S8",
+          "S14",
+          "S3",
+          "S29"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -603,7 +696,10 @@
       "confidence": "medium",
       "sourceIds": [
         "S8",
-        "S10"
+        "S10",
+        "S3",
+        "S29",
+        "S30"
       ],
       "warnings": [
         "The born guide notes that mission loot may fail when you are in a team."
@@ -613,6 +709,30 @@
         "beginner",
         "born",
         "starter-gear"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Mission items do not drop",
+          "check": "Leave your team: mission items cannot be looted in a team.",
+          "sourceIds": [
+            "S8"
+          ]
+        },
+        {
+          "symptom": "Faiza won't move you on at step 7",
+          "check": "She needs 20 TabTab Teeth in your inventory. One player had TT'd theirs and had to get new ones (Nov 2024). Staff also added an option to skip the teeth if you get stuck.",
+          "sourceIds": [
+            "S8",
+            "S29"
+          ]
+        },
+        {
+          "symptom": "Ahlan's ring does not update",
+          "check": "Relog; this fixed it for a player in August 2026.",
+          "sourceIds": [
+            "S30"
+          ]
+        }
       ]
     },
     {
@@ -634,10 +754,16 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Partner post (Dec 2020): any visitor can get MK1 from the NawaCore Agent in Nahar City by hunting 100 TabTab or paying 10,000 Vibrant Sweat; avatars created on Toulan get it on leaving the start room. Nexus lists the TabTab mission with no prerequisites.",
+        "unknowns": [
+          "Whether the two 2020 options are still the same today. No newer source was found."
+        ],
+        "sourceIds": [
+          "S11",
+          "S8",
+          "NX-MK1"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -654,10 +780,13 @@
       },
       "locations": [
         {
-          "label": "NawaCore Agent, Nahar City gate",
-          "waypoint": null,
+          "label": "NawaCore Agent, Nahar City gate. Coordinates from the Entropia Nexus database; not confirmed in game.",
+          "waypoint": "[Planet Toulan, 134555, 96449, 274, NawaCore Agent]",
           "verified": false,
-          "sourceIds": []
+          "sourceIds": [
+            "NX-NAWA",
+            "S11"
+          ]
         }
       ],
       "score": {
@@ -668,10 +797,14 @@
       },
       "confidence": "medium",
       "sourceIds": [
-        "S11"
+        "S11",
+        "NX-NAWA",
+        "NX-MK1",
+        "S8"
       ],
       "warnings": [
-        "Current MK1 choices need a field check."
+        "Current MK1 choices need a field check.",
+        "The only detailed source is from December 2020; Nexus is crowd-sourced."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
@@ -823,10 +956,16 @@
       ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Partner guides: join the Church south-east of Pit North teleporter; Worshipper assignments are open from the start, with more unlocked at 150 Elder Tributes. No NawaCore or other condition is mentioned.",
+        "unknowns": [
+          "Whether a NawaCore is needed (a community list says Toulan hunting dailies need the matching NawaCore; the Church guides do not mention it).",
+          "How a new visitor first gets the Pit North teleporter (the guides assume you have it)."
+        ],
+        "sourceIds": [
+          "S13",
+          "S18"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -875,6 +1014,15 @@
       "tags": [
         "elder-tribute",
         "unlock"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "The Church won't give you a mining assignment",
+          "check": "Mining contracts are shared with the DSEC-9 Church: if you took it there, finish it (on either world) first.",
+          "sourceIds": [
+            "S13"
+          ]
+        }
       ]
     },
     {
@@ -889,17 +1037,26 @@
         "Return to Thana."
       ],
       "rewards": [
-        "0.05 PED Mining or Prospecting skill (50-point) or 0.50 PED (500-point)"
+        "0.05 PED Mining or Prospecting skill (50-point) or 0.50 PED (500-point); a Feb 2024 player says the 500-point version also offers Drilling or Surveying"
       ],
       "prerequisites": [
         "toulan-get-there"
       ],
-      "requirementsText": [],
+      "requirementsText": [
+        "A finder and probes"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "The community daily list (2021, updated 2024) gives Thana's place at the Citadel info desk and a 16 h timer, but no requirement. A November 2025 player says they do it often.",
+        "unknowns": [
+          "Whether a NawaCore is needed. The list says all hunting dailies need the matching NawaCore but does not say it for Thana's mining contracts.",
+          "Whether you can hold both Thana contracts at once (one player thinks not)."
+        ],
+        "sourceIds": [
+          "S14",
+          "S31",
+          "S15"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -933,7 +1090,8 @@
       "confidence": "medium",
       "sourceIds": [
         "S14",
-        "S15"
+        "S15",
+        "S31"
       ],
       "warnings": [
         "Whether both sizes can be accepted at once is unverified.",

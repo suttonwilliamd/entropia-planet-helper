@@ -42,7 +42,7 @@
       "kind": "official-forum",
       "published": "2025-01-28",
       "accessed": "2026-11-26",
-      "supports": "Station teleport network, free teleport from station to its planet, no teleport from planet surface up to a station, Genesis Star dailies at all stations, Pioneer ship, Outlaw Zones."
+      "supports": "Station teleport network, free teleport from station to its planet, no teleport from planet surface up to a station, Genesis Star dailies at all stations, Pioneer ship, Outlaw Zones. Its 'no teleport from a planet up to a station' line was overtaken by 18.15.1, which lets main landing teleporters reach any station for tokens."
     },
     {
       "id": "SHMU",
@@ -172,7 +172,7 @@
       "kind": "official",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "Ship types, thruster need, mothership tickets/guest list, leaving a mothership. Older text: its teleport fee info is outdated."
+      "supports": "Ship types, thruster need, mothership tickets/guest list, leaving a mothership. Older text: its teleport fee info is outdated. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn."
     },
     {
       "id": "STRANSOFF",
@@ -182,7 +182,7 @@
       "kind": "official",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "You must fly a space-capable vehicle between planets; Sleipnir may need a Space Thruster."
+      "supports": "You must fly a space-capable vehicle between planets; Sleipnir may need a Space Thruster. Note: on 2026-11-26 this site served an expired security certificate, so browsers may warn."
     },
     {
       "id": "SFB",
@@ -202,7 +202,7 @@
       "kind": "community-guide",
       "published": "2025-12-26",
       "accessed": "2026-11-26",
-      "supports": "Token sources and costs, 150 kg limit, To The Stars free Sleipnir/thruster/oil, one GenStar daily per day, Employer jobs, Mission Galactica, tailings trade."
+      "supports": "Token sources and costs, 150 kg limit, To The Stars free Sleipnir/thruster/oil, one GenStar daily per day, Employer jobs, Mission Galactica, tailings trade. Also: To The Stars is offered by the NPC at the Howling Mine Teleporter; the token blueprint is bought with Astral Fragments and needs a certain crafting level."
     },
     {
       "id": "SGSCT",
@@ -352,7 +352,7 @@
       "title": "Teleport from a space station down to its planet (free)",
       "type": "travel",
       "stage": "arrival",
-      "summary": "Every planet has a space station. Teleporting from a station down to the planet it orbits is free since 18.9.0. You cannot teleport from a planet's surface up to a station.",
+      "summary": "Every planet has a space station. Teleporting from a station down to the planet it orbits is free since 18.9.0. Going the other way is not free: since 18.15.1 the main landing teleporter on listed planets can send you to any space station for Teleportation Tokens.",
       "steps": [
         "Reach a space station (fly, mothership, or token teleport).",
         "Use the station teleporter and pick the planet below.",
@@ -364,10 +364,15 @@
       "prerequisites": [],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official (18.9.0): the teleport from a station to the planet it orbits is free; you only need to be at the station.",
+        "unknowns": [
+          "Whether you must have registered a landing teleporter on that planet first. No source says."
+        ],
+        "sourceIds": [
+          "SNSF",
+          "S1890"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -393,9 +398,12 @@
       "sourceIds": [
         "S1890",
         "SNSF",
-        "STTG"
+        "STTG",
+        "S18151"
       ],
-      "warnings": [],
+      "warnings": [
+        "MindArk's Jan 2025 note says you cannot teleport from a planet's surface up to a station. Since 18.15.1 (17 Jun 2025) listed planets' main landing teleporters can reach any station for tokens, so that line is out of date."
+      ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
@@ -418,12 +426,25 @@
         "Skips flying through PvP space"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "6 Teleportation Tokens per station-to-station jump, 10 per planet-to-planet jump (19.2.0)",
+        "Carry 150 kg or less",
+        "Planet-to-planet jumps leave from the planet's main landing teleporter",
+        "Crafting tokens yourself needs a certain crafting level (players, Dec 2025-Jan 2026)"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: tokens (6 or 10 since 19.2.0), a 150 kg limit (18.9.0) and, for planet-to-planet, the main landing teleporter (18.15.1). Players add that crafting tokens needs a certain crafting level.",
+        "unknowns": [
+          "Whether you must have visited the destination (or registered a teleporter there) first.",
+          "Which crafting level the token blueprint needs."
+        ],
+        "sourceIds": [
+          "S1890",
+          "S18151",
+          "S1920",
+          "STTG"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -460,12 +481,16 @@
         "STTG"
       ],
       "warnings": [
-        "Token counts changed twice (15 in Jan 2025, then 10/6 in Dec 2025). 19.11.0 fixed some teleports that did not charge tokens, so costs now apply consistently."
+        "Token counts changed twice (15 in Jan 2025, then 10/6 in Dec 2025). 19.11.0 fixed some teleports that did not charge tokens, so costs now apply consistently.",
+        "Before 19.2.0, station-to-station jumps already cost 10 tokens, not 15: 19.2.0 says it lowered them from 10 to 6."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "travel",
         "tokens"
+      ],
+      "unknowns": [
+        "Whether Teleportation Tokens can be looted from you in lootable space (a player asked in Jan 2026; no answer found)."
       ]
     },
     {
@@ -484,12 +509,20 @@
         "Free travel apart from fuel and decay"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "A Sleipnir VTOL or Quad-Wing Interceptor (the free 'To The Stars' tutorial gives a Sleipnir, a thruster and some oil)",
+        "A Space Thruster equipped",
+        "Be outside a PvP area",
+        "Oil fuel"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Official: the 'Launch to Space' action needs a Space Thruster equipped and only works outside PvP areas (18.9.0); only the Sleipnir and Quad-Wing can cross between planet and space (space guide).",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S1890",
+          "SSPACEOFF"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -515,7 +548,8 @@
       "sourceIds": [
         "S1890",
         "SSPACEOFF",
-        "STRANSOFF"
+        "STRANSOFF",
+        "STTG"
       ],
       "warnings": [
         "The official space guide also says a thruster at 10% health must be repaired (UL) or replaced (L)."
@@ -547,10 +581,17 @@
         "No materials or payment needed; you only have to reach the Howling Mine."
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: the tutorial is at the Howling Mine (19.1.1). Players: talk to the NPC at the Howling Mine Teleporter, reached by walking from the docks into the mine. No source names any other requirement.",
+        "unknowns": [
+          "Whether it is limited to newer avatars or to avatars without a ship.",
+          "Whether it can be taken once per avatar or more."
+        ],
+        "sourceIds": [
+          "S1911A",
+          "S1911",
+          "STTG"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -567,7 +608,7 @@
       },
       "locations": [
         {
-          "label": "NPC at the Howling Mine teleporter",
+          "label": "NPC at the Howling Mine Teleporter (walk from the docks into the mine; no coordinates in any source)",
           "waypoint": null,
           "verified": false,
           "sourceIds": [
@@ -598,6 +639,22 @@
         "beginner",
         "free",
         "vehicle"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "You can't find the tutorial NPC",
+          "check": "Go from the Howling Mine docks into the mine; you arrive at the Howling Mine Teleporter and the NPC stands there (player guide, Dec 2025).",
+          "sourceIds": [
+            "STTG"
+          ]
+        },
+        {
+          "symptom": "The free Sleipnir is out of fuel",
+          "check": "It needs oil. Players (Aug 2026) say newcomers often run out and small oil buys carry a markup of at least 1 PED.",
+          "sourceIds": [
+            "SHMLOVE"
+          ]
+        }
       ]
     },
     {
@@ -615,12 +672,20 @@
         "Access to Howling Mine dailies, jobs and the laser blueprint vendor"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "10 Teleportation Tokens from a main landing teleporter, or a flight/mothership",
+        "No Space Thruster is needed to enter or leave the Howling Mine terminal area (18.9.0); the secondary entrance does need one"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
+        "status": "verified",
+        "note": "Official: the Howling Mine is on the planet-to-planet token list (18.15.1, 10 tokens since 19.2.0) and its terminal area can be entered and left without a Space Thruster (18.9.0). Players: pick Howling Mine in the teleporter's planet drop-down.",
         "unknowns": [],
-        "sourceIds": []
+        "sourceIds": [
+          "S1890",
+          "S18151",
+          "S1920",
+          "STTG"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -649,7 +714,9 @@
         "S18151",
         "S1950",
         "SHMLOVE",
-        "STHM"
+        "STHM",
+        "S1920",
+        "STTG"
       ],
       "warnings": [
         "The surrounding asteroid belt is lootable PvP."
@@ -753,12 +820,23 @@
         "Asteroid Codex progress from the kills"
       ],
       "prerequisites": [],
-      "requirementsText": [],
+      "requirementsText": [
+        "Be at a space station (the Howling Mine has the most dailies)",
+        "For mining dailies: a ship and a mining laser for it. 18.9.0 gave Quad-Wings and Sleipnir VTOLs mining mounting capacity; players say a basic TT laser from the station terminal is enough to start."
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official: Genesis Star personnel offer the dailies at all space stations (Jan 2025). Players: the NPC is up the stairs on the left; one daily per day; a TT laser works.",
+        "unknowns": [
+          "Whether any daily has a level or mission requirement.",
+          "What the hunting dailies need (ship weapon type)."
+        ],
+        "sourceIds": [
+          "SNSF",
+          "SGSCT",
+          "STTG",
+          "SSM26"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -788,7 +866,8 @@
         "S1911",
         "SGSCT",
         "STTG",
-        "SSM26"
+        "SSM26",
+        "S1890"
       ],
       "warnings": [
         "19.1.1 fixed GenStar mining dailies that could not complete."

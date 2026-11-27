@@ -68,7 +68,7 @@
       "kind": "official-forum",
       "published": "2026-11-11",
       "accessed": "2026-11-26",
-      "supports": "ROCKtropia Codex, end of new hunting mission chains (6-month window), claimable plots near Club NEVERDIE with plot tokens from loot, creature renames, Vixen and Hater changes."
+      "supports": "ROCKtropia Codex, end of new hunting mission chains (6-month window), claimable plots near Club NEVERDIE with plot tokens from loot, creature renames, Vixen and Hater changes. Replies in the thread (Nov 2026) report Codex display bugs and plot building-point problems."
     },
     {
       "id": "S5",
@@ -78,7 +78,7 @@
       "kind": "official-forum",
       "published": "2026-11-17",
       "accessed": "2026-11-26",
-      "supports": "Old Harlem spawn rebalance, Shy Vixens made beginner-friendly again, Hater damage cut, new Codex challenges, AI spawns restored for The AI War. Read via the Entropia Nexus mirror (entropianexus.com/news/608140)."
+      "supports": "Old Harlem spawn rebalance, Shy Vixens made beginner-friendly again, Hater damage cut, new Codex challenges, AI spawns restored for The AI War. Read directly on the official forum on 2026-11-26."
     },
     {
       "id": "S6",
@@ -188,7 +188,7 @@
       "kind": "official",
       "published": "2025-06-17",
       "accessed": "2026-11-26",
-      "supports": "Planet-to-planet token travel from main landing teleporters. Known issue: travel to Rocktropia not working at launch."
+      "supports": "Planet-to-planet token travel from main landing teleporters (first planets: Calypso, Next Island, ARIS, Howling Mine, Crystal Palace). Known issue: travel to Rocktropia not working at launch. No later note found that names this as fixed."
     },
     {
       "id": "S17",
@@ -248,7 +248,7 @@
       "kind": "wiki",
       "published": null,
       "accessed": "2026-11-26",
-      "supports": "City of Dreams teleporter waypoint (from search-result text; the page itself needs JavaScript)."
+      "supports": "City of Dreams teleporter waypoint. Confirmed on 2026-11-26 from the Nexus page text and the Nexus API (location 329)."
     },
     {
       "id": "S23",
@@ -279,6 +279,56 @@
       "published": "2025-01-28",
       "accessed": "2026-11-26",
       "supports": "Mineable asteroid belts added to Rocktropia local space; Teleportation Tokens introduced with a 150 kg limit."
+    },
+    {
+      "id": "NX-AIWAR",
+      "title": "The AI War | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/5741",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "The AI War: repeatable, kill 40 AI, rewards credit card, pay stub and 10,000 Cheap A$$ Ammo; no prerequisite missions listed."
+    },
+    {
+      "id": "NX-BARJOB",
+      "title": "Bar Job - Making Bank At the Bar | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/4346",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "Bar Job from Alia (135328, 88082): repeatable, kill 20 Thugs or Hustlers, reward a ROCKtropia Gold Coin; prerequisite 'The bar Fly'."
+    },
+    {
+      "id": "NX-BARFLY",
+      "title": "The bar Fly | Entropia Nexus API",
+      "url": "https://api.entropianexus.com/missions/5748",
+      "publisher": "Entropia Nexus (community database)",
+      "kind": "wiki",
+      "published": null,
+      "accessed": "2026-11-26",
+      "supports": "The bar Fly from Alia: one-time, pick up 30 kegs at the Beer Garden, reward Road Crew Axe (L); unlocks Bar Job and Motorhead Madness."
+    },
+    {
+      "id": "R1920",
+      "title": "Entropia Universe 19.2.0 Release Notes",
+      "url": "https://forum.entropiauniverse.com/t/entropia-universe-19-2-0-release-notes/285943",
+      "publisher": "MindArk (official forum)",
+      "kind": "official-forum",
+      "published": "2025-12-09",
+      "accessed": "2026-11-26",
+      "supports": "Teleportation Token cost lowered from 15 to 10 for planet-to-planet trips and from 10 to 6 station-to-station."
+    },
+    {
+      "id": "R18152",
+      "title": "Entropia Universe 18.15.2 Release Notes",
+      "url": "https://account.entropiauniverse.com/news/pages/2025/07/01/4400",
+      "publisher": "MindArk (official)",
+      "kind": "official",
+      "published": "2025-07-01",
+      "accessed": "2026-11-26",
+      "supports": "A fix titled 'Interplanetary teleports usability', two weeks after the ROCKtropia token-travel known issue. It does not name ROCKtropia."
     }
   ],
   "activities": [
@@ -299,13 +349,24 @@
       ],
       "prerequisites": [],
       "requirementsText": [
-        "150 kg carry weight or less for token travel"
+        "150 kg carry weight or less for token travel",
+        "Leave Setesh first: finish the tutorial or use the skip terminal (it sends you to Calypso)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official notes: token travel uses a planet's main landing teleporter, costs 10 tokens planet-to-planet since 19.2.0 and has a 150 kg limit. Players report the Setesh exit sends new players to Calypso first. Flying is the other route.",
+        "unknowns": [
+          "Whether token travel to ROCKtropia works today. MindArk listed it as broken in June 2025 and never named it as fixed; only an October 2026 player event post says tokens work.",
+          "Whether new players get a direct shuttle from Setesh to ROCKtropia, as rocktropia.com claims. No official or first-hand source confirms it."
+        ],
+        "sourceIds": [
+          "S16",
+          "S18",
+          "S17",
+          "S25",
+          "R1920",
+          "R18152"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -317,7 +378,7 @@
         {
           "name": "Teleportation Token",
           "use": "spent",
-          "note": "10 per planet-to-planet trip (was 15 at launch)."
+          "note": "10 per planet-to-planet trip since 19.2.0 (December 2025); 15 at launch."
         }
       ],
       "limits": "150 kg weight limit for token travel.",
@@ -357,7 +418,9 @@
         "S17",
         "S18",
         "S22",
-        "S25"
+        "S25",
+        "R1920",
+        "R18152"
       ],
       "warnings": [
         "rocktropia.com says Setesh has a shuttle straight to ROCKtropia. Official forum threads from December 2025 to March 2026 only describe leaving Setesh for Calypso. Treat the direct shuttle as unconfirmed.",
@@ -368,6 +431,26 @@
         "travel",
         "teleporter",
         "beginner"
+      ],
+      "unknowns": [
+        "Market price of Teleportation Tokens."
+      ],
+      "diagnostics": [
+        {
+          "symptom": "The token teleport refuses you",
+          "check": "Check your carried weight: token teleports only work at 150 kg or less.",
+          "sourceIds": [
+            "S25",
+            "S15"
+          ]
+        },
+        {
+          "symptom": "You are on Setesh and see no way to ROCKtropia",
+          "check": "Setesh sends you to Calypso, not ROCKtropia. Leave Setesh first (finish or skip the tutorial), then travel on from Calypso.",
+          "sourceIds": [
+            "S17"
+          ]
+        }
       ]
     },
     {
@@ -388,13 +471,24 @@
         "Presidential Pay Stub (its old RockBucks payout is historical)",
         "Hunting skill gains"
       ],
-      "prerequisites": [],
-      "requirementsText": [],
+      "prerequisites": [
+        "rocktropia-travel-getting-there"
+      ],
+      "requirementsText": [
+        "Be on ROCKtropia, at City of Dreams / Club NEVERDIE"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Every source describes taking it straight from the recruiter outside Club NEVERDIE, with weapon and ammo supplied, and calls it suitable for newcomers. Nexus lists no prerequisite missions.",
+        "unknowns": [
+          "No source says outright that nothing else is needed (no level, no earlier mission). The 'no prerequisites' entry is from Nexus, which is crowd-sourced."
+        ],
+        "sourceIds": [
+          "S10",
+          "S9",
+          "S8",
+          "NX-AIWAR"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -451,7 +545,8 @@
         "S9",
         "S10",
         "S11",
-        "S14"
+        "S14",
+        "NX-AIWAR"
       ],
       "warnings": [
         "Sources give the giver different names and give different reward lists, so check the in-game text.",
@@ -463,6 +558,28 @@
         "free",
         "beginner",
         "hunting"
+      ],
+      "unknowns": [
+        "Whether the timer starts when you accept or when you hand in.",
+        "Which weapon is supplied and whether you keep it."
+      ],
+      "diagnostics": [
+        {
+          "symptom": "No AI spawn while you fight Vixens",
+          "check": "Since 19.12.0 the Vixens are on the hills next to the old parking lot; 19.12.1 (17 Nov 2026) restored AI spawns there. AI are also reported around Thieves, Thugs, Hustlers and Zombie Biker Prospects.",
+          "sourceIds": [
+            "S4",
+            "S5",
+            "S9"
+          ]
+        },
+        {
+          "symptom": "You ran out of Cheap A$$ Ammo",
+          "check": "Use it only on AI. One player abandoned and re-accepted the mission and finished with a TT pistol and Universal Ammo.",
+          "sourceIds": [
+            "S9"
+          ]
+        }
       ]
     },
     {
@@ -637,13 +754,20 @@
       "rewards": [
         "Codex rank rewards (skill rewards). Exact amounts were not in the sources."
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "rocktropia-travel-getting-there"
+      ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official 19.12.0: every regular ROCKtropia creature group has a Codex; you rank it up by hunting those creatures. No condition is mentioned.",
+        "unknowns": [
+          "No source states whether any Codex category needs anything besides kills."
+        ],
+        "sourceIds": [
+          "S4",
+          "S5"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -680,13 +804,27 @@
         "S5"
       ],
       "warnings": [
-        "Launch-day players reported mobs reacting with a delay and the Codex not showing (2026-11-11). 19.12.1 fixed related challenges. Check that kills count."
+        "Launch-day players reported mobs reacting with a delay and the Codex not showing (2026-11-11). 19.12.1 fixed related challenges. Check that kills count.",
+        "Some community guides updated before November 2026 (EntropiaCentral, Entropia Codex) still say ROCKtropia has no Codex. The official 19.12.0 notes supersede them."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "codex",
         "skills",
         "hunting"
+      ],
+      "unknowns": [
+        "Rank thresholds and skill reward sizes."
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Kills count but the Codex window shows nothing or the claim button is grey",
+          "check": "Several players reported this after 19.12.0 (Nov 2026). 19.12.1 added and fixed some ROCKtropia Codex challenges but did not mention this display problem.",
+          "sourceIds": [
+            "S4",
+            "S5"
+          ]
+        }
       ]
     },
     {
@@ -801,13 +939,21 @@
         "Cellphone (unlocks repeatable missions)",
         "ROCKtropia record (also needed for Kristi's Hater mission)"
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "rocktropia-travel-getting-there"
+      ],
       "requirementsText": [],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "EntropiaCentral (Aug 2026) and JoinEntropia describe the errand as the first step into ROCKtropia's zombie content, starting with Big Boy at the Noobs Noobs Noobs club. Neither lists anything you must do before it.",
+        "unknowns": [
+          "No source says whether anything is needed before Big Boy offers the errand (both guides are copies of the 2016 community guide).",
+          "Whether the errand still works after 19.12.0 changed creature names and quest texts."
+        ],
+        "sourceIds": [
+          "S2",
+          "S8"
+        ]
       },
       "cost": {
         "pedEstimate": 0,
@@ -851,6 +997,22 @@
         "unlock",
         "free",
         "story"
+      ],
+      "diagnostics": [
+        {
+          "symptom": "Nothing shows in your mission tracker",
+          "check": "This errand has no tracker. Talk to the NPCs in the listed order; skipping one can stall it.",
+          "sourceIds": [
+            "S2"
+          ]
+        },
+        {
+          "symptom": "You gave Big Boy the glam ingot and don't know where to go",
+          "check": "Head east down the road toward Try and talk to Boris the Bum; the mission locator points the way.",
+          "sourceIds": [
+            "S2"
+          ]
+        }
       ]
     },
     {
@@ -1102,22 +1264,33 @@
       "title": "Bar Job - Making Bank At The Bar (hourly)",
       "type": "repeatable",
       "stage": "early",
-      "summary": "A beginner guide mentions an hourly mission from Alia linked to the Thug and Thief spawns in Harlem. Only one source mentions it.",
+      "summary": "A repeatable from Alia next to the Thug and Thief spawns in Harlem. One beginner guide calls it hourly. Nexus says you must first finish Alia's 'The bar Fly' keg errand, and lists 20 Thugs or Hustlers for a ROCKtropia Gold Coin.",
       "steps": [
-        "Talk to Alia at the bar.",
-        "Do the objective (the source ties it to Thieves/Thugs; L4 Thugs without a name do not count).",
+        "Talk to Alia at the bar. If she offers 'The bar Fly' first, do it: pick up 30 kegs at the Beer Garden and hand in (Nexus).",
+        "Take Bar Job - Making Bank At the Bar. Nexus lists the objective as 20 Thugs or Hustlers; the beginner guide says unnamed L4 Thugs do not count.",
         "Hand in and repeat after an hour."
       ],
       "rewards": [
-        "Not stated in the source"
+        "A ROCKtropia Gold Coin, per Nexus (its listed TT value is close to zero)",
+        "Hunting skill gains"
       ],
-      "prerequisites": [],
-      "requirementsText": [],
+      "prerequisites": [
+        "rocktropia-travel-getting-there"
+      ],
+      "requirementsText": [
+        "Finish Alia's one-time mission 'The bar Fly' first: pick up 30 kegs at the Beer Garden (per Entropia Nexus only)"
+      ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Nexus lists 'The bar Fly' (Alia, collect 30 kegs at the Beer Garden) as the prerequisite. No other source mentions it.",
+        "unknowns": [
+          "The Bar Fly requirement rests only on Nexus.",
+          "Whether anything else is needed before Alia offers The bar Fly."
+        ],
+        "sourceIds": [
+          "NX-BARJOB",
+          "NX-BARFLY"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -1138,7 +1311,8 @@
           "waypoint": "[Rocktropia, 135328, 88082, 107, Alia]",
           "verified": true,
           "sourceIds": [
-            "S9"
+            "S9",
+            "NX-BARJOB"
           ]
         }
       ],
@@ -1150,15 +1324,21 @@
       },
       "confidence": "low",
       "sourceIds": [
-        "S9"
+        "S9",
+        "NX-BARJOB",
+        "NX-BARFLY"
       ],
       "warnings": [
-        "Only one undated source. Objective and reward not confirmed."
+        "Only an undated beginner guide and the crowd-sourced Nexus database cover this mission. Objective, reward and timer are not confirmed by an official or recent first-hand source."
       ],
       "lastVerified": "2026-11-26",
       "tags": [
         "repeatable",
         "beginner"
+      ],
+      "unknowns": [
+        "Exact cooldown (the guide says hourly; Nexus lists none).",
+        "Whether the reward coin has any use."
       ]
     },
     {
@@ -1554,15 +1734,23 @@
       "rewards": [
         "A plot near Club NEVERDIE"
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "rocktropia-travel-getting-there"
+      ],
       "requirementsText": [
         "A plot token (loot drop or bought from players)"
       ],
       "prereqInfo": {
-        "status": "unreviewed",
-        "note": "",
-        "unknowns": [],
-        "sourceIds": []
+        "status": "partial",
+        "note": "Official 19.12.0: plot tokens drop from creature loot all over ROCKtropia and are used for new claimable plots near Club NEVERDIE.",
+        "unknowns": [
+          "How and where the token is turned into a plot (NPC, terminal or the plot itself).",
+          "Whether you need anything besides the token, for example no other plot already owned.",
+          "Whether plot tokens can be traded."
+        ],
+        "sourceIds": [
+          "S4"
+        ]
       },
       "cost": {
         "pedEstimate": null,
@@ -1611,6 +1799,19 @@
         "housing",
         "unlock",
         "new"
+      ],
+      "unknowns": [
+        "Number of plots and token drop rate.",
+        "Building points of each new plot size."
+      ],
+      "diagnostics": [
+        {
+          "symptom": "A new home will not fit on your plot",
+          "check": "Players in the 19.12.0 thread (Nov 2026) report that building points differ by plot size and some plots have too few for the new homes. MindArk has not answered this in the notes.",
+          "sourceIds": [
+            "S4"
+          ]
+        }
       ]
     },
     {
