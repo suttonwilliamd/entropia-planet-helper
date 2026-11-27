@@ -31,6 +31,8 @@ powershell -ExecutionPolicy Bypass -File scripts\install_shortcut.ps1 -Planet ar
 
 ## Using it
 
+Start with **one destination**. Choose a goal, check its prerequisites and costs before traveling or buying anything, then open the cited source if the entry is marked uncertain. The app records only what you check off; it cannot see your mission journal.
+
 - **Destination** (top left): the planet/moon/area you are on. Inactive or unverified places are labelled.
 - **Your stage here:** Arrival, Early, Mid or Late. Ranking favours your stage and pushes far-ahead content down.
 - **Show:** *Next actions* (ready now, best first), *Everything*, *Cooling down*, *Blocked* (needs something first) or *Done*.
