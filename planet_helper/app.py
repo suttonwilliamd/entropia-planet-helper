@@ -271,9 +271,10 @@ class PlanetHelperApp:
         pid = self.planet.get()
         acts = [a for a in self.ds.activities.values() if a["_planet"] == pid]
         rows = ranked(acts, self.progress, self.stage.get(), self.budget.get())
-        allowed = VIEWS[self.view.get()]
         tf = self.type_filter.get()
         q = self.query.get().strip().lower()
+        # A search looks everywhere, so a stuck player finds blocked or done items without changing "Show".
+        allowed = VIEWS["Everything"] if q else VIEWS[self.view.get()]
         out = []
         for row in rows:
             act, st = row[0], row[1]

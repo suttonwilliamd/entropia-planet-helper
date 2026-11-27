@@ -34,14 +34,14 @@ powershell -ExecutionPolicy Bypass -File scripts\install_shortcut.ps1 -Planet ar
 - **Destination** (top left): the planet/moon/area you are on. Inactive or unverified places are labelled.
 - **Your stage here:** Arrival, Early, Mid or Late. Ranking favours your stage and pushes far-ahead content down.
 - **Show:** *Next actions* (ready now, best first), *Everything*, *Cooling down*, *Blocked* (needs something first) or *Done*.
-- **Type / Search (Ctrl+F):** narrow by kind (daily, unlock, mission chain...) or words. Esc clears the search.
+- **Type / Search (Ctrl+F):** narrow by kind (daily, unlock, mission chain...) or words. Search covers titles, steps, NPCs, prerequisites and stuck checklists across every status. Esc clears the search.
 - **Budget mode:** weights cost more heavily, for low-budget play.
 - **Detail pane:** a **Stuck? Check these in order** list where one exists, **Before you start (prerequisites)**, what is **Not known yet**, why it is ranked there, steps, rewards, cost and markup notes, currencies earned/spent/kept, limits, cooldown, waypoints with a **Copy** button (paste `/wp [...]` into game chat yourself), warnings and dated sources.
 - **Prereqs column / prerequisite status:** every entry says how much we know about what must be done first. *Checked* = the list matches the sources; *Partly known* = some requirements are sourced, others are listed as unknown; *Unknown* = no source says; *Not checked* = nobody has verified it yet. **An empty prerequisite list never means "nothing needed" unless the status is Checked.**
 
 ### Example: a friend can't get the SET-P1 Civilian Sidearm, Adjusted
 
-Destination **Setesh** → Show **Everything** → search **gun** (or *Paul*, *Harkov*, *Small Iron*) → **SET-P1 Civilian Sidearm, Adjusted**. The entry shows the official dependency (Paul Reinhardt offers *Small Iron* only after the main-chain mission *Cliffchaser Run*, per 19.12.0, 2026-11-11), a step-by-step stuck checklist (Paul silent, mission already accepted, outdated "leave Setesh" advice, Harkov with nothing new, Thule avatars), the main-chain order one player recorded, and what is still unknown (kill counts, tradeability, Thule exclusion).
+Destination **Setesh** → type **gun** in Search (or *Paul*, *Harkov*, *Small Iron*; search looks through every status, including Blocked) → **SET-P1 Civilian Sidearm, Adjusted**. The entry shows the official dependency (Paul Reinhardt offers *Small Iron* only after the main-chain mission *Cliffchaser Run*, per 19.12.0, 2026-11-11), a step-by-step stuck checklist (Paul silent, mission already accepted, outdated "leave Setesh" advice, Harkov with nothing new, Thule avatars), the main-chain order one player recorded, and what is still unknown (kill counts, tradeability, Thule exclusion).
 - **About this destination:** full summary, how to get there, every caution for that place, and its main sources.
 - **Mark done (D) / Ready again / Undo:** Ctrl+ and Ctrl- change text size.
 

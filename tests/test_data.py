@@ -131,7 +131,7 @@ class EntryPointTests(unittest.TestCase):
                 # William's path: Destination Setesh -> Show Everything -> search "gun" -> SET-P1 entry
                 app.planet_box.current(app.planet_ids.index("setesh"))
                 app._pick_planet()
-                app.view.set("Everything")
+                app.view.set("Next actions")        # default view: search must still find the blocked entry
                 app.query.set("gun")
                 self.assertIn("setesh-set-p1-adjusted", app.tree.get_children())
                 app.tree.selection_set("setesh-set-p1-adjusted")
